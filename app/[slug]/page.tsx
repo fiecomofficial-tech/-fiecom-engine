@@ -1,16 +1,15 @@
-import publishing from "@/data/publishing.json";
-
-export default function PublishedSitePage({ params }: { params: { slug: string } }) {
-  const project = publishing.projects.find((p) => p.slug === params.slug);
-
-  if (!project) {
-    return <div>Site not found</div>;
-  }
+export default async function PublishedSitePage({
+  params,
+}: {
+  params: Promise<{ slug: string }>
+}) {
+  const { slug } = await params
 
   return (
-    <main>
-      <h1>{project.name}</h1>
-      <pre>{JSON.stringify(project.generatedConfig, null, 2)}</pre>
+    <main style={{ padding: 32, fontFamily: 'system-ui, sans-serif' }}>
+      <p style={{ margin: 0, opacity: 0.6 }}>Published site</p>
+      <h1 style={{ marginTop: 8 }}>Test Site</h1>
+      <p>Slug: {slug}</p>
     </main>
-  );
+  )
 }

@@ -1,26 +1,7 @@
 import { NextResponse, type NextRequest } from 'next/server'
-import { getRequestHostname, isAppHost } from './lib/publishing/slug'
 
-export function proxy(request: NextRequest) {
-  const hostname = getRequestHostname(
-    request.headers.get('x-forwarded-host') ?? request.headers.get('host'),
-  )
-
-  if (!hostname || isAppHost(hostname)) {
-    return NextResponse.next()
-  }
-
-  const url = request.nextUrl.clone()
-  url.pathname = `/tenant${url.pathname === '/' ? '' : url.pathname}`
-
-  const requestHeaders = new Headers(request.headers)
-  requestHeaders.set('x-fiecom-host', hostname)
-
-  return NextResponse.rewrite(url, {
-    request: {
-      headers: requestHeaders,
-    },
-  })
+export function proxy(_request: NextRequest) {
+  return NextResponse.next()
 }
 
 export const config = {
