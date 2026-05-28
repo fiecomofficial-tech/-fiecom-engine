@@ -1,0 +1,799 @@
+{
+  "theme": {
+    "preset": "midnight-luxury",
+    "bgAccent": "deep-indigo",
+    "fontDisplay": "serif",
+    "fontBody": "sans-serif"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Welcome to Serene Bali Boutique",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Serene Bali Boutique",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Services",
+                "href": "/services"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineHero",
+          "content": {
+            "eyebrow": "Exclusive",
+            "headline": "Experience Bali's Hidden Luxury",
+            "accent": "serene escape",
+            "body": "Discover tranquility and bespoke hospitality nestled in lush tropical surroundings.",
+            "cta": {
+              "label": "Book Your Stay",
+              "href": "/contact"
+            },
+            "secondaryCta": {
+              "label": "Explore Services",
+              "href": "/services"
+            }
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/2607113/pexels-photo-2607113.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Relax by a luxurious pool surrounded by bamboo architecture and palm trees in West Nusa Tenggara.",
+              "attributionAuthor": "Palu Malerba",
+              "attributionUrl": "https://www.pexels.com/photo/woman-sitting-by-the-pool-2607113/"
+            }
+          }
+        },
+        {
+          "id": "MarqueeBand",
+          "content": {
+            "items": [
+              "Serene Bali Boutique",
+              "Strategy",
+              "Motion",
+              "Proof",
+              "Conversion"
+            ],
+            "tone": "normal",
+            "eyebrow": "Immerse",
+            "headline": "Where Culture Meets Comfort",
+            "body": "Every detail crafted to honor Bali’s rich heritage and calm elegance."
+          }
+        },
+        {
+          "id": "BaselineLogoBar",
+          "content": {
+            "eyebrow": "Trusted by discerning travelers",
+            "clients": [
+              {
+                "name": "Conde Nast"
+              },
+              {
+                "name": "Travel + Leisure"
+              },
+              {
+                "name": "Forbes Travel Guide"
+              },
+              {
+                "name": "Luxury Escapes"
+              },
+              {
+                "name": "National Geographic"
+              }
+            ]
+          }
+        },
+        {
+          "id": "MessageReveal",
+          "content": {
+            "firstLine": "Serene Bali Boutique is not another template",
+            "accent": "different",
+            "secondLine": "It is a structured product story",
+            "body": "Serene Bali Boutique invites you to unwind with personalized service and lush surroundings.",
+            "headline": "A Sanctuary of Quiet Elegance"
+          }
+        },
+        {
+          "id": "BaselineFeatures",
+          "content": {
+            "eyebrow": "Highlights",
+            "headline": "Experience Bespoke Luxury",
+            "accent": "exclusively for you",
+            "features": [
+              {
+                "eyebrow": "01 — Private Villas",
+                "title": "Secluded tranquility",
+                "body": "Luxurious villas with private pools and tropical garden views."
+              },
+              {
+                "eyebrow": "02 — Spa & Wellness",
+                "title": "Holistic rejuvenation",
+                "body": "Authentic Balinese treatments blending tradition with modern luxury."
+              },
+              {
+                "eyebrow": "03 — Gourmet Dining",
+                "title": "Culinary artistry",
+                "body": "Exquisite local and international cuisine crafted by our master chefs."
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/2476632/pexels-photo-2476632.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Explore this stunning tropical villa with a private pool and beach access.",
+              "attributionAuthor": "Quang Nguyen Vinh",
+              "attributionUrl": "https://www.pexels.com/photo/photo-of-villas-near-beach-2476632/"
+            },
+            "secondary": {
+              "url": "https://images.pexels.com/photos/6629608/pexels-photo-6629608.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Close-up of a relaxing back massage at a spa with hands applying massage oil.",
+              "attributionAuthor": "www.kaboompics.com",
+              "attributionUrl": "https://www.pexels.com/photo/a-woman-getting-a-back-massage-6629608/"
+            },
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/6019589/pexels-photo-6019589.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A chef prepares a meal in an open-air kitchen setting in Bali, Indonesia.",
+                "attributionAuthor": "Alesia  Kozik",
+                "attributionUrl": "https://www.pexels.com/photo/a-man-wearing-black-apron-cooking-food-in-a-cooking-competition-6019589/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/37179934/pexels-photo-37179934.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A vibrant display of traditional Indonesian satay and sambal dishes on a rustic wooden table.",
+                "attributionAuthor": "Ega Morgan",
+                "attributionUrl": "https://www.pexels.com/photo/indonesian-satay-and-sambal-selection-on-wooden-table-37179934/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ImageGallery",
+          "content": {
+            "eyebrow": "Gallery",
+            "headline": "Moments to Remember",
+            "body": "From sunrise yoga to sunset cocktails, every moment is crafted for delight.",
+            "captions": [
+              {
+                "title": "Signal",
+                "year": "2026"
+              },
+              {
+                "title": "Space",
+                "year": "2025"
+              },
+              {
+                "title": "Detail",
+                "year": "2026"
+              },
+              {
+                "title": "Flow",
+                "year": "2025"
+              },
+              {
+                "title": "Texture",
+                "year": "2026"
+              },
+              {
+                "title": "Proof",
+                "year": "2025"
+              },
+              {
+                "title": "People",
+                "year": "2026"
+              },
+              {
+                "title": "System",
+                "year": "2025"
+              },
+              {
+                "title": "Outcome",
+                "year": "2026"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/4172891/pexels-photo-4172891.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Full length anonymous slim female in stylish swimsuit with raised arms standing gracefully on pool edge and enjoying tropical jungles view",
+                "attributionAuthor": "Gustavo Fring",
+                "attributionUrl": "https://www.pexels.com/photo/gorgeous-woman-standing-on-poolside-with-raised-arms-4172891/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/14464944/pexels-photo-14464944.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Serene infinity pool view with palm trees and ocean at a Bali resort, perfect for relaxation.",
+                "attributionAuthor": "Nastia Ligrain",
+                "attributionUrl": "https://www.pexels.com/photo/a-swimming-pool-in-the-resort-14464944/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35866099/pexels-photo-35866099.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A bright summer cocktail by a pool in Bali surrounded by palm trees, exuding relaxation.",
+                "attributionAuthor": "Yudo  Yulyanto",
+                "attributionUrl": "https://www.pexels.com/photo/refreshing-tropical-cocktail-by-a-bali-pool-35866099/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/37429439/pexels-photo-37429439.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A tranquil pathway winding through dense tropical foliage, ideal for a peaceful nature escape.",
+                "attributionAuthor": "Alexander Mass",
+                "attributionUrl": "https://www.pexels.com/photo/serene-tropical-garden-pathway-with-lush-greenery-37429439/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineTestimonials",
+          "content": {
+            "eyebrow": "Guests",
+            "headline": "Stories of Tranquil Luxury",
+            "testimonials": [
+              {
+                "quote": "An unforgettable retreat of peace and elegance.",
+                "author": "Emma",
+                "role": "Traveler"
+              },
+              {
+                "quote": "Every detail was perfect, from the villas to the spa treatments.",
+                "author": "Liam",
+                "role": "Guest"
+              },
+              {
+                "quote": "Serene Bali Boutique redefined my idea of luxury and calm.",
+                "author": "Sofia",
+                "role": "Visitor"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ZentryAbout",
+          "content": {
+            "eyebrow": "Welcome",
+            "headline": "Discover Serene Bali Boutique",
+            "body": "Serene Bali Boutique brings the story, proof, and product promise into one immersive moment."
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/37208722/pexels-photo-37208722.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Detailed shot of a luxury sports car wheel with visible logo, showcasing sleek design and elegance.",
+              "attributionAuthor": "cnrdmroglu",
+              "attributionUrl": "https://www.pexels.com/photo/close-up-of-luxury-sports-car-wheel-and-logo-37208722/"
+            }
+          }
+        },
+        {
+          "id": "BaselineCTA",
+          "content": {
+            "eyebrow": "Plan Your Escape",
+            "headline": "Reserve Your Private Sanctuary",
+            "accent": "luxury awaits",
+            "body": "Connect with our concierge to craft your perfect Balinese experience.",
+            "cta": {
+              "label": "Book Now",
+              "href": "/contact"
+            },
+            "secondaryCta": {
+              "label": "Talk to sales",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Serene Bali Boutique",
+            "brand": "Serene Bali Boutique",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Services",
+                    "href": "/services"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "true",
+            "tagline": "Where luxury and tranquility meet",
+            "meta": [
+              {
+                "label": "Privacy"
+              },
+              {
+                "label": "Terms"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "title": "About Serene Bali Boutique",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Serene Bali Boutique",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Services",
+                "href": "/services"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineAboutNarrative",
+          "content": {
+            "eyebrow": "About Serene Bali Boutique",
+            "headline": "Rooted in Culture, Crafted for Comfort",
+            "body": "Founded to honor Bali’s rich traditions, our boutique hotel offers a peaceful retreat with personalized service and exquisite design.",
+            "pillarEyebrow": "Core pillars",
+            "pillarHeadline": "Our commitment guides every guest journey.",
+            "pillars": [
+              {
+                "title": "Authenticity",
+                "body": "We embrace local heritage in all aspects of our hospitality."
+              },
+              {
+                "title": "Exclusivity",
+                "body": "Providing intimate, tailored experiences for each guest."
+              },
+              {
+                "title": "Sustainability",
+                "body": "Respecting nature and community through thoughtful practices."
+              }
+            ],
+            "statsEyebrow": "By the numbers",
+            "stats": [
+              {
+                "value": "15",
+                "label": "Private Villas"
+              },
+              {
+                "value": "10+",
+                "label": "Years of Excellence"
+              },
+              {
+                "value": "98%",
+                "label": "Guest Satisfaction"
+              }
+            ],
+            "accent": "warm hospitality"
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/17845/pexels-photo.jpg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "A close-up shot of a hand reviewing various logo designs on paper, ideal for business concepts.",
+              "attributionAuthor": "Roman Pohorecki",
+              "attributionUrl": "https://www.pexels.com/photo/hand-on-top-of-paper-17845/"
+            }
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Serene Bali Boutique",
+            "brand": "Serene Bali Boutique",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Services",
+                    "href": "/services"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "true",
+            "tagline": "Where luxury and tranquility meet",
+            "meta": [
+              {
+                "label": "Privacy"
+              },
+              {
+                "label": "Terms"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "services",
+      "title": "Our Exclusive Services",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Serene Bali Boutique",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Services",
+                "href": "/services"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselinePageHeader",
+          "content": {
+            "eyebrow": "Services",
+            "headline": "Curated Experiences for You",
+            "body": "Discover amenities and bespoke offerings crafted to enhance your stay.",
+            "accent": "elevated comfort"
+          }
+        },
+        {
+          "id": "FeatureList",
+          "content": {
+            "eyebrow": "Amenities",
+            "headline": "Exclusive and Personalized",
+            "features": [
+              {
+                "title": "Private Butler Service",
+                "body": "Dedicated butlers attending to your every need."
+              },
+              {
+                "title": "Wellness Retreats",
+                "body": "Yoga, meditation, and Balinese spa therapies tailored to you."
+              },
+              {
+                "title": "Gourmet Dining",
+                "body": "Customizable menus featuring local and international delicacies."
+              },
+              {
+                "title": "Cultural Excursions",
+                "body": "Guided tours to sacred temples and artisan villages."
+              },
+              {
+                "title": "Infinity Pool Access",
+                "body": "Exclusive poolside ambiance with tropical vistas."
+              }
+            ]
+          }
+        },
+        {
+          "id": "FAQAccordion",
+          "content": {
+            "eyebrow": "FAQs",
+            "headline": "What Guests Often Ask",
+            "faqs": [
+              {
+                "title": "Is airport transfer available?",
+                "body": "We offer private airport transfers upon request."
+              },
+              {
+                "title": "Are pets allowed?",
+                "body": "Our boutique hotel is a pet-free sanctuary."
+              },
+              {
+                "title": "What wellness services are offered?",
+                "body": "Spa, yoga, and meditation sessions are available daily."
+              },
+              {
+                "title": "Do you accommodate dietary restrictions?",
+                "body": "Yes, our chefs customize menus to your preferences."
+              }
+            ],
+            "body": "Answers to common questions about your stay and services."
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Serene Bali Boutique",
+            "brand": "Serene Bali Boutique",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Services",
+                    "href": "/services"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "true",
+            "tagline": "Where luxury and tranquility meet",
+            "meta": [
+              {
+                "label": "Privacy"
+              },
+              {
+                "label": "Terms"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact Serene Bali Boutique",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Serene Bali Boutique",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Services",
+                "href": "/services"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineContact",
+          "content": {
+            "eyebrow": "Contact",
+            "headline": "Get in Touch",
+            "formTitle": "Send Us a Message",
+            "formBody": "We’ll respond promptly to help plan your visit.",
+            "recipientEmail": "reservations@serenebali.com",
+            "subjectTemplate": "Booking Inquiry",
+            "details": [
+              {
+                "label": "Email",
+                "value": "reservations@serenebali.com",
+                "href": "mailto:reservations@serenebali.com"
+              },
+              {
+                "label": "Phone",
+                "value": "+62 361 123 4567",
+                "href": "tel:+623611234567"
+              },
+              {
+                "label": "Office",
+                "value": "Jl. Ubud No.7, Bali, Indonesia"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Serene Bali Boutique",
+            "brand": "Serene Bali Boutique",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Services",
+                    "href": "/services"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "true",
+            "tagline": "Where luxury and tranquility meet",
+            "meta": [
+              {
+                "label": "Privacy"
+              },
+              {
+                "label": "Terms"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "intent": {
+    "energy": "quiet-luxury",
+    "density": "spacious",
+    "cinematicIntensity": "high",
+    "motionIntensity": "rich",
+    "copyTone": "warm elegant",
+    "themeHint": "midnight-luxury"
+  }
+}

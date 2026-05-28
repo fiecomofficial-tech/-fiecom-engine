@@ -1,0 +1,202 @@
+{
+  "theme": {
+    "mode": "light",
+    "accent": "#ec9157",
+    "bg": "#f7f5f1",
+    "ink": "#232014",
+    "bgAccent": "#fff2e1",
+    "fontDisplay": "Fraunces",
+    "fontBody": "Sora"
+  },
+  "sections": [
+    {
+      "id": "HeroCinematic",
+      "content": {
+        "eyebrow": "sparkling taste",
+        "headline": "Refresh, Enjoy, Celebrate",
+        "subhead": "For every occasion, a perfect pour.",
+        "body": "Elevate your moments with vibrant drinks crafted to delight. From sunlit lunches to late-night cheers, we bring the sparkle.",
+        "cta": {
+          "label": "Shop Signature Drinks"
+        }
+      },
+      "images": {
+        "primary": {
+          "url": "https://images.unsplash.com/photo-1762255523716-9a9e48673c83?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxjb2xkJTIwc3BhcmtsaW5nJTIwZHJpbmtzJTIwb3V0ZG9vcnxlbnwxfDB8fHwxNzc5MzE4MDAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "alt": "Two bottles of juice on a wooden railing.",
+          "attributionAuthor": "Sheila C",
+          "attributionUrl": "https://unsplash.com/photos/two-bottles-of-juice-on-a-wooden-railing-Yk5rsaU6fbw"
+        }
+      }
+    },
+    {
+      "id": "StickyChapters",
+      "content": {
+        "eyebrow": "what we pour",
+        "chapters": [
+          {
+            "index": "01",
+            "title": "Crafted flavors, never compromised",
+            "body": "Every bottle is a celebration of creativity and quality ingredients."
+          },
+          {
+            "index": "02",
+            "title": "Effortless hospitality in every pour",
+            "body": "Share refreshing, memorable moments with friends, family, and guests."
+          },
+          {
+            "index": "03",
+            "title": "Sustainable sips, mindful choices",
+            "body": "We blend environmental care into every stage—sip with pride."
+          }
+        ]
+      },
+      "images": {
+        "gallery": [
+          {
+            "url": "https://images.unsplash.com/photo-1579580204942-e848c55fee6a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxwb3VyaW5nJTIwZHJpbmtzJTIwcGFydHl8ZW58MXwxfHx8MTc3OTMxODAwMnww&ixlib=rb-4.1.0&q=80&w=1080",
+            "alt": "person pouring water on clear drinking glass",
+            "attributionAuthor": "Debby Ledet",
+            "attributionUrl": "https://unsplash.com/photos/person-pouring-water-on-clear-drinking-glass-JZK7Z6ROvxY"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1762608292643-1fd4b552a1f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxpbmdyZWRpZW50cyUyMGNpdHJ1cyUyMGhlcmJzfGVufDF8MXx8fDE3NzkzMTgwMDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "alt": "Whole orange and dried orange slices with herbs.",
+            "attributionAuthor": "mediha ekici",
+            "attributionUrl": "https://unsplash.com/photos/whole-orange-and-dried-orange-slices-with-herbs-MWiVJaN7ZJs"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1744444202946-9482fe9e50ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxlY28lMjBmcmllbmRseSUyMGRyaW5rcyUyMHBhY2thZ2luZ3xlbnwxfDF8fHwxNzc5MzE4MDAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "alt": "Hand holds a coffee cup with a blue straw.",
+            "attributionAuthor": "Chee Kee",
+            "attributionUrl": "https://unsplash.com/photos/hand-holds-a-coffee-cup-with-a-blue-straw-LAHQiOrWQI4"
+          }
+        ]
+      }
+    },
+    {
+      "id": "HorizontalShowcase",
+      "content": {
+        "eyebrow": "discover the collection",
+        "headline": "Signature Drinks for Every Mood",
+        "body": "Find your new favorite among our bold, bright, and balanced blends.",
+        "cards": [
+          {
+            "title": "Citrus Fizz",
+            "caption": "A zesty, effervescent blend that wakes up your palate."
+          },
+          {
+            "title": "Berry Sparkle",
+            "caption": "Sweet, luscious berries with a refreshing twist."
+          },
+          {
+            "title": "Classic Ginger",
+            "caption": "Warm, spicy, and unmistakably sophisticated."
+          },
+          {
+            "title": "Herbal Tonic",
+            "caption": "Botanical notes mingle with crisp tonic."
+          },
+          {
+            "title": "Tropical Mist",
+            "caption": "Juicy fruits and gentle bubbles transport you."
+          },
+          {
+            "title": "Zero Proof Spritz",
+            "caption": "All the celebration, none of the alcohol."
+          }
+        ]
+      },
+      "images": {
+        "gallery": [
+          {
+            "url": "https://images.unsplash.com/photo-1549746423-e5fe9cafded8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxjaXRydXMlMjBkcmluayUyMGdsYXNzfGVufDF8MXx8fDE3NzkzMTgwMDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "alt": "clear liquid inside clear drinking glass",
+            "attributionAuthor": "Dmitry Dreyer",
+            "attributionUrl": "https://unsplash.com/photos/clear-liquid-inside-clear-drinking-glass-7hHRTw_-1SY"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1705413081012-ef1c2169a380?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxiZXJyeSUyMHNwYXJrbGluZyUyMGRyaW5rfGVufDF8MXx8fDE3NzkzMTgwMDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "alt": "a bottle of mineral water next to a glass and a knife",
+            "attributionAuthor": "Mineragua Sparkling Water",
+            "attributionUrl": "https://unsplash.com/photos/a-bottle-of-mineral-water-next-to-a-glass-and-a-knife-UTcvq_RxueU"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1656830643355-a1727daa9427?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxnaW5nZXIlMjBjb2NrdGFpbHxlbnwxfDF8fHwxNzc5MzE4MDAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "alt": "a glass with a drink and a lemon slice on a table",
+            "attributionAuthor": "Snapium Photography",
+            "attributionUrl": "https://unsplash.com/photos/a-glass-with-a-drink-and-a-lemon-slice-on-a-table-gHYOL97H5NM"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1563630440944-d1b6f42f811f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxoZXJiYWwlMjB0b25pYyUyMHdhdGVyfGVufDF8MXx8fDE3NzkzMTgwMDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "alt": "two yellow and green labeled bottles",
+            "attributionAuthor": "Dragomir Ralchev",
+            "attributionUrl": "https://unsplash.com/photos/two-yellow-and-green-labeled-bottles-CX5PJo0S1Eo"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1767065702857-f39735dab0bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHx0cm9waWNhbCUyMGRyaW5rc3xlbnwxfDF8fHwxNzc5MzE4MDAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "alt": "A creamy cocktail with pineapple and cherry garnish",
+            "attributionAuthor": "Diego Arenas de Rodrigo",
+            "attributionUrl": "https://unsplash.com/photos/a-creamy-cocktail-with-pineapple-and-cherry-garnish-YTJyin2Dm9s"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1745968762469-c14ee5d32f11?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxub24lMjBhbGNvaG9saWMlMjBzcHJpdHp8ZW58MXwxfHx8MTc3OTMxODAwMnww&ixlib=rb-4.1.0&q=80&w=1080",
+            "alt": "A cocktail garnished with fruit and straws.",
+            "attributionAuthor": "Haberdoedas",
+            "attributionUrl": "https://unsplash.com/photos/a-cocktail-garnished-with-fruit-and-straws-op-Hx8XHhqw"
+          }
+        ]
+      }
+    },
+    {
+      "id": "MarqueeBand",
+      "content": {
+        "items": [
+          "Bottled joy",
+          "Crafted for gatherings",
+          "Zero-proof options",
+          "Naturally vibrant",
+          "Raise a toast",
+          "Eco-friendly bottles"
+        ],
+        "tone": "invert"
+      }
+    },
+    {
+      "id": "MessageReveal",
+      "content": {
+        "firstLine": "Raise your glass to moments",
+        "accent": "Cheers",
+        "secondLine": "that sparkle and connect",
+        "body": "Every pour is a toast to togetherness—let’s celebrate, every day."
+      },
+      "images": {
+        "primary": {
+          "url": "https://images.unsplash.com/photo-1758272133395-b0f83eb6f554?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxmcmllbmRzJTIwdG9hc3RpbmclMjBkcmlua3MlMjBvdXRkb29yc3xlbnwxfDB8fHwxNzc5MzE4MDAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "alt": "Friends enjoying a rooftop party with city view",
+          "attributionAuthor": "Vitaly Gariev",
+          "attributionUrl": "https://unsplash.com/photos/friends-enjoying-a-rooftop-party-with-city-view-hLGbHZYpGL8"
+        }
+      }
+    },
+    {
+      "id": "ClosingCTA",
+      "content": {
+        "eyebrow": "ready to sip?",
+        "headline": "Find Your Favorite Flavor Today",
+        "subhead": "Browse our collection and discover drinks worth celebrating. Refreshment is just a click away.",
+        "cta": {
+          "label": "Shop Now"
+        }
+      },
+      "images": {
+        "primary": {
+          "url": "https://images.unsplash.com/photo-1645387492022-d068372be1e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxjb2xvcmZ1bCUyMGRyaW5rJTIwYm90dGxlcyUyMGxpbmV1cHxlbnwxfDB8fHwxNzc5MzE4MDAzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "alt": "a row of bottles filled with different colored liquid",
+          "attributionAuthor": "Lucas George Wendt",
+          "attributionUrl": "https://unsplash.com/photos/a-row-of-bottles-filled-with-different-colored-liquid-qBzKg5r3fAM"
+        }
+      }
+    }
+  ]
+}

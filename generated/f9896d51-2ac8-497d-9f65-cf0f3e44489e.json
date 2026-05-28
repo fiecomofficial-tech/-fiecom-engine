@@ -1,0 +1,177 @@
+{
+  "theme": {
+    "mode": "dark",
+    "accent": "#1da8a6",
+    "bg": "#111722",
+    "ink": "#f4f8fa",
+    "bgAccent": "#172032",
+    "fontDisplay": "Instrument Serif",
+    "fontBody": "Inter"
+  },
+  "sections": [
+    {
+      "id": "HeroCinematic",
+      "content": {
+        "eyebrow": "BESPOKE AIR TRAVEL",
+        "headline": "Arrive Above Expectations",
+        "subhead": "Where luxury meets sky-high freedom",
+        "body": "Elevate your journey with private flights crafted uniquely for you. Seamless bookings, exclusive comfort—your sky, your schedule.",
+        "cta": {
+          "label": "Book Your Flight"
+        }
+      },
+      "images": {
+        "primary": {
+          "url": "https://images.unsplash.com/photo-1638217656417-c2504f47b01c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxwcml2YXRlJTIwamV0JTIwbHV4dXJ5JTIwcnVud2F5JTIwc3Vuc2V0fGVufDF8MHx8fDE3NzkzMTc5MjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "alt": "an airplane taking off from an airport runway",
+          "attributionAuthor": "Foto K.",
+          "attributionUrl": "https://unsplash.com/photos/an-airplane-taking-off-from-an-airport-runway-u5oVZbjgEsM"
+        }
+      }
+    },
+    {
+      "id": "StickyChapters",
+      "content": {
+        "eyebrow": "EXPERIENCE REDEFINED",
+        "chapters": [
+          {
+            "title": "A tailored journey from door to sky",
+            "body": "Every itinerary is custom. Enjoy personalized service at every step."
+          },
+          {
+            "title": "Privacy and comfort without compromise",
+            "body": "Your space, your time—fly free from the crowds in pure tranquility."
+          },
+          {
+            "title": "Access to exclusive global destinations",
+            "body": "Land closer to your true destination with our expansive network."
+          }
+        ]
+      },
+      "images": {
+        "primary": {
+          "url": "https://images.unsplash.com/photo-1764547170141-d720a34a8814?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxwcml2YXRlJTIwamV0JTIwaW50ZXJpb3IlMjB2aWV3fGVufDF8MXx8fDE3NzkzMTc5MjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "alt": "Two people in a small aircraft cockpit",
+          "attributionAuthor": "Horizon flights",
+          "attributionUrl": "https://unsplash.com/photos/two-people-in-a-small-aircraft-cockpit-bnR7zs1w0xc"
+        }
+      }
+    },
+    {
+      "id": "MarqueeBand",
+      "content": {
+        "items": [
+          "Jet. Set. Go.",
+          "Unseen destinations await.",
+          "Elevate every mile.",
+          "Your schedule, your sky.",
+          "Discretion above all.",
+          "Onboard quiet luxury."
+        ],
+        "tone": "invert"
+      }
+    },
+    {
+      "id": "HorizontalShowcase",
+      "content": {
+        "eyebrow": "OUR FLEET",
+        "headline": "Crafted for Comfort, Styled for Performance",
+        "body": "Explore our curated fleet of aircraft, each model offering a signature experience.",
+        "cards": [
+          {
+            "title": "Light Jet",
+            "caption": "Efficient, agile—perfect for city hops."
+          },
+          {
+            "title": "Midsize Jet",
+            "caption": "For journeys where comfort meets range."
+          },
+          {
+            "title": "Super Midsize",
+            "caption": "Roomier interiors for longer hauls."
+          },
+          {
+            "title": "Heavy Jet",
+            "caption": "Ultimate luxury, maximum space."
+          },
+          {
+            "title": "Ultra Long Range",
+            "caption": "Redefining global reach in style."
+          },
+          {
+            "title": "Helicopter",
+            "caption": "Access remote locations flexibly."
+          }
+        ]
+      },
+      "images": {
+        "gallery": [
+          {
+            "url": "https://images.unsplash.com/photo-1761429695185-c0a7a868bcdf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxwcml2YXRlJTIwamV0JTIwZXh0ZXJpb3IlMjB0YXJtYWN8ZW58MXwxfHx8MTc3OTMxNzkyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+            "alt": "Airplanes on tarmac at sunset with wing in foreground.",
+            "attributionAuthor": "Majid Akbari",
+            "attributionUrl": "https://unsplash.com/photos/airplanes-on-tarmac-at-sunset-with-wing-in-foreground-Bo396zMrEH8"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1661954864180-e61dea14208a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBqZXQlMjBpbnRlcmlvcnxlbnwxfDF8fHwxNzc5MzE3OTIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "alt": "a table with food and wine",
+            "attributionAuthor": "Oskar Kadaksoo",
+            "attributionUrl": "https://unsplash.com/photos/a-table-with-food-and-wine-i8fRj3z8bvk"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1569679632387-78cd4c00f9da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxwcml2YXRlJTIwaGVhdnklMjBqZXQlMjBjYWJpbnxlbnwxfDF8fHwxNzc5MzE3OTIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "alt": "empty chairs of airplane",
+            "attributionAuthor": "Michelen Studios",
+            "attributionUrl": "https://unsplash.com/photos/empty-chairs-of-airplane-SyESKw2UKc0"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1692210154575-3727a1849df0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHx1bHRyYSUyMGxvbmclMjByYW5nZSUyMGpldHxlbnwxfDF8fHwxNzc5MzE3OTIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "alt": "a large jetliner flying through a cloudy blue sky",
+            "attributionAuthor": "Daniel Shapiro",
+            "attributionUrl": "https://unsplash.com/photos/a-large-jetliner-flying-through-a-cloudy-blue-sky-DRgYydGFq7Q"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1558597576-f1a962543f35?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBoZWxpY29wdGVyfGVufDF8MXx8fDE3NzkzMTc5MjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "alt": "empty black helicopter",
+            "attributionAuthor": "BAILEY MAHON",
+            "attributionUrl": "https://unsplash.com/photos/empty-black-helicopter-NJYLizdTYbo"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1773352020074-14ec8de9333b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxhaXJjcmFmdCUyMGZsZWV0JTIwbGluZXVwfGVufDF8MXx8fDE3NzkzMTc5MjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "alt": "Indigo airplanes lined up on the tarmac",
+            "attributionAuthor": "Zoshua Colah",
+            "attributionUrl": "https://unsplash.com/photos/indigo-airplanes-lined-up-on-the-tarmac-IHc2rjeo4TM"
+          }
+        ]
+      }
+    },
+    {
+      "id": "MessageReveal",
+      "content": {
+        "firstLine": "Every moment above, private.",
+        "accent": "Effortless",
+        "secondLine": "Every landing, unforgettable.",
+        "body": "Welcome to the pinnacle of personal aviation—where the world is yours to explore."
+      }
+    },
+    {
+      "id": "ClosingCTA",
+      "content": {
+        "eyebrow": "BEGIN YOUR ASCENT",
+        "headline": "Ready For Takeoff?",
+        "subhead": "Contact our team to charter your tailored private flight today.",
+        "cta": {
+          "label": "Request Itinerary"
+        }
+      },
+      "images": {
+        "primary": {
+          "url": "https://images.unsplash.com/photo-1656436582535-6cd8f9905710?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxleGVjdXRpdmUlMjBqZXQlMjBib2FyZGluZyUyMHR3aWxpZ2h0fGVufDF8MHx8fDE3NzkzMTc5MjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "alt": "a couple of airplanes at sunset",
+          "attributionAuthor": "Karl Callwood",
+          "attributionUrl": "https://unsplash.com/photos/a-couple-of-airplanes-at-sunset-JHKc7lQfOvE"
+        }
+      }
+    }
+  ]
+}

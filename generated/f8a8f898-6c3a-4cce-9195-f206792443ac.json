@@ -1,0 +1,168 @@
+{
+  "theme": {
+    "mode": "light",
+    "accent": "#0761e7",
+    "bg": "#ffffff",
+    "ink": "#191d26",
+    "bgAccent": "#f4f6fb",
+    "fontDisplay": "Inter",
+    "fontBody": "Geist"
+  },
+  "sections": [
+    {
+      "id": "HeroCinematic",
+      "content": {
+        "eyebrow": "Next-gen finance",
+        "headline": "Modern money, reimagined",
+        "subhead": "Your digital wallet for a borderless future.",
+        "body": "All-in-one platform for seamless payments, effortless savings, and smarter investing. Experience the evolution of fintech—fast, secure, and beautifully simple.",
+        "cta": {
+          "label": "Get Started"
+        }
+      },
+      "images": {
+        "primary": {
+          "url": "https://images.unsplash.com/photo-1718157582031-69dd1a28db29?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBmaW50ZWNoJTIwYXBwJTIwaW50ZXJmYWNlfGVufDF8MHx8fDE3NzkzMTc3OTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "alt": "a cell phone sitting on top of a table",
+          "attributionAuthor": "Coinstash Australia",
+          "attributionUrl": "https://unsplash.com/photos/a-cell-phone-sitting-on-top-of-a-table-PuqWIO9vy-Q"
+        }
+      }
+    },
+    {
+      "id": "StickyChapters",
+      "content": {
+        "eyebrow": "How it works",
+        "chapters": [
+          {
+            "index": "01",
+            "title": "Sign up instantly, no paperwork needed",
+            "body": "Create your account and verify your identity in minutes."
+          },
+          {
+            "index": "02",
+            "title": "Transfer, spend, and invest with ease",
+            "body": "Manage your money across currencies and borders—effortlessly."
+          },
+          {
+            "index": "03",
+            "title": "Enjoy real-time insights and control",
+            "body": "Track spending, set goals, and invest—all in one dashboard."
+          }
+        ]
+      },
+      "images": {
+        "primary": {
+          "url": "https://images.unsplash.com/photo-1558655146-6c222b05fce4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxmaW50ZWNoJTIwYXBwJTIwdXNlciUyMG9uYm9hcmRpbmd8ZW58MXwxfHx8MTc3OTMxNzc5OXww&ixlib=rb-4.1.0&q=80&w=1080",
+          "alt": "turned on smartphone",
+          "attributionAuthor": "Balázs Kétyi",
+          "attributionUrl": "https://unsplash.com/photos/turned-on-smartphone-OjhDFiVLrFQ"
+        }
+      }
+    },
+    {
+      "id": "MarqueeBand",
+      "content": {
+        "items": [
+          "Secure global transfers",
+          "AI-powered insights",
+          "No hidden fees",
+          "Lightning-fast payments",
+          "24/7 support",
+          "All-in-one dashboard"
+        ],
+        "tone": "invert"
+      }
+    },
+    {
+      "id": "HorizontalShowcase",
+      "content": {
+        "eyebrow": "Designed for you",
+        "headline": "Everything your money needs, in one place",
+        "body": "Discover the key features powering financial freedom.",
+        "cards": [
+          {
+            "title": "Instant Transfers",
+            "caption": "Send money globally in seconds."
+          },
+          {
+            "title": "Smart Savings",
+            "caption": "Automate savings and hit your goals."
+          },
+          {
+            "title": "Multi-currency Wallet",
+            "caption": "Hold, spend, and convert currencies easily."
+          },
+          {
+            "title": "Investing Tools",
+            "caption": "Start investing with insights and zero hassle."
+          },
+          {
+            "title": "Real-time Alerts",
+            "caption": "Stay updated, always in control."
+          },
+          {
+            "title": "Advanced Security",
+            "caption": "Top-tier encryption and fraud detection."
+          }
+        ]
+      },
+      "images": {
+        "gallery": [
+          {
+            "url": "https://images.unsplash.com/photo-1523759724146-4ce060fff7be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxjdXJyZW5jeSUyMHdhbGxldCUyMGFwcHxlbnwxfDF8fHwxNzc5MzE3Nzk5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "alt": "silver iPhone 6 beside two coins",
+            "attributionAuthor": "David Shares",
+            "attributionUrl": "https://unsplash.com/photos/silver-iphone-6-beside-two-coins-4_41-79dHvE"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1642751226315-e6dc6b47fd54?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxpbnZlc3RtZW50JTIwZGFzaGJvYXJkJTIwZmludGVjaHxlbnwxfDF8fHwxNzc5MzE3Nzk5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "alt": "a close up of a computer screen with numbers on it",
+            "attributionAuthor": "Niranjan _ Photographs",
+            "attributionUrl": "https://unsplash.com/photos/a-close-up-of-a-computer-screen-with-numbers-on-it-ftxisY44pQ0"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1726607424583-d1a2d1ff71df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxyZWFsJTIwdGltZSUyMG5vdGlmaWNhdGlvbiUyMGZpbnRlY2h8ZW58MXwxfHx8MTc3OTMxNzc5OXww&ixlib=rb-4.1.0&q=80&w=1080",
+            "alt": "An electronic device sitting on top of a table",
+            "attributionAuthor": "SumUp",
+            "attributionUrl": "https://unsplash.com/photos/an-electronic-device-sitting-on-top-of-a-table-Vt3tXSbGB0s"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1764712097764-94caf81dd1b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxjeWJlcnNlY3VyaXR5JTIwZGlnaXRhbCUyMGZpbmFuY2V8ZW58MXwxfHx8MTc3OTMxNzc5OXww&ixlib=rb-4.1.0&q=80&w=1080",
+            "alt": "Hand holding ledger hardware wallet over keyboard",
+            "attributionAuthor": "CARTIST",
+            "attributionUrl": "https://unsplash.com/photos/hand-holding-ledger-hardware-wallet-over-keyboard-_mrKRTorDkA"
+          }
+        ]
+      }
+    },
+    {
+      "id": "MessageReveal",
+      "content": {
+        "firstLine": "Financial freedom,",
+        "accent": "secured",
+        "secondLine": "by intelligence and design.",
+        "body": "We build technology that works for you, with security at its core."
+      }
+    },
+    {
+      "id": "ClosingCTA",
+      "content": {
+        "eyebrow": "Ready to upgrade?",
+        "headline": "Experience frictionless finance",
+        "subhead": "Join thousands moving money the modern way. Sign up now and start your journey toward smarter finances.",
+        "cta": {
+          "label": "Create Account"
+        }
+      },
+      "images": {
+        "primary": {
+          "url": "https://images.unsplash.com/photo-1753351057972-daf1ab19548e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHx5b3VuZyUyMHBlb3BsZSUyMHVzaW5nJTIwZmludGVjaCUyMGFwcHxlbnwxfDB8fHwxNzc5MzE3Nzk5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "alt": "Friends are looking at a phone together.",
+          "attributionAuthor": "Vitaly Gariev",
+          "attributionUrl": "https://unsplash.com/photos/friends-are-looking-at-a-phone-together-lVgif0iVqrs"
+        }
+      }
+    }
+  ]
+}

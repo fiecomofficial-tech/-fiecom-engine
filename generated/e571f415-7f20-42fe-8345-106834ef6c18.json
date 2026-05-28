@@ -1,0 +1,850 @@
+{
+  "theme": {
+    "preset": "midnight-luxury",
+    "bg": "#0b0d17",
+    "ink": "#e0d6b8",
+    "bgAccent": "#1f2233",
+    "fontDisplay": "Playfair Display",
+    "fontBody": "Lora"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Bali Luxe Boutique",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Rooms",
+                "href": "/rooms"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Book Now",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineHero",
+          "content": {
+            "eyebrow": "Welcome",
+            "headline": "Serene Luxury in Bali",
+            "accent": "immersive escapes",
+            "body": "Experience the timeless beauty and tranquil ambiance of our boutique hotel nestled in the heart of Bali.",
+            "cta": {
+              "label": "Explore Rooms",
+              "href": "/rooms"
+            },
+            "secondaryCta": {
+              "label": "Our Story",
+              "href": "/about"
+            }
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/32334287/pexels-photo-32334287.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "A stylish boutique hotel in Baghdad, Iraq, captured at dusk with palm trees lining the street.",
+              "attributionAuthor": "khezez  | خزاز",
+              "attributionUrl": "https://www.pexels.com/photo/modern-boutique-hotel-in-baghdad-at-dusk-32334287/"
+            }
+          }
+        },
+        {
+          "id": "BaselineLogoBar",
+          "content": {
+            "eyebrow": "Trusted by discerning travelers",
+            "clients": [
+              {
+                "name": "Travel + Leisure"
+              },
+              {
+                "name": "Condé Nast"
+              },
+              {
+                "name": "Forbes"
+              },
+              {
+                "name": "Luxury Escapes"
+              }
+            ]
+          }
+        },
+        {
+          "id": "MarqueeBand",
+          "content": {
+            "items": [
+              "Bali Luxe Boutique",
+              "Strategy",
+              "Motion",
+              "Proof",
+              "Conversion"
+            ],
+            "tone": "normal",
+            "eyebrow": "Discover tranquility"
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/34595059/pexels-photo-34595059.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Beautiful amphitheater with ocean view framed by lush greenery in Bali.",
+              "attributionAuthor": "Tom Fisk",
+              "attributionUrl": "https://www.pexels.com/photo/scenic-oceanview-amphitheater-in-bali-34595059/"
+            }
+          }
+        },
+        {
+          "id": "BaselineFeatures",
+          "content": {
+            "eyebrow": "Our Offerings",
+            "headline": "Exquisite Rooms & Amenities",
+            "accent": "tailored for comfort",
+            "features": [
+              {
+                "eyebrow": "01 — Suites",
+                "title": "Elegant Suites with Private Pools",
+                "body": "Designed with Balinese artistry and modern luxury for your perfect stay."
+              },
+              {
+                "eyebrow": "02 — Wellness",
+                "title": "Holistic Spa & Yoga",
+                "body": "Rejuvenate your mind and body with serene treatments and daily yoga sessions."
+              },
+              {
+                "eyebrow": "03 — Dining",
+                "title": "Gourmet Balinese Cuisine",
+                "body": "Savor authentic flavors crafted by renowned chefs in a refined setting."
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/35113998/pexels-photo-35113998.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Aerial view of a luxurious cliffside resort with infinity pools in Bali, Indonesia.",
+              "attributionAuthor": "Tom Fisk",
+              "attributionUrl": "https://www.pexels.com/photo/luxury-cliffside-resort-overlooking-ocean-in-bali-35113998/"
+            }
+          }
+        },
+        {
+          "id": "MessageReveal",
+          "content": {
+            "firstLine": "Bali Luxe Boutique is not another template",
+            "accent": "different",
+            "secondLine": "It is a structured product story",
+            "body": "The rhythm, sections, and proof points change with the market instead of repainting the same layout.",
+            "eyebrow": "Experience"
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/6964896/pexels-photo-6964896.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Peaceful sunrise over an ocean view with a gazebo silhouette, perfect scenic beauty.",
+              "attributionAuthor": "Mikhail Nilov",
+              "attributionUrl": "https://www.pexels.com/photo/a-waiting-shed-surrounded-with-water-at-sunset-6964896/"
+            }
+          }
+        },
+        {
+          "id": "BaselineAboutNarrative",
+          "content": {
+            "body": "Bali Luxe Boutique blends traditional Balinese charm with understated elegance to offer a truly immersive hospitality experience.",
+            "pillarEyebrow": "Our Philosophy",
+            "pillarHeadline": "Personalized luxury crafted for every guest",
+            "pillars": [
+              {
+                "title": "Cultural Authenticity",
+                "body": "Rooted deeply in Balinese traditions and artistry."
+              },
+              {
+                "title": "Sustainability",
+                "body": "Committed to eco-friendly practices and community support."
+              },
+              {
+                "title": "Intimate Service",
+                "body": "Attentive and discreet service tailored to individual needs."
+              }
+            ],
+            "statsEyebrow": "By the Numbers",
+            "stats": [
+              {
+                "value": "15",
+                "label": "Exclusive Suites"
+              },
+              {
+                "value": "7",
+                "label": "Spa Treatments"
+              },
+              {
+                "value": "100%",
+                "label": "Guest Satisfaction"
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/17845/pexels-photo.jpg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "A close-up shot of a hand reviewing various logo designs on paper, ideal for business concepts.",
+              "attributionAuthor": "Roman Pohorecki",
+              "attributionUrl": "https://www.pexels.com/photo/hand-on-top-of-paper-17845/"
+            }
+          }
+        },
+        {
+          "id": "ImageGallery",
+          "content": {
+            "eyebrow": "Gallery",
+            "headline": "Seen from every angle",
+            "body": "A visual layer that makes the offer tangible.",
+            "captions": [
+              {
+                "title": "Signal",
+                "year": "2026"
+              },
+              {
+                "title": "Space",
+                "year": "2025"
+              },
+              {
+                "title": "Detail",
+                "year": "2026"
+              },
+              {
+                "title": "Flow",
+                "year": "2025"
+              },
+              {
+                "title": "Texture",
+                "year": "2026"
+              },
+              {
+                "title": "Proof",
+                "year": "2025"
+              },
+              {
+                "title": "People",
+                "year": "2026"
+              },
+              {
+                "title": "System",
+                "year": "2025"
+              },
+              {
+                "title": "Outcome",
+                "year": "2026"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/36418263/pexels-photo-36418263.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Ornate Balinese stone statue surrounded by tropical greenery in a lush garden setting.",
+                "attributionAuthor": "Mark Direen",
+                "attributionUrl": "https://www.pexels.com/photo/traditional-balinese-stone-statue-in-lush-garden-36418263/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/14464944/pexels-photo-14464944.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Serene infinity pool view with palm trees and ocean at a Bali resort, perfect for relaxation.",
+                "attributionAuthor": "Nastia Ligrain",
+                "attributionUrl": "https://www.pexels.com/photo/a-swimming-pool-in-the-resort-14464944/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/3997994/pexels-photo-3997994.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A soothing back massage session with oil for ultimate relaxation and wellness.",
+                "attributionAuthor": "cottonbro studio",
+                "attributionUrl": "https://www.pexels.com/photo/woman-in-black-and-white-stripe-shirt-3997994/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/37205645/pexels-photo-37205645.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Delicious Indonesian meal served with rice, various sides, and snacks on a wooden tray.",
+                "attributionAuthor": "Ieda Teddy",
+                "attributionUrl": "https://www.pexels.com/photo/traditional-indonesian-meal-with-rice-and-sides-37205645/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/6015450/pexels-photo-6015450.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Breathtaking view of Uluwatu cliffs in Bali with ocean at sunset. Ideal for travel and nature enthusiasts.",
+                "attributionAuthor": "Alesia  Kozik",
+                "attributionUrl": "https://www.pexels.com/photo/brown-rock-mountain-near-body-of-water-6015450/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineTestimonials",
+          "content": {
+            "eyebrow": "Guests",
+            "headline": "Words of Appreciation",
+            "testimonials": [
+              {
+                "quote": "An unforgettable sanctuary of peace and beauty.",
+                "author": "Emma",
+                "role": "Traveler"
+              },
+              {
+                "quote": "Every detail reflects true Balinese elegance.",
+                "author": "Liam",
+                "role": "Guest"
+              },
+              {
+                "quote": "A perfect blend of luxury and serenity.",
+                "author": "Sofia",
+                "role": "Visitor"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineCTA",
+          "content": {
+            "eyebrow": "Reserve Your Stay",
+            "headline": "Begin Your Bali Journey",
+            "accent": "with elegance and grace",
+            "body": "Book your escape to serene luxury and exceptional experiences today.",
+            "cta": {
+              "label": "Book Now",
+              "href": "/contact"
+            },
+            "secondaryCta": {
+              "label": "Contact Us",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Bali Luxe Boutique",
+            "brand": "Bali Luxe Boutique",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Rooms",
+                    "href": "/rooms"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "Serene luxury, timeless memories",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "title": "About",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Bali Luxe Boutique",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Rooms",
+                "href": "/rooms"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Book Now",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineAboutNarrative",
+          "content": {
+            "body": "Established to honor Balinese tradition and natural beauty, our boutique hotel embodies timeless elegance and personalized care.",
+            "pillarEyebrow": "Core Pillars",
+            "pillarHeadline": "The essence of our commitment",
+            "pillars": [
+              {
+                "title": "Authenticity",
+                "body": "Deep respect for Balinese culture and craftsmanship."
+              },
+              {
+                "title": "Sustainability",
+                "body": "Eco-conscious practices to preserve our island's beauty."
+              },
+              {
+                "title": "Guest-Centered",
+                "body": "Tailored experiences that anticipate your every need."
+              }
+            ],
+            "statsEyebrow": "Our Impact",
+            "stats": [
+              {
+                "value": "10+",
+                "label": "Years of Excellence"
+              },
+              {
+                "value": "5,000+",
+                "label": "Happy Guests"
+              },
+              {
+                "value": "100%",
+                "label": "Satisfaction Rate"
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/17845/pexels-photo.jpg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "A close-up shot of a hand reviewing various logo designs on paper, ideal for business concepts.",
+              "attributionAuthor": "Roman Pohorecki",
+              "attributionUrl": "https://www.pexels.com/photo/hand-on-top-of-paper-17845/"
+            }
+          }
+        },
+        {
+          "id": "TwoColumnText",
+          "content": {
+            "eyebrow": "Our Story",
+            "headline": "Rooted in Tradition, Inspired by Nature",
+            "paragraphs": [
+              {
+                "heading": "A Legacy of Care",
+                "body": "From its founding, Bali Luxe Boutique has embraced the spirit of Balinese warmth and artistry, creating a sanctuary where guests feel at home."
+              },
+              {
+                "heading": "A Vision for Sustainability",
+                "body": "We actively support local artisans and implement green practices to ensure our hotel is a model of responsible luxury."
+              },
+              {
+                "heading": "A Promise of Excellence",
+                "body": "Every detail is crafted to deliver unmatched comfort and personalized attention."
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Bali Luxe Boutique",
+            "brand": "Bali Luxe Boutique",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Rooms",
+                    "href": "/rooms"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "Serene luxury, timeless memories",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "rooms",
+      "title": "Rooms",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Bali Luxe Boutique",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Rooms",
+                "href": "/rooms"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Book Now",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselinePageHeader",
+          "content": {
+            "eyebrow": "Rooms",
+            "headline": "Luxurious Accommodations",
+            "body": "Explore our selection of suites and villas designed for your ultimate relaxation.",
+            "accent": "balancing comfort and elegance"
+          }
+        },
+        {
+          "id": "FeatureList",
+          "content": {
+            "eyebrow": "Details",
+            "headline": "Rooms details",
+            "features": [
+              {
+                "title": "Core offer",
+                "body": "Core offer information for Bali Luxe Boutique."
+              },
+              {
+                "title": "Delivery",
+                "body": "Delivery information for Bali Luxe Boutique."
+              },
+              {
+                "title": "Support",
+                "body": "Support information for Bali Luxe Boutique."
+              },
+              {
+                "title": "Measurement",
+                "body": "Measurement information for Bali Luxe Boutique."
+              },
+              {
+                "title": "Next step",
+                "body": "Next step information for Bali Luxe Boutique."
+              }
+            ]
+          }
+        },
+        {
+          "id": "FAQAccordion",
+          "content": {
+            "eyebrow": "FAQ",
+            "headline": "Questions before you start",
+            "faqs": [
+              {
+                "q": "How quickly can we launch?",
+                "a": "The site is structured so the first version can launch quickly, then expand with focused edits and new pages."
+              },
+              {
+                "q": "What do you need from us?",
+                "a": "The site is structured so the first version can launch quickly, then expand with focused edits and new pages."
+              },
+              {
+                "q": "Can this scale into more pages?",
+                "a": "The site is structured so the first version can launch quickly, then expand with focused edits and new pages."
+              },
+              {
+                "q": "How does support work?",
+                "a": "The site is structured so the first version can launch quickly, then expand with focused edits and new pages."
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Bali Luxe Boutique",
+            "brand": "Bali Luxe Boutique",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Rooms",
+                    "href": "/rooms"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "Serene luxury, timeless memories",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Bali Luxe Boutique",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Rooms",
+                "href": "/rooms"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Book Now",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineContact",
+          "content": {
+            "formTitle": "Make an Inquiry",
+            "formBody": "Fill out the form to contact our reservation team.",
+            "recipientEmail": "reservations@baliluxe.com",
+            "subjectTemplate": "New inquiry from {name}",
+            "details": [
+              {
+                "label": "Email",
+                "value": "reservations@baliluxe.com",
+                "href": "mailto:reservations@baliluxe.com"
+              },
+              {
+                "label": "Phone",
+                "value": "+62 361 123 4567",
+                "href": "tel:+623611234567"
+              },
+              {
+                "label": "Office",
+                "value": "Bali Luxe Boutique, Bali, Indonesia"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Bali Luxe Boutique",
+            "brand": "Bali Luxe Boutique",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Rooms",
+                    "href": "/rooms"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "Serene luxury, timeless memories",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "intent": {
+    "energy": "quiet-luxury",
+    "density": "spacious",
+    "cinematicIntensity": "high",
+    "motionIntensity": "moderate",
+    "copyTone": "elegant serene",
+    "themeHint": "midnight-luxury"
+  }
+}

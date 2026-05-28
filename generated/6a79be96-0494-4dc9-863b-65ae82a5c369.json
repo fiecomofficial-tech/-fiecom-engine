@@ -1,0 +1,678 @@
+{
+  "theme": {
+    "preset": "warm-sand",
+    "bg": "#fff7f0",
+    "ink": "#5a3e36",
+    "bgAccent": "#f5e6db",
+    "fontDisplay": "Merriweather",
+    "fontBody": "Open Sans"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Tulip Cupcakes",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Menu",
+                "href": "/menu"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineHero",
+          "content": {
+            "eyebrow": "Freshly Baked",
+            "headline": "Delight in Every Bite",
+            "accent": "artisanal treats",
+            "body": "Discover handcrafted cupcakes baked daily with love in the heart of Amsterdam.",
+            "cta": {
+              "label": "Order Now",
+              "href": "/menu"
+            },
+            "secondaryCta": {
+              "label": "Visit Us",
+              "href": "/contact"
+            }
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/18501315/pexels-photo-18501315.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Freshly baked chocolate cupcakes in a tray under warm light.",
+              "attributionAuthor": "Viktoriia Kondratiuk",
+              "attributionUrl": "https://www.pexels.com/photo/tray-with-chocolate-cupcakes-18501315/"
+            }
+          }
+        },
+        {
+          "id": "BaselineLogoBar",
+          "content": {
+            "eyebrow": "Loved by locals",
+            "clients": [
+              {
+                "name": "Amsterdam Foodies"
+              },
+              {
+                "name": "Sweet Tooth Club"
+              },
+              {
+                "name": "Bakery Lovers"
+              },
+              {
+                "name": "Cupcake Connoisseurs"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFeatures",
+          "content": {
+            "eyebrow": "Seasonal Specials",
+            "headline": "Taste the Season’s Best",
+            "accent": "limited edition delights",
+            "features": [
+              {
+                "eyebrow": "01 — Spring Blossoms",
+                "title": "Floral Vanilla Dream",
+                "body": "A delicate vanilla cupcake topped with edible flowers and honey glaze."
+              },
+              {
+                "eyebrow": "02 — Summer Berry Burst",
+                "title": "Mixed Berry Bliss",
+                "body": "Bursting with fresh berries and creamy frosting for a sweet summer treat."
+              },
+              {
+                "eyebrow": "03 — Autumn Spice",
+                "title": "Cinnamon Pumpkin Spice",
+                "body": "Warm autumn spices with a soft pumpkin base, perfect for cozy days."
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/5634027/pexels-photo-5634027.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Three Halloween-themed cupcakes with spooky designs on a wooden tray being held.",
+              "attributionAuthor": "Monstera Production",
+              "attributionUrl": "https://www.pexels.com/photo/3-cupcakes-on-brown-wooden-tray-5634027/"
+            }
+          }
+        },
+        {
+          "id": "BaselineTestimonials",
+          "content": {
+            "eyebrow": "Testimonials",
+            "headline": "What Our Customers Say",
+            "testimonials": [
+              {
+                "quote": "The best cupcakes I've ever tasted in Amsterdam!",
+                "author": "Eva",
+                "role": "Regular Customer"
+              },
+              {
+                "quote": "Perfect balance of flavors and beautiful designs.",
+                "author": "Lars",
+                "role": "Food Blogger"
+              },
+              {
+                "quote": "A cozy spot with truly exceptional cupcakes.",
+                "author": "Sophie",
+                "role": "Local Resident"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineCTA",
+          "content": {
+            "eyebrow": "Order Today",
+            "headline": "Savor the Sweetness",
+            "accent": "handcrafted cupcakes",
+            "body": "Experience the joy of freshly baked cupcakes delivered to your door or ready for pick-up.",
+            "cta": {
+              "label": "Shop Now",
+              "href": "/menu"
+            },
+            "secondaryCta": {
+              "label": "Contact Us",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Tulip Cupcakes",
+            "brand": "Tulip Cupcakes",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Menu",
+                    "href": "/menu"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "© 2026 Tulip Cupcakes. All rights reserved.",
+            "tagline": "Tulip Cupcakes. Built for clarity.",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "title": "About",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Tulip Cupcakes",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Menu",
+                "href": "/menu"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselinePageHeader",
+          "content": {
+            "eyebrow": "Our Story",
+            "headline": "Crafting Sweet Moments",
+            "body": "Tulip Cupcakes began as a small artisan bakery dedicated to quality and community in Amsterdam.",
+            "accent": "with passion"
+          }
+        },
+        {
+          "id": "BaselineAboutNarrative",
+          "content": {
+            "body": "Founded in 2010, Tulip Cupcakes blends traditional recipes with local ingredients for unique flavors.",
+            "pillarEyebrow": "Our Values",
+            "pillarHeadline": "Quality, community, and care in every cupcake.",
+            "pillars": [
+              {
+                "title": "Artisanal Craft",
+                "body": "Each cupcake is carefully handmade using premium ingredients."
+              },
+              {
+                "title": "Local Sourcing",
+                "body": "We partner with Amsterdam farmers to ensure freshness and sustainability."
+              },
+              {
+                "title": "Customer Joy",
+                "body": "Creating memorable experiences through sweet treats is our mission."
+              }
+            ],
+            "statsEyebrow": "By the Numbers",
+            "stats": [
+              {
+                "value": "10+",
+                "label": "Years Baking"
+              },
+              {
+                "value": "50+",
+                "label": "Unique Flavors"
+              },
+              {
+                "value": "1k+",
+                "label": "Happy Customers"
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/17845/pexels-photo.jpg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "A close-up shot of a hand reviewing various logo designs on paper, ideal for business concepts.",
+              "attributionAuthor": "Roman Pohorecki",
+              "attributionUrl": "https://www.pexels.com/photo/hand-on-top-of-paper-17845/"
+            }
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Tulip Cupcakes",
+            "brand": "Tulip Cupcakes",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Menu",
+                    "href": "/menu"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "© 2026 Tulip Cupcakes. All rights reserved.",
+            "tagline": "Tulip Cupcakes. Built for clarity.",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "menu",
+      "title": "Menu",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Tulip Cupcakes",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Menu",
+                "href": "/menu"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselinePageHeader",
+          "content": {
+            "eyebrow": "Menu",
+            "headline": "Explore Our Cupcake Flavors",
+            "body": "Browse our selection of handcrafted cupcakes made fresh daily.",
+            "accent": "seasonal & classic"
+          }
+        },
+        {
+          "id": "FeatureList",
+          "content": {
+            "eyebrow": "Flavors",
+            "headline": "Signature and Seasonal Cupcakes",
+            "features": [
+              {
+                "title": "Classic Vanilla",
+                "body": "Smooth vanilla cake with creamy buttercream frosting."
+              },
+              {
+                "title": "Chocolate Decadence",
+                "body": "Rich chocolate cupcake topped with dark ganache."
+              },
+              {
+                "title": "Lemon Zest",
+                "body": "Bright lemon cupcake with tangy glaze."
+              },
+              {
+                "title": "Spring Blossom",
+                "body": "Vanilla cupcake with edible flowers and honey drizzle."
+              },
+              {
+                "title": "Autumn Spice",
+                "body": "Warm pumpkin spice with cinnamon frosting."
+              }
+            ]
+          }
+        },
+        {
+          "id": "FAQAccordion",
+          "content": {
+            "eyebrow": "FAQs",
+            "headline": "Common Questions",
+            "faqs": [
+              {
+                "title": "Do you offer vegan options?",
+                "body": "Yes, we have select vegan cupcakes available seasonally."
+              },
+              {
+                "title": "How can I place an order?",
+                "body": "Orders can be placed online or by visiting our shop."
+              },
+              {
+                "title": "What are your opening hours?",
+                "body": "We are open daily from 9 AM to 6 PM."
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Tulip Cupcakes",
+            "brand": "Tulip Cupcakes",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Menu",
+                    "href": "/menu"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "© 2026 Tulip Cupcakes. All rights reserved.",
+            "tagline": "Tulip Cupcakes. Built for clarity.",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Tulip Cupcakes",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Menu",
+                "href": "/menu"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselinePageHeader",
+          "content": {
+            "eyebrow": "Get in Touch",
+            "headline": "Visit or Contact Us",
+            "body": "Reach out with questions or stop by our Amsterdam bakery.",
+            "accent": "we’re here to help"
+          }
+        },
+        {
+          "id": "BaselineContact",
+          "content": {
+            "formTitle": "Send Us a Message",
+            "formBody": "Questions or special orders? We're happy to assist.",
+            "recipientEmail": "hello@tulipcupcakes.nl",
+            "subjectTemplate": "New inquiry from {name}",
+            "details": [
+              {
+                "label": "Email",
+                "value": "hello@tulipcupcakes.nl",
+                "href": "mailto:hello@tulipcupcakes.nl"
+              },
+              {
+                "label": "Phone",
+                "value": "+31 20 123 4567",
+                "href": "tel:+31201234567"
+              },
+              {
+                "label": "Office",
+                "value": "123 Tulip Street, Amsterdam"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Tulip Cupcakes",
+            "brand": "Tulip Cupcakes",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Menu",
+                    "href": "/menu"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "© 2026 Tulip Cupcakes. All rights reserved.",
+            "tagline": "Tulip Cupcakes. Built for clarity.",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "intent": {
+    "energy": "editorial",
+    "density": "spacious",
+    "cinematicIntensity": "moderate",
+    "motionIntensity": "subtle",
+    "copyTone": "warm editorial",
+    "themeHint": "warm-sand"
+  }
+}

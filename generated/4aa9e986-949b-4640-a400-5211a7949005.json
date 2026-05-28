@@ -1,0 +1,184 @@
+{
+  "theme": {
+    "mode": "dark",
+    "accent": "#27aae1",
+    "bg": "#121820",
+    "ink": "#f9fafc",
+    "bgAccent": "#20293a",
+    "fontDisplay": "Playfair Display",
+    "fontBody": "Inter"
+  },
+  "sections": [
+    {
+      "id": "HeroCinematic",
+      "content": {
+        "eyebrow": "elevate your journey",
+        "headline": "Luxury, Redefined",
+        "subhead": "Private aviation without compromise",
+        "body": "Discover the new standard in comfort, privacy, and efficiency. Fly where you want, when you want—first-class, always.",
+        "cta": {
+          "label": "Explore Our Fleet"
+        }
+      },
+      "images": {
+        "primary": {
+          "url": "https://images.unsplash.com/photo-1768346564233-d71f37bd19b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxwcml2YXRlJTIwamV0JTIwbHV4dXJ5JTIwaW50ZXJpb3J8ZW58MXwwfHx8MTc3OTMxNzkxNnww&ixlib=rb-4.1.0&q=80&w=1080",
+          "alt": "Luxurious interior of a private jet with comfortable seating.",
+          "attributionAuthor": "Andy Wang",
+          "attributionUrl": "https://unsplash.com/photos/luxurious-interior-of-a-private-jet-with-comfortable-seating-ogUyaf8JWA4"
+        }
+      }
+    },
+    {
+      "id": "StickyChapters",
+      "content": {
+        "eyebrow": "the experience",
+        "chapters": [
+          {
+            "index": "1",
+            "title": "Seamless Booking, No Hassle",
+            "body": "Book your private flight in moments—no hidden steps, no obstacles."
+          },
+          {
+            "index": "2",
+            "title": "Ultimate Comfort In The Air",
+            "body": "Enjoy tailored amenities and personal space on every journey."
+          },
+          {
+            "index": "3",
+            "title": "Land Closer, Arrive Faster",
+            "body": "Land at exclusive airports, maximizing your time and privacy."
+          }
+        ]
+      },
+      "images": {
+        "gallery": [
+          {
+            "url": "https://images.unsplash.com/photo-1619652117253-ebc62f581f9f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxwcml2YXRlJTIwamV0JTIwdGFrZW9mZnxlbnwxfDF8fHwxNzc5MzE3OTE2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "alt": "white airplane on airport during daytime",
+            "attributionAuthor": "Jakob Rosen",
+            "attributionUrl": "https://unsplash.com/photos/white-airplane-on-airport-during-daytime-uWpVBu9Somk"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1704652329519-cb3b09eaaa86?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxwcml2YXRlJTIwamV0JTIwcGFzc2VuZ2VyJTIwY29tZm9ydHxlbnwxfDF8fHwxNzc5MzE3OTE2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "alt": "a man sitting on a seat in an airplane",
+            "attributionAuthor": "Chase Chappell",
+            "attributionUrl": "https://unsplash.com/photos/a-man-sitting-on-a-seat-in-an-airplane-tJ6ZD1J_zCM"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1561907271-849f6a282036?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxzbWFsbCUyMGV4Y2x1c2l2ZSUyMGFpcnBvcnR8ZW58MXwxfHx8MTc3OTMxNzkxNnww&ixlib=rb-4.1.0&q=80&w=1080",
+            "alt": "person walking inside building",
+            "attributionAuthor": "Han Lahandoe",
+            "attributionUrl": "https://unsplash.com/photos/person-walking-inside-building-vDv0QkLDZ-I"
+          }
+        ]
+      }
+    },
+    {
+      "id": "MarqueeBand",
+      "content": {
+        "items": [
+          "On-demand flights",
+          "Bespoke interiors",
+          "Global access",
+          "Champagne onboard",
+          "Pet-friendly cabins",
+          "Secluded runways"
+        ],
+        "tone": "invert"
+      }
+    },
+    {
+      "id": "HorizontalShowcase",
+      "content": {
+        "eyebrow": "our fleet",
+        "headline": "Precision engineered, meticulously maintained",
+        "body": "Choose from our curated fleet—all aircraft inspected and detailed before every flight.",
+        "cards": [
+          {
+            "title": "Citation Latitude",
+            "caption": "Range: 2,850 nm"
+          },
+          {
+            "title": "Gulfstream G650",
+            "caption": "Unmatched long-range comfort"
+          },
+          {
+            "title": "Phenom 300",
+            "caption": "Versatility and speed for regional hops"
+          },
+          {
+            "title": "Challenger 350",
+            "caption": "Spacious cabin, refined amenities"
+          },
+          {
+            "title": "Legacy 650E",
+            "caption": "Extended range, classic elegance"
+          },
+          {
+            "title": "Pilatus PC-24",
+            "caption": "Land on remote or short runways"
+          }
+        ]
+      },
+      "images": {
+        "gallery": [
+          {
+            "url": "https://images.unsplash.com/photo-1666307536243-a9bf2d66c51d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxjaXRhdGlvbiUyMGxhdGl0dWRlJTIwcHJpdmF0ZSUyMGpldHxlbnwxfDF8fHwxNzc5MzE3OTE2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "alt": "a table with food and glasses on it",
+            "attributionAuthor": "Nahima Aparicio",
+            "attributionUrl": "https://unsplash.com/photos/a-table-with-food-and-glasses-on-it-xYiVI-TQvAE"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1722238793184-8baa29b3a56c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxwaGVub20lMjAzMDAlMjBhaXJjcmFmdHxlbnwxfDF8fHwxNzc5MzE3OTE2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "alt": "A small airplane is parked on the runway",
+            "attributionAuthor": "Niklas Jonasson",
+            "attributionUrl": "https://unsplash.com/photos/a-small-airplane-is-parked-on-the-runway-1JQPOpAeRE0"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1517756548657-b2c24162e63d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxsZWdhY3klMjA2NTBlfGVufDF8MXx8fDE3NzkzMTc5MTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "alt": "brown and black speaker indoor",
+            "attributionAuthor": "Goh Rhy Yan",
+            "attributionUrl": "https://unsplash.com/photos/brown-and-black-speaker-indoor-0vO0z83M4bc"
+          }
+        ]
+      }
+    },
+    {
+      "id": "MessageReveal",
+      "content": {
+        "firstLine": "Never wait in line again.",
+        "accent": "Private",
+        "secondLine": "Board directly, step into luxury.",
+        "body": "Your schedule, your plane—every flight is yours alone."
+      },
+      "images": {
+        "primary": {
+          "url": "https://images.unsplash.com/photo-1543362811-605396926d35?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxwcml2YXRlJTIwamV0JTIwYm9hcmRpbmclMjBydW53YXl8ZW58MXwwfHx8MTc3OTMxNzkxNnww&ixlib=rb-4.1.0&q=80&w=1080",
+          "alt": "white planes on pavement",
+          "attributionAuthor": "CHUTTERSNAP",
+          "attributionUrl": "https://unsplash.com/photos/white-planes-on-pavement-uWqCep68j0g"
+        }
+      }
+    },
+    {
+      "id": "ClosingCTA",
+      "content": {
+        "eyebrow": "take flight",
+        "headline": "Reserve Your Private Escape",
+        "subhead": "Begin your journey with a dedicated flight concierge—luxury is just a call away.",
+        "cta": {
+          "label": "Book Now"
+        }
+      },
+      "images": {
+        "primary": {
+          "url": "https://images.unsplash.com/photo-1474302770737-173ee21bab63?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxwcml2YXRlJTIwamV0JTIwZXh0ZXJpb3IlMjBzdW5zZXR8ZW58MXwwfHx8MTc3OTMxNzkxNnww&ixlib=rb-4.1.0&q=80&w=1080",
+          "alt": "architectural photography of white aircraft",
+          "attributionAuthor": "Chris Leipelt",
+          "attributionUrl": "https://unsplash.com/photos/architectural-photography-of-white-aircraft-6w_dYdazo20"
+        }
+      }
+    }
+  ]
+}

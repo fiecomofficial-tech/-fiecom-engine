@@ -1,0 +1,295 @@
+{
+  "theme": { "preset": "editorial-cream" },
+  "sections": [
+    {
+      "id": "StickyNavbar",
+      "content": {
+        "brand": "Halcyon",
+        "links": [
+          { "label": "Work" },
+          { "label": "Studio" },
+          { "label": "Process" },
+          { "label": "Pricing" },
+          { "label": "FAQ" },
+          { "label": "Contact" }
+        ],
+        "cta": { "label": "Start a project" }
+      }
+    },
+    {
+      "id": "HeroEditorial",
+      "content": {
+        "eyebrow": "Studio · Est. 2019",
+        "headline": "Halcyon",
+        "body": "An independent studio for editorial brands.\nFilm-grade motion. Magazine-grade typography.\nDelivered in six weeks, not six months.\nBerlin · Remote."
+      },
+      "images": {
+        "primary": { "url": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?auto=format&fit=crop&w=2000&q=80" }
+      }
+    },
+    {
+      "id": "MarqueeBand",
+      "content": {
+        "items": ["Editorial sites", "Brand systems", "Motion direction", "Launch films", "Art direction", "Identity"],
+        "tone": "invert"
+      }
+    },
+    {
+      "id": "MessageReveal",
+      "content": {
+        "firstLine": "We build worlds that move,",
+        "accent": "Pause",
+        "secondLine": "then frame the silence between them.",
+        "body": "Slowness is the new luxury. Every frame considered, every transition earned."
+      }
+    },
+    {
+      "id": "FeatureBento",
+      "content": {
+        "eyebrow": "Capabilities",
+        "headline": "A studio without seams.",
+        "body": "Identity, motion, editorial — one team, one cadence.",
+        "features": [
+          { "title": "Editorial sites", "body": "Designed for slow reading and fast browsing. Built on Next.js with our internal motion grammar.", "size": "lg" },
+          { "title": "Brand systems", "body": "Voice, type, visual language — built to last a decade." },
+          { "title": "Motion direction", "body": "Choreographed scroll, from first frame to footer." },
+          { "title": "Launch films", "body": "60-second narrative cuts for product launches." },
+          { "title": "Naming", "body": "Words that hold up under pressure." },
+          { "title": "Art direction", "body": "On-set or in-house — full creative ownership.", "size": "md" }
+        ]
+      },
+      "images": {
+        "gallery": [
+          { "url": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80" },
+          { "url": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=80" }
+        ]
+      }
+    },
+    {
+      "id": "StatsCounter",
+      "content": {
+        "eyebrow": "By the numbers",
+        "headline": "Slow studio. Sharp output.",
+        "stats": [
+          { "value": 48, "label": "Brands shipped since 2019" },
+          { "value": 12, "label": "Awwwards & FWA features" },
+          { "value": 96, "suffix": "%", "label": "Client return rate" },
+          { "value": 9, "label": "People in the studio" }
+        ]
+      }
+    },
+    {
+      "id": "ProcessSteps",
+      "content": {
+        "eyebrow": "How we work",
+        "headline": "Six weeks. Five steps.",
+        "body": "Every engagement follows the same cadence — predictable for you, fully creative for us.",
+        "steps": [
+          { "title": "Alignment sprint", "duration": "Week 1", "body": "One workshop, one diagnostic doc, one direction we both believe in." },
+          { "title": "Direction", "duration": "Week 2", "body": "Two visual directions, one chosen, written rationale included." },
+          { "title": "Composition", "duration": "Weeks 3–4", "body": "Every section designed and motion-prototyped before any production code is written." },
+          { "title": "Production", "duration": "Week 5", "body": "Engineering takes the prototype to production — same fidelity, real performance." },
+          { "title": "Launch & handoff", "duration": "Week 6", "body": "Soft launch, performance review, documentation for your team." }
+        ]
+      }
+    },
+    {
+      "id": "StickyChapters",
+      "content": {
+        "chapters": [
+          { "title": "Discovery, mapped to feeling.", "body": "We start with the audience and the texture they remember." },
+          { "title": "Composition as choreography.", "body": "Each section is paced; nothing arrives without intention." },
+          { "title": "Delivery, in motion.", "body": "Launch like a film, not a deploy." }
+        ]
+      },
+      "images": {
+        "primary": { "url": "https://images.unsplash.com/photo-1542435503-956c469947f6?auto=format&fit=crop&w=1400&q=80" },
+        "secondary": { "url": "https://images.unsplash.com/photo-1481349518771-20055b2a7b24?auto=format&fit=crop&w=1400&q=80" }
+      }
+    },
+    {
+      "id": "HorizontalShowcase",
+      "content": {
+        "eyebrow": "Selected work",
+        "headline": "Six recent films in motion.",
+        "body": "Pinned scroll — drift through each project at its own pace.",
+        "cards": [
+          { "title": "Vela", "caption": "Editorial site · 2025" },
+          { "title": "Foundry", "caption": "Identity & launch · 2025" },
+          { "title": "Northstar", "caption": "Brand film · 2024" },
+          { "title": "Anvil", "caption": "Motion system · 2024" },
+          { "title": "Meridian", "caption": "Editorial direction · 2024" },
+          { "title": "Halcyon", "caption": "Studio identity · 2023" }
+        ]
+      },
+      "images": {
+        "gallery": [
+          { "url": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1000&q=80" },
+          { "url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1000&q=80" },
+          { "url": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1000&q=80" },
+          { "url": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1000&q=80" },
+          { "url": "https://images.unsplash.com/photo-1418065460487-3e41a6c84dc5?auto=format&fit=crop&w=1000&q=80" },
+          { "url": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1000&q=80" }
+        ]
+      }
+    },
+    {
+      "id": "CTABanner",
+      "content": {
+        "eyebrow": "Ready when you are",
+        "headline": "Tell us about the brand. We'll come back with a direction.",
+        "body": "We typically respond within 48 hours. One project, one senior team, one cadence.",
+        "cta": { "label": "Start a project" }
+      }
+    },
+    {
+      "id": "TimelineScroll",
+      "content": {
+        "eyebrow": "Trajectory",
+        "headline": "Seven years of slow refinement.",
+        "events": [
+          { "year": "2019", "title": "First commission", "body": "Two-person studio in a borrowed Berlin loft." },
+          { "year": "2021", "title": "Editorial system v1", "body": "Built the in-house motion grammar still used today." },
+          { "year": "2023", "title": "First Awwwards SOTD", "body": "Recognized for the Vela editorial launch." },
+          { "year": "2025", "title": "Studio of nine", "body": "Permanent team of nine across direction, design, and engineering." },
+          { "year": "2026", "title": "Halcyon engine", "body": "Open-sourced our internal composition system." }
+        ]
+      }
+    },
+    {
+      "id": "ImageGallery",
+      "content": {
+        "eyebrow": "Selected frames",
+        "headline": "Frames from the last year.",
+        "captions": [
+          { "title": "Vela", "year": "2025" },
+          { "title": "Foundry", "year": "2025" },
+          { "title": "Northstar", "year": "2024" },
+          { "title": "Anvil", "year": "2024" },
+          { "title": "Meridian", "year": "2024" },
+          { "title": "Halcyon", "year": "2023" }
+        ]
+      },
+      "images": {
+        "gallery": [
+          { "url": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=900&q=80" },
+          { "url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=900&q=80" },
+          { "url": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=900&q=80" },
+          { "url": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=900&q=80" },
+          { "url": "https://images.unsplash.com/photo-1418065460487-3e41a6c84dc5?auto=format&fit=crop&w=900&q=80" },
+          { "url": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=900&q=80" }
+        ]
+      }
+    },
+    {
+      "id": "TestimonialCarousel",
+      "content": {
+        "eyebrow": "What clients say",
+        "testimonials": [
+          { "quote": "The first studio that treated our brand like a feature film.", "author": "Mira Olsen", "role": "VP Brand", "org": "Vela" },
+          { "quote": "Every frame felt considered. We have never launched anything that loaded slower and converted higher.", "author": "Tomas Hahn", "role": "CEO", "org": "Foundry" },
+          { "quote": "They build the kind of sites that win awards and quarterly OKRs.", "author": "Ana Reyes", "role": "Founder", "org": "Northstar" }
+        ]
+      },
+      "images": {
+        "gallery": [
+          { "url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=600&q=80" },
+          { "url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=600&q=80" },
+          { "url": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=600&q=80" }
+        ]
+      }
+    },
+    {
+      "id": "PricingTiers",
+      "content": {
+        "eyebrow": "Engagements",
+        "headline": "Three ways to start.",
+        "body": "Every engagement begins with a one-week alignment sprint.",
+        "tiers": [
+          {
+            "name": "Sprint",
+            "price": "€18k",
+            "period": "1 week",
+            "description": "A focused diagnostic + creative direction.",
+            "features": ["Brand audit", "Direction deck", "One launch artifact", "Senior team only"],
+            "cta": { "label": "Start a sprint" }
+          },
+          {
+            "name": "Atelier",
+            "price": "€72k",
+            "period": "6 weeks",
+            "description": "Full website + brand system delivery.",
+            "features": ["Editorial site", "Motion system", "Identity refresh", "Launch film", "Six weeks, senior team"],
+            "featured": true,
+            "cta": { "label": "Book Atelier" }
+          },
+          {
+            "name": "Studio",
+            "price": "€18k",
+            "period": "month",
+            "description": "Ongoing creative partner on retainer.",
+            "features": ["Embedded direction", "Weekly cadence", "Roadmap ownership", "First-week kickoff"],
+            "cta": { "label": "Talk to us" }
+          }
+        ]
+      }
+    },
+    {
+      "id": "FAQAccordion",
+      "content": {
+        "eyebrow": "Common questions",
+        "headline": "Everything you might ask before the call.",
+        "body": "If something is missing, write to studio@halcyon.co.",
+        "faqs": [
+          { "q": "How long does an engagement take?", "a": "Sprint: one week. Atelier: six weeks. Studio retainer: ongoing, month to month." },
+          { "q": "Do you work with early-stage founders?", "a": "Often. We reserve a portion of our calendar for first-time founders with strong taste." },
+          { "q": "What stack do you build on?", "a": "Next.js, GSAP, and our internal motion grammar — handed off cleanly so your team can extend it." },
+          { "q": "Where are you based?", "a": "Berlin and remote. We work across CET, GMT, and ET timezones." },
+          { "q": "Can you ship faster than six weeks?", "a": "Sometimes. The Sprint engagement is designed for that." }
+        ]
+      }
+    },
+    {
+      "id": "ContactBlock",
+      "content": {
+        "eyebrow": "Contact",
+        "headline": "Talk to the studio.",
+        "body": "One email, one senior reply, no sales sequences.",
+        "cta": { "label": "Write to the studio", "href": "mailto:studio@halcyon.co" },
+        "details": [
+          { "label": "Email", "value": "studio@halcyon.co", "href": "mailto:studio@halcyon.co" },
+          { "label": "Studio", "value": "Schönhauser Allee 13, Berlin" },
+          { "label": "Hours", "value": "Mon–Thu · 09:00–17:00 CET" },
+          { "label": "Press", "value": "press@halcyon.co", "href": "mailto:press@halcyon.co" }
+        ]
+      }
+    },
+    {
+      "id": "ClosingCTA",
+      "content": {
+        "eyebrow": "Begin",
+        "headline": "Make your first frame matter.",
+        "subhead": "Tell us about the brand. We'll come back with a direction within 48 hours.",
+        "cta": { "label": "Start a project", "href": "#contact" }
+      },
+      "images": {
+        "primary": { "url": "https://images.unsplash.com/photo-1444930694458-01babe71870e?auto=format&fit=crop&w=2000&q=80" }
+      }
+    },
+    {
+      "id": "FooterRich",
+      "content": {
+        "brand": "Halcyon",
+        "tagline": "A studio for brands that want their first frame to feel like a film opening.",
+        "giant": "Halcyon",
+        "columns": [
+          { "title": "Studio", "links": [{ "label": "About" }, { "label": "Journal" }, { "label": "Careers" }] },
+          { "title": "Work", "links": [{ "label": "Editorial" }, { "label": "Identity" }, { "label": "Motion" }, { "label": "Films" }] },
+          { "title": "Contact", "links": [{ "label": "studio@halcyon.co" }, { "label": "Berlin · Remote" }] }
+        ],
+        "cta": { "label": "Start a project" },
+        "legal": "© 2026 Halcyon Studio"
+      }
+    }
+  ]
+}

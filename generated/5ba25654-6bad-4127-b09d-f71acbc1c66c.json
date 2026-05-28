@@ -1,0 +1,182 @@
+{
+  "theme": {
+    "mode": "dark",
+    "accent": "#5be7b0",
+    "bg": "#131c22",
+    "ink": "#f6fafb",
+    "bgAccent": "#28343c",
+    "fontDisplay": "Inter",
+    "fontBody": "Geist"
+  },
+  "sections": [
+    {
+      "id": "HeroCinematic",
+      "content": {
+        "eyebrow": "Smart finance tools",
+        "headline": "Reimagine your money",
+        "subhead": "Tomorrow's banking, today.",
+        "body": "Take control with seamless, transparent, and powerful financial tools built for the modern era.",
+        "cta": {
+          "label": "Get Started"
+        }
+      },
+      "images": {
+        "primary": {
+          "url": "https://images.unsplash.com/photo-1718157582031-69dd1a28db29?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBmaW50ZWNoJTIwYXBwJTIwZGFzaGJvYXJkfGVufDF8MHx8fDE3NzkzMTc4MTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "alt": "a cell phone sitting on top of a table",
+          "attributionAuthor": "Coinstash Australia",
+          "attributionUrl": "https://unsplash.com/photos/a-cell-phone-sitting-on-top-of-a-table-PuqWIO9vy-Q"
+        }
+      }
+    },
+    {
+      "id": "HorizontalShowcase",
+      "content": {
+        "eyebrow": "Key Features",
+        "headline": "Designed for effortless control and clarity.",
+        "body": "Everything you need to master your finances—intuitive, secure, and always at your fingertips.",
+        "cards": [
+          {
+            "title": "Instant Account Setup",
+            "caption": "Open accounts in minutes—no paperwork."
+          },
+          {
+            "title": "AI-Powered Insights",
+            "caption": "See spending trends and personalized tips."
+          },
+          {
+            "title": "Lightning Payments",
+            "caption": "Send and receive funds in real time."
+          },
+          {
+            "title": "Zero Hidden Fees",
+            "caption": "Transparent pricing. No surprises."
+          },
+          {
+            "title": "Advanced Security",
+            "caption": "Biometric login and fraud detection."
+          },
+          {
+            "title": "Automated Savings",
+            "caption": "Smart rules help grow your wealth."
+          }
+        ]
+      },
+      "images": {
+        "gallery": [
+          {
+            "url": "https://images.unsplash.com/photo-1620207284057-e6c6b3d1b4c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxmaW50ZWNoJTIwbW9iaWxlJTIwYXBwJTIwdWl8ZW58MXwxfHx8MTc3OTMxNzgxM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+            "alt": "person holding silver samsung android smartphone",
+            "attributionAuthor": "Piqo Design",
+            "attributionUrl": "https://unsplash.com/photos/person-holding-silver-samsung-android-smartphone-QM5nEjJBIME"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1571867424488-4565932edb41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxkaWdpdGFsJTIwcGF5bWVudHN8ZW58MXwxfHx8MTc3OTMxNzgxM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+            "alt": "two person's hands holding turned-on phones",
+            "attributionAuthor": "David Dvořáček",
+            "attributionUrl": "https://unsplash.com/photos/two-persons-hands-holding-turned-on-phones-QiPe0UpC0_U"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1642751226315-e6dc6b47fd54?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxhaSUyMGZpbmFuY2UlMjBkYXNoYm9hcmR8ZW58MXwxfHx8MTc3OTMxNzgxM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+            "alt": "a close up of a computer screen with numbers on it",
+            "attributionAuthor": "Niranjan _ Photographs",
+            "attributionUrl": "https://unsplash.com/photos/a-close-up-of-a-computer-screen-with-numbers-on-it-ftxisY44pQ0"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1742837581522-111d23b69a04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxvbmxpbmUlMjBiYW5raW5nJTIwZXhwZXJpZW5jZXxlbnwxfDF8fHwxNzc5MzE3ODEzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "alt": "Laptop, phone, and card on a bed.",
+            "attributionAuthor": "SumUp",
+            "attributionUrl": "https://unsplash.com/photos/laptop-phone-and-card-on-a-bed-n4mw_852_Sk"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1768228103038-98c2ea91a687?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBzYXZpbmdzfGVufDF8MXx8fDE3NzkzMTc4MTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "alt": "Smartphone camera lenses and keyboard on a desk",
+            "attributionAuthor": "StorresJayrMx",
+            "attributionUrl": "https://unsplash.com/photos/smartphone-camera-lenses-and-keyboard-on-a-desk-QDSl32f6Y0g"
+          }
+        ]
+      }
+    },
+    {
+      "id": "MessageReveal",
+      "content": {
+        "firstLine": "Your money, your rules.",
+        "accent": "No limits",
+        "secondLine": "Banking that fits your life.",
+        "body": "Experience total flexibility and full transparency with every transaction."
+      },
+      "images": {
+        "primary": {
+          "url": "https://images.unsplash.com/photo-1760532081949-d4b9b707b33f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxwZW9wbGUlMjB1c2luZyUyMGZpbmFuY2UlMjBhcHB8ZW58MXwwfHx8MTc3OTMxNzgxM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+          "alt": "Person holding a smartphone with currency exchange app",
+          "attributionAuthor": "Airalo",
+          "attributionUrl": "https://unsplash.com/photos/person-holding-a-smartphone-with-currency-exchange-app-vSb7TaP2EWs"
+        }
+      }
+    },
+    {
+      "id": "MarqueeBand",
+      "content": {
+        "items": [
+          "Real-time insights",
+          "Bank-grade security",
+          "No minimum balance",
+          "Green investments",
+          "Personalized analytics",
+          "Global payments"
+        ],
+        "tone": "invert"
+      }
+    },
+    {
+      "id": "StickyChapters",
+      "content": {
+        "eyebrow": "How it works",
+        "chapters": [
+          {
+            "index": "01",
+            "title": "Sign up in just a few minutes",
+            "body": "Verify your identity and open your account with ease."
+          },
+          {
+            "index": "02",
+            "title": "Connect and control all your finances",
+            "body": "Link external accounts and manage everything from one place."
+          },
+          {
+            "index": "03",
+            "title": "Grow, save, and move money smarter",
+            "body": "Automated tools and intelligent analytics power your progress."
+          }
+        ]
+      },
+      "images": {
+        "primary": {
+          "url": "https://images.unsplash.com/photo-1748439281934-2803c6a3ee36?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxzaWduaW5nJTIwdXAlMjBvbiUyMGZpbnRlY2glMjBhcHB8ZW58MXwxfHx8MTc3OTMxNzgxM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+          "alt": "Stock market charts are displayed on digital devices.",
+          "attributionAuthor": "Jakub Żerdzicki",
+          "attributionUrl": "https://unsplash.com/photos/stock-market-charts-are-displayed-on-digital-devices-rUimC7J5j1k"
+        }
+      }
+    },
+    {
+      "id": "ClosingCTA",
+      "content": {
+        "eyebrow": "Ready to get started?",
+        "headline": "Upgrade your financial life.",
+        "subhead": "Join thousands making smarter choices with next-gen banking. Download the app and take control today.",
+        "cta": {
+          "label": "Create your free account"
+        }
+      },
+      "images": {
+        "primary": {
+          "url": "https://images.unsplash.com/photo-1556740758-90de374c12ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxoYXBweSUyMGN1c3RvbWVyJTIwZmludGVjaHxlbnwxfDB8fHwxNzc5MzE3ODE3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "alt": "two women near tables",
+          "attributionAuthor": "Blake Wisz",
+          "attributionUrl": "https://unsplash.com/photos/two-women-near-tables-GFrBMipOd_E"
+        }
+      }
+    }
+  ]
+}

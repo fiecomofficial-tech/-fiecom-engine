@@ -1,0 +1,1011 @@
+{
+  "theme": {
+    "preset": "editorial-cream",
+    "bg": "#FFF9F6",
+    "ink": "#333333",
+    "bgAccent": "#FFF0EB",
+    "fontDisplay": "Playfair Display",
+    "fontBody": "Lato"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "AeroLux",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Work",
+                "href": "/work"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Start",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "HeroCinematic",
+          "content": {
+            "eyebrow": "Fly Private",
+            "headline": "AeroLux",
+            "subhead": "Elevate Travel",
+            "body": "Experience unmatched comfort and style with our premium private jet services.",
+            "cta": {
+              "label": "Book Your Flight",
+              "href": "/contact"
+            }
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/videos/5778851/pexels-photo-5778851.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+              "alt": "RDNE Stock project on Pexels",
+              "attributionAuthor": "RDNE Stock project",
+              "attributionUrl": "https://www.pexels.com/video/people-in-private-jet-5778851/",
+              "videoUrl": "https://videos.pexels.com/video-files/5778851/5778851-hd_1280_720_24fps.mp4"
+            },
+            "secondary": {
+              "url": "https://images.pexels.com/photos/23180914/pexels-photo-23180914.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Close-up of a small propeller plane on the tarmac against a vibrant sunset sky, emphasizing aviation beauty.",
+              "attributionAuthor": "Joseph Walker",
+              "attributionUrl": "https://www.pexels.com/photo/close-up-od-a-propeller-airplane-on-the-tarmac-at-sunset-23180914/"
+            }
+          }
+        },
+        {
+          "id": "StickyChapters",
+          "content": {
+            "eyebrow": "Why Choose Us",
+            "chapters": [
+              {
+                "title": "Ultimate Convenience in Private Air Travel",
+                "body": "Skip the lines and fly on your schedule."
+              },
+              {
+                "title": "Unmatched Luxury and Comfort",
+                "body": "Experience spacious interiors and personalized service."
+              },
+              {
+                "title": "Global Reach with Safety",
+                "body": "Access thousands of destinations with top safety standards."
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/33056818/pexels-photo-33056818.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Close-up shot of a BMW logo on a vibrant green hood, capturing automotive elegance.",
+              "attributionAuthor": "Anurag Jamwal",
+              "attributionUrl": "https://www.pexels.com/photo/vibrant-green-bmw-hood-emblem-close-up-33056818/"
+            },
+            "secondary": {
+              "url": "https://images.pexels.com/photos/19746805/pexels-photo-19746805.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Detailed close-up of the Mercedes-Benz logo on a luxury car, emphasizing metallic finish.",
+              "attributionAuthor": "Zaid Ahmed",
+              "attributionUrl": "https://www.pexels.com/photo/mercedes-benz-logo-in-close-up-view-19746805/"
+            }
+          }
+        },
+        {
+          "id": "FeatureBento",
+          "content": {
+            "eyebrow": "Our Services",
+            "headline": "Tailored to Your Journey",
+            "body": "AeroLux offers comprehensive solutions for every traveler.",
+            "features": [
+              {
+                "title": "Private Jet Rental",
+                "body": "Flexible booking with a fleet of modern jets.",
+                "size": "lg"
+              },
+              {
+                "title": "Concierge Services",
+                "body": "Personalized travel planning and support.",
+                "size": "md"
+              },
+              {
+                "title": "Luxury Ground Transport",
+                "body": "Seamless transfers in premium vehicles.",
+                "size": "md"
+              },
+              {
+                "title": "In-Flight Catering",
+                "body": "Gourmet meals crafted by top chefs.",
+                "size": "sm"
+              },
+              {
+                "title": "Custom Itineraries",
+                "body": "Tailored trips to fit your preferences.",
+                "size": "sm"
+              },
+              {
+                "title": "24/7 Support",
+                "body": "Dedicated team available anytime.",
+                "size": "md"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/31034509/pexels-photo-31034509.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Premium grey suiting fabric featuring 'Four Seasons' branding detail.",
+                "attributionAuthor": "HS Studio By Hussnain",
+                "attributionUrl": "https://www.pexels.com/photo/high-quality-grey-suit-fabric-with-branding-text-31034509/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/17264309/pexels-photo-17264309.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Dynamic capture of a yellow sports car during an urban rally event with a crowd.",
+                "attributionAuthor": "Tibor Szabo",
+                "attributionUrl": "https://www.pexels.com/photo/yellow-maserati-mc20-sports-car-parked-on-a-city-street-17264309/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/9230462/pexels-photo-9230462.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Flat lay of eco-friendly cleaning products and brushes showcasing minimalist packaging.",
+                "attributionAuthor": "Azka Nandya",
+                "attributionUrl": "https://www.pexels.com/photo/cleaning-products-in-close-up-shot-9230462/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35740586/pexels-photo-35740586.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "High-quality image of a Unox product can showcasing branding and pull tab in warm tones.",
+                "attributionAuthor": "Alexander Zvir",
+                "attributionUrl": "https://www.pexels.com/photo/close-up-of-unox-product-can-with-pull-tab-35740586/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "HorizontalShowcase",
+          "content": {
+            "eyebrow": "Explore Our Fleet",
+            "headline": "State-of-the-Art Jets",
+            "body": "Discover the aircraft that redefine private travel.",
+            "cards": [
+              {
+                "title": "Gulfstream G650",
+                "caption": "Ultra-long range luxury jet"
+              },
+              {
+                "title": "Bombardier Global 7500",
+                "caption": "Superior comfort and speed"
+              },
+              {
+                "title": "Dassault Falcon 8X",
+                "caption": "Advanced technology and efficiency"
+              },
+              {
+                "title": "Embraer Legacy 650",
+                "caption": "Spacious and reliable"
+              },
+              {
+                "title": "Cessna Citation Longitude",
+                "caption": "Modern midsize jet"
+              },
+              {
+                "title": "Pilatus PC-24",
+                "caption": "Versatile and agile"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/32500302/pexels-photo-32500302.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Close-up of a private jet engine and tail at airport tarmac in daylight.",
+                "attributionAuthor": "David Luyeye",
+                "attributionUrl": "https://www.pexels.com/photo/sleek-private-jet-parked-at-airport-tarmac-32500302/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/6700041/pexels-photo-6700041.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A bearded man in a cozy sweater relaxes in a luxurious airplane cabin, enjoying the flight.",
+                "attributionAuthor": "cottonbro studio",
+                "attributionUrl": "https://www.pexels.com/photo/a-man-sitting-in-the-airplane-6700041/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/36734535/pexels-photo-36734535.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Military fighter jet parked on runway at air show, under cloudy sky in Hampton, Virginia.",
+                "attributionAuthor": "Jaxon Matthew Willis",
+                "attributionUrl": "https://www.pexels.com/photo/fighter-jet-on-runway-at-air-show-36734535/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/32760421/pexels-photo-32760421.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Aircraft inside a large hangar with sunlight filtering through windows.",
+                "attributionAuthor": "Yaşar Başkurt",
+                "attributionUrl": "https://www.pexels.com/photo/two-airplanes-in-a-hangar-with-natural-light-32760421/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "TestimonialCarousel",
+          "content": {
+            "eyebrow": "What Clients Say",
+            "testimonials": [
+              {
+                "quote": "Flying with AeroLux redefined my travel experience.",
+                "author": "James",
+                "role": "Entrepreneur"
+              },
+              {
+                "quote": "Seamless, luxurious, and truly private.",
+                "author": "Maria",
+                "role": "CEO"
+              },
+              {
+                "quote": "The service is impeccable from start to finish.",
+                "author": "Liam",
+                "role": "Film Producer"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/34091744/pexels-photo-34091744.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Close-up of a luxury car steering wheel with sunlight flare through the window.",
+                "attributionAuthor": "Holyson h",
+                "attributionUrl": "https://www.pexels.com/photo/luxury-car-steering-wheel-with-sunlight-flare-34091744/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/33056798/pexels-photo-33056798.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Detailed view of the iconic Mercedes-Benz logo on a sleek red car, highlighting luxury and automotive design.",
+                "attributionAuthor": "Anurag Jamwal",
+                "attributionUrl": "https://www.pexels.com/photo/close-up-of-mercedes-benz-logo-on-red-car-surface-33056798/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/7270666/pexels-photo-7270666.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Close-up of Bentley Momentum Intense perfume bottle showcasing luxury design.",
+                "attributionAuthor": "Peakture.Lab / Lorenzo Messina",
+                "attributionUrl": "https://www.pexels.com/photo/bentley-momentum-perfume-in-close-up-photography-7270666/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/19746805/pexels-photo-19746805.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Detailed close-up of the Mercedes-Benz logo on a luxury car, emphasizing metallic finish.",
+                "attributionAuthor": "Zaid Ahmed",
+                "attributionUrl": "https://www.pexels.com/photo/mercedes-benz-logo-in-close-up-view-19746805/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "CTABanner",
+          "content": {
+            "eyebrow": "Ready to Fly?",
+            "headline": "Book Your Private Flight Today",
+            "body": "Contact us for personalized service and exclusive offers.",
+            "cta": {
+              "label": "Get in Touch",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "AeroLux",
+            "tagline": "Luxury In The Skies",
+            "giant": "AEROLUX",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Work",
+                    "href": "/work"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "© 2024 AeroLux. All rights reserved."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "AeroLux",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Work",
+                "href": "/work"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Start",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "PageHeader",
+          "content": {
+            "eyebrow": "About",
+            "headline": "Our Story",
+            "body": "Discover the passion and vision behind AeroLux private aviation."
+          }
+        },
+        {
+          "id": "MessageReveal",
+          "content": {
+            "firstLine": "Elevating air travel",
+            "accent": "PRIVACY",
+            "secondLine": "with unmatched luxury",
+            "body": "At AeroLux, privacy and comfort are the foundation of every journey."
+          }
+        },
+        {
+          "id": "StickyChapters",
+          "content": {
+            "eyebrow": "Story",
+            "chapters": [
+              {
+                "title": "Founded on Excellence and Innovation",
+                "body": "Years of expertise in private aviation."
+              },
+              {
+                "title": "Committed to Sustainability",
+                "body": "Environmentally conscious operations and fleet upgrades."
+              },
+              {
+                "title": "Driven by Client Satisfaction",
+                "body": "Tailored experiences for discerning travelers."
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/33056818/pexels-photo-33056818.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Close-up shot of a BMW logo on a vibrant green hood, capturing automotive elegance.",
+              "attributionAuthor": "Anurag Jamwal",
+              "attributionUrl": "https://www.pexels.com/photo/vibrant-green-bmw-hood-emblem-close-up-33056818/"
+            },
+            "secondary": {
+              "url": "https://images.pexels.com/photos/19746805/pexels-photo-19746805.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Detailed close-up of the Mercedes-Benz logo on a luxury car, emphasizing metallic finish.",
+              "attributionAuthor": "Zaid Ahmed",
+              "attributionUrl": "https://www.pexels.com/photo/mercedes-benz-logo-in-close-up-view-19746805/"
+            }
+          }
+        },
+        {
+          "id": "ImageGallery",
+          "content": {
+            "eyebrow": "Inside AeroLux",
+            "headline": "Experience Our Fleet and Services",
+            "body": "A visual layer that makes the offer tangible.",
+            "captions": [
+              {
+                "title": "Gulfstream G650 Interior",
+                "year": "2023"
+              },
+              {
+                "title": "Concierge Team at Work",
+                "year": "2024"
+              },
+              {
+                "title": "Private Jet Takeoff",
+                "year": "2023"
+              },
+              {
+                "title": "Luxury Lounge Access",
+                "year": "2024"
+              },
+              {
+                "title": "Flight Planning Session",
+                "year": "2023"
+              },
+              {
+                "title": "In-Flight Dining",
+                "year": "2024"
+              },
+              {
+                "title": "Ground Transport Vehicle",
+                "year": "2023"
+              },
+              {
+                "title": "Jet Cockpit View",
+                "year": "2024"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/5778714/pexels-photo-5778714.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A sophisticated woman enjoys a luxurious experience aboard a private jet, embodying success and elegance.",
+                "attributionAuthor": "RDNE Stock project",
+                "attributionUrl": "https://www.pexels.com/photo/businesswoman-sitting-beside-an-airplane-window-5778714/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/5778506/pexels-photo-5778506.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Elegant business travelers enjoying a luxury flight in a private jet, showcasing first-class comfort.",
+                "attributionAuthor": "RDNE Stock project",
+                "attributionUrl": "https://www.pexels.com/photo/vip-passengers-on-a-private-jet-5778506/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/18621581/pexels-photo-18621581.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A military jet taking off from an airport in Manado, North Sulawesi, Indonesia.",
+                "attributionAuthor": "Farid S",
+                "attributionUrl": "https://www.pexels.com/photo/military-aircraft-over-airport-18621581/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/18695674/pexels-photo-18695674.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Silhouetted people in an airport lounge against large windows overlooking the runway.",
+                "attributionAuthor": "Lucas Mota",
+                "attributionUrl": "https://www.pexels.com/photo/silhouette-of-people-in-office-in-darkness-18695674/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/5405596/pexels-photo-5405596.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Explore wanderlust with flatlay of passport, map, and travel essentials.",
+                "attributionAuthor": "Taryn Elliott",
+                "attributionUrl": "https://www.pexels.com/photo/travel-documents-and-necessities-5405596/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/37232281/pexels-photo-37232281.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Wing view from airplane with stunning cloudscape at high altitude during flight.",
+                "attributionAuthor": "apertur 2.8",
+                "attributionUrl": "https://www.pexels.com/photo/view-from-airplane-window-with-cloudscape-37232281/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/11877373/pexels-photo-11877373.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A luxury black car with tinted windows parked at a city overlook during dusk, reflecting twilight hues.",
+                "attributionAuthor": "George Sultan",
+                "attributionUrl": "https://www.pexels.com/photo/close-up-of-a-black-car-11877373/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/32649172/pexels-photo-32649172.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Panoramic view inside an airplane cockpit showcasing controls and instruments during daylight.",
+                "attributionAuthor": "Anne-Cécile Robert",
+                "attributionUrl": "https://www.pexels.com/photo/inside-view-of-airplane-cockpit-with-controls-32649172/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "AeroLux",
+            "tagline": "Luxury In The Skies",
+            "giant": "Fiecom",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Work",
+                    "href": "/work"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "© 2024 AeroLux. All rights reserved."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "work",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "AeroLux",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Work",
+                "href": "/work"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Start",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "PageHeader",
+          "content": {
+            "eyebrow": "Work",
+            "headline": "Our Fleet & Services",
+            "body": "Explore how AeroLux delivers premium private aviation solutions."
+          }
+        },
+        {
+          "id": "HorizontalShowcase",
+          "content": {
+            "eyebrow": "Aircraft Highlights",
+            "headline": "Fleet Features",
+            "body": "State-of-the-art jets designed for performance and luxury.",
+            "cards": [
+              {
+                "title": "Advanced Navigation Systems"
+              },
+              {
+                "title": "Spacious Cabins"
+              },
+              {
+                "title": "Eco-efficient Engines"
+              },
+              {
+                "title": "Customizable Interiors"
+              },
+              {
+                "title": "Onboard Wi-Fi"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/5778714/pexels-photo-5778714.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A sophisticated woman enjoys a luxurious experience aboard a private jet, embodying success and elegance.",
+                "attributionAuthor": "RDNE Stock project",
+                "attributionUrl": "https://www.pexels.com/photo/businesswoman-sitting-beside-an-airplane-window-5778714/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/9162802/pexels-photo-9162802.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Experience the breathtaking aerial view from a cockpit at sunset, capturing the essence of flying.",
+                "attributionAuthor": "Rhys Abel",
+                "attributionUrl": "https://www.pexels.com/photo/black-car-steering-wheel-during-sunset-9162802/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/8112827/pexels-photo-8112827.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Modern cabin interior with a view of the scenic countryside at dusk, featuring reflections and soft lighting.",
+                "attributionAuthor": "Rachel Claire",
+                "attributionUrl": "https://www.pexels.com/photo/clouds-over-building-windows-8112827/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/34500017/pexels-photo-34500017.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A jetliner with contrails against a clear blue sky, captured over Slovakia.",
+                "attributionAuthor": "Michal Petráš",
+                "attributionUrl": "https://www.pexels.com/photo/airplane-soars-with-contrails-in-clear-blue-sky-34500017/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/5778223/pexels-photo-5778223.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A businessman seated in a private jet using a tablet, showcasing luxury travel.",
+                "attributionAuthor": "RDNE Stock project",
+                "attributionUrl": "https://www.pexels.com/photo/a-man-in-a-black-suit-using-a-tablet-in-an-airplane-5778223/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ProcessSteps",
+          "content": {
+            "eyebrow": "Our Process",
+            "headline": "Seamless Booking Experience",
+            "steps": [
+              {
+                "number": "1",
+                "title": "Consultation",
+                "body": "Understand your needs and preferences.",
+                "duration": "1 day"
+              },
+              {
+                "number": "2",
+                "title": "Tailored Proposal",
+                "body": "Customized flight and service plan.",
+                "duration": "1-2 days"
+              },
+              {
+                "number": "3",
+                "title": "Booking Confirmation",
+                "body": "Secure your aircraft and schedule.",
+                "duration": "Same day"
+              },
+              {
+                "number": "4",
+                "title": "Pre-flight Preparation",
+                "body": "Final checks and arrangements.",
+                "duration": "1 day"
+              },
+              {
+                "number": "5",
+                "title": "Enjoy Your Flight",
+                "body": "Relax and experience luxury in the skies."
+              }
+            ],
+            "body": "From inquiry to takeoff, we ensure a smooth journey."
+          }
+        },
+        {
+          "id": "ImageGallery",
+          "content": {
+            "eyebrow": "Fleet in Action",
+            "headline": "AeroLux Jets on the Move",
+            "body": "A visual layer that makes the offer tangible.",
+            "captions": [
+              {
+                "title": "Gulfstream G650 Taking Off",
+                "year": "2024"
+              },
+              {
+                "title": "Bombardier Global 7500 Cruise",
+                "year": "2024"
+              },
+              {
+                "title": "Dassault Falcon 8X Landing",
+                "year": "2024"
+              },
+              {
+                "title": "Legacy 650 Cabin Interior",
+                "year": "2024"
+              },
+              {
+                "title": "Pilatus PC-24 On Runway",
+                "year": "2024"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/18186764/pexels-photo-18186764.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A TAROM aircraft on runway ready for departure at sunset.",
+                "attributionAuthor": "Ene Marius",
+                "attributionUrl": "https://www.pexels.com/photo/airplane-on-runway-in-airport-18186764/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/36719774/pexels-photo-36719774.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Two private aircraft stationed at a European airfield with hangars in the background.",
+                "attributionAuthor": "Lukas Frank",
+                "attributionUrl": "https://www.pexels.com/photo/private-jets-on-tarmac-at-european-airfield-36719774/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/19619136/pexels-photo-19619136.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Anadolujet aircraft landing on a runway under a grey sky, showcasing modern aviation.",
+                "attributionAuthor": "Lensloji",
+                "attributionUrl": "https://www.pexels.com/photo/plane-on-an-airport-19619136/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/32649171/pexels-photo-32649171.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Interior view of empty airplane seats with soft lighting from windows creating a serene atmosphere.",
+                "attributionAuthor": "Anne-Cécile Robert",
+                "attributionUrl": "https://www.pexels.com/photo/empty-aircraft-cabin-with-window-seats-32649171/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/36719774/pexels-photo-36719774.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Two private aircraft stationed at a European airfield with hangars in the background.",
+                "attributionAuthor": "Lukas Frank",
+                "attributionUrl": "https://www.pexels.com/photo/private-jets-on-tarmac-at-european-airfield-36719774/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "CTABanner",
+          "content": {
+            "eyebrow": "Ready to Fly?",
+            "headline": "Book Your Flight with AeroLux",
+            "body": "Give visitors a clear path instead of a dead end.",
+            "cta": {
+              "label": "Contact Us",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "AeroLux",
+            "tagline": "Luxury In The Skies",
+            "giant": "Fiecom",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Work",
+                    "href": "/work"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "© 2024 AeroLux. All rights reserved."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "AeroLux",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Work",
+                "href": "/work"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Start",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "PageHeader",
+          "content": {
+            "eyebrow": "Contact",
+            "headline": "Get in Touch",
+            "body": "Connect with AeroLux for personalized private flight assistance."
+          }
+        },
+        {
+          "id": "ContactForm",
+          "content": {
+            "eyebrow": "Contact Us",
+            "headline": "Your Flight Awaits",
+            "body": "Fill out the form below and our team will respond promptly.",
+            "recipientEmail": "contact@aerolux.com",
+            "submitLabel": "Send Message",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Full Name",
+                "type": "text",
+                "required": true,
+                "placeholder": "Your name"
+              },
+              {
+                "name": "email",
+                "label": "Email Address",
+                "type": "email",
+                "required": true,
+                "placeholder": "you@example.com"
+              },
+              {
+                "name": "message",
+                "label": "Message",
+                "type": "textarea",
+                "required": true,
+                "placeholder": "Your inquiry or request"
+              }
+            ],
+            "subjectTemplate": "AeroLux Contact Form Inquiry"
+          }
+        },
+        {
+          "id": "ContactBlock",
+          "content": {
+            "eyebrow": "Contact Details",
+            "headline": "We’re Here to Help",
+            "body": "Reach out via phone or email for immediate support.",
+            "cta": {
+              "label": "Email the team",
+              "href": "mailto:hello@fiecom.co"
+            },
+            "details": [
+              {
+                "label": "Phone",
+                "value": "+1 (555) 123-4567"
+              },
+              {
+                "label": "Email",
+                "value": "contact@aerolux.com",
+                "href": "mailto:contact@aerolux.com"
+              },
+              {
+                "label": "Address",
+                "value": "123 AeroLux Blvd, Aviation City, USA"
+              }
+            ]
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "AeroLux",
+            "tagline": "Luxury In The Skies",
+            "giant": "Fiecom",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Work",
+                    "href": "/work"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "© 2024 AeroLux. All rights reserved."
+          }
+        }
+      ]
+    }
+  ]
+}

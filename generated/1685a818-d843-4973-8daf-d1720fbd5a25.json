@@ -1,0 +1,718 @@
+{
+  "theme": {
+    "preset": "warm-sand",
+    "bg": "#fdf6f0",
+    "ink": "#5a3e36",
+    "bgAccent": "#f9e7de",
+    "fontDisplay": "Playfair Display",
+    "fontBody": "Lora"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Brooklyn Artisan Cupcakes",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Brooklyn Artisan Cupcakes",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Menu",
+                "href": "/menu"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineHero",
+          "content": {
+            "eyebrow": "Fresh from Brooklyn",
+            "headline": "Artisan Cupcakes Crafted Daily",
+            "accent": "Handmade Delight",
+            "body": "Savor our lovingly baked cupcakes made with local ingredients and seasonal flavors.",
+            "cta": {
+              "label": "Order Now",
+              "href": "/menu"
+            },
+            "secondaryCta": {
+              "label": "Visit Us",
+              "href": "/contact"
+            }
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/35889751/pexels-photo-35889751.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Delicate pink and white floral cupcakes perfect for celebrations or special occasions.",
+              "attributionAuthor": "Dwi Rizqi F",
+              "attributionUrl": "https://www.pexels.com/photo/elegant-pink-cupcakes-with-floral-decoration-35889751/"
+            }
+          }
+        },
+        {
+          "id": "MarqueeBand",
+          "content": {
+            "items": [
+              "Brooklyn Artisan Cupcakes",
+              "Strategy",
+              "Motion",
+              "Proof",
+              "Conversion"
+            ],
+            "tone": "normal",
+            "eyebrow": "Seasonal Specials",
+            "headline": "Taste the Flavors of the Season"
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/5634027/pexels-photo-5634027.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Three Halloween-themed cupcakes with spooky designs on a wooden tray being held.",
+              "attributionAuthor": "Monstera Production",
+              "attributionUrl": "https://www.pexels.com/photo/3-cupcakes-on-brown-wooden-tray-5634027/"
+            }
+          }
+        },
+        {
+          "id": "BaselineLogoBar",
+          "content": {
+            "eyebrow": "Loved by Brooklyn Foodies",
+            "clients": [
+              {
+                "name": "Smorgasburg"
+              },
+              {
+                "name": "Brooklyn Magazine"
+              },
+              {
+                "name": "Eater NY"
+              },
+              {
+                "name": "NYC Foodie"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFeatures",
+          "content": {
+            "eyebrow": "Signature Bakes",
+            "headline": "Our Cupcake Collection",
+            "accent": "Baked with Care",
+            "features": [
+              {
+                "title": "Classic Vanilla Bean",
+                "body": "A timeless favorite with rich vanilla frosting."
+              },
+              {
+                "title": "Chocolate Ganache",
+                "body": "Decadent chocolate cake topped with silky ganache."
+              },
+              {
+                "title": "Seasonal Surprise",
+                "body": "Changing flavors inspired by Brooklyn’s fresh harvest."
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/5634027/pexels-photo-5634027.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Three Halloween-themed cupcakes with spooky designs on a wooden tray being held.",
+              "attributionAuthor": "Monstera Production",
+              "attributionUrl": "https://www.pexels.com/photo/3-cupcakes-on-brown-wooden-tray-5634027/"
+            }
+          }
+        },
+        {
+          "id": "BaselineTestimonials",
+          "content": {
+            "eyebrow": "Customer Love",
+            "headline": "What Our Guests Say",
+            "testimonials": [
+              {
+                "quote": "The best cupcakes in Brooklyn — fresh and full of flavor!",
+                "author": "Mia"
+              },
+              {
+                "quote": "A delightful treat every time, with charming local vibes.",
+                "author": "Ethan"
+              },
+              {
+                "quote": "Perfect for gifts or a sweet indulgence any day.",
+                "author": "Sophie"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineCTA",
+          "content": {
+            "eyebrow": "Order Today",
+            "headline": "Taste Brooklyn’s Finest",
+            "accent": "Sweet Moments",
+            "body": "Enjoy artisanal cupcakes made with care and local love.",
+            "cta": {
+              "label": "Order Online",
+              "href": "/menu"
+            },
+            "secondaryCta": {
+              "label": "Contact Us",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Brooklyn Artisan Cupcakes",
+            "brand": "Brooklyn Artisan Cupcakes",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Menu",
+                    "href": "/menu"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "Bringing Brooklyn’s sweetest moments to life",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "title": "About Brooklyn Artisan Cupcakes",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Brooklyn Artisan Cupcakes",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Menu",
+                "href": "/menu"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineAboutNarrative",
+          "content": {
+            "eyebrow": "About Brooklyn Artisan Cupcakes",
+            "headline": "Baking with Heart and Heritage",
+            "body": "Founded in the heart of Brooklyn, our bakery blends traditional baking with contemporary flavors. We cherish community, sustainability, and authentic craftsmanship.",
+            "pillarEyebrow": "Core pillars",
+            "pillarHeadline": "Our commitment to quality and community",
+            "pillars": [
+              {
+                "title": "Artisanal Craft",
+                "body": "Every cupcake is handmade with attention to detail."
+              },
+              {
+                "title": "Local Ingredients",
+                "body": "Sourcing fresh, seasonal ingredients from nearby farms."
+              },
+              {
+                "title": "Community Focus",
+                "body": "Supporting Brooklyn through partnerships and events."
+              }
+            ],
+            "statsEyebrow": "By the Numbers",
+            "stats": [
+              {
+                "value": "5k+",
+                "label": "Cupcakes Sold"
+              },
+              {
+                "value": "10",
+                "label": "Years Baking"
+              },
+              {
+                "value": "100%",
+                "label": "Local Sourcing"
+              }
+            ],
+            "accent": "Local Roots"
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/17845/pexels-photo.jpg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "A close-up shot of a hand reviewing various logo designs on paper, ideal for business concepts.",
+              "attributionAuthor": "Roman Pohorecki",
+              "attributionUrl": "https://www.pexels.com/photo/hand-on-top-of-paper-17845/"
+            }
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Brooklyn Artisan Cupcakes",
+            "brand": "Brooklyn Artisan Cupcakes",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Menu",
+                    "href": "/menu"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "Bringing Brooklyn’s sweetest moments to life",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "menu",
+      "title": "Menu - Brooklyn Artisan Cupcakes",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Brooklyn Artisan Cupcakes",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Menu",
+                "href": "/menu"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselinePageHeader",
+          "content": {
+            "eyebrow": "Menu",
+            "headline": "Cupcakes and Seasonal Treats",
+            "body": "Explore our handcrafted cupcake varieties made fresh daily.",
+            "accent": "Delicious Selection"
+          }
+        },
+        {
+          "id": "FeatureList",
+          "content": {
+            "eyebrow": "Our Offerings",
+            "headline": "Cupcake Varieties",
+            "features": [
+              {
+                "title": "Classic Vanilla Bean",
+                "body": "Soft vanilla cupcake topped with buttercream frosting."
+              },
+              {
+                "title": "Chocolate Ganache",
+                "body": "Rich chocolate cupcake with smooth ganache topping."
+              },
+              {
+                "title": "Red Velvet",
+                "body": "Moist red velvet with cream cheese frosting."
+              },
+              {
+                "title": "Seasonal Surprise",
+                "body": "Unique flavors inspired by local ingredients, changing monthly."
+              },
+              {
+                "title": "Gluten-Free Option",
+                "body": "Delicious and inclusive cupcake crafted without gluten."
+              }
+            ],
+            "body": "Choose from classic favorites and rotating seasonal specialties."
+          }
+        },
+        {
+          "id": "PricingTiers",
+          "content": {
+            "eyebrow": "Pricing",
+            "headline": "Simple Pricing Plans",
+            "tiers": [
+              {
+                "title": "Starter",
+                "body": "6 cupcakes, perfect for a small treat.",
+                "cta": {
+                  "label": "Choose plan",
+                  "href": "/contact"
+                }
+              },
+              {
+                "title": "Studio",
+                "body": "12 cupcakes, ideal for gatherings.",
+                "cta": {
+                  "label": "Choose plan",
+                  "href": "/contact"
+                }
+              },
+              {
+                "title": "Custom",
+                "body": "Order any quantity, personalized for you.",
+                "cta": {
+                  "label": "Choose plan",
+                  "href": "/contact"
+                }
+              }
+            ],
+            "body": "Choose the perfect quantity for your occasion."
+          }
+        },
+        {
+          "id": "FAQAccordion",
+          "content": {
+            "eyebrow": "FAQs",
+            "headline": "Common Questions",
+            "faqs": [
+              {
+                "title": "Are ingredients locally sourced?",
+                "body": "Yes, we prioritize fresh local farms."
+              },
+              {
+                "title": "Do you offer vegan options?",
+                "body": "We provide select vegan-friendly cupcakes."
+              },
+              {
+                "title": "Can I order custom flavors?",
+                "body": "Custom orders can be arranged with advance notice."
+              }
+            ],
+            "body": "Learn more about our baking and ordering process."
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Brooklyn Artisan Cupcakes",
+            "brand": "Brooklyn Artisan Cupcakes",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Menu",
+                    "href": "/menu"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "Bringing Brooklyn’s sweetest moments to life",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact Brooklyn Artisan Cupcakes",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Brooklyn Artisan Cupcakes",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Menu",
+                "href": "/menu"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineContact",
+          "content": {
+            "eyebrow": "Contact",
+            "headline": "Let's Connect",
+            "formTitle": "Send us a message",
+            "formBody": "We’re happy to help with your cupcake needs.",
+            "recipientEmail": "info@brooklynartisancupcakes.com",
+            "subjectTemplate": "New inquiry from {name}",
+            "details": [
+              {
+                "label": "Email",
+                "value": "info@brooklynartisancupcakes.com",
+                "href": "mailto:info@brooklynartisancupcakes.com"
+              },
+              {
+                "label": "Phone",
+                "value": "(718) 555-1234",
+                "href": "tel:+17185551234"
+              },
+              {
+                "label": "Location",
+                "value": "123 Baker St, Brooklyn, NY"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Brooklyn Artisan Cupcakes",
+            "brand": "Brooklyn Artisan Cupcakes",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Menu",
+                    "href": "/menu"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "Bringing Brooklyn’s sweetest moments to life",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "intent": {
+    "energy": "editorial",
+    "density": "spacious",
+    "cinematicIntensity": "moderate",
+    "motionIntensity": "subtle",
+    "copyTone": "warm inviting",
+    "themeHint": "warm-sand"
+  }
+}

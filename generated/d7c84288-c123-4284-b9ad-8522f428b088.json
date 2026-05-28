@@ -1,0 +1,588 @@
+{
+  "theme": {
+    "preset": "midnight-luxury",
+    "bg": "#0B0A0D",
+    "ink": "#E6E1D3",
+    "bgAccent": "#1C1B22",
+    "fontDisplay": "Playfair Display",
+    "fontBody": "Lora"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Serene Sanctuary",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Serene Sanctuary",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Book Now",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineHero",
+          "content": {
+            "eyebrow": "Welcome",
+            "headline": "Experience Bali's Hidden Jewel",
+            "accent": "in Serenity",
+            "body": "Discover unparalleled luxury and tranquility at Serene Sanctuary, where every moment is crafted for your peace.",
+            "cta": {
+              "label": "Explore Stays",
+              "href": "/contact"
+            },
+            "secondaryCta": {
+              "label": "View Gallery",
+              "href": "/contact"
+            }
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/14464944/pexels-photo-14464944.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Serene infinity pool view with palm trees and ocean at a Bali resort, perfect for relaxation.",
+              "attributionAuthor": "Nastia Ligrain",
+              "attributionUrl": "https://www.pexels.com/photo/a-swimming-pool-in-the-resort-14464944/"
+            }
+          }
+        },
+        {
+          "id": "BaselineLogoBar",
+          "content": {
+            "eyebrow": "Trusted by discerning travelers worldwide",
+            "clients": [
+              {
+                "name": "Condé Nast"
+              },
+              {
+                "name": "Travel + Leisure"
+              },
+              {
+                "name": "Forbes"
+              },
+              {
+                "name": "National Geographic"
+              }
+            ]
+          }
+        },
+        {
+          "id": "MarqueeBand",
+          "content": {
+            "items": [
+              "Serene Sanctuary",
+              "Strategy",
+              "Motion",
+              "Proof",
+              "Conversion"
+            ],
+            "tone": "normal"
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/19618056/pexels-photo-19618056.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Scenic coastal view with waves and tropical vegetation in Pulukan, Bali, Indonesia.",
+              "attributionAuthor": "Line Knipst",
+              "attributionUrl": "https://www.pexels.com/photo/wave-on-sea-coast-19618056/"
+            }
+          }
+        },
+        {
+          "id": "BaselineFeatures",
+          "content": {
+            "eyebrow": "Exclusive Amenities",
+            "headline": "A Sanctuary of Unique Experiences",
+            "accent": "tailored for you",
+            "features": [
+              {
+                "eyebrow": "01 — Wellness",
+                "title": "Private Spa & Yoga Retreats",
+                "body": "Rejuvenate with bespoke treatments and sunrise yoga sessions overlooking lush landscapes."
+              },
+              {
+                "eyebrow": "02 — Dining",
+                "title": "Gourmet Balinese Cuisine",
+                "body": "Savor authentic flavors crafted from locally sourced ingredients in an intimate setting."
+              },
+              {
+                "eyebrow": "03 — Exploration",
+                "title": "Curated Island Adventures",
+                "body": "Embark on personalized excursions to Bali’s hidden gems with expert guides."
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/36748139/pexels-photo-36748139.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Bathtub filled with rose petals in a romantic 'I Love You' design, perfect for a romantic setting or honeymoon.",
+              "attributionAuthor": "kevin yung",
+              "attributionUrl": "https://www.pexels.com/photo/romantic-bathtub-with-rose-petals-and-i-love-you-message-36748139/"
+            }
+          }
+        },
+        {
+          "id": "MessageReveal",
+          "content": {
+            "firstLine": "Serene Sanctuary is not another template",
+            "accent": "different",
+            "secondLine": "It is a structured product story",
+            "body": "Our commitment to serene elegance ensures your experience transcends the ordinary.",
+            "eyebrow": "Elevate Your Stay",
+            "headline": "Where Luxury Meets Nature's Embrace"
+          }
+        },
+        {
+          "id": "BaselineTestimonials",
+          "content": {
+            "eyebrow": "Guests",
+            "headline": "Echoes of Tranquility",
+            "testimonials": [
+              {
+                "quote": "An unforgettable escape blending opulence with nature’s calm.",
+                "author": "Lara",
+                "role": "Guest"
+              },
+              {
+                "quote": "Every detail was a masterpiece of comfort and care.",
+                "author": "Michael",
+                "role": "Traveler"
+              },
+              {
+                "quote": "Serene Sanctuary redefined my idea of paradise.",
+                "author": "Sofia",
+                "role": "Explorer"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ImageGallery",
+          "content": {
+            "eyebrow": "Gallery",
+            "headline": "Seen from every angle",
+            "body": "A visual layer that makes the offer tangible.",
+            "captions": [
+              {
+                "title": "Signal",
+                "year": "2026"
+              },
+              {
+                "title": "Space",
+                "year": "2025"
+              },
+              {
+                "title": "Detail",
+                "year": "2026"
+              },
+              {
+                "title": "Flow",
+                "year": "2025"
+              },
+              {
+                "title": "Texture",
+                "year": "2026"
+              },
+              {
+                "title": "Proof",
+                "year": "2025"
+              },
+              {
+                "title": "People",
+                "year": "2026"
+              },
+              {
+                "title": "System",
+                "year": "2025"
+              },
+              {
+                "title": "Outcome",
+                "year": "2026"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/6132763/pexels-photo-6132763.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Woman enjoying a tranquil moment by the pool in Bali during sunset.",
+                "attributionAuthor": "Alesia  Kozik",
+                "attributionUrl": "https://www.pexels.com/photo/woman-wearing-white-swimsuit-6132763/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/4172889/pexels-photo-4172889.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Side view full length anonymous thoughtful slim female in swimsuit sitting on poolside and enjoying amazing view of peaceful tropical landscape",
+                "attributionAuthor": "Gustavo Fring",
+                "attributionUrl": "https://www.pexels.com/photo/woman-sitting-near-swimming-pool-in-tropical-resort-4172889/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/14464944/pexels-photo-14464944.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Serene infinity pool view with palm trees and ocean at a Bali resort, perfect for relaxation.",
+                "attributionAuthor": "Nastia Ligrain",
+                "attributionUrl": "https://www.pexels.com/photo/a-swimming-pool-in-the-resort-14464944/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/6132871/pexels-photo-6132871.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A woman in a swimsuit enjoys a sunny day outside a villa in Bali, Indonesia, capturing a carefree lifestyle moment.",
+                "attributionAuthor": "Alesia  Kozik",
+                "attributionUrl": "https://www.pexels.com/photo/woman-in-white-swimsuit-standing-on-white-wall-6132871/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/32902660/pexels-photo-32902660.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Experience serene luxury with this beautifully adorned canopy bed in a Bali villa, ideal for relaxation.",
+                "attributionAuthor": "Didi Lecatompessy",
+                "attributionUrl": "https://www.pexels.com/photo/luxurious-canopy-bed-in-bali-villa-32902660/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineCTA",
+          "content": {
+            "eyebrow": "Reserve Your Escape",
+            "headline": "Your Serene Journey Awaits",
+            "accent": "Book Today",
+            "body": "Secure your exclusive stay and indulge in Bali’s finest luxury sanctuary.",
+            "cta": {
+              "label": "Book Now",
+              "href": "/contact"
+            },
+            "secondaryCta": {
+              "label": "Contact Us",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Serene Sanctuary",
+            "brand": "Serene Sanctuary",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "© 2026 Serene Sanctuary. All rights reserved.",
+            "tagline": "Luxury redefined in Bali’s heart",
+            "meta": [
+              {
+                "label": "Privacy"
+              },
+              {
+                "label": "Terms"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "title": "About Serene Sanctuary",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Serene Sanctuary",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Book Now",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselinePageHeader",
+          "content": {
+            "eyebrow": "About",
+            "headline": "Our Story of Serenity",
+            "body": "Discover the passion and philosophy behind Serene Sanctuary’s timeless luxury.",
+            "accent": "and Commitment"
+          }
+        },
+        {
+          "id": "BaselineAboutNarrative",
+          "content": {
+            "body": "Founded on a vision to blend authentic Balinese culture with modern elegance, Serene Sanctuary offers a refuge from the ordinary. Our dedication to personalized guest experiences creates moments of true tranquility. Nestled amidst verdant landscapes, the hotel honors the island’s spirit in every detail.",
+            "pillarEyebrow": "Core Principles",
+            "pillarHeadline": "Guided by excellence and harmony",
+            "pillars": [
+              {
+                "title": "Authenticity",
+                "body": "Embracing local traditions with genuine respect and care."
+              },
+              {
+                "title": "Sustainability",
+                "body": "Committed to eco-friendly practices and preserving natural beauty."
+              },
+              {
+                "title": "Exclusivity",
+                "body": "Crafting intimate experiences for discerning guests."
+              }
+            ],
+            "statsEyebrow": "Milestones",
+            "stats": [
+              {
+                "value": "2010",
+                "label": "Established"
+              },
+              {
+                "value": "5000+",
+                "label": "Guests Served"
+              },
+              {
+                "value": "5",
+                "label": "Awards Won"
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/17845/pexels-photo.jpg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "A close-up shot of a hand reviewing various logo designs on paper, ideal for business concepts.",
+              "attributionAuthor": "Roman Pohorecki",
+              "attributionUrl": "https://www.pexels.com/photo/hand-on-top-of-paper-17845/"
+            }
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Serene Sanctuary",
+            "brand": "Serene Sanctuary",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "© 2026 Serene Sanctuary. All rights reserved.",
+            "tagline": "Luxury redefined in Bali’s heart",
+            "meta": [
+              {
+                "label": "Privacy"
+              },
+              {
+                "label": "Terms"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact Serene Sanctuary",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Serene Sanctuary",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Book Now",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselinePageHeader",
+          "content": {
+            "eyebrow": "Contact",
+            "headline": "Reach Out to Us",
+            "body": "For inquiries and reservations, our team is ready to assist you.",
+            "accent": "We're Here"
+          }
+        },
+        {
+          "id": "BaselineContact",
+          "content": {
+            "formTitle": "Get in Touch",
+            "formBody": "Send us your questions or booking requests.",
+            "recipientEmail": "reservations@serenesanctuary.com",
+            "subjectTemplate": "New inquiry from {name}",
+            "details": [
+              {
+                "label": "Email",
+                "value": "reservations@serenesanctuary.com",
+                "href": "mailto:reservations@serenesanctuary.com"
+              },
+              {
+                "label": "Phone",
+                "value": "+62 361 123 4567",
+                "href": "tel:+623611234567"
+              },
+              {
+                "label": "Office",
+                "value": "Jl. Sunset Road, Bali, Indonesia"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Serene Sanctuary",
+            "brand": "Serene Sanctuary",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "© 2026 Serene Sanctuary. All rights reserved.",
+            "tagline": "Luxury redefined in Bali’s heart",
+            "meta": [
+              {
+                "label": "Privacy"
+              },
+              {
+                "label": "Terms"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "intent": {
+    "energy": "quiet-luxury",
+    "density": "spacious",
+    "cinematicIntensity": "high",
+    "motionIntensity": "moderate",
+    "copyTone": "elegant inviting",
+    "themeHint": "midnight-luxury"
+  }
+}

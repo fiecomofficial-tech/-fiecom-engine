@@ -1,0 +1,554 @@
+{
+  "theme": {
+    "preset": "warm-sand",
+    "bg": "#FFF8F0",
+    "ink": "#5A4D41",
+    "bgAccent": "#FFE6DC",
+    "fontDisplay": "Georgia",
+    "fontBody": "Arial"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "SkyLux Jets",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Features",
+                "href": "#features"
+              },
+              {
+                "label": "Work",
+                "href": "#work"
+              },
+              {
+                "label": "Process",
+                "href": "#process"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Start",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "HeroCinematic",
+          "content": {
+            "eyebrow": "Fly Private",
+            "headline": "Bright\nSkies\nAhead",
+            "subhead": "Exclusive\nAccess",
+            "body": "Experience ultimate freedom and luxury with tailored private jet travel.",
+            "cta": {
+              "label": "Explore Fleet",
+              "href": "/features"
+            }
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/20640898/pexels-photo-20640898.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "A sleek private jet with visible engine inside a spacious hangar in Paris, France.",
+              "attributionAuthor": "Abdelmoughit  LAHBABI",
+              "attributionUrl": "https://www.pexels.com/photo/plane-in-hangar-20640898/"
+            }
+          }
+        },
+        {
+          "id": "MessageReveal",
+          "content": {
+            "firstLine": "Your journey deserves",
+            "accent": "Elegance",
+            "secondLine": "and unparalleled comfort",
+            "body": "Discover a new standard in private aviation with SkyLux Jets."
+          }
+        },
+        {
+          "id": "FeatureBento",
+          "content": {
+            "eyebrow": "Why Choose Us",
+            "headline": "Premium Features",
+            "body": "Every flight crafted for your comfort and convenience.",
+            "features": [
+              {
+                "title": "State-of-the-art Jets",
+                "body": "Modern fleets equipped with latest technology",
+                "size": "lg"
+              },
+              {
+                "title": "Personalized Service",
+                "body": "Dedicated concierge for your needs",
+                "size": "md"
+              },
+              {
+                "title": "Flexible Scheduling",
+                "body": "Fly when you want, where you want",
+                "size": "md"
+              },
+              {
+                "title": "Luxurious Interiors",
+                "body": "Designed for ultimate relaxation",
+                "size": "sm"
+              },
+              {
+                "title": "Safety First",
+                "body": "Adhering to highest aviation standards",
+                "size": "sm"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/31034509/pexels-photo-31034509.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Premium grey suiting fabric featuring 'Four Seasons' branding detail.",
+                "attributionAuthor": "HS Studio By Hussnain",
+                "attributionUrl": "https://www.pexels.com/photo/high-quality-grey-suit-fabric-with-branding-text-31034509/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/17264309/pexels-photo-17264309.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Dynamic capture of a yellow sports car during an urban rally event with a crowd.",
+                "attributionAuthor": "Tibor Szabo",
+                "attributionUrl": "https://www.pexels.com/photo/yellow-maserati-mc20-sports-car-parked-on-a-city-street-17264309/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/9230462/pexels-photo-9230462.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Flat lay of eco-friendly cleaning products and brushes showcasing minimalist packaging.",
+                "attributionAuthor": "Azka Nandya",
+                "attributionUrl": "https://www.pexels.com/photo/cleaning-products-in-close-up-shot-9230462/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35740586/pexels-photo-35740586.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "High-quality image of a Unox product can showcasing branding and pull tab in warm tones.",
+                "attributionAuthor": "Alexander Zvir",
+                "attributionUrl": "https://www.pexels.com/photo/close-up-of-unox-product-can-with-pull-tab-35740586/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "HorizontalShowcase",
+          "content": {
+            "eyebrow": "Our Fleet",
+            "headline": "Explore Our Varied Aircraft",
+            "body": "Choose from a diverse selection of jets tailored to your journey.",
+            "cards": [
+              {
+                "title": "Light Jets",
+                "caption": "Ideal for short trips"
+              },
+              {
+                "title": "Midsize Jets",
+                "caption": "Comfort meets efficiency"
+              },
+              {
+                "title": "Heavy Jets",
+                "caption": "Long-haul luxury"
+              },
+              {
+                "title": "Ultra Long Range",
+                "caption": "Nonstop global flights"
+              },
+              {
+                "title": "VIP Airliners",
+                "caption": "Ultimate space and comfort"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/34091744/pexels-photo-34091744.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Close-up of a luxury car steering wheel with sunlight flare through the window.",
+                "attributionAuthor": "Holyson h",
+                "attributionUrl": "https://www.pexels.com/photo/luxury-car-steering-wheel-with-sunlight-flare-34091744/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/33056798/pexels-photo-33056798.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Detailed view of the iconic Mercedes-Benz logo on a sleek red car, highlighting luxury and automotive design.",
+                "attributionAuthor": "Anurag Jamwal",
+                "attributionUrl": "https://www.pexels.com/photo/close-up-of-mercedes-benz-logo-on-red-car-surface-33056798/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/7270666/pexels-photo-7270666.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Close-up of Bentley Momentum Intense perfume bottle showcasing luxury design.",
+                "attributionAuthor": "Peakture.Lab / Lorenzo Messina",
+                "attributionUrl": "https://www.pexels.com/photo/bentley-momentum-perfume-in-close-up-photography-7270666/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/19746805/pexels-photo-19746805.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Detailed close-up of the Mercedes-Benz logo on a luxury car, emphasizing metallic finish.",
+                "attributionAuthor": "Zaid Ahmed",
+                "attributionUrl": "https://www.pexels.com/photo/mercedes-benz-logo-in-close-up-view-19746805/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/19746805/pexels-photo-19746805.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Detailed close-up of the Mercedes-Benz logo on a luxury car, emphasizing metallic finish.",
+                "attributionAuthor": "Zaid Ahmed",
+                "attributionUrl": "https://www.pexels.com/photo/mercedes-benz-logo-in-close-up-view-19746805/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/33285112/pexels-photo-33285112.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Detailed view of a luxury car grille adorned with raindrops, emphasizing elegance and sophistication.",
+                "attributionAuthor": "Brian",
+                "attributionUrl": "https://www.pexels.com/photo/close-up-of-luxury-car-grille-with-raindrops-33285112/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ProcessSteps",
+          "content": {
+            "eyebrow": "Seamless Experience",
+            "headline": "How It Works",
+            "steps": [
+              {
+                "number": "1",
+                "title": "Consultation",
+                "body": "Discuss your travel needs with our experts",
+                "duration": "10 mins"
+              },
+              {
+                "number": "2",
+                "title": "Tailored Itinerary",
+                "body": "Custom flight plans just for you",
+                "duration": "15 mins"
+              },
+              {
+                "number": "3",
+                "title": "Luxury Boarding",
+                "body": "Smooth check-in and spacious lounges",
+                "duration": "5 mins"
+              },
+              {
+                "number": "4",
+                "title": "In-flight Excellence",
+                "body": "Top-tier service during your flight",
+                "duration": "variable"
+              },
+              {
+                "number": "5",
+                "title": "Arrival & Beyond",
+                "body": "Assistance with transfers and follow-up",
+                "duration": "variable"
+              }
+            ],
+            "body": "From booking to landing, we handle every detail."
+          }
+        },
+        {
+          "id": "TestimonialCarousel",
+          "content": {
+            "eyebrow": "Client Voices",
+            "testimonials": [
+              {
+                "quote": "SkyLux Jets redefined luxury travel for me.",
+                "author": "Emily R.",
+                "role": "Entrepreneur",
+                "org": "Silicon Ventures"
+              },
+              {
+                "quote": "Exceptional service and comfort every time we fly.",
+                "author": "Mark D.",
+                "role": "CEO",
+                "org": "Global Tech"
+              },
+              {
+                "quote": "Booking was seamless, and the flight exquisite.",
+                "author": "Sophia L.",
+                "role": "Artist",
+                "org": "Creative Collective"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/34091744/pexels-photo-34091744.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Close-up of a luxury car steering wheel with sunlight flare through the window.",
+                "attributionAuthor": "Holyson h",
+                "attributionUrl": "https://www.pexels.com/photo/luxury-car-steering-wheel-with-sunlight-flare-34091744/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/33056798/pexels-photo-33056798.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Detailed view of the iconic Mercedes-Benz logo on a sleek red car, highlighting luxury and automotive design.",
+                "attributionAuthor": "Anurag Jamwal",
+                "attributionUrl": "https://www.pexels.com/photo/close-up-of-mercedes-benz-logo-on-red-car-surface-33056798/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/7270666/pexels-photo-7270666.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Close-up of Bentley Momentum Intense perfume bottle showcasing luxury design.",
+                "attributionAuthor": "Peakture.Lab / Lorenzo Messina",
+                "attributionUrl": "https://www.pexels.com/photo/bentley-momentum-perfume-in-close-up-photography-7270666/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/19746805/pexels-photo-19746805.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Detailed close-up of the Mercedes-Benz logo on a luxury car, emphasizing metallic finish.",
+                "attributionAuthor": "Zaid Ahmed",
+                "attributionUrl": "https://www.pexels.com/photo/mercedes-benz-logo-in-close-up-view-19746805/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "FAQAccordion",
+          "content": {
+            "eyebrow": "FAQs",
+            "headline": "Your Questions Answered",
+            "faqs": [
+              {
+                "q": "How do I book a flight?",
+                "a": "Use our online form or contact our concierge directly."
+              },
+              {
+                "q": "What safety measures are in place?",
+                "a": "All jets comply with the highest aviation safety standards."
+              },
+              {
+                "q": "Can I customize my in-flight experience?",
+                "a": "Yes, including catering and entertainment options."
+              },
+              {
+                "q": "Are pets allowed onboard?",
+                "a": "Yes, with prior arrangement and specific guidelines."
+              }
+            ]
+          }
+        },
+        {
+          "id": "ContactBlock",
+          "content": {
+            "eyebrow": "Ready to Fly?",
+            "headline": "Get in Touch",
+            "body": "Our team is here to assist you with your private flight needs.",
+            "cta": {
+              "label": "Email the team",
+              "href": "mailto:hello@fiecom.co"
+            },
+            "details": [
+              {
+                "label": "Email",
+                "value": "contact@skyluxjets.com",
+                "href": "mailto:contact@skyluxjets.com"
+              },
+              {
+                "label": "Phone",
+                "value": "+1 800 555 0199",
+                "href": "tel:+18005550199"
+              },
+              {
+                "label": "Address",
+                "value": "123 Luxury Ave, Los Angeles, CA"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact Us",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "SkyLux Jets",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Features",
+                "href": "#features"
+              },
+              {
+                "label": "Work",
+                "href": "#work"
+              },
+              {
+                "label": "Process",
+                "href": "#process"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Start",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "PageHeader",
+          "content": {
+            "eyebrow": "Contact",
+            "headline": "Connect\nWith\nSkyLux",
+            "body": "Our concierge team is ready to arrange your next private flight.",
+            "crumbs": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Contact"
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/5778598/pexels-photo-5778598.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Elegant service in business class onboard a private jet by a professional flight attendant.",
+              "attributionAuthor": "RDNE Stock project",
+              "attributionUrl": "https://www.pexels.com/photo/women-sitting-at-the-table-5778598/"
+            }
+          }
+        },
+        {
+          "id": "ContactForm",
+          "content": {
+            "eyebrow": "Get In Touch",
+            "headline": "Send Us Your Request",
+            "body": "We respond promptly to all inquiries.",
+            "recipientEmail": "contact@skyluxjets.com",
+            "submitLabel": "Send Message",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Full Name",
+                "type": "text",
+                "required": true,
+                "placeholder": "Your name"
+              },
+              {
+                "name": "email",
+                "label": "Email Address",
+                "type": "email",
+                "required": true,
+                "placeholder": "you@example.com"
+              },
+              {
+                "name": "message",
+                "label": "Message",
+                "type": "textarea",
+                "required": true,
+                "placeholder": "How can we assist you?"
+              }
+            ],
+            "subjectTemplate": "[SkyLux Inquiry] {{name}}"
+          }
+        },
+        {
+          "id": "ContactBlock",
+          "content": {
+            "eyebrow": "Need Assistance?",
+            "headline": "Contact Our Team",
+            "body": "We’re happy to help with any questions or special requests.",
+            "cta": {
+              "label": "Email the team",
+              "href": "mailto:hello@fiecom.co"
+            },
+            "details": [
+              {
+                "label": "Email",
+                "value": "contact@skyluxjets.com",
+                "href": "mailto:contact@skyluxjets.com"
+              },
+              {
+                "label": "Phone",
+                "value": "+1 800 555 0199",
+                "href": "tel:+18005550199"
+              },
+              {
+                "label": "Address",
+                "value": "123 Luxury Ave, Los Angeles, CA"
+              }
+            ]
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "SkyLux Jets",
+            "tagline": "Elevate Your Journey",
+            "giant": "SKYLUX",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Features",
+                    "href": "#features"
+                  },
+                  {
+                    "label": "Work",
+                    "href": "#work"
+                  },
+                  {
+                    "label": "Process",
+                    "href": "#process"
+                  }
+                ]
+              },
+              {
+                "title": "Company",
+                "links": [
+                  {
+                    "label": "About",
+                    "href": "#about"
+                  },
+                  {
+                    "label": "Process",
+                    "href": "#process"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Resources",
+                "links": [
+                  {
+                    "label": "FAQ",
+                    "href": "#faq"
+                  },
+                  {
+                    "label": "Journal",
+                    "href": "/resources"
+                  },
+                  {
+                    "label": "Start",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "© 2024 SkyLux Jets. All rights reserved."
+          }
+        }
+      ]
+    }
+  ]
+}

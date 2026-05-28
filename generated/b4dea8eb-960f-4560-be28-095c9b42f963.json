@@ -1,0 +1,1326 @@
+{
+  "theme": {
+    "preset": "warm-sand",
+    "bg": "#FFF8F0",
+    "ink": "#4B3B2B",
+    "bgAccent": "#F5E8D3",
+    "fontDisplay": "Playfair Display",
+    "fontBody": "Merriweather"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "Cinematic Luxury Architecture Studio",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Work",
+                "href": "/work"
+              },
+              {
+                "label": "Studio",
+                "href": "/studio"
+              },
+              {
+                "label": "Process",
+                "href": "/process"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Start",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "HeroCinematic",
+          "content": {
+            "eyebrow": "EXQUISITE DESIGN",
+            "headline": "Timeless\nArchitecture",
+            "subhead": "Cinematic\nLayers",
+            "body": "Experience unparalleled elegance and masterful craft in every detail of our architectural visions.",
+            "cta": {
+              "label": "Explore Our Work",
+              "href": "/work"
+            }
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/videos/10135507/pexels-photo-10135507.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+              "alt": "Abdullah | 4K on Pexels",
+              "attributionAuthor": "Abdullah | 4K",
+              "attributionUrl": "https://www.pexels.com/video/minimalist-lamps-lighting-up-10135507/",
+              "videoUrl": "https://videos.pexels.com/video-files/10135507/10135507-hd_1280_720_30fps.mp4"
+            }
+          }
+        },
+        {
+          "id": "ImageGallery",
+          "content": {
+            "eyebrow": "Signature Projects",
+            "headline": "Immersive\nLandmarks",
+            "body": "Discover the artistry and precision in our curated selection of landmark architecture.",
+            "captions": [
+              {
+                "title": "The Aurelia Residence",
+                "year": "2023"
+              },
+              {
+                "title": "The Meridian Tower",
+                "year": "2022"
+              },
+              {
+                "title": "The Eclipse Pavilion",
+                "year": "2021"
+              },
+              {
+                "title": "The Solstice Villa",
+                "year": "2020"
+              },
+              {
+                "title": "The Horizon Gallery",
+                "year": "2019"
+              },
+              {
+                "title": "The Lumina House",
+                "year": "2018"
+              },
+              {
+                "title": "The Cascade Dome",
+                "year": "2017"
+              },
+              {
+                "title": "The Atlas Complex",
+                "year": "2016"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/13736630/pexels-photo-13736630.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Artistic vintage scene with ornate mirror, floral decor, and warm lighting, captured on film.",
+                "attributionAuthor": "Ricardo Oliveira",
+                "attributionUrl": "https://www.pexels.com/photo/photographic-film-stripe-with-a-mirror-and-lamps-13736630/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/15687304/pexels-photo-15687304.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A modern building with a glass facade reflecting warm evening lights at dusk.",
+                "attributionAuthor": "Ezequiel Filiberto",
+                "attributionUrl": "https://www.pexels.com/photo/glass-roof-of-building-15687304/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/32563332/pexels-photo-32563332.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Stunning Mediterranean villa framed by vibrant greenery and florals under a clear sky.",
+                "attributionAuthor": "Ramazan Toygun",
+                "attributionUrl": "https://www.pexels.com/photo/elegant-mediterranean-villa-with-lush-greenery-32563332/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/13046465/pexels-photo-13046465.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A majestic historic building entrance under dramatic shadows and light.",
+                "attributionAuthor": "Mathias Reding",
+                "attributionUrl": "https://www.pexels.com/photo/an-entrance-to-a-building-13046465/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/18207705/pexels-photo-18207705.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Stunning black and white photo of the Heydar Aliyev Center's modern architecture in Baku, Azerbaijan.",
+                "attributionAuthor": "ren lavsad",
+                "attributionUrl": "https://www.pexels.com/photo/heydar-aliev-centre-in-baku-azerbaijan-in-black-and-white-18207705/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/18891780/pexels-photo-18891780.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Low angle view of a modern building interior featuring a glass ceiling and geometric architectural design.",
+                "attributionAuthor": "Filipp Romanovski",
+                "attributionUrl": "https://www.pexels.com/photo/windows-and-glass-ceiling-18891780/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/36690014/pexels-photo-36690014.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Close-up of a textured concrete surface with symmetrical patterns, showcasing modern architectural details.",
+                "attributionAuthor": "David Underland",
+                "attributionUrl": "https://www.pexels.com/photo/symmetrical-concrete-architectural-structure-design-36690014/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/8173753/pexels-photo-8173753.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Explore Singapore's futuristic skyscrapers and urban architecture under the bright sun.",
+                "attributionAuthor": "jackson tee",
+                "attributionUrl": "https://www.pexels.com/photo/modern-buildings-facades-8173753/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "MessageReveal",
+          "content": {
+            "firstLine": "Crafting spaces that",
+            "accent": "Elevate",
+            "secondLine": "living and artistry alike",
+            "body": "Our designs fuse innovation with timeless beauty, transforming visions into breathtaking realities."
+          }
+        },
+        {
+          "id": "MarqueeBand",
+          "content": {
+            "items": [
+              "Luxury Residences",
+              "Cinematic Forms",
+              "Sustainable Craftsmanship",
+              "Innovative Materials",
+              "Artistic Vision",
+              "Timeless Elegance",
+              "Refined Detailing",
+              "Spatial Harmony"
+            ],
+            "tone": "normal"
+          }
+        },
+        {
+          "id": "HorizontalShowcase",
+          "content": {
+            "eyebrow": "Featured Work",
+            "headline": "Masterpieces in Form and Light",
+            "body": "Each project embodies a narrative of precision, passion, and architectural excellence.",
+            "cards": [
+              {
+                "title": "Aurelia Residence"
+              },
+              {
+                "title": "Meridian Tower"
+              },
+              {
+                "title": "Eclipse Pavilion"
+              },
+              {
+                "title": "Solstice Villa"
+              },
+              {
+                "title": "Horizon Gallery"
+              },
+              {
+                "title": "Lumina House"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/35285710/pexels-photo-35285710.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A cozy vintage interior featuring a warm glowing industrial fan and a potted plant.",
+                "attributionAuthor": "Connor Scott McManus",
+                "attributionUrl": "https://www.pexels.com/photo/vintage-interior-with-industrial-fan-and-warm-lighting-35285710/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/32930797/pexels-photo-32930797.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Silhouette of a person in dramatic fog and light setting, creating a mystical atmosphere.",
+                "attributionAuthor": "cnrdmroglu",
+                "attributionUrl": "https://www.pexels.com/photo/mysterious-silhouette-in-foggy-light-32930797/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/27583986/pexels-photo-27583986.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Silhouetted figure with blue light and smoke on a nighttime street scene, creating an air of mystery.",
+                "attributionAuthor": "Manish Jangid",
+                "attributionUrl": "https://www.pexels.com/photo/a-man-in-a-suit-standing-in-front-of-a-fire-27583986/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35457880/pexels-photo-35457880.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Serene winter scene in a misty forest in Kosovo, capturing cold and tranquil atmosphere.",
+                "attributionAuthor": "Andi Dautaj",
+                "attributionUrl": "https://www.pexels.com/photo/misty-forest-pathway-in-kosovo-s-winter-woods-35457880/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35457884/pexels-photo-35457884.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Mysterious misty forest scene in winter, captured in Rugova, Kosovo.",
+                "attributionAuthor": "Andi Dautaj",
+                "attributionUrl": "https://www.pexels.com/photo/misty-forest-landscape-in-winter-kosovo-35457884/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35457880/pexels-photo-35457880.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Serene winter scene in a misty forest in Kosovo, capturing cold and tranquil atmosphere.",
+                "attributionAuthor": "Andi Dautaj",
+                "attributionUrl": "https://www.pexels.com/photo/misty-forest-pathway-in-kosovo-s-winter-woods-35457880/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "FeatureBento",
+          "content": {
+            "eyebrow": "Our Commitment",
+            "headline": "Excellence in Every Element",
+            "body": "Decades of expertise shaping timeless architectural experiences.",
+            "features": [
+              {
+                "title": "Innovative Design",
+                "body": "Pushing creative boundaries with visionary concepts.",
+                "size": "md"
+              },
+              {
+                "title": "Sustainable Practices",
+                "body": "Integrating eco-conscious methods for lasting impact.",
+                "size": "md"
+              },
+              {
+                "title": "Craftsmanship",
+                "body": "Meticulous attention to every material and finish.",
+                "size": "md"
+              },
+              {
+                "title": "Collaborative Process",
+                "body": "Engaging clients intimately throughout the journey.",
+                "size": "md"
+              },
+              {
+                "title": "Award-Winning Projects",
+                "body": "Recognized for design and execution excellence.",
+                "size": "md"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/12506515/pexels-photo-12506515.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A cozy vintage living room featuring retro decor, a classic television, and warm sunlight.",
+                "attributionAuthor": "Yusuf P",
+                "attributionUrl": "https://www.pexels.com/photo/vintage-tv-in-room-12506515/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35574315/pexels-photo-35574315.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Two people walking through a foggy park path in Tychy, Poland during the early morning.",
+                "attributionAuthor": "Alexander Zvir",
+                "attributionUrl": "https://www.pexels.com/photo/serene-morning-walk-in-foggy-park-35574315/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35574315/pexels-photo-35574315.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Two people walking through a foggy park path in Tychy, Poland during the early morning.",
+                "attributionAuthor": "Alexander Zvir",
+                "attributionUrl": "https://www.pexels.com/photo/serene-morning-walk-in-foggy-park-35574315/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/5982829/pexels-photo-5982829.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Scenery of mystic forest with dark trees in fog under cloudy sky in daytime",
+                "attributionAuthor": "Jamie Saw",
+                "attributionUrl": "https://www.pexels.com/photo/dark-forest-in-cloudy-day-5982829/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "TimelineScroll",
+          "content": {
+            "eyebrow": "Our Journey",
+            "headline": "Milestones of Vision and Craft",
+            "events": [
+              {
+                "year": "2015",
+                "title": "Studio Founded",
+                "body": "A vision to redefine luxury architecture was born."
+              },
+              {
+                "year": "2018",
+                "title": "First Landmark Project",
+                "body": "Completed the acclaimed Lumina House."
+              },
+              {
+                "year": "2020",
+                "title": "Expansion",
+                "body": "Opened a new atelier focusing on sustainable design."
+              },
+              {
+                "year": "2022",
+                "title": "International Recognition",
+                "body": "Received multiple awards for Meridian Tower."
+              },
+              {
+                "year": "2023",
+                "title": "Latest Masterpiece",
+                "body": "Unveiled the Aurelia Residence."
+              }
+            ]
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "Cinematic Luxury Architecture Studio",
+            "tagline": "Where vision meets craft",
+            "giant": "CINEMATIC",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Work",
+                    "href": "/work"
+                  },
+                  {
+                    "label": "Studio",
+                    "href": "/studio"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Process",
+                    "href": "/process"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "2026 Cinematic Luxury Architectur. All rights reserved."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "work",
+      "title": "Work",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "Cinematic Luxury Architecture Studio",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Work",
+                "href": "/work"
+              },
+              {
+                "label": "Studio",
+                "href": "/studio"
+              },
+              {
+                "label": "Process",
+                "href": "/process"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Start",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "HeroCinematic",
+          "content": {
+            "eyebrow": "PORTFOLIO",
+            "headline": "Architectural\nMastery",
+            "subhead": "Crafted\nLandmarks",
+            "body": "Explore a curated collection of our most iconic and innovative projects.",
+            "cta": {
+              "label": "View Projects",
+              "href": "/contact"
+            }
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/videos/5977439/baltic-sea-bath-bathe-bathing-5977439.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+              "alt": "Yaroslav Shuraev on Pexels",
+              "attributionAuthor": "Yaroslav Shuraev",
+              "attributionUrl": "https://www.pexels.com/video/a-woman-looking-at-a-mirror-5977439/",
+              "videoUrl": "https://videos.pexels.com/video-files/5977439/5977439-hd_1366_720_24fps.mp4"
+            }
+          }
+        },
+        {
+          "id": "HorizontalShowcase",
+          "content": {
+            "eyebrow": "Landmark Projects",
+            "headline": "Crafting Spaces of Distinction",
+            "body": "Showcasing excellence in craftsmanship and visionary design.",
+            "cards": [
+              {
+                "title": "Aurelia Residence"
+              },
+              {
+                "title": "Meridian Tower"
+              },
+              {
+                "title": "Eclipse Pavilion"
+              },
+              {
+                "title": "Solstice Villa"
+              },
+              {
+                "title": "Horizon Gallery"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/35285710/pexels-photo-35285710.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A cozy vintage interior featuring a warm glowing industrial fan and a potted plant.",
+                "attributionAuthor": "Connor Scott McManus",
+                "attributionUrl": "https://www.pexels.com/photo/vintage-interior-with-industrial-fan-and-warm-lighting-35285710/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/32930797/pexels-photo-32930797.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Silhouette of a person in dramatic fog and light setting, creating a mystical atmosphere.",
+                "attributionAuthor": "cnrdmroglu",
+                "attributionUrl": "https://www.pexels.com/photo/mysterious-silhouette-in-foggy-light-32930797/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/27583986/pexels-photo-27583986.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Silhouetted figure with blue light and smoke on a nighttime street scene, creating an air of mystery.",
+                "attributionAuthor": "Manish Jangid",
+                "attributionUrl": "https://www.pexels.com/photo/a-man-in-a-suit-standing-in-front-of-a-fire-27583986/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35457880/pexels-photo-35457880.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Serene winter scene in a misty forest in Kosovo, capturing cold and tranquil atmosphere.",
+                "attributionAuthor": "Andi Dautaj",
+                "attributionUrl": "https://www.pexels.com/photo/misty-forest-pathway-in-kosovo-s-winter-woods-35457880/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35457884/pexels-photo-35457884.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Mysterious misty forest scene in winter, captured in Rugova, Kosovo.",
+                "attributionAuthor": "Andi Dautaj",
+                "attributionUrl": "https://www.pexels.com/photo/misty-forest-landscape-in-winter-kosovo-35457884/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35457880/pexels-photo-35457880.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Serene winter scene in a misty forest in Kosovo, capturing cold and tranquil atmosphere.",
+                "attributionAuthor": "Andi Dautaj",
+                "attributionUrl": "https://www.pexels.com/photo/misty-forest-pathway-in-kosovo-s-winter-woods-35457880/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ImageGallery",
+          "content": {
+            "eyebrow": "Visual Stories",
+            "headline": "Spatial Narratives in Motion",
+            "body": "A gallery capturing the essence and emotion of each project.",
+            "captions": [
+              {
+                "title": "Aurelia Residence",
+                "year": "2023"
+              },
+              {
+                "title": "Meridian Tower",
+                "year": "2022"
+              },
+              {
+                "title": "Eclipse Pavilion",
+                "year": "2021"
+              },
+              {
+                "title": "Solstice Villa",
+                "year": "2020"
+              },
+              {
+                "title": "Horizon Gallery",
+                "year": "2019"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/19260366/pexels-photo-19260366.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Detailed facade of an urban apartment building with balconies, captured in warm sunlight.",
+                "attributionAuthor": "Ömer Gülen",
+                "attributionUrl": "https://www.pexels.com/photo/facade-of-a-building-with-a-long-balcony-19260366/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35456654/pexels-photo-35456654.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Elegant French doors open to a lush garden with a scenic mountain view.",
+                "attributionAuthor": "Magda Ehlers",
+                "attributionUrl": "https://www.pexels.com/photo/scenic-view-through-french-doors-to-a-garden-35456654/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/32785602/pexels-photo-32785602.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A modern skyscraper in Rotterdam showcasing its unique architectural design during dusk.",
+                "attributionAuthor": "Musab S",
+                "attributionUrl": "https://www.pexels.com/photo/modern-skyscraper-in-rotterdam-at-dusk-32785602/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/36669094/pexels-photo-36669094.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Close-up of an intricate Baroque facade with detailed sculptures and carvings.",
+                "attributionAuthor": "Hussaina Wardhawala",
+                "attributionUrl": "https://www.pexels.com/photo/ornate-baroque-architectural-facade-36669094/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/36455401/pexels-photo-36455401.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Elegant grand staircase with vintage chandelier in historic building interior.",
+                "attributionAuthor": "Edanur Subaşı",
+                "attributionUrl": "https://www.pexels.com/photo/elegant-grand-staircase-under-vintage-chandelier-36455401/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "MessageReveal",
+          "content": {
+            "firstLine": "Excellence embodied in",
+            "accent": "Every Detail",
+            "secondLine": "Masterful craftsmanship and vision",
+            "body": "Our portfolio reflects a dedication to quality and innovative design."
+          }
+        },
+        {
+          "id": "MarqueeBand",
+          "content": {
+            "items": [
+              "Sustainable Materials",
+              "Innovative Structures",
+              "Refined Textures",
+              "Bespoke Interiors",
+              "Precision Engineering",
+              "Timeless Forms"
+            ],
+            "tone": "normal"
+          }
+        },
+        {
+          "id": "FeatureBento",
+          "content": {
+            "eyebrow": "Portfolio Highlights",
+            "headline": "Diverse Masterpieces",
+            "body": "Each project tells a unique story of craft and creativity.",
+            "features": [
+              {
+                "title": "Residential",
+                "body": "Luxury homes tailored to client dreams.",
+                "size": "md"
+              },
+              {
+                "title": "Commercial",
+                "body": "Elegant spaces designed for impact.",
+                "size": "md"
+              },
+              {
+                "title": "Cultural",
+                "body": "Spaces that inspire and engage.",
+                "size": "md"
+              },
+              {
+                "title": "Hospitality",
+                "body": "Experiences redefined through architecture.",
+                "size": "md"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/12506515/pexels-photo-12506515.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A cozy vintage living room featuring retro decor, a classic television, and warm sunlight.",
+                "attributionAuthor": "Yusuf P",
+                "attributionUrl": "https://www.pexels.com/photo/vintage-tv-in-room-12506515/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35574315/pexels-photo-35574315.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Two people walking through a foggy park path in Tychy, Poland during the early morning.",
+                "attributionAuthor": "Alexander Zvir",
+                "attributionUrl": "https://www.pexels.com/photo/serene-morning-walk-in-foggy-park-35574315/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35574315/pexels-photo-35574315.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Two people walking through a foggy park path in Tychy, Poland during the early morning.",
+                "attributionAuthor": "Alexander Zvir",
+                "attributionUrl": "https://www.pexels.com/photo/serene-morning-walk-in-foggy-park-35574315/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/5982829/pexels-photo-5982829.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Scenery of mystic forest with dark trees in fog under cloudy sky in daytime",
+                "attributionAuthor": "Jamie Saw",
+                "attributionUrl": "https://www.pexels.com/photo/dark-forest-in-cloudy-day-5982829/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "Cinematic Luxury Architecture Studio",
+            "tagline": "Where vision meets craft",
+            "giant": "CINEMATIC",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Work",
+                    "href": "/work"
+                  },
+                  {
+                    "label": "Studio",
+                    "href": "/studio"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Process",
+                    "href": "/process"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "2026 Cinematic Luxury Architectur. All rights reserved."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "studio",
+      "title": "Studio",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "Cinematic Luxury Architecture Studio",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Work",
+                "href": "/work"
+              },
+              {
+                "label": "Studio",
+                "href": "/studio"
+              },
+              {
+                "label": "Process",
+                "href": "/process"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Start",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "PageHeader",
+          "content": {
+            "eyebrow": "OUR PHILOSOPHY",
+            "headline": "Studio Essence",
+            "body": "Discover the vision and spirit that drive our architectural mastery."
+          }
+        },
+        {
+          "id": "TwoColumnText",
+          "content": {
+            "eyebrow": "Context",
+            "headline": "A Legacy of Craft and Vision",
+            "paragraphs": [
+              {
+                "heading": "Timeless Elegance",
+                "body": "Rooted in classic principles, our designs transcend trends to create enduring beauty."
+              },
+              {
+                "heading": "Human-Centered Design",
+                "body": "We craft spaces that enrich lives and foster connection."
+              },
+              {
+                "heading": "Sustainable Vision",
+                "body": "Committed to eco-conscious innovation and respectful integration with nature."
+              }
+            ]
+          }
+        },
+        {
+          "id": "MessageReveal",
+          "content": {
+            "firstLine": "Meet the",
+            "accent": "Minds",
+            "secondLine": "Behind the Masterpieces",
+            "body": "Our team blends artistic passion with technical excellence."
+          }
+        },
+        {
+          "id": "HorizontalShowcase",
+          "content": {
+            "eyebrow": "The Studio Team",
+            "headline": "Crafting With Heart and Expertise",
+            "body": "Discover the talented individuals shaping our vision.",
+            "cards": [
+              {
+                "title": "Lead Architect"
+              },
+              {
+                "title": "Design Director"
+              },
+              {
+                "title": "Project Manager"
+              },
+              {
+                "title": "Sustainability Expert"
+              },
+              {
+                "title": "Creative Consultant"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/35285710/pexels-photo-35285710.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A cozy vintage interior featuring a warm glowing industrial fan and a potted plant.",
+                "attributionAuthor": "Connor Scott McManus",
+                "attributionUrl": "https://www.pexels.com/photo/vintage-interior-with-industrial-fan-and-warm-lighting-35285710/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/32930797/pexels-photo-32930797.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Silhouette of a person in dramatic fog and light setting, creating a mystical atmosphere.",
+                "attributionAuthor": "cnrdmroglu",
+                "attributionUrl": "https://www.pexels.com/photo/mysterious-silhouette-in-foggy-light-32930797/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/27583986/pexels-photo-27583986.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Silhouetted figure with blue light and smoke on a nighttime street scene, creating an air of mystery.",
+                "attributionAuthor": "Manish Jangid",
+                "attributionUrl": "https://www.pexels.com/photo/a-man-in-a-suit-standing-in-front-of-a-fire-27583986/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35457880/pexels-photo-35457880.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Serene winter scene in a misty forest in Kosovo, capturing cold and tranquil atmosphere.",
+                "attributionAuthor": "Andi Dautaj",
+                "attributionUrl": "https://www.pexels.com/photo/misty-forest-pathway-in-kosovo-s-winter-woods-35457880/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35457884/pexels-photo-35457884.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Mysterious misty forest scene in winter, captured in Rugova, Kosovo.",
+                "attributionAuthor": "Andi Dautaj",
+                "attributionUrl": "https://www.pexels.com/photo/misty-forest-landscape-in-winter-kosovo-35457884/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35457880/pexels-photo-35457880.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Serene winter scene in a misty forest in Kosovo, capturing cold and tranquil atmosphere.",
+                "attributionAuthor": "Andi Dautaj",
+                "attributionUrl": "https://www.pexels.com/photo/misty-forest-pathway-in-kosovo-s-winter-woods-35457880/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "FeatureBento",
+          "content": {
+            "eyebrow": "Our Values",
+            "headline": "Foundations of Excellence",
+            "body": "A focused set of proof points, workflows, and conversion paths.",
+            "features": [
+              {
+                "title": "Integrity",
+                "body": "Transparency and honesty in all engagements.",
+                "size": "md"
+              },
+              {
+                "title": "Innovation",
+                "body": "Pioneering new architectural horizons.",
+                "size": "md"
+              },
+              {
+                "title": "Collaboration",
+                "body": "Building relationships that inspire great work.",
+                "size": "md"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/12506515/pexels-photo-12506515.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A cozy vintage living room featuring retro decor, a classic television, and warm sunlight.",
+                "attributionAuthor": "Yusuf P",
+                "attributionUrl": "https://www.pexels.com/photo/vintage-tv-in-room-12506515/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35574315/pexels-photo-35574315.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Two people walking through a foggy park path in Tychy, Poland during the early morning.",
+                "attributionAuthor": "Alexander Zvir",
+                "attributionUrl": "https://www.pexels.com/photo/serene-morning-walk-in-foggy-park-35574315/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35574315/pexels-photo-35574315.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Two people walking through a foggy park path in Tychy, Poland during the early morning.",
+                "attributionAuthor": "Alexander Zvir",
+                "attributionUrl": "https://www.pexels.com/photo/serene-morning-walk-in-foggy-park-35574315/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/5982829/pexels-photo-5982829.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Scenery of mystic forest with dark trees in fog under cloudy sky in daytime",
+                "attributionAuthor": "Jamie Saw",
+                "attributionUrl": "https://www.pexels.com/photo/dark-forest-in-cloudy-day-5982829/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "Cinematic Luxury Architecture Studio",
+            "tagline": "Where vision meets craft",
+            "giant": "CINEMATIC",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Work",
+                    "href": "/work"
+                  },
+                  {
+                    "label": "Studio",
+                    "href": "/studio"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Process",
+                    "href": "/process"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "2026 Cinematic Luxury Architectur. All rights reserved."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "process",
+      "title": "Process",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "Cinematic Luxury Architecture Studio",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Work",
+                "href": "/work"
+              },
+              {
+                "label": "Studio",
+                "href": "/studio"
+              },
+              {
+                "label": "Process",
+                "href": "/process"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Start",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "PageHeader",
+          "content": {
+            "eyebrow": "OUR METHOD",
+            "headline": "The Craft Behind Every Project",
+            "body": "Explore the meticulous process that shapes our architectural excellence."
+          }
+        },
+        {
+          "id": "ProcessSteps",
+          "content": {
+            "eyebrow": "Design Journey",
+            "headline": "From Concept to Completion",
+            "steps": [
+              {
+                "number": "1",
+                "title": "Discovery",
+                "body": "Understanding client vision and site context."
+              },
+              {
+                "number": "2",
+                "title": "Conceptual Design",
+                "body": "Crafting initial ideas with innovation and elegance."
+              },
+              {
+                "number": "3",
+                "title": "Development",
+                "body": "Refining design with precision and detail."
+              },
+              {
+                "number": "4",
+                "title": "Execution",
+                "body": "Bringing the vision to life with expert craftsmanship."
+              },
+              {
+                "number": "5",
+                "title": "Completion",
+                "body": "Ensuring quality and client satisfaction in every aspect."
+              }
+            ]
+          }
+        },
+        {
+          "id": "MessageReveal",
+          "content": {
+            "firstLine": "Every detail",
+            "accent": "Matters",
+            "secondLine": "In Our Process",
+            "body": "Commitment to excellence guides each step toward perfection."
+          }
+        },
+        {
+          "id": "FeatureList",
+          "content": {
+            "eyebrow": "Key Elements",
+            "headline": "Defining Our Approach",
+            "features": [
+              {
+                "title": "Bespoke Solutions",
+                "body": "Tailored designs that reflect client identity."
+              },
+              {
+                "title": "Sustainable Integration",
+                "body": "Building with respect for environment and legacy."
+              },
+              {
+                "title": "Collaborative Spirit",
+                "body": "Partners in creation from start to finish."
+              }
+            ]
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "Cinematic Luxury Architecture Studio",
+            "tagline": "Where vision meets craft",
+            "giant": "CINEMATIC",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Work",
+                    "href": "/work"
+                  },
+                  {
+                    "label": "Studio",
+                    "href": "/studio"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Process",
+                    "href": "/process"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "2026 Cinematic Luxury Architectur. All rights reserved."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "Cinematic Luxury Architecture Studio",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Work",
+                "href": "/work"
+              },
+              {
+                "label": "Studio",
+                "href": "/studio"
+              },
+              {
+                "label": "Process",
+                "href": "/process"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Start",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "PageHeader",
+          "content": {
+            "eyebrow": "GET IN TOUCH",
+            "headline": "Let’s Connect",
+            "body": "Reach out for collaborations, inquiries, or to start your project."
+          }
+        },
+        {
+          "id": "ContactForm",
+          "content": {
+            "eyebrow": "Contact Us",
+            "headline": "Start Your Journey With Us",
+            "body": "Please provide your details and message below.",
+            "recipientEmail": "contact@cinematicluxuryarch.com",
+            "submitLabel": "Send Message",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Name",
+                "type": "text",
+                "required": true,
+                "placeholder": "Your full name"
+              },
+              {
+                "name": "email",
+                "label": "Email",
+                "type": "email",
+                "required": true,
+                "placeholder": "you@example.com"
+              },
+              {
+                "name": "message",
+                "label": "Message",
+                "type": "textarea",
+                "required": true,
+                "placeholder": "How can we help you?"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ContactBlock",
+          "content": {
+            "eyebrow": "Connect Directly",
+            "headline": "Reach Our Studio",
+            "body": "We’d love to hear from you. Contact us anytime.",
+            "cta": {
+              "label": "Email the team",
+              "href": "mailto:hello@cinematicluxuryarchitectur.co"
+            },
+            "details": [
+              {
+                "label": "Email",
+                "value": "contact@cinematicluxuryarch.com",
+                "href": "mailto:contact@cinematicluxuryarch.com"
+              },
+              {
+                "label": "Phone",
+                "value": "+1 234 567 8900"
+              },
+              {
+                "label": "Address",
+                "value": "123 Luxury Lane, City, Country"
+              }
+            ]
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "Cinematic Luxury Architecture Studio",
+            "tagline": "Where vision meets craft",
+            "giant": "CINEMATIC",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Work",
+                    "href": "/work"
+                  },
+                  {
+                    "label": "Studio",
+                    "href": "/studio"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Process",
+                    "href": "/process"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "2026 Cinematic Luxury Architectur. All rights reserved."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,730 @@
+{
+  "theme": {
+    "preset": "warm-sand",
+    "accent": "",
+    "bg": "",
+    "ink": "",
+    "bgAccent": "",
+    "fontDisplay": "",
+    "fontBody": ""
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "Cupcake Bar",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Menu",
+                "href": "/menu"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Start",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "HeroEditorial",
+          "content": {
+            "eyebrow": "WELCOME",
+            "headline": "SWEET MOMENTS",
+            "body": "Delight in handcrafted cupcakes made fresh daily.\nTaste the love in every bite.",
+            "imageQueries": {
+              "primary": "cupcakes bakery warm texture"
+            },
+            "cta": {
+              "label": "Explore Menu",
+              "href": "/menu"
+            }
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/videos/34555794/pexels-photo-34555794.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+              "alt": "Caleb Oquendo on Pexels",
+              "attributionAuthor": "Caleb Oquendo",
+              "attributionUrl": "https://www.pexels.com/video/luxury-car-hood-emblem-close-up-34555794/",
+              "videoUrl": "https://videos.pexels.com/video-files/34555794/14641571_1280_720_24fps.mp4"
+            }
+          }
+        },
+        {
+          "id": "StickyChapters",
+          "content": {
+            "eyebrow": "OUR STORY",
+            "chapters": [
+              {
+                "title": "Crafted with passion and local ingredients",
+                "body": "Every cupcake is a small work of art, baked to perfection."
+              },
+              {
+                "title": "A community hub for sweet celebrations",
+                "body": "We believe in creating moments and memories with you."
+              },
+              {
+                "title": "Committed to quality and delightful flavors",
+                "body": "Our recipes blend tradition with a touch of whimsy."
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/33056818/pexels-photo-33056818.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Close-up shot of a BMW logo on a vibrant green hood, capturing automotive elegance.",
+              "attributionAuthor": "Anurag Jamwal",
+              "attributionUrl": "https://www.pexels.com/photo/vibrant-green-bmw-hood-emblem-close-up-33056818/"
+            },
+            "secondary": {
+              "url": "https://images.pexels.com/photos/5348872/pexels-photo-5348872.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Detailed shot of AMG logo on a luxury car wheel, emphasizing elegance and automotive design.",
+              "attributionAuthor": "hachem bgr",
+              "attributionUrl": "https://www.pexels.com/photo/close-up-shot-of-a-car-brand-5348872/"
+            }
+          }
+        },
+        {
+          "id": "HorizontalShowcase",
+          "content": {
+            "eyebrow": "SIGNATURE FLAVORS",
+            "headline": "Discover Our Best Cupcakes",
+            "body": "A curated selection of our most beloved treats.",
+            "cards": [
+              {
+                "title": "Vanilla Bean Dream",
+                "caption": "Classic and comforting"
+              },
+              {
+                "title": "Salted Caramel Delight",
+                "caption": "Sweet with a hint of sea salt"
+              },
+              {
+                "title": "Chocolate Raspberry Bliss",
+                "caption": "Rich chocolate and tart raspberry"
+              },
+              {
+                "title": "Lemon Lavender Surprise",
+                "caption": "Bright and floral"
+              },
+              {
+                "title": "Red Velvet Elegance",
+                "caption": "Deep cocoa with cream cheese"
+              },
+              {
+                "title": "Matcha Green Tea Magic",
+                "caption": "Earthy and smooth"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/14019974/pexels-photo-14019974.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Close-up of a luxurious tan leather car seat with branding in focus.",
+                "attributionAuthor": "Cole Kitchen",
+                "attributionUrl": "https://www.pexels.com/photo/ferrari-logo-on-leather-car-seat-14019974/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/19746805/pexels-photo-19746805.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Detailed close-up of the Mercedes-Benz logo on a luxury car, emphasizing metallic finish.",
+                "attributionAuthor": "Zaid Ahmed",
+                "attributionUrl": "https://www.pexels.com/photo/mercedes-benz-logo-in-close-up-view-19746805/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/30405425/pexels-photo-30405425.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Elegant flat lay featuring Opium perfume bottles on fashion magazines. Perfect for luxury and style themes.",
+                "attributionAuthor": "Veronica Bratunov",
+                "attributionUrl": "https://www.pexels.com/photo/stylish-flat-lay-of-fashion-magazines-and-perfume-bottles-30405425/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/5348872/pexels-photo-5348872.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Detailed shot of AMG logo on a luxury car wheel, emphasizing elegance and automotive design.",
+                "attributionAuthor": "hachem bgr",
+                "attributionUrl": "https://www.pexels.com/photo/close-up-shot-of-a-car-brand-5348872/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/37077889/pexels-photo-37077889.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Close-up of a sleek silver Jaguar car hood ornament with a tiger emblem, showcasing luxury and craftsmanship.",
+                "attributionAuthor": "atelierbyvineeth . . .",
+                "attributionUrl": "https://www.pexels.com/photo/elegant-silver-jaguar-car-hood-ornament-37077889/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/32614631/pexels-photo-32614631.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Luxurious brown leather wallet with elegant logo on soft white fabric, suggesting elegance and style.",
+                "attributionAuthor": "Ejov Igor",
+                "attributionUrl": "https://www.pexels.com/photo/elegant-designer-leather-wallet-on-white-fabric-32614631/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "MessageReveal",
+          "content": {
+            "firstLine": "From oven to your heart",
+            "accent": "Taste",
+            "secondLine": "Experience bliss in every bite",
+            "body": "Our cupcakes are baked fresh daily, crafted to bring joy and warmth."
+          }
+        },
+        {
+          "id": "FeatureList",
+          "content": {
+            "eyebrow": "WHY CHOOSE US",
+            "headline": "Our Promise to You",
+            "features": [
+              {
+                "title": "Handcrafted Daily",
+                "body": "Made fresh with care each morning."
+              },
+              {
+                "title": "Locally Sourced Ingredients",
+                "body": "Supporting local farms and producers."
+              },
+              {
+                "title": "Custom Orders",
+                "body": "Perfect for celebrations and special moments."
+              },
+              {
+                "title": "Cozy Environment",
+                "body": "A place to relax and indulge."
+              }
+            ],
+            "body": "Exceptional flavors, artful presentation, and a welcoming atmosphere."
+          }
+        },
+        {
+          "id": "ContactBlock",
+          "content": {
+            "eyebrow": "GET IN TOUCH",
+            "headline": "Ready to Savor Cupcakes?",
+            "body": "Visit us or place your order with ease.",
+            "cta": {
+              "label": "Email the team",
+              "href": "mailto:hello@cupcakebar.co"
+            },
+            "details": [
+              {
+                "label": "Location",
+                "value": "123 Sweet St, Cupcake City"
+              },
+              {
+                "label": "Phone",
+                "value": "(555) 123-4567"
+              },
+              {
+                "label": "Email",
+                "value": "hello@cupcakebar.com"
+              }
+            ]
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "Cupcake Bar",
+            "tagline": "Sweetness Crafted With Love",
+            "giant": "CUPCAKEBAR",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Menu",
+                    "href": "/menu"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "2026 Cupcake Bar. All rights reserved."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "title": "About",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "Cupcake Bar",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Menu",
+                "href": "/menu"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Start",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "PageHeader",
+          "content": {
+            "eyebrow": "Cupcake Bar",
+            "headline": "About",
+            "body": "Everything visitors need to understand about and take the next step."
+          }
+        },
+        {
+          "id": "TwoColumnText",
+          "content": {
+            "eyebrow": "Context",
+            "headline": "About in detail",
+            "paragraphs": [
+              {
+                "heading": "Positioning",
+                "body": "Positioning content for Cupcake Bar."
+              },
+              {
+                "heading": "Experience",
+                "body": "Experience content for Cupcake Bar."
+              },
+              {
+                "heading": "Operations",
+                "body": "Operations content for Cupcake Bar."
+              }
+            ]
+          }
+        },
+        {
+          "id": "FeatureList",
+          "content": {
+            "eyebrow": "Details",
+            "headline": "About details",
+            "features": [
+              {
+                "title": "Core offer",
+                "body": "Core offer information for Cupcake Bar."
+              },
+              {
+                "title": "Delivery",
+                "body": "Delivery information for Cupcake Bar."
+              },
+              {
+                "title": "Support",
+                "body": "Support information for Cupcake Bar."
+              },
+              {
+                "title": "Measurement",
+                "body": "Measurement information for Cupcake Bar."
+              },
+              {
+                "title": "Next step",
+                "body": "Next step information for Cupcake Bar."
+              }
+            ]
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "Cupcake Bar",
+            "tagline": "Cupcake Bar is built as a complete website system.",
+            "giant": "Cupcake Bar",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Menu",
+                    "href": "/menu"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "2026 Cupcake Bar. All rights reserved."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "menu",
+      "title": "Menu",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "Cupcake Bar",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Menu",
+                "href": "/menu"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Start",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "PageHeader",
+          "content": {
+            "eyebrow": "Cupcake Bar",
+            "headline": "Menu",
+            "body": "Everything visitors need to understand menu and take the next step."
+          }
+        },
+        {
+          "id": "FeatureList",
+          "content": {
+            "eyebrow": "Details",
+            "headline": "Menu details",
+            "features": [
+              {
+                "title": "Core offer",
+                "body": "Core offer information for Cupcake Bar."
+              },
+              {
+                "title": "Delivery",
+                "body": "Delivery information for Cupcake Bar."
+              },
+              {
+                "title": "Support",
+                "body": "Support information for Cupcake Bar."
+              },
+              {
+                "title": "Measurement",
+                "body": "Measurement information for Cupcake Bar."
+              },
+              {
+                "title": "Next step",
+                "body": "Next step information for Cupcake Bar."
+              }
+            ]
+          }
+        },
+        {
+          "id": "FAQAccordion",
+          "content": {
+            "eyebrow": "FAQ",
+            "headline": "Questions before you start",
+            "faqs": [
+              {
+                "q": "How quickly can we launch?",
+                "a": "The site is structured so the first version can launch quickly, then expand with focused edits and new pages."
+              },
+              {
+                "q": "What do you need from us?",
+                "a": "The site is structured so the first version can launch quickly, then expand with focused edits and new pages."
+              },
+              {
+                "q": "Can this scale into more pages?",
+                "a": "The site is structured so the first version can launch quickly, then expand with focused edits and new pages."
+              },
+              {
+                "q": "How does support work?",
+                "a": "The site is structured so the first version can launch quickly, then expand with focused edits and new pages."
+              }
+            ]
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "Cupcake Bar",
+            "tagline": "Cupcake Bar is built as a complete website system.",
+            "giant": "Cupcake Bar",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Menu",
+                    "href": "/menu"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "2026 Cupcake Bar. All rights reserved."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "Cupcake Bar",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Menu",
+                "href": "/menu"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Start",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "PageHeader",
+          "content": {
+            "eyebrow": "Cupcake Bar",
+            "headline": "Contact",
+            "body": "Everything visitors need to understand contact and take the next step."
+          }
+        },
+        {
+          "id": "ContactForm",
+          "content": {
+            "eyebrow": "Start",
+            "headline": "Tell us what you need",
+            "body": "The form opens your mail client with the right context.",
+            "recipientEmail": "hello@cupcakebar.co",
+            "submitLabel": "Send request"
+          }
+        },
+        {
+          "id": "ContactBlock",
+          "content": {
+            "eyebrow": "Contact",
+            "headline": "Start with a focused conversation",
+            "body": "Send a note to Cupcake Bar and get a practical next step.",
+            "cta": {
+              "label": "Email the team",
+              "href": "mailto:hello@cupcakebar.co"
+            },
+            "details": [
+              {
+                "label": "Email",
+                "value": "hello@cupcakebar.co",
+                "href": "mailto:hello@cupcakebar.co"
+              },
+              {
+                "label": "Response",
+                "value": "Within one business day"
+              },
+              {
+                "label": "Location",
+                "value": "Remote and on-site"
+              }
+            ]
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "Cupcake Bar",
+            "tagline": "Cupcake Bar is built as a complete website system.",
+            "giant": "Cupcake Bar",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Menu",
+                    "href": "/menu"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "2026 Cupcake Bar. All rights reserved."
+          }
+        }
+      ]
+    }
+  ],
+  "intent": {
+    "energy": "editorial",
+    "density": "spacious",
+    "cinematicIntensity": "moderate",
+    "motionIntensity": "subtle",
+    "copyTone": "warm inviting",
+    "themeHint": "warm-sand"
+  }
+}

@@ -1,0 +1,962 @@
+{
+  "theme": {
+    "preset": "midnight-luxury",
+    "bg": "#0D0B0A",
+    "ink": "#EDE6E3",
+    "bgAccent": "#1F1C1A",
+    "fontDisplay": "Playfair Display",
+    "fontBody": "Lora"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Serene Bali Retreat - Home",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Serene Bali Retreat",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Experiences",
+                "href": "/experiences"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineHero",
+          "content": {
+            "eyebrow": "Discover",
+            "headline": "Luxury Meets Culture in Bali",
+            "accent": "Serene Escape",
+            "body": "Experience bespoke elegance nestled in the heart of Bali’s vibrant culture and natural beauty.",
+            "cta": {
+              "label": "Book Your Stay",
+              "href": "/contact"
+            },
+            "secondaryCta": {
+              "label": "Explore Experiences",
+              "href": "/experiences"
+            }
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/6132763/pexels-photo-6132763.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Woman enjoying a tranquil moment by the pool in Bali during sunset.",
+              "attributionAuthor": "Alesia  Kozik",
+              "attributionUrl": "https://www.pexels.com/photo/woman-wearing-white-swimsuit-6132763/"
+            }
+          }
+        },
+        {
+          "id": "MessageReveal",
+          "content": {
+            "firstLine": "Where tranquility reigns",
+            "accent": "Bali Essence",
+            "secondLine": "Immerse in authentic luxury",
+            "body": "Serene Bali Retreat blends timeless elegance with the island’s rich cultural spirit for an unforgettable stay."
+          }
+        },
+        {
+          "id": "BaselineLogoBar",
+          "content": {
+            "eyebrow": "Trusted by discerning travelers",
+            "clients": [
+              {
+                "name": "Travel+Leisure"
+              },
+              {
+                "name": "Condé Nast Traveler"
+              },
+              {
+                "name": "Forbes Travel Guide"
+              },
+              {
+                "name": "Luxury Escapes"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFeatures",
+          "content": {
+            "eyebrow": "Exclusive Stays",
+            "headline": "Bespoke Villas & Amenities",
+            "accent": "tailored for comfort",
+            "features": [
+              {
+                "eyebrow": "01 — Private Villas",
+                "title": "Intimate and Secluded",
+                "body": "Each villa offers a private sanctuary with ocean views and personalized service."
+              },
+              {
+                "eyebrow": "02 — Wellness Retreat",
+                "title": "Rejuvenate Mind & Body",
+                "body": "Indulge in spa therapies, yoga sessions, and holistic wellness experiences."
+              },
+              {
+                "eyebrow": "03 — Gourmet Dining",
+                "title": "Culinary Artistry",
+                "body": "Savor curated menus inspired by Balinese flavors and international cuisine."
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/35043038/pexels-photo-35043038.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Aerial view of a luxurious villa with an infinity pool on a cliffside in Bali, Indonesia.",
+              "attributionAuthor": "Tom Fisk",
+              "attributionUrl": "https://www.pexels.com/photo/luxury-cliffside-villa-in-bali-with-infinity-pool-35043038/"
+            }
+          }
+        },
+        {
+          "id": "HorizontalShowcase",
+          "content": {
+            "eyebrow": "Cultural Immersion",
+            "headline": "Authentic Experiences Curated for You",
+            "body": "From traditional crafts to sacred ceremonies, engage deeply with Bali’s heritage.",
+            "cards": [
+              {
+                "title": "Balinese Cooking Class",
+                "caption": "Learn local recipes"
+              },
+              {
+                "title": "Temple Tours",
+                "caption": "Explore sacred sites"
+              },
+              {
+                "title": "Artisan Workshops",
+                "caption": "Create with local masters"
+              },
+              {
+                "title": "Sunset Beach Yoga",
+                "caption": "Mindful movement"
+              },
+              {
+                "title": "Rice Field Treks",
+                "caption": "Nature walks"
+              },
+              {
+                "title": "Cultural Performances",
+                "caption": "Traditional dances"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/6019593/pexels-photo-6019593.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Chef preparing a variety of Asian dishes in an open kitchen setting, creating a culinary experience.",
+                "attributionAuthor": "Alesia  Kozik",
+                "attributionUrl": "https://www.pexels.com/photo/a-man-in-green-shirt-wearing-apron-holding-plates-with-food-6019593/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/36105985/pexels-photo-36105985.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A vibrant Balinese ceremony at a historic temple with intricate architecture.",
+                "attributionAuthor": "usadi sawitri",
+                "attributionUrl": "https://www.pexels.com/photo/traditional-ceremony-at-balinese-temple-36105985/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35690762/pexels-photo-35690762.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Detailed shot of a traditional Balinese Garuda wood statue in a shop, showcasing vibrant colors and craftsmanship.",
+                "attributionAuthor": "AGUNG ANOM",
+                "attributionUrl": "https://www.pexels.com/photo/intricate-balinese-garuda-wood-statue-at-artisan-shop-35690762/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/12468691/pexels-photo-12468691.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A woman in traditional attire prays on the sandy shores of Kuta Beach, Bali.",
+                "attributionAuthor": "el jusuf",
+                "attributionUrl": "https://www.pexels.com/photo/woman-praying-on-a-beach-12468691/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/33342118/pexels-photo-33342118.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Lush rice fields and palm trees in Bali, Indonesia during a serene daytime scene.",
+                "attributionAuthor": "Ilya Batorshin",
+                "attributionUrl": "https://www.pexels.com/photo/scenic-rice-fields-and-palm-trees-in-bali-33342118/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35444369/pexels-photo-35444369.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A traditional Balinese dancer performing in vibrant attire and ornate headdress.",
+                "attributionAuthor": "arwin waworuntu",
+                "attributionUrl": "https://www.pexels.com/photo/traditional-balinese-dancer-in-ornate-costume-35444369/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineTestimonials",
+          "content": {
+            "eyebrow": "Guests",
+            "headline": "What Our Visitors Say",
+            "testimonials": [
+              {
+                "quote": "An exquisite blend of luxury and cultural authenticity.",
+                "author": "Anna",
+                "role": "Traveler"
+              },
+              {
+                "quote": "The private villas and serene spa made our stay unforgettable.",
+                "author": "Mark",
+                "role": "Couple"
+              },
+              {
+                "quote": "Every detail was thoughtfully curated for an immersive experience.",
+                "author": "Leila",
+                "role": "Luxury Enthusiast"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ImageGallery",
+          "content": {
+            "eyebrow": "Visual Journey",
+            "headline": "Experience Serene Bali",
+            "body": "A glimpse into our world of elegance and cultural richness.",
+            "captions": [
+              {
+                "title": "Ocean-view Villa",
+                "year": "2024"
+              },
+              {
+                "title": "Sunset Yoga Session"
+              },
+              {
+                "title": "Balinese Temple Ceremony"
+              },
+              {
+                "title": "Gourmet Dining Experience"
+              },
+              {
+                "title": "Spa Sanctuary"
+              },
+              {
+                "title": "Rice Field Adventures"
+              },
+              {
+                "title": "Local Artisan Crafting"
+              },
+              {
+                "title": "Beachside Dining"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/19763155/pexels-photo-19763155.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Stunning aerial view of a tropical resort amid lush greenery in Bali, Indonesia.",
+                "attributionAuthor": "İnci Çınaroğlu",
+                "attributionUrl": "https://www.pexels.com/photo/birds-eye-view-of-a-resort-in-bali-19763155/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/4172891/pexels-photo-4172891.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Full length anonymous slim female in stylish swimsuit with raised arms standing gracefully on pool edge and enjoying tropical jungles view",
+                "attributionAuthor": "Gustavo Fring",
+                "attributionUrl": "https://www.pexels.com/photo/gorgeous-woman-standing-on-poolside-with-raised-arms-4172891/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/11218916/pexels-photo-11218916.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "People participating in a traditional ritual at a Balinese water temple in Ubud, Indonesia.",
+                "attributionAuthor": "esrageziyor",
+                "attributionUrl": "https://www.pexels.com/photo/man-people-woman-coffee-11218916/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/6019593/pexels-photo-6019593.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Chef preparing a variety of Asian dishes in an open kitchen setting, creating a culinary experience.",
+                "attributionAuthor": "Alesia  Kozik",
+                "attributionUrl": "https://www.pexels.com/photo/a-man-in-green-shirt-wearing-apron-holding-plates-with-food-6019593/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/14464944/pexels-photo-14464944.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Serene infinity pool view with palm trees and ocean at a Bali resort, perfect for relaxation.",
+                "attributionAuthor": "Nastia Ligrain",
+                "attributionUrl": "https://www.pexels.com/photo/a-swimming-pool-in-the-resort-14464944/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/29989223/pexels-photo-29989223.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Lush rice terraces of Bali with a view of a distant mountain, capturing the essence of Indonesia's natural beauty.",
+                "attributionAuthor": "Stijn Dijkstra",
+                "attributionUrl": "https://www.pexels.com/photo/scenic-rice-terraces-in-bali-s-lush-greenery-29989223/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35690762/pexels-photo-35690762.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Detailed shot of a traditional Balinese Garuda wood statue in a shop, showcasing vibrant colors and craftsmanship.",
+                "attributionAuthor": "AGUNG ANOM",
+                "attributionUrl": "https://www.pexels.com/photo/intricate-balinese-garuda-wood-statue-at-artisan-shop-35690762/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/34124436/pexels-photo-34124436.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Rustic wooden chairs and table by a serene waterfront in Bali, Indonesia.",
+                "attributionAuthor": "Rayhan",
+                "attributionUrl": "https://www.pexels.com/photo/rustic-chairs-by-scenic-bali-waterfront-34124436/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineCTA",
+          "content": {
+            "eyebrow": "Reserve Today",
+            "headline": "Begin Your Serene Escape",
+            "accent": "Book Now",
+            "body": "Unlock exclusive offers and immerse yourself in Bali’s finest luxury retreat.",
+            "cta": {
+              "label": "Book Now",
+              "href": "/contact"
+            },
+            "secondaryCta": {
+              "label": "Talk to sales",
+              "href": "/contact"
+            }
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/34790496/pexels-photo-34790496.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "A serene view of a villa's infinity pool at sunset in Bali, Indonesia, with lush greenery and calm reflections.",
+              "attributionAuthor": "kevin yung",
+              "attributionUrl": "https://www.pexels.com/photo/luxury-villa-pool-at-sunset-in-bali-indonesia-34790496/"
+            }
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Serene Bali Retreat",
+            "brand": "Serene Bali Retreat",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Experiences",
+                    "href": "/experiences"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "© 2024 Serene Bali Retreat. All rights reserved.",
+            "tagline": "Serene Bali Retreat — Where Luxury Meets Culture",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ],
+            "links": [
+              {
+                "title": "Explore",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Experiences",
+                    "href": "/experiences"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Stay Connected",
+                "links": [
+                  {
+                    "label": "Privacy Policy",
+                    "href": "/privacy"
+                  },
+                  {
+                    "label": "Terms of Service",
+                    "href": "/terms"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "title": "About Serene Bali Retreat",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Serene Bali Retreat",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Experiences",
+                "href": "/experiences"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselinePageHeader",
+          "content": {
+            "eyebrow": "About",
+            "headline": "Our Philosophy of Serene Luxury",
+            "body": "A commitment to authentic experiences and timeless elegance.",
+            "accent": "Inspired by Bali"
+          }
+        },
+        {
+          "id": "BaselineAboutNarrative",
+          "content": {
+            "body": "Founded to celebrate Bali’s rich culture and natural beauty, Serene Bali Retreat offers a sanctuary where guests reconnect with tranquility and tasteful luxury.",
+            "pillarEyebrow": "Our Core Values",
+            "pillarHeadline": "Dedicated to cultural respect, sustainability, and personalized service.",
+            "pillars": [
+              {
+                "title": "Cultural Immersion",
+                "body": "We honor and share Balinese traditions through curated experiences."
+              },
+              {
+                "title": "Sustainability",
+                "body": "Our practices protect Bali’s environment and support local communities."
+              },
+              {
+                "title": "Excellence",
+                "body": "Every detail is crafted to exceed guest expectations."
+              }
+            ],
+            "statsEyebrow": "Trusted Since",
+            "stats": [
+              {
+                "value": "2020",
+                "label": "Established"
+              },
+              {
+                "value": "98%",
+                "label": "Guest Satisfaction"
+              },
+              {
+                "value": "1500+",
+                "label": "Guests Hosted"
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/17845/pexels-photo.jpg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "A close-up shot of a hand reviewing various logo designs on paper, ideal for business concepts.",
+              "attributionAuthor": "Roman Pohorecki",
+              "attributionUrl": "https://www.pexels.com/photo/hand-on-top-of-paper-17845/"
+            }
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Serene Bali Retreat",
+            "brand": "Serene Bali Retreat",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Experiences",
+                    "href": "/experiences"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "© 2024 Serene Bali Retreat. All rights reserved.",
+            "tagline": "Serene Bali Retreat — Where Luxury Meets Culture",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ],
+            "links": [
+              {
+                "title": "Navigate",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Experiences",
+                    "href": "/experiences"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "experiences",
+      "title": "Experiences at Serene Bali Retreat",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Serene Bali Retreat",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Experiences",
+                "href": "/experiences"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselinePageHeader",
+          "content": {
+            "eyebrow": "Experiences",
+            "headline": "Curated Local & Onsite Activities",
+            "body": "Discover unique experiences that connect you to Bali’s soul.",
+            "accent": "Exclusive Moments"
+          }
+        },
+        {
+          "id": "FeatureList",
+          "content": {
+            "eyebrow": "Highlights",
+            "headline": "Immerse Yourself in Balinese Culture",
+            "features": [
+              {
+                "title": "Traditional Dance Workshops",
+                "body": "Learn the art of Balinese dance from skilled performers."
+              },
+              {
+                "title": "Organic Farm-to-Table Tours",
+                "body": "Explore local farms and savor fresh, seasonal ingredients."
+              },
+              {
+                "title": "Guided Nature Treks",
+                "body": "Experience Bali’s breathtaking landscapes on curated hikes."
+              },
+              {
+                "title": "Sunset Beach Yoga",
+                "body": "Find balance with peaceful yoga sessions on the beach."
+              }
+            ],
+            "body": "Our offerings blend tradition with luxury."
+          }
+        },
+        {
+          "id": "FAQAccordion",
+          "content": {
+            "eyebrow": "FAQs",
+            "headline": "Questions About Our Experiences",
+            "faqs": [
+              {
+                "q": "Do I need prior experience for workshops?",
+                "a": "No prior experience is needed; sessions are suitable for all levels."
+              },
+              {
+                "q": "Are activities suitable for families?",
+                "a": "Yes, many experiences are family-friendly and customizable."
+              },
+              {
+                "q": "How do I book an experience?",
+                "a": "Experiences can be booked through our concierge or upon arrival."
+              },
+              {
+                "q": "What should I bring to outdoor activities?",
+                "a": "Comfortable clothing, water, and sunscreen are recommended."
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Serene Bali Retreat",
+            "brand": "Serene Bali Retreat",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Experiences",
+                    "href": "/experiences"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "© 2024 Serene Bali Retreat. All rights reserved.",
+            "tagline": "Serene Bali Retreat — Where Luxury Meets Culture",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ],
+            "links": [
+              {
+                "title": "Explore",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Experiences",
+                    "href": "/experiences"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact Serene Bali Retreat",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Serene Bali Retreat",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Experiences",
+                "href": "/experiences"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselinePageHeader",
+          "content": {
+            "eyebrow": "Contact",
+            "headline": "We’re Here to Assist",
+            "body": "Connect with us for inquiries and reservations.",
+            "accent": "Reach Out Anytime"
+          }
+        },
+        {
+          "id": "BaselineContact",
+          "content": {
+            "formTitle": "Reserve Your Stay",
+            "formBody": "Fill out the form or reach us via email or phone.",
+            "recipientEmail": "reservations@serenebali.com",
+            "subjectTemplate": "New inquiry from {name}",
+            "details": [
+              {
+                "label": "Email",
+                "value": "reservations@serenebali.com",
+                "href": "mailto:reservations@serenebali.com"
+              },
+              {
+                "label": "Phone",
+                "value": "+62 123 4567 890",
+                "href": "tel:+621234567890"
+              },
+              {
+                "label": "Office",
+                "value": "Jalan Raya Ubud, Bali, Indonesia"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Serene Bali Retreat",
+            "brand": "Serene Bali Retreat",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Experiences",
+                    "href": "/experiences"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "© 2024 Serene Bali Retreat. All rights reserved.",
+            "tagline": "Serene Bali Retreat — Where Luxury Meets Culture",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ],
+            "links": [
+              {
+                "title": "Navigate",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Experiences",
+                    "href": "/experiences"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "intent": {
+    "energy": "quiet-luxury",
+    "density": "spacious",
+    "cinematicIntensity": "high",
+    "motionIntensity": "moderate",
+    "copyTone": "elegant inviting",
+    "themeHint": "midnight-luxury"
+  }
+}

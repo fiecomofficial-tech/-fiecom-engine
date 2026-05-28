@@ -1,0 +1,829 @@
+{
+  "theme": {
+    "preset": "midnight-luxury",
+    "bg": "#0B0B0B",
+    "ink": "#E6E1D3",
+    "bgAccent": "#1F1F1F",
+    "fontDisplay": "Playfair Display",
+    "fontBody": "Lora"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Serene Lotus Boutique Hotel",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Serene Lotus",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Accommodations",
+                "href": "/accommodations"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Book Now",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineHero",
+          "content": {
+            "eyebrow": "Exclusive Escape",
+            "headline": "Discover Serene Luxury",
+            "accent": "in Bali",
+            "body": "Experience the tranquil beauty and refined elegance of Bali’s finest boutique hotel.",
+            "cta": {
+              "label": "Explore Accommodations",
+              "href": "/accommodations"
+            },
+            "secondaryCta": {
+              "label": "Learn More",
+              "href": "/about"
+            }
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/14464944/pexels-photo-14464944.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Serene infinity pool view with palm trees and ocean at a Bali resort, perfect for relaxation.",
+              "attributionAuthor": "Nastia Ligrain",
+              "attributionUrl": "https://www.pexels.com/photo/a-swimming-pool-in-the-resort-14464944/"
+            }
+          }
+        },
+        {
+          "id": "MarqueeBand",
+          "content": {
+            "items": [
+              "Serene Lotus",
+              "Strategy",
+              "Motion",
+              "Proof",
+              "Conversion"
+            ],
+            "tone": "normal",
+            "eyebrow": "Experience",
+            "headline": "Where serenity meets sophistication"
+          }
+        },
+        {
+          "id": "BaselineLogoBar",
+          "content": {
+            "eyebrow": "Trusted by Discerning Guests Worldwide",
+            "clients": [
+              {
+                "name": "Condé Nast"
+              },
+              {
+                "name": "Travel + Leisure"
+              },
+              {
+                "name": "Forbes Travel Guide"
+              },
+              {
+                "name": "Michelin Guide"
+              }
+            ]
+          }
+        },
+        {
+          "id": "MessageReveal",
+          "content": {
+            "firstLine": "Serene Lotus is not another template",
+            "accent": "different",
+            "secondLine": "It is a structured product story",
+            "body": "Serene Lotus offers an unparalleled boutique experience blending Balinese tradition with modern luxury.",
+            "eyebrow": "Our Promise",
+            "headline": "A sanctuary of calm and elegance"
+          }
+        },
+        {
+          "id": "BaselineFeatures",
+          "content": {
+            "eyebrow": "Accommodations",
+            "headline": "Rooms & Suites Designed for Comfort",
+            "accent": "crafted for your stay",
+            "features": [
+              {
+                "title": "Garden Suite",
+                "body": "A private haven surrounded by lush tropical gardens."
+              },
+              {
+                "title": "Ocean View Room",
+                "body": "Panoramic views of the Indian Ocean with bespoke amenities."
+              },
+              {
+                "title": "Pool Villa",
+                "body": "Exclusive villa with private pool and personalized service."
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/34790702/pexels-photo-34790702.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Spacious modern hotel room in Bali with stylish decor and natural lighting.",
+              "attributionAuthor": "kevin yung",
+              "attributionUrl": "https://www.pexels.com/photo/elegant-modern-hotel-room-in-bali-34790702/"
+            },
+            "secondary": {
+              "url": "https://images.pexels.com/photos/33575026/pexels-photo-33575026.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Aerial view of a bamboo hut nestled amidst lush greenery in Bali, Indonesia.",
+              "attributionAuthor": "Kemal Can",
+              "attributionUrl": "https://www.pexels.com/photo/charming-bamboo-hut-in-lush-balinese-jungle-33575026/"
+            },
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/19570521/pexels-photo-19570521.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Relax by a luxurious tropical pool surrounded by lush palm trees under a sunny sky, perfect for summer getaways.",
+                "attributionAuthor": "Lukas  Faust",
+                "attributionUrl": "https://www.pexels.com/photo/palm-tree-over-pool-19570521/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/34595059/pexels-photo-34595059.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Beautiful amphitheater with ocean view framed by lush greenery in Bali.",
+                "attributionAuthor": "Tom Fisk",
+                "attributionUrl": "https://www.pexels.com/photo/scenic-oceanview-amphitheater-in-bali-34595059/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35219409/pexels-photo-35219409.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Serene view of Bali's rocky coastline with lush greenery and blue ocean under a vibrant sky.",
+                "attributionAuthor": "Tom Fisk",
+                "attributionUrl": "https://www.pexels.com/photo/scenic-beach-view-on-bali-s-coastline-35219409/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ImageGallery",
+          "content": {
+            "eyebrow": "Gallery",
+            "headline": "Moments Captured at Serene Lotus",
+            "body": "A visual layer that makes the offer tangible.",
+            "captions": [
+              {
+                "title": "Signal",
+                "year": "2026"
+              },
+              {
+                "title": "Space",
+                "year": "2025"
+              },
+              {
+                "title": "Detail",
+                "year": "2026"
+              },
+              {
+                "title": "Flow",
+                "year": "2025"
+              },
+              {
+                "title": "Texture",
+                "year": "2026"
+              },
+              {
+                "title": "Proof",
+                "year": "2025"
+              },
+              {
+                "title": "People",
+                "year": "2026"
+              },
+              {
+                "title": "System",
+                "year": "2025"
+              },
+              {
+                "title": "Outcome",
+                "year": "2026"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/6138090/pexels-photo-6138090.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Woman enjoying a sunset swim in an infinity pool with tropical flowers, creating a serene atmosphere.",
+                "attributionAuthor": "Alesia  Kozik",
+                "attributionUrl": "https://www.pexels.com/photo/photo-of-a-woman-in-a-swimming-pool-holding-a-white-flower-6138090/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/6187305/pexels-photo-6187305.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Experience ultimate relaxation with a calming facial massage in a tranquil spa setting.",
+                "attributionAuthor": "Tima Miroshnichenko",
+                "attributionUrl": "https://www.pexels.com/photo/close-up-shot-of-a-person-doing-a-massage-6187305/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35690792/pexels-photo-35690792.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A cozy breakfast setup with tropical fruits and coffee in Bali, perfect for a serene morning.",
+                "attributionAuthor": "AGUNG ANOM",
+                "attributionUrl": "https://www.pexels.com/photo/indonesian-breakfast-with-tropical-fruits-35690792/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/19763155/pexels-photo-19763155.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Stunning aerial view of a tropical resort amid lush greenery in Bali, Indonesia.",
+                "attributionAuthor": "İnci Çınaroğlu",
+                "attributionUrl": "https://www.pexels.com/photo/birds-eye-view-of-a-resort-in-bali-19763155/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineTestimonials",
+          "content": {
+            "eyebrow": "Guests",
+            "headline": "Stories of Unforgettable Escapes",
+            "testimonials": [
+              {
+                "quote": "An oasis of peace and impeccable service.",
+                "author": "Emily",
+                "role": "Guest"
+              },
+              {
+                "quote": "Every moment was pure bliss in paradise.",
+                "author": "Liam",
+                "role": "Travel Blogger"
+              },
+              {
+                "quote": "A truly authentic Balinese luxury experience.",
+                "author": "Sofia",
+                "role": "Concierge"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ZentryAbout",
+          "content": {
+            "eyebrow": "Welcome",
+            "headline": "Discover Serene Lotus",
+            "body": "Serene Lotus brings the story, proof, and product promise into one immersive moment."
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/37208722/pexels-photo-37208722.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Detailed shot of a luxury sports car wheel with visible logo, showcasing sleek design and elegance.",
+              "attributionAuthor": "cnrdmroglu",
+              "attributionUrl": "https://www.pexels.com/photo/close-up-of-luxury-sports-car-wheel-and-logo-37208722/"
+            }
+          }
+        },
+        {
+          "id": "BaselineCTA",
+          "content": {
+            "eyebrow": "Reserve Your Stay",
+            "headline": "Your Serene Escape Awaits",
+            "accent": "Book with confidence",
+            "body": "Secure your place in Bali’s most exclusive boutique hotel.",
+            "cta": {
+              "label": "Contact Us",
+              "href": "/contact"
+            },
+            "secondaryCta": {
+              "label": "View Accommodations",
+              "href": "/accommodations"
+            }
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Serene Lotus",
+            "brand": "Serene Lotus",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Accommodations",
+                    "href": "/accommodations"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "A sanctuary of timeless elegance",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "title": "About Serene Lotus",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Serene Lotus",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Accommodations",
+                "href": "/accommodations"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Book Now",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineAboutNarrative",
+          "content": {
+            "eyebrow": "About Serene Lotus",
+            "headline": "Rooted in tradition, crafted for elegance",
+            "body": "Founded to celebrate Balinese culture with refined hospitality, Serene Lotus offers a tranquil retreat infused with authentic charm and modern comforts.",
+            "pillarEyebrow": "Our Pillars",
+            "pillarHeadline": "Guided by tradition and excellence",
+            "pillars": [
+              {
+                "title": "Authenticity",
+                "body": "Embracing Balinese heritage in every detail."
+              },
+              {
+                "title": "Sustainability",
+                "body": "Committed to preserving nature and community."
+              },
+              {
+                "title": "Personalized Service",
+                "body": "Tailored experiences for every guest."
+              }
+            ],
+            "statsEyebrow": "By the numbers",
+            "stats": [
+              {
+                "value": "2022",
+                "label": "Founded"
+              },
+              {
+                "value": "34",
+                "label": "Team"
+              },
+              {
+                "value": "12k+",
+                "label": "Active users"
+              }
+            ],
+            "accent": "serene legacy"
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/17845/pexels-photo.jpg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "A close-up shot of a hand reviewing various logo designs on paper, ideal for business concepts.",
+              "attributionAuthor": "Roman Pohorecki",
+              "attributionUrl": "https://www.pexels.com/photo/hand-on-top-of-paper-17845/"
+            }
+          }
+        },
+        {
+          "id": "TwoColumnText",
+          "content": {
+            "eyebrow": "Our Philosophy",
+            "headline": "A commitment to timeless luxury",
+            "paragraphs": [
+              {
+                "heading": "Harmony with Nature",
+                "body": "We design with respect for Bali’s natural beauty and cultural richness."
+              },
+              {
+                "heading": "Guest-Centered Care",
+                "body": "Your comfort and privacy are our highest priorities."
+              },
+              {
+                "heading": "Cultural Connection",
+                "body": "We foster meaningful experiences rooted in Balinese traditions."
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Serene Lotus",
+            "brand": "Serene Lotus",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Accommodations",
+                    "href": "/accommodations"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "A sanctuary of timeless elegance",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "accommodations",
+      "title": "Accommodations at Serene Lotus",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Serene Lotus",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Accommodations",
+                "href": "/accommodations"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Book Now",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselinePageHeader",
+          "content": {
+            "eyebrow": "Accommodations",
+            "headline": "Exclusive Rooms & Suites",
+            "body": "Explore our elegant lodging options crafted for comfort and style.",
+            "accent": "your perfect retreat"
+          }
+        },
+        {
+          "id": "FeatureList",
+          "content": {
+            "eyebrow": "Details",
+            "headline": "Accommodations details",
+            "features": [
+              {
+                "title": "Core offer",
+                "body": "Core offer information for Serene Lotus."
+              },
+              {
+                "title": "Delivery",
+                "body": "Delivery information for Serene Lotus."
+              },
+              {
+                "title": "Support",
+                "body": "Support information for Serene Lotus."
+              },
+              {
+                "title": "Measurement",
+                "body": "Measurement information for Serene Lotus."
+              },
+              {
+                "title": "Next step",
+                "body": "Next step information for Serene Lotus."
+              }
+            ]
+          }
+        },
+        {
+          "id": "FAQAccordion",
+          "content": {
+            "eyebrow": "FAQ",
+            "headline": "Questions before you start",
+            "faqs": [
+              {
+                "q": "How quickly can we launch?",
+                "a": "The site is structured so the first version can launch quickly, then expand with focused edits and new pages."
+              },
+              {
+                "q": "What do you need from us?",
+                "a": "The site is structured so the first version can launch quickly, then expand with focused edits and new pages."
+              },
+              {
+                "q": "Can this scale into more pages?",
+                "a": "The site is structured so the first version can launch quickly, then expand with focused edits and new pages."
+              },
+              {
+                "q": "How does support work?",
+                "a": "The site is structured so the first version can launch quickly, then expand with focused edits and new pages."
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Serene Lotus",
+            "brand": "Serene Lotus",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Accommodations",
+                    "href": "/accommodations"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "A sanctuary of timeless elegance",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact Serene Lotus",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Serene Lotus",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Accommodations",
+                "href": "/accommodations"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Book Now",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineContact",
+          "content": {
+            "eyebrow": "Contact",
+            "headline": "Let's start your exclusive Bali journey",
+            "formTitle": "Reservation Inquiry",
+            "formBody": "Please fill out the form and we will respond promptly.",
+            "recipientEmail": "reservations@serenelotus.com",
+            "subjectTemplate": "New inquiry from {name}",
+            "details": [
+              {
+                "label": "Email",
+                "value": "reservations@serenelotus.com",
+                "href": "mailto:reservations@serenelotus.com"
+              },
+              {
+                "label": "Phone",
+                "value": "+62 361 1234567",
+                "href": "tel:+623611234567"
+              },
+              {
+                "label": "Office",
+                "value": "Jalan Lotus No.9, Bali, Indonesia"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Serene Lotus",
+            "brand": "Serene Lotus",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Accommodations",
+                    "href": "/accommodations"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "A sanctuary of timeless elegance",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "intent": {
+    "energy": "quiet-luxury",
+    "density": "spacious",
+    "cinematicIntensity": "high",
+    "motionIntensity": "rich",
+    "copyTone": "elegant inviting",
+    "themeHint": "midnight-luxury"
+  }
+}

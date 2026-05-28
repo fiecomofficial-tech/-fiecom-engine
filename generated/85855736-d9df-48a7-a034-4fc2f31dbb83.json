@@ -1,0 +1,1255 @@
+{
+  "theme": {
+    "preset": "warm-sand",
+    "bg": "#fff5e6",
+    "ink": "#5a3e1b",
+    "bgAccent": "#f7e1b5",
+    "fontDisplay": "Pacifico, cursive",
+    "fontBody": "Montserrat, sans-serif"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "Cupcake Bar",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Menu",
+                "href": "/menu"
+              },
+              {
+                "label": "Custom Orders",
+                "href": "/custom-orders"
+              },
+              {
+                "label": "About Us",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Start",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "HeroCinematic",
+          "content": {
+            "eyebrow": "Welcome to",
+            "headline": "Cupcake\nWorld",
+            "subhead": "Delight Awaits",
+            "body": "Indulge in our playful and inviting cupcakes crafted fresh every day.",
+            "cta": {
+              "label": "Explore Menu",
+              "href": "/menu"
+            }
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/videos/8477946/baker-bakery-baking-cake-8477946.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+              "alt": "Los Muertos Crew on Pexels",
+              "attributionAuthor": "Los Muertos Crew",
+              "attributionUrl": "https://www.pexels.com/video/close-up-shot-of-cupcakes-8477946/",
+              "videoUrl": "https://videos.pexels.com/video-files/8477946/8477946-hd_1280_720_24fps.mp4"
+            }
+          }
+        },
+        {
+          "id": "ImageGallery",
+          "content": {
+            "eyebrow": "Signature Selection",
+            "headline": "A Feast of Flavors",
+            "body": "Discover our wide array of cupcakes that bring joy to every bite.",
+            "captions": [
+              {
+                "title": "Classic Vanilla Swirl"
+              },
+              {
+                "title": "Chocolate Dream"
+              },
+              {
+                "title": "Lemon Zest"
+              },
+              {
+                "title": "Red Velvet"
+              },
+              {
+                "title": "Salted Caramel"
+              },
+              {
+                "title": "Berry Bliss"
+              },
+              {
+                "title": "Matcha Magic"
+              },
+              {
+                "title": "Peanut Butter Cup"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/11073464/pexels-photo-11073464.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Close-up of delicious cupcakes with vibrant pink frosting and sprinkles, perfect for dessert lovers.",
+                "attributionAuthor": "Maria Charizani",
+                "attributionUrl": "https://www.pexels.com/photo/close-up-shot-of-cupcakes-11073464/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/1775285/pexels-photo-1775285.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Delicious chocolate cupcake topped with rich, creamy frosting in a cozy indoor setting.",
+                "attributionAuthor": "Tina Nord",
+                "attributionUrl": "https://www.pexels.com/photo/close-up-photo-of-chocolate-cupcake-1775285/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/7966401/pexels-photo-7966401.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A baker pours cake batter into a muffin tray with eggs and lemons on a table.",
+                "attributionAuthor": "Felicity Tai",
+                "attributionUrl": "https://www.pexels.com/photo/cooking-cakes-on-table-7966401/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/28122543/pexels-photo-28122543.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Close-up of red velvet cupcake with whipped cream and strawberry topping, perfect for dessert lovers.",
+                "attributionAuthor": "Rawan Ali",
+                "attributionUrl": "https://www.pexels.com/photo/red-velvet-cupcake-28122543/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/30199170/pexels-photo-30199170.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A box of gourmet cupcakes, ideal for birthdays or celebrations.",
+                "attributionAuthor": "James Collington",
+                "attributionUrl": "https://www.pexels.com/photo/delicious-assorted-cupcakes-with-candles-30199170/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/684971/pexels-photo-684971.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A delectable cupcake topped with berries and pink frosting, perfect for dessert lovers.",
+                "attributionAuthor": "Valeria Boltneva",
+                "attributionUrl": "https://www.pexels.com/photo/cupcake-with-red-berries-on-top-684971/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/27412374/pexels-photo-27412374.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Two delicious cupcakes with cream frosting on a plate, accompanied by a drink in a cozy cafe.",
+                "attributionAuthor": "Theodore Nguyen",
+                "attributionUrl": "https://www.pexels.com/photo/two-cupcakes-on-a-plate-with-a-drink-27412374/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/36219655/pexels-photo-36219655.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Close-up of a peanut butter chocolate cupcake with frosting and drizzle.",
+                "attributionAuthor": "Ryan Carignan",
+                "attributionUrl": "https://www.pexels.com/photo/delicious-peanut-butter-chocolate-cupcakes-36219655/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "HorizontalShowcase",
+          "content": {
+            "eyebrow": "Why Cupcake Bar?",
+            "headline": "Crafted With Care",
+            "body": "Every cupcake is handmade using premium ingredients and creative flair.",
+            "cards": [
+              {
+                "title": "Fresh Ingredients",
+                "caption": "Locally sourced and natural"
+              },
+              {
+                "title": "Unique Recipes",
+                "caption": "Flavor combinations that surprise"
+              },
+              {
+                "title": "Baked Daily",
+                "caption": "Ensuring ultimate freshness"
+              },
+              {
+                "title": "Custom Creations",
+                "caption": "Tailored for your special moments"
+              },
+              {
+                "title": "Friendly Service",
+                "caption": "We love making you smile"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/35285710/pexels-photo-35285710.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A cozy vintage interior featuring a warm glowing industrial fan and a potted plant.",
+                "attributionAuthor": "Connor Scott McManus",
+                "attributionUrl": "https://www.pexels.com/photo/vintage-interior-with-industrial-fan-and-warm-lighting-35285710/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/32930797/pexels-photo-32930797.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Silhouette of a person in dramatic fog and light setting, creating a mystical atmosphere.",
+                "attributionAuthor": "cnrdmroglu",
+                "attributionUrl": "https://www.pexels.com/photo/mysterious-silhouette-in-foggy-light-32930797/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/27583986/pexels-photo-27583986.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Silhouetted figure with blue light and smoke on a nighttime street scene, creating an air of mystery.",
+                "attributionAuthor": "Manish Jangid",
+                "attributionUrl": "https://www.pexels.com/photo/a-man-in-a-suit-standing-in-front-of-a-fire-27583986/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35457880/pexels-photo-35457880.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Serene winter scene in a misty forest in Kosovo, capturing cold and tranquil atmosphere.",
+                "attributionAuthor": "Andi Dautaj",
+                "attributionUrl": "https://www.pexels.com/photo/misty-forest-pathway-in-kosovo-s-winter-woods-35457880/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35457884/pexels-photo-35457884.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Mysterious misty forest scene in winter, captured in Rugova, Kosovo.",
+                "attributionAuthor": "Andi Dautaj",
+                "attributionUrl": "https://www.pexels.com/photo/misty-forest-landscape-in-winter-kosovo-35457884/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35457880/pexels-photo-35457880.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Serene winter scene in a misty forest in Kosovo, capturing cold and tranquil atmosphere.",
+                "attributionAuthor": "Andi Dautaj",
+                "attributionUrl": "https://www.pexels.com/photo/misty-forest-pathway-in-kosovo-s-winter-woods-35457880/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "MessageReveal",
+          "content": {
+            "firstLine": "Craving something sweet?",
+            "accent": "Order Now",
+            "secondLine": "Customize your dream cupcake today",
+            "body": "Choose your flavors, frostings, and toppings – we bring your vision to life."
+          }
+        },
+        {
+          "id": "StickyChapters",
+          "content": {
+            "eyebrow": "Our Journey",
+            "chapters": [
+              {
+                "title": "Humble Beginnings in a Cozy Kitchen",
+                "body": "Founded with a passion for joyful treats."
+              },
+              {
+                "title": "Growing with Our Community",
+                "body": "Sharing smiles one cupcake at a time."
+              },
+              {
+                "title": "Innovating Flavors and Experiences",
+                "body": "Always crafting something new and exciting."
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/27584001/pexels-photo-27584001.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "A man stands enveloped in smoke and firelight, creating an intense atmosphere at night.",
+              "attributionAuthor": "Manish Jangid",
+              "attributionUrl": "https://www.pexels.com/photo/a-man-standing-in-front-of-a-fire-with-smoke-27584001/"
+            },
+            "secondary": {
+              "url": "https://images.pexels.com/photos/35457880/pexels-photo-35457880.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Serene winter scene in a misty forest in Kosovo, capturing cold and tranquil atmosphere.",
+              "attributionAuthor": "Andi Dautaj",
+              "attributionUrl": "https://www.pexels.com/photo/misty-forest-pathway-in-kosovo-s-winter-woods-35457880/"
+            }
+          }
+        },
+        {
+          "id": "TruusMotionCards",
+          "content": {
+            "headline": "Featured Favorites",
+            "subhead": "Handpicked delights just for you",
+            "body": "Try our most-loved cupcakes that keep customers coming back.",
+            "cards": [
+              {
+                "title": "Salted Caramel Crunch"
+              },
+              {
+                "title": "Triple Chocolate Fudge"
+              },
+              {
+                "title": "Strawberry Shortcake"
+              },
+              {
+                "title": "Coconut Dream"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/35285710/pexels-photo-35285710.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A cozy vintage interior featuring a warm glowing industrial fan and a potted plant.",
+                "attributionAuthor": "Connor Scott McManus",
+                "attributionUrl": "https://www.pexels.com/photo/vintage-interior-with-industrial-fan-and-warm-lighting-35285710/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/32930797/pexels-photo-32930797.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Silhouette of a person in dramatic fog and light setting, creating a mystical atmosphere.",
+                "attributionAuthor": "cnrdmroglu",
+                "attributionUrl": "https://www.pexels.com/photo/mysterious-silhouette-in-foggy-light-32930797/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/27583986/pexels-photo-27583986.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Silhouetted figure with blue light and smoke on a nighttime street scene, creating an air of mystery.",
+                "attributionAuthor": "Manish Jangid",
+                "attributionUrl": "https://www.pexels.com/photo/a-man-in-a-suit-standing-in-front-of-a-fire-27583986/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35457880/pexels-photo-35457880.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Serene winter scene in a misty forest in Kosovo, capturing cold and tranquil atmosphere.",
+                "attributionAuthor": "Andi Dautaj",
+                "attributionUrl": "https://www.pexels.com/photo/misty-forest-pathway-in-kosovo-s-winter-woods-35457880/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "Cupcake Bar",
+            "tagline": "Sweetness crafted daily",
+            "giant": "CUPCAKE BAR",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Menu",
+                    "href": "/menu"
+                  },
+                  {
+                    "label": "Custom Orders",
+                    "href": "/custom-orders"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "About Us",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "© 2024 Cupcake Bar. All rights reserved."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "menu",
+      "title": "Menu",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "Cupcake Bar",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Menu",
+                "href": "/menu"
+              },
+              {
+                "label": "Custom Orders",
+                "href": "/custom-orders"
+              },
+              {
+                "label": "About Us",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Start",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "ZentryHero",
+          "content": {
+            "eyebrow": "Discover",
+            "headline": "Our Menu",
+            "subhead": "Cupcakes & More",
+            "body": "Explore a delicious variety of cupcakes, treats, and seasonal specials.",
+            "cta": {
+              "label": "Customize Yours",
+              "href": "/custom-orders"
+            }
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/videos/8477946/baker-bakery-baking-cake-8477946.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+              "alt": "Los Muertos Crew on Pexels",
+              "attributionAuthor": "Los Muertos Crew",
+              "attributionUrl": "https://www.pexels.com/video/close-up-shot-of-cupcakes-8477946/",
+              "videoUrl": "https://videos.pexels.com/video-files/8477946/8477946-hd_1280_720_24fps.mp4"
+            }
+          }
+        },
+        {
+          "id": "HorizontalShowcase",
+          "content": {
+            "eyebrow": "Classic Flavors",
+            "headline": "Timeless Delights",
+            "body": "Savor the classics that never go out of style.",
+            "cards": [
+              {
+                "title": "Vanilla Bean",
+                "caption": "Light and airy with rich vanilla"
+              },
+              {
+                "title": "Chocolate Fudge",
+                "caption": "Decadent and moist"
+              },
+              {
+                "title": "Red Velvet",
+                "caption": "Smooth cream cheese frosting"
+              },
+              {
+                "title": "Lemon Poppy",
+                "caption": "Bright with a citrus zing"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/35285710/pexels-photo-35285710.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A cozy vintage interior featuring a warm glowing industrial fan and a potted plant.",
+                "attributionAuthor": "Connor Scott McManus",
+                "attributionUrl": "https://www.pexels.com/photo/vintage-interior-with-industrial-fan-and-warm-lighting-35285710/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/32930797/pexels-photo-32930797.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Silhouette of a person in dramatic fog and light setting, creating a mystical atmosphere.",
+                "attributionAuthor": "cnrdmroglu",
+                "attributionUrl": "https://www.pexels.com/photo/mysterious-silhouette-in-foggy-light-32930797/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/27583986/pexels-photo-27583986.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Silhouetted figure with blue light and smoke on a nighttime street scene, creating an air of mystery.",
+                "attributionAuthor": "Manish Jangid",
+                "attributionUrl": "https://www.pexels.com/photo/a-man-in-a-suit-standing-in-front-of-a-fire-27583986/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35457880/pexels-photo-35457880.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Serene winter scene in a misty forest in Kosovo, capturing cold and tranquil atmosphere.",
+                "attributionAuthor": "Andi Dautaj",
+                "attributionUrl": "https://www.pexels.com/photo/misty-forest-pathway-in-kosovo-s-winter-woods-35457880/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35457884/pexels-photo-35457884.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Mysterious misty forest scene in winter, captured in Rugova, Kosovo.",
+                "attributionAuthor": "Andi Dautaj",
+                "attributionUrl": "https://www.pexels.com/photo/misty-forest-landscape-in-winter-kosovo-35457884/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35457880/pexels-photo-35457880.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Serene winter scene in a misty forest in Kosovo, capturing cold and tranquil atmosphere.",
+                "attributionAuthor": "Andi Dautaj",
+                "attributionUrl": "https://www.pexels.com/photo/misty-forest-pathway-in-kosovo-s-winter-woods-35457880/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "HorizontalShowcase",
+          "content": {
+            "eyebrow": "Seasonal Specials",
+            "headline": "Flavors of the Moment",
+            "body": "Fresh, limited-time cupcakes inspired by the season.",
+            "cards": [
+              {
+                "title": "Pumpkin Spice Latte"
+              },
+              {
+                "title": "Peppermint Mocha"
+              },
+              {
+                "title": "Strawberry Rhubarb"
+              },
+              {
+                "title": "Maple Walnut"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/35285710/pexels-photo-35285710.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A cozy vintage interior featuring a warm glowing industrial fan and a potted plant.",
+                "attributionAuthor": "Connor Scott McManus",
+                "attributionUrl": "https://www.pexels.com/photo/vintage-interior-with-industrial-fan-and-warm-lighting-35285710/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/32930797/pexels-photo-32930797.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Silhouette of a person in dramatic fog and light setting, creating a mystical atmosphere.",
+                "attributionAuthor": "cnrdmroglu",
+                "attributionUrl": "https://www.pexels.com/photo/mysterious-silhouette-in-foggy-light-32930797/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/27583986/pexels-photo-27583986.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Silhouetted figure with blue light and smoke on a nighttime street scene, creating an air of mystery.",
+                "attributionAuthor": "Manish Jangid",
+                "attributionUrl": "https://www.pexels.com/photo/a-man-in-a-suit-standing-in-front-of-a-fire-27583986/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35457880/pexels-photo-35457880.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Serene winter scene in a misty forest in Kosovo, capturing cold and tranquil atmosphere.",
+                "attributionAuthor": "Andi Dautaj",
+                "attributionUrl": "https://www.pexels.com/photo/misty-forest-pathway-in-kosovo-s-winter-woods-35457880/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35457884/pexels-photo-35457884.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Mysterious misty forest scene in winter, captured in Rugova, Kosovo.",
+                "attributionAuthor": "Andi Dautaj",
+                "attributionUrl": "https://www.pexels.com/photo/misty-forest-landscape-in-winter-kosovo-35457884/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35457880/pexels-photo-35457880.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Serene winter scene in a misty forest in Kosovo, capturing cold and tranquil atmosphere.",
+                "attributionAuthor": "Andi Dautaj",
+                "attributionUrl": "https://www.pexels.com/photo/misty-forest-pathway-in-kosovo-s-winter-woods-35457880/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ZentryFeatures",
+          "content": {
+            "eyebrow": "More Treats",
+            "headline": "Beyond Cupcakes",
+            "body": "Complement your cupcake with cookies, brownies, and more.",
+            "features": [
+              {
+                "title": "Chocolate Chip Cookies",
+                "body": "Warm, gooey, and freshly baked"
+              },
+              {
+                "title": "Fudge Brownies",
+                "body": "Rich and decadent with a fudgy center"
+              },
+              {
+                "title": "Macarons",
+                "body": "Light, colorful, and delicate"
+              },
+              {
+                "title": "Seasonal Pastries",
+                "body": "Baked fresh daily"
+              },
+              {
+                "title": "Gift Boxes",
+                "body": "Perfect for celebrations and gifts"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/30878453/pexels-photo-30878453.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "An intimate indoor setting with warm, moody lighting and a couple seated amidst filming equipment.",
+                "attributionAuthor": "Javo  Films",
+                "attributionUrl": "https://www.pexels.com/photo/artistic-indoor-scene-with-warm-lighting-30878453/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/34007217/pexels-photo-34007217.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Film crew collaborating on set with cinematic lighting in Baghdad, Iraq, showcasing teamwork and creativity.",
+                "attributionAuthor": "khezez  | خزاز",
+                "attributionUrl": "https://www.pexels.com/photo/cinematic-production-team-in-baghdad-on-set-34007217/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/23384428/pexels-photo-23384428.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Dramatic silhouette of armed figures in a smoky, dimly lit environment, depicting a military scene.",
+                "attributionAuthor": "Wolrider YURTSEVEN",
+                "attributionUrl": "https://www.pexels.com/photo/a-professional-camera-filming-a-person-with-a-weapon-23384428/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/9665180/pexels-photo-9665180.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Dynamic view of dust particles in motion, illuminated against a black background, creating an ethereal effect.",
+                "attributionAuthor": "cottonbro studio",
+                "attributionUrl": "https://www.pexels.com/photo/white-dust-particles-on-black-background-9665180/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35457879/pexels-photo-35457879.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Captivating misty forest scene in Kosovo's Rugova Valley during winter, offering a serene and cinematic atmosphere.",
+                "attributionAuthor": "Andi Dautaj",
+                "attributionUrl": "https://www.pexels.com/photo/misty-winter-forest-in-kosovo-s-rugova-valley-35457879/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "Cupcake Bar",
+            "tagline": "Sweetness crafted daily",
+            "giant": "CUPCAKE BAR",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Menu",
+                    "href": "/menu"
+                  },
+                  {
+                    "label": "Custom Orders",
+                    "href": "/custom-orders"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "About Us",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "© 2024 Cupcake Bar. All rights reserved."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "custom-orders",
+      "title": "Custom Orders",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "Cupcake Bar",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Menu",
+                "href": "/menu"
+              },
+              {
+                "label": "Custom Orders",
+                "href": "/custom-orders"
+              },
+              {
+                "label": "About Us",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Start",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "ZentryHero",
+          "content": {
+            "eyebrow": "Create",
+            "headline": "Custom Cupcakes",
+            "subhead": "Made Your Way",
+            "body": "Personalize flavors, frostings, and decorations for your perfect event.",
+            "cta": {
+              "label": "Start Your Order",
+              "href": "/contact"
+            }
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/videos/8477935/pexels-photo-8477935.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+              "alt": "Los Muertos Crew on Pexels",
+              "attributionAuthor": "Los Muertos Crew",
+              "attributionUrl": "https://www.pexels.com/video/person-putting-icing-on-cupcake-8477935/",
+              "videoUrl": "https://videos.pexels.com/video-files/8477935/8477935-hd_1280_720_24fps.mp4"
+            }
+          }
+        },
+        {
+          "id": "FeatureBento",
+          "content": {
+            "eyebrow": "Your Options",
+            "headline": "Customization Possibilities",
+            "body": "A focused set of proof points, workflows, and conversion paths.",
+            "features": [
+              {
+                "title": "Choose Your Base",
+                "body": "Vanilla, chocolate, red velvet, and more"
+              },
+              {
+                "title": "Frosting Flavors",
+                "body": "Buttercream, cream cheese, ganache, etc."
+              },
+              {
+                "title": "Toppings & Decorations",
+                "body": "Sprinkles, edible glitter, custom designs"
+              },
+              {
+                "title": "Box Sizes",
+                "body": "Single cupcakes or party packs"
+              },
+              {
+                "title": "Delivery & Pickup",
+                "body": "Flexible options to suit you"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/12506515/pexels-photo-12506515.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A cozy vintage living room featuring retro decor, a classic television, and warm sunlight.",
+                "attributionAuthor": "Yusuf P",
+                "attributionUrl": "https://www.pexels.com/photo/vintage-tv-in-room-12506515/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35574315/pexels-photo-35574315.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Two people walking through a foggy park path in Tychy, Poland during the early morning.",
+                "attributionAuthor": "Alexander Zvir",
+                "attributionUrl": "https://www.pexels.com/photo/serene-morning-walk-in-foggy-park-35574315/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35574315/pexels-photo-35574315.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Two people walking through a foggy park path in Tychy, Poland during the early morning.",
+                "attributionAuthor": "Alexander Zvir",
+                "attributionUrl": "https://www.pexels.com/photo/serene-morning-walk-in-foggy-park-35574315/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/5982829/pexels-photo-5982829.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Scenery of mystic forest with dark trees in fog under cloudy sky in daytime",
+                "attributionAuthor": "Jamie Saw",
+                "attributionUrl": "https://www.pexels.com/photo/dark-forest-in-cloudy-day-5982829/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "MessageReveal",
+          "content": {
+            "firstLine": "Ready to impress?",
+            "accent": "Place Your Order",
+            "secondLine": "Let us bake your vision come true",
+            "body": "Our team is here to guide you through every step with care."
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "Cupcake Bar",
+            "tagline": "Sweetness crafted daily",
+            "giant": "CUPCAKE BAR",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Menu",
+                    "href": "/menu"
+                  },
+                  {
+                    "label": "Custom Orders",
+                    "href": "/custom-orders"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "About Us",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "© 2024 Cupcake Bar. All rights reserved."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "title": "About Us",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "Cupcake Bar",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Menu",
+                "href": "/menu"
+              },
+              {
+                "label": "Custom Orders",
+                "href": "/custom-orders"
+              },
+              {
+                "label": "About Us",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Start",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "ZentryStory",
+          "content": {
+            "eyebrow": "Our Story",
+            "headline": "Baking Joy Into Every Bite",
+            "body": "Founded with a playful spirit and a passion for exceptional cupcakes, we blend creativity and quality to bring smiles around the world."
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/7966008/pexels-photo-7966008.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Close-up of a hand reaching for cupcakes on a wooden stand, indoors.",
+              "attributionAuthor": "Felicity Tai",
+              "attributionUrl": "https://www.pexels.com/photo/hand-touching-cake-7966008/"
+            }
+          }
+        },
+        {
+          "id": "StickyChapters",
+          "content": {
+            "eyebrow": "Our Values",
+            "chapters": [
+              {
+                "title": "Quality Ingredients",
+                "body": "We believe the best cupcakes start with the best components."
+              },
+              {
+                "title": "Community Focus",
+                "body": "Supporting local growers and charities is close to our hearts."
+              },
+              {
+                "title": "Sustainability",
+                "body": "Eco-friendly packaging and waste reduction guide our practice."
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/27584001/pexels-photo-27584001.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "A man stands enveloped in smoke and firelight, creating an intense atmosphere at night.",
+              "attributionAuthor": "Manish Jangid",
+              "attributionUrl": "https://www.pexels.com/photo/a-man-standing-in-front-of-a-fire-with-smoke-27584001/"
+            },
+            "secondary": {
+              "url": "https://images.pexels.com/photos/35457880/pexels-photo-35457880.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Serene winter scene in a misty forest in Kosovo, capturing cold and tranquil atmosphere.",
+              "attributionAuthor": "Andi Dautaj",
+              "attributionUrl": "https://www.pexels.com/photo/misty-forest-pathway-in-kosovo-s-winter-woods-35457880/"
+            }
+          }
+        },
+        {
+          "id": "HorizontalShowcase",
+          "content": {
+            "eyebrow": "Meet The Team",
+            "headline": "Passion Behind The Pastries",
+            "body": "Dedicated bakers and creatives crafting each cupcake with love.",
+            "cards": [
+              {
+                "title": "Jessica - Head Baker"
+              },
+              {
+                "title": "Mark - Creative Director"
+              },
+              {
+                "title": "Sophie - Customer Care"
+              },
+              {
+                "title": "Liam - Delivery Specialist"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/35285710/pexels-photo-35285710.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A cozy vintage interior featuring a warm glowing industrial fan and a potted plant.",
+                "attributionAuthor": "Connor Scott McManus",
+                "attributionUrl": "https://www.pexels.com/photo/vintage-interior-with-industrial-fan-and-warm-lighting-35285710/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/32930797/pexels-photo-32930797.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Silhouette of a person in dramatic fog and light setting, creating a mystical atmosphere.",
+                "attributionAuthor": "cnrdmroglu",
+                "attributionUrl": "https://www.pexels.com/photo/mysterious-silhouette-in-foggy-light-32930797/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/27583986/pexels-photo-27583986.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Silhouetted figure with blue light and smoke on a nighttime street scene, creating an air of mystery.",
+                "attributionAuthor": "Manish Jangid",
+                "attributionUrl": "https://www.pexels.com/photo/a-man-in-a-suit-standing-in-front-of-a-fire-27583986/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35457880/pexels-photo-35457880.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Serene winter scene in a misty forest in Kosovo, capturing cold and tranquil atmosphere.",
+                "attributionAuthor": "Andi Dautaj",
+                "attributionUrl": "https://www.pexels.com/photo/misty-forest-pathway-in-kosovo-s-winter-woods-35457880/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35457884/pexels-photo-35457884.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Mysterious misty forest scene in winter, captured in Rugova, Kosovo.",
+                "attributionAuthor": "Andi Dautaj",
+                "attributionUrl": "https://www.pexels.com/photo/misty-forest-landscape-in-winter-kosovo-35457884/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35457880/pexels-photo-35457880.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Serene winter scene in a misty forest in Kosovo, capturing cold and tranquil atmosphere.",
+                "attributionAuthor": "Andi Dautaj",
+                "attributionUrl": "https://www.pexels.com/photo/misty-forest-pathway-in-kosovo-s-winter-woods-35457880/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "Cupcake Bar",
+            "tagline": "Sweetness crafted daily",
+            "giant": "CUPCAKE BAR",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Menu",
+                    "href": "/menu"
+                  },
+                  {
+                    "label": "Custom Orders",
+                    "href": "/custom-orders"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "About Us",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "© 2024 Cupcake Bar. All rights reserved."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "Cupcake Bar",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Menu",
+                "href": "/menu"
+              },
+              {
+                "label": "Custom Orders",
+                "href": "/custom-orders"
+              },
+              {
+                "label": "About Us",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Start",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "PageHeader",
+          "content": {
+            "eyebrow": "Connect",
+            "headline": "Get In Touch",
+            "body": "We’re here to answer your questions and take your orders."
+          }
+        },
+        {
+          "id": "ContactBlock",
+          "content": {
+            "eyebrow": "Reach Out",
+            "headline": "We’d Love To Hear From You",
+            "body": "Contact us by email, phone, or visit our bakery for a chat and a cupcake.",
+            "cta": {
+              "label": "Email the team",
+              "href": "mailto:hello@cupcakebar.co"
+            },
+            "details": [
+              {
+                "label": "Email",
+                "value": "contact@cupcakebar.com",
+                "href": "mailto:contact@cupcakebar.com"
+              },
+              {
+                "label": "Phone",
+                "value": "+1 555 123 4567"
+              },
+              {
+                "label": "Location",
+                "value": "123 Sweet St, Cupcake City"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ContactForm",
+          "content": {
+            "eyebrow": "Send Us A Message",
+            "headline": "Have Questions or Orders?",
+            "body": "The form opens your mail client with the right context.",
+            "recipientEmail": "contact@cupcakebar.com",
+            "submitLabel": "Send Message",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Name",
+                "type": "text",
+                "required": true,
+                "placeholder": "Your Name"
+              },
+              {
+                "name": "email",
+                "label": "Email",
+                "type": "email",
+                "required": true,
+                "placeholder": "you@example.com"
+              },
+              {
+                "name": "message",
+                "label": "Message",
+                "type": "textarea",
+                "required": true,
+                "placeholder": "Write your message here"
+              }
+            ],
+            "subjectTemplate": "Website Inquiry: {{subject}}"
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "Cupcake Bar",
+            "tagline": "Sweetness crafted daily",
+            "giant": "CUPCAKE BAR",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Menu",
+                    "href": "/menu"
+                  },
+                  {
+                    "label": "Custom Orders",
+                    "href": "/custom-orders"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "About Us",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "© 2024 Cupcake Bar. All rights reserved."
+          }
+        }
+      ]
+    }
+  ],
+  "intent": {
+    "energy": "immersive",
+    "density": "balanced",
+    "cinematicIntensity": "moderate",
+    "motionIntensity": "subtle",
+    "copyTone": "playful and inviting",
+    "themeHint": "warm-sand"
+  }
+}

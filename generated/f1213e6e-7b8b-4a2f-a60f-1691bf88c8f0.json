@@ -1,0 +1,1331 @@
+{
+  "theme": {
+    "preset": "fintech-minimal"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "QuantaPay",
+            "links": [
+              {
+                "label": "Work",
+                "href": "/work"
+              },
+              {
+                "label": "Features"
+              },
+              {
+                "label": "Process"
+              },
+              {
+                "label": "Pricing",
+                "href": "/pricing"
+              },
+              {
+                "label": "FAQ"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get Started"
+            }
+          }
+        },
+        {
+          "id": "HeroCinematic",
+          "content": {
+            "eyebrow": "Modern Fintech. Smarter Money.",
+            "headline": "Reimagining Finance Today",
+            "subhead": "Instant & Secure",
+            "body": "QuantaPay empowers your business with real-time payments, seamless transfers, and robust analytics—all in one platform.",
+            "cta": {
+              "label": "Open Your Account"
+            }
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.unsplash.com/photo-1726137065519-c9a1b9eca951?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxmaW50ZWNoJTIwZGlnaXRhbCUyMGFwcCUyMGludGVyZmFjZXxlbnwxfDB8fHwxNzc5Mzk0Mzk3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+              "alt": "A person holding a credit card in their hand",
+              "attributionAuthor": "SumUp",
+              "attributionUrl": "https://unsplash.com/photos/a-person-holding-a-credit-card-in-their-hand-WD0aIaqd5UM"
+            }
+          }
+        },
+        {
+          "id": "MarqueeBand",
+          "content": {
+            "items": [
+              "Open Banking APIs",
+              "Instant Payouts",
+              "Real-Time Analytics",
+              "Multi-Currency Support",
+              "Enterprise-Grade Security",
+              "24/7 Support"
+            ],
+            "tone": "invert"
+          }
+        },
+        {
+          "id": "FeatureBento",
+          "content": {
+            "eyebrow": "What We Offer",
+            "headline": "A Complete Suite for Modern Finance",
+            "body": "From seamless onboarding to cross-border payments and advanced reporting, QuantaPay brings digital finance to the next level.",
+            "features": [
+              {
+                "title": "Instant Transfers",
+                "body": "Send and receive money globally with zero delays.",
+                "size": "md"
+              },
+              {
+                "title": "Smart Analytics",
+                "body": "Actionable insights and real-time financial dashboards.",
+                "size": "md"
+              },
+              {
+                "title": "Open Banking APIs",
+                "body": "Integrate with any system—fast, secure, and flexible.",
+                "size": "md"
+              },
+              {
+                "title": "Multi-Currency Wallets",
+                "body": "Hold and convert 30+ currencies with live rates.",
+                "size": "md"
+              },
+              {
+                "title": "Fraud Detection",
+                "body": "AI-powered monitoring for maximum protection.",
+                "size": "md"
+              },
+              {
+                "title": "Dedicated Support",
+                "body": "24/7 expert team always available to help.",
+                "size": "md"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.unsplash.com/photo-1669865016788-992a0eb4b6d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxkaWdpdGFsJTIwcGF5bWVudCUyMHRyYW5zZmVyfGVufDF8Mnx8fDE3NzkzOTQzOTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "logo",
+                "attributionAuthor": "Woliul Hasan",
+                "attributionUrl": "https://unsplash.com/photos/logo-BfPkm4ptlsI"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1551650992-ee4fd47df41f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxmaW5hbmNpYWwlMjBhbmFseXRpY3MlMjBkYXNoYm9hcmR8ZW58MXwyfHx8MTc3OTM5NDM5N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "silver iPhone X",
+                "attributionAuthor": "Balázs Kétyi",
+                "attributionUrl": "https://unsplash.com/photos/silver-iphone-x-6ba_vdgx_go"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1706613630589-e52be2f4ea9d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxnbG9iYWwlMjBjdXJyZW5jeSUyMHN5bWJvbHN8ZW58MXwyfHx8MTc3OTM5NDM5N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "a bunch of different flags that are in the shape of balls",
+                "attributionAuthor": "Farhat Altaf",
+                "attributionUrl": "https://unsplash.com/photos/a-bunch-of-different-flags-that-are-in-the-shape-of-balls-TZX8e27A2u4"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1651055705032-d4187855b004?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxiYW5raW5nJTIwYXBpfGVufDF8Mnx8fDE3NzkzOTQzOTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "logo",
+                "attributionAuthor": "Mariia Shalabaieva",
+                "attributionUrl": "https://unsplash.com/photos/logo-GSmXdBMjzcQ"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1651054558996-03455fe2702f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBmaW50ZWNoJTIwc3VwcG9ydHxlbnwxfDJ8fHwxNzc5Mzk0Mzk3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "graphical user interface",
+                "attributionAuthor": "Mariia Shalabaieva",
+                "attributionUrl": "https://unsplash.com/photos/graphical-user-interface-fRqWbDS40Bg"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1651055705032-d4187855b004?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxjdXJyZW5jeSUyMGNvbnZlcnNpb24lMjBhcHB8ZW58MXwyfHx8MTc3OTM5NDM5N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "logo",
+                "attributionAuthor": "Mariia Shalabaieva",
+                "attributionUrl": "https://unsplash.com/photos/logo-GSmXdBMjzcQ"
+              }
+            ]
+          }
+        },
+        {
+          "id": "StatsCounter",
+          "content": {
+            "eyebrow": "Proven Results",
+            "headline": "Trusted by Ambitious Businesses",
+            "stats": [
+              {
+                "value": 1500,
+                "prefix": "+",
+                "label": "Active Enterprise Clients"
+              },
+              {
+                "value": 99.97,
+                "suffix": "%",
+                "label": "Uptime Guarantee"
+              },
+              {
+                "value": 27,
+                "label": "Currencies Supported"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ProcessSteps",
+          "content": {
+            "eyebrow": "How It Works",
+            "headline": "Start Managing Your Money, Effortlessly",
+            "steps": [
+              {
+                "number": "1",
+                "title": "Sign Up Instantly",
+                "body": "Register your business in minutes, no paperwork.",
+                "duration": "<5 min"
+              },
+              {
+                "number": "2",
+                "title": "Connect Your Accounts",
+                "body": "Securely link existing banks and payment systems.",
+                "duration": "<2 min"
+              },
+              {
+                "number": "3",
+                "title": "Set Up Workflows",
+                "body": "Automate receivables, payroll, and transfers.",
+                "duration": "5-10 min"
+              },
+              {
+                "number": "4",
+                "title": "Monitor & Optimize",
+                "body": "Access real-time data and improve financial processes.",
+                "duration": "Ongoing"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ImageGallery",
+          "content": {
+            "eyebrow": "In Action",
+            "headline": "Platform Snapshots",
+            "body": "A glimpse into the QuantaPay experience—intuitive, fast, and transparent.",
+            "captions": [
+              {
+                "title": "Onboarding Workflow",
+                "year": "2024"
+              },
+              {
+                "title": "Global Transfer Dashboard"
+              },
+              {
+                "title": "Live Analytics Feed",
+                "year": "2024"
+              },
+              {
+                "title": "Multi-Currency Wallet"
+              },
+              {
+                "title": "Security Center"
+              },
+              {
+                "title": "Team Collaboration"
+              },
+              {
+                "title": "API Integration Console"
+              },
+              {
+                "title": "Mobile Experience"
+              },
+              {
+                "title": "Customer Support Chat"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.unsplash.com/photo-1639825132131-cdb32a6c43d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBmaW50ZWNoJTIwdXNlciUyMGludGVyZmFjZXxlbnwxfDF8fHwxNzc5Mzk0Mzk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "a close up of a cell phone on a table",
+                "attributionAuthor": "Behnam Norouzi",
+                "attributionUrl": "https://unsplash.com/photos/a-close-up-of-a-cell-phone-on-a-table-ecf_wJiW664"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1761293877320-d78bffe24b25?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxnbG9iYWwlMjBwYXltZW50JTIwYXBwfGVufDF8MXx8fDE3NzkzOTQzOTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "Hand holding phone displaying e-sim options for thailand and germany.",
+                "attributionAuthor": "Airalo",
+                "attributionUrl": "https://unsplash.com/photos/hand-holding-phone-displaying-e-sim-options-for-thailand-and-germany-Gsv2AAOwLvo"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1768055104929-cf2317674a80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxmaW5hbmNpYWwlMjBhbmFseXRpY3MlMjBzb2Z0d2FyZXxlbnwxfDF8fHwxNzc5Mzk0Mzk3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "Trader analyzing stock market charts on tablet and monitor",
+                "attributionAuthor": "Jakub Żerdzicki",
+                "attributionUrl": "https://unsplash.com/photos/trader-analyzing-stock-market-charts-on-tablet-and-monitor-tFecc1boKYc"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1556742521-9713bf272865?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxkaWdpdGFsJTIwd2FsbGV0fGVufDF8MXx8fDE3NzkzOTQzOTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "black Android smartphone",
+                "attributionAuthor": "Nathan Dumlao",
+                "attributionUrl": "https://unsplash.com/photos/black-android-smartphone-oRKF_ZBJYGM"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1643962577583-a4c880a109ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxiYW5raW5nJTIwc2VjdXJpdHklMjB1aXxlbnwxfDF8fHwxNzc5Mzk0Mzk3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "a cell phone sitting on top of a table",
+                "attributionAuthor": "lonely blue",
+                "attributionUrl": "https://unsplash.com/photos/a-cell-phone-sitting-on-top-of-a-table-IV_Mta1Awzs"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1768055104929-cf2317674a80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHx0ZWFtJTIwY29sbGFib3JhdGlvbiUyMGZpbnRlY2h8ZW58MXwxfHx8MTc3OTM5NDM5N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "Trader analyzing stock market charts on tablet and monitor",
+                "attributionAuthor": "Jakub Żerdzicki",
+                "attributionUrl": "https://unsplash.com/photos/trader-analyzing-stock-market-charts-on-tablet-and-monitor-tFecc1boKYc"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1584472666879-7d92db132958?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxhcGklMjBkYXNoYm9hcmR8ZW58MXwxfHx8MTc3OTM5NDM5N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "white red and blue calendar",
+                "attributionAuthor": "Christine Sandu",
+                "attributionUrl": "https://unsplash.com/photos/white-red-and-blue-calendar-yo5wIVapll0"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1726065235221-78562122baf3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBiYW5raW5nJTIwYXBwfGVufDF8MXx8fDE3NzkzOTQzOTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "A man holding a cell phone in front of a computer screen",
+                "attributionAuthor": "SumUp",
+                "attributionUrl": "https://unsplash.com/photos/a-man-holding-a-cell-phone-in-front-of-a-computer-screen-7YG1ClM06Sc"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1640477296068-3f348c7d54f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxvbmxpbmUlMjBjdXN0b21lciUyMHN1cHBvcnR8ZW58MXwxfHx8MTc3OTM5NDM5N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "a man sitting at a desk with headphones on",
+                "attributionAuthor": "Rodrigo Rodrigues | WOLF Λ R T",
+                "attributionUrl": "https://unsplash.com/photos/a-man-sitting-at-a-desk-with-headphones-on-PEm8fqi4vBA"
+              }
+            ]
+          }
+        },
+        {
+          "id": "CTABanner",
+          "content": {
+            "eyebrow": "Ready to upgrade?",
+            "headline": "Digitize your business finance with QuantaPay.",
+            "body": "Join hundreds of forward-thinking companies. Quick setup, no hidden fees.",
+            "cta": {
+              "label": "Get Started"
+            }
+          }
+        },
+        {
+          "id": "TestimonialCarousel",
+          "content": {
+            "eyebrow": "What Clients Say",
+            "testimonials": [
+              {
+                "quote": "QuantaPay streamlined our payment flows across five continents. The onboarding was seamless.",
+                "author": "Sarah Tan",
+                "role": "COO",
+                "org": "BluePeak Logistics"
+              },
+              {
+                "quote": "We reduced transaction costs by 18% thanks to the platform’s multi-currency tools and insights.",
+                "author": "Liam O'Brien",
+                "role": "CFO",
+                "org": "RedTower Studios"
+              },
+              {
+                "quote": "Their API made integrating our payroll a breeze—our dev team loved it.",
+                "author": "Priya Singh",
+                "role": "Lead Developer",
+                "org": "EmergeSoft"
+              },
+              {
+                "quote": "Exceptional support and reliability. The best fintech partner we’ve had.",
+                "author": "Markus Weber",
+                "role": "Finance Director",
+                "org": "NovaMed"
+              }
+            ]
+          }
+        },
+        {
+          "id": "PricingTiers",
+          "content": {
+            "eyebrow": "Simple Pricing",
+            "headline": "Plans for Every Business",
+            "body": "Transparent pricing with unlimited transactions and no setup fees.",
+            "tiers": [
+              {
+                "name": "Starter",
+                "price": 0,
+                "period": "month",
+                "description": "Perfect for startups and small teams.",
+                "features": [
+                  "Free account setup",
+                  "Instant transfers",
+                  "Multi-currency accounts",
+                  "Basic analytics"
+                ],
+                "cta": {
+                  "label": "Start Free"
+                }
+              },
+              {
+                "name": "Professional",
+                "price": 49,
+                "period": "month",
+                "description": "For established businesses scaling up.",
+                "features": [
+                  "All Starter features",
+                  "Advanced reporting",
+                  "Priority support",
+                  "API access"
+                ],
+                "featured": true,
+                "cta": {
+                  "label": "Start Professional"
+                }
+              },
+              {
+                "name": "Enterprise",
+                "price": 299,
+                "period": "month",
+                "description": "Custom solutions for large teams and enterprises.",
+                "features": [
+                  "All Professional features",
+                  "Dedicated manager",
+                  "Custom API limits",
+                  "White-label branding"
+                ],
+                "cta": {
+                  "label": "Contact Sales"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "FAQAccordion",
+          "content": {
+            "eyebrow": "Frequently Asked",
+            "headline": "Everything You Need to Know",
+            "faqs": [
+              {
+                "q": "Is QuantaPay secure?",
+                "a": "Yes. We use advanced encryption, two-factor authentication, and AI-driven fraud detection to keep your funds and data safe at all times."
+              },
+              {
+                "q": "How quickly can I set up my account?",
+                "a": "Most businesses are approved within minutes, with instant access to all core features after verification."
+              },
+              {
+                "q": "Which currencies do you support?",
+                "a": "QuantaPay supports over 27 global currencies, including USD, EUR, GBP, SGD, and JPY. More are added regularly."
+              },
+              {
+                "q": "Can I integrate with my existing systems?",
+                "a": "Absolutely. Our Open Banking APIs and pre-built integrations make it easy to connect with your current workflows."
+              },
+              {
+                "q": "What support options are available?",
+                "a": "Our dedicated support team is available 24/7 via chat, email, and phone for all account tiers."
+              }
+            ]
+          }
+        },
+        {
+          "id": "ContactBlock",
+          "content": {
+            "eyebrow": "Contact",
+            "headline": "Let's simplify your finance together.",
+            "body": "Reach out to our team to schedule a demo, get a custom quote, or ask technical questions anytime.",
+            "cta": {
+              "label": "Email Our Team",
+              "href": "mailto:hello@quantapay.com"
+            },
+            "details": [
+              {
+                "label": "Email",
+                "value": "hello@quantapay.com",
+                "href": "mailto:hello@quantapay.com"
+              },
+              {
+                "label": "Support",
+                "value": "+1 844 600 2211"
+              },
+              {
+                "label": "Office",
+                "value": "135 Market Lane, New York, NY"
+              },
+              {
+                "label": "Press",
+                "value": "press@quantapay.com",
+                "href": "mailto:press@quantapay.com"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ClosingCTA",
+          "content": {
+            "eyebrow": "Your next move",
+            "headline": "Power your business with QuantaPay",
+            "subhead": "Experience the future of digital finance—secure, intuitive, and built for growth.",
+            "cta": {
+              "label": "Start Now"
+            }
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "QuantaPay",
+            "tagline": "Modern finance, made simple.",
+            "giant": "QUANTAPAY",
+            "columns": [
+              {
+                "title": "Company",
+                "links": [
+                  {
+                    "label": "About"
+                  },
+                  {
+                    "label": "Work",
+                    "href": "/work"
+                  },
+                  {
+                    "label": "Careers"
+                  },
+                  {
+                    "label": "Journal"
+                  }
+                ]
+              },
+              {
+                "title": "Platform",
+                "links": [
+                  {
+                    "label": "Features"
+                  },
+                  {
+                    "label": "Pricing",
+                    "href": "/pricing"
+                  },
+                  {
+                    "label": "API Docs"
+                  },
+                  {
+                    "label": "Security"
+                  }
+                ]
+              },
+              {
+                "title": "Connect",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Studio"
+                  },
+                  {
+                    "label": "Press"
+                  },
+                  {
+                    "label": "Support"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact Us"
+            },
+            "legal": "© 2024 QuantaPay. All rights reserved."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "work",
+      "title": "Work",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "QuantaPay",
+            "links": [
+              {
+                "label": "Work",
+                "href": "/work"
+              },
+              {
+                "label": "Features"
+              },
+              {
+                "label": "Process"
+              },
+              {
+                "label": "Pricing",
+                "href": "/pricing"
+              },
+              {
+                "label": "FAQ"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get Started"
+            }
+          }
+        },
+        {
+          "id": "PageHeader",
+          "content": {
+            "crumbs": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Work"
+              }
+            ],
+            "eyebrow": "Case Studies",
+            "headline": "How QuantaPay Drives Results",
+            "body": "Explore selected client stories and the impact of our fintech solutions."
+          }
+        },
+        {
+          "id": "HorizontalShowcase",
+          "content": {
+            "eyebrow": "Portfolio",
+            "headline": "Real Businesses, Real Outcomes",
+            "body": "A cross-section of recent QuantaPay integrations and their results.",
+            "cards": [
+              {
+                "title": "BluePeak Logistics",
+                "caption": "Scaled instant payouts across five continents."
+              },
+              {
+                "title": "RedTower Studios",
+                "caption": "Lowered FX fees by 18% with multi-currency tools."
+              },
+              {
+                "title": "NovaMed",
+                "caption": "Secure, global payroll for 900+ staff."
+              },
+              {
+                "title": "EmergeSoft",
+                "caption": "Integrated API in under 5 days."
+              },
+              {
+                "title": "UrbanFlow Marketplace",
+                "caption": "Automated reconciliation and reporting."
+              },
+              {
+                "title": "Solstice Retail",
+                "caption": "Grew revenue with embedded finance."
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.unsplash.com/photo-1642751226315-e6dc6b47fd54?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxmaW50ZWNoJTIwcGF5bWVudHMlMjBjYXNlJTIwc3R1ZHl8ZW58MXwxfHx8MTc3OTM5NDM5N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "a close up of a computer screen with numbers on it",
+                "attributionAuthor": "Niranjan _ Photographs",
+                "attributionUrl": "https://unsplash.com/photos/a-close-up-of-a-computer-screen-with-numbers-on-it-ftxisY44pQ0"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1574884280706-7342ca3d4231?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxjb3Jwb3JhdGUlMjBmaW5hbmNlcyUyMHN1Y2Nlc3N8ZW58MXwxfHx8MTc3OTM5NDM5N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "Finance book",
+                "attributionAuthor": "Ivan Shilov",
+                "attributionUrl": "https://unsplash.com/photos/finance-book-MjQ4rsuHF4U"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1579689252125-767b773f3f69?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxnbG9iYWwlMjBwYXlyb2xsJTIwcGF5b3V0fGVufDF8MXx8fDE3NzkzOTQzOTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "white printer paper with black text",
+                "attributionAuthor": "Markus Spiske",
+                "attributionUrl": "https://unsplash.com/photos/white-printer-paper-with-black-text-69ppqHiG9Xo"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1642751226315-e6dc6b47fd54?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxmaW5hbmNpYWwlMjBhcGklMjBpbnRlZ3JhdGlvbnxlbnwxfDF8fHwxNzc5Mzk0Mzk3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "a close up of a computer screen with numbers on it",
+                "attributionAuthor": "Niranjan _ Photographs",
+                "attributionUrl": "https://unsplash.com/photos/a-close-up-of-a-computer-screen-with-numbers-on-it-ftxisY44pQ0"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1768055105681-7d2096c5165f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMGFuYWx5dGljcyUyMGZpbnRlY2h8ZW58MXwxfHx8MTc3OTM5NDM5N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "Trader analyzing stock market charts on multiple screens.",
+                "attributionAuthor": "Jakub Żerdzicki",
+                "attributionUrl": "https://unsplash.com/photos/trader-analyzing-stock-market-charts-on-multiple-screens-j_hho1mE47s"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1746723370709-70d89a7b7999?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxyZXRhaWwlMjBkaWdpdGFsJTIwZmluYW5jZXxlbnwxfDF8fHwxNzc5Mzk0Mzk3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "A customer pays at a hair salon's front desk.",
+                "attributionAuthor": "SumUp",
+                "attributionUrl": "https://unsplash.com/photos/a-customer-pays-at-a-hair-salons-front-desk-LYafbAC9eJI"
+              }
+            ]
+          }
+        },
+        {
+          "id": "StatsCounter",
+          "content": {
+            "eyebrow": "Key Numbers",
+            "headline": "Driving Value at Scale",
+            "stats": [
+              {
+                "value": 98,
+                "suffix": "%",
+                "label": "Client Retention"
+              },
+              {
+                "value": 4.7,
+                "suffix": "/5",
+                "label": "User Satisfaction"
+              },
+              {
+                "value": 620000,
+                "prefix": "$",
+                "label": "Largest Single Transaction"
+              }
+            ]
+          }
+        },
+        {
+          "id": "TwoColumnText",
+          "content": {
+            "eyebrow": "Our Approach",
+            "headline": "Solving Real-World Challenges",
+            "paragraphs": [
+              {
+                "heading": "Global Expansion",
+                "body": "We helped BluePeak Logistics manage cross-border transactions with real-time transparency and compliance reporting."
+              },
+              {
+                "heading": "Cost Reduction",
+                "body": "RedTower Studios achieved significant savings with our multi-currency and analytics suite."
+              },
+              {
+                "heading": "Team Enablement",
+                "body": "Our platform’s intuitive UI allowed NovaMed’s finance team to adapt with zero training time."
+              }
+            ]
+          }
+        },
+        {
+          "id": "TestimonialCarousel",
+          "content": {
+            "eyebrow": "Voices from Our Partners",
+            "testimonials": [
+              {
+                "quote": "QuantaPay is a true partner in our global expansion. The flexibility is unmatched.",
+                "author": "Michelle Lee",
+                "role": "VP of Finance",
+                "org": "UrbanFlow Marketplace"
+              },
+              {
+                "quote": "Switching to QuantaPay empowered our team to focus on growth, not admin.",
+                "author": "Elias Brunner",
+                "role": "Managing Director",
+                "org": "Solstice Retail"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ClosingCTA",
+          "content": {
+            "eyebrow": "Inspired?",
+            "headline": "See how QuantaPay can transform your operations",
+            "subhead": "Let’s start with a free consult.",
+            "cta": {
+              "label": "Request Demo"
+            }
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "QuantaPay",
+            "tagline": "Modern finance, made simple.",
+            "giant": "QUANTAPAY",
+            "columns": [
+              {
+                "title": "Company",
+                "links": [
+                  {
+                    "label": "About"
+                  },
+                  {
+                    "label": "Work",
+                    "href": "/work"
+                  },
+                  {
+                    "label": "Careers"
+                  },
+                  {
+                    "label": "Journal"
+                  }
+                ]
+              },
+              {
+                "title": "Platform",
+                "links": [
+                  {
+                    "label": "Features"
+                  },
+                  {
+                    "label": "Pricing",
+                    "href": "/pricing"
+                  },
+                  {
+                    "label": "API Docs"
+                  },
+                  {
+                    "label": "Security"
+                  }
+                ]
+              },
+              {
+                "title": "Connect",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Studio"
+                  },
+                  {
+                    "label": "Press"
+                  },
+                  {
+                    "label": "Support"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact Us"
+            },
+            "legal": "© 2024 QuantaPay. All rights reserved."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "pricing",
+      "title": "Pricing",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "QuantaPay",
+            "links": [
+              {
+                "label": "Work",
+                "href": "/work"
+              },
+              {
+                "label": "Features"
+              },
+              {
+                "label": "Process"
+              },
+              {
+                "label": "Pricing",
+                "href": "/pricing"
+              },
+              {
+                "label": "FAQ"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get Started"
+            }
+          }
+        },
+        {
+          "id": "PageHeader",
+          "content": {
+            "crumbs": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Pricing"
+              }
+            ],
+            "eyebrow": "Pricing Plans",
+            "headline": "Choose the Right Plan for You",
+            "body": "Flexible options for startups, growth companies, and enterprises."
+          }
+        },
+        {
+          "id": "PricingTiers",
+          "content": {
+            "eyebrow": "Simple Pricing",
+            "headline": "Plans for Every Business",
+            "body": "Transparent pricing with unlimited transactions and no setup fees.",
+            "tiers": [
+              {
+                "name": "Starter",
+                "price": 0,
+                "period": "month",
+                "description": "Perfect for startups and small teams.",
+                "features": [
+                  "Free account setup",
+                  "Instant transfers",
+                  "Multi-currency accounts",
+                  "Basic analytics"
+                ],
+                "cta": {
+                  "label": "Start Free"
+                }
+              },
+              {
+                "name": "Professional",
+                "price": 49,
+                "period": "month",
+                "description": "For established businesses scaling up.",
+                "features": [
+                  "All Starter features",
+                  "Advanced reporting",
+                  "Priority support",
+                  "API access"
+                ],
+                "featured": true,
+                "cta": {
+                  "label": "Start Professional"
+                }
+              },
+              {
+                "name": "Enterprise",
+                "price": 299,
+                "period": "month",
+                "description": "Custom solutions for large teams and enterprises.",
+                "features": [
+                  "All Professional features",
+                  "Dedicated manager",
+                  "Custom API limits",
+                  "White-label branding"
+                ],
+                "cta": {
+                  "label": "Contact Sales"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "FeatureList",
+          "content": {
+            "eyebrow": "Every Plan Includes",
+            "headline": "What’s Standard Across All Tiers",
+            "features": [
+              {
+                "title": "Global Payments",
+                "body": "Send and receive payments in 27+ currencies."
+              },
+              {
+                "title": "Real-Time Analytics",
+                "body": "See every transaction as it happens."
+              },
+              {
+                "title": "API Integrations",
+                "body": "Connect seamlessly with your business apps."
+              },
+              {
+                "title": "Role-Based Access",
+                "body": "Set controls and permissions for your team."
+              },
+              {
+                "title": "Bank-Grade Security",
+                "body": "End-to-end encryption and 24/7 monitoring."
+              }
+            ]
+          }
+        },
+        {
+          "id": "FAQAccordion",
+          "content": {
+            "eyebrow": "Pricing FAQ",
+            "headline": "Questions About Plans & Billing",
+            "faqs": [
+              {
+                "q": "Do you charge setup fees?",
+                "a": "No, all QuantaPay plans have zero setup or onboarding fees."
+              },
+              {
+                "q": "Are there transaction limits?",
+                "a": "No limits for Starter, Professional, or Enterprise. Fair use policies apply."
+              },
+              {
+                "q": "Can I switch plans anytime?",
+                "a": "Yes, you can upgrade, downgrade, or cancel straight from your dashboard."
+              },
+              {
+                "q": "Is my data secure if I cancel?",
+                "a": "Your data will be kept encrypted and available for export for 30 days after cancellation."
+              }
+            ]
+          }
+        },
+        {
+          "id": "CTABanner",
+          "content": {
+            "eyebrow": "Get started today",
+            "headline": "No hidden costs, no surprises—just value.",
+            "body": "Try QuantaPay free or book a demo with our team.",
+            "cta": {
+              "label": "Start Free"
+            }
+          }
+        },
+        {
+          "id": "ContactBlock",
+          "content": {
+            "eyebrow": "Ready to discuss?",
+            "headline": "Let’s map out your financial workflow",
+            "body": "Email us for a custom enterprise quote or to ask about integrations.",
+            "cta": {
+              "label": "Email Sales",
+              "href": "mailto:hello@quantapay.com"
+            },
+            "details": [
+              {
+                "label": "Sales Email",
+                "value": "hello@quantapay.com",
+                "href": "mailto:hello@quantapay.com"
+              },
+              {
+                "label": "Phone",
+                "value": "+1 844 600 2211"
+              },
+              {
+                "label": "HQ",
+                "value": "135 Market Lane, New York, NY"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ClosingCTA",
+          "content": {
+            "eyebrow": "Next step",
+            "headline": "Upgrade your finance—zero friction",
+            "subhead": "From startup to enterprise, we have your back.",
+            "cta": {
+              "label": "Start Free"
+            }
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "QuantaPay",
+            "tagline": "Modern finance, made simple.",
+            "giant": "QUANTAPAY",
+            "columns": [
+              {
+                "title": "Company",
+                "links": [
+                  {
+                    "label": "About"
+                  },
+                  {
+                    "label": "Work",
+                    "href": "/work"
+                  },
+                  {
+                    "label": "Careers"
+                  },
+                  {
+                    "label": "Journal"
+                  }
+                ]
+              },
+              {
+                "title": "Platform",
+                "links": [
+                  {
+                    "label": "Features"
+                  },
+                  {
+                    "label": "Pricing",
+                    "href": "/pricing"
+                  },
+                  {
+                    "label": "API Docs"
+                  },
+                  {
+                    "label": "Security"
+                  }
+                ]
+              },
+              {
+                "title": "Connect",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Studio"
+                  },
+                  {
+                    "label": "Press"
+                  },
+                  {
+                    "label": "Support"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact Us"
+            },
+            "legal": "© 2024 QuantaPay. All rights reserved."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "QuantaPay",
+            "links": [
+              {
+                "label": "Work",
+                "href": "/work"
+              },
+              {
+                "label": "Features"
+              },
+              {
+                "label": "Process"
+              },
+              {
+                "label": "Pricing",
+                "href": "/pricing"
+              },
+              {
+                "label": "FAQ"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get Started"
+            }
+          }
+        },
+        {
+          "id": "PageHeader",
+          "content": {
+            "crumbs": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Contact"
+              }
+            ],
+            "eyebrow": "Contact",
+            "headline": "Connect with QuantaPay",
+            "body": "Talk to our team about plans, demos, partnerships, or press."
+          }
+        },
+        {
+          "id": "ContactForm",
+          "content": {
+            "eyebrow": "Start the Conversation",
+            "headline": "How can we help you?",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Your Name",
+                "type": "text",
+                "required": true,
+                "placeholder": "Jane Smith"
+              },
+              {
+                "name": "email",
+                "label": "Work Email",
+                "type": "email",
+                "required": true,
+                "placeholder": "you@company.com"
+              },
+              {
+                "name": "budget",
+                "label": "Approx. Budget (USD)",
+                "type": "text",
+                "placeholder": "Optional"
+              },
+              {
+                "name": "message",
+                "label": "Your Message",
+                "type": "textarea",
+                "required": true,
+                "placeholder": "How can we help?"
+              }
+            ],
+            "submitLabel": "Send Message",
+            "recipientEmail": "hello@quantapay.com",
+            "subjectTemplate": "New website inquiry from {{name}}"
+          }
+        },
+        {
+          "id": "TwoColumnText",
+          "content": {
+            "eyebrow": "Our Offices",
+            "headline": "Where to find us",
+            "paragraphs": [
+              {
+                "heading": "Headquarters",
+                "body": "135 Market Lane, New York, NY 10017. Main office for sales, support, and partnerships."
+              },
+              {
+                "heading": "Support",
+                "body": "24/7 support hotline: +1 844 600 2211. Email: support@quantapay.com."
+              }
+            ]
+          }
+        },
+        {
+          "id": "CTABanner",
+          "content": {
+            "eyebrow": "Still have questions?",
+            "headline": "We’re just an email away.",
+            "body": "Our team replies within one business day.",
+            "cta": {
+              "label": "Email Us"
+            }
+          }
+        },
+        {
+          "id": "FAQAccordion",
+          "content": {
+            "eyebrow": "Support FAQ",
+            "headline": "Need Fast Answers?",
+            "faqs": [
+              {
+                "q": "How do I request a demo?",
+                "a": "Fill out our contact form or email hello@quantapay.com and our team will schedule a session within a day."
+              },
+              {
+                "q": "What integration help is available?",
+                "a": "Our technical team can guide you through setup, API access, and provide code samples."
+              },
+              {
+                "q": "Can I visit your office?",
+                "a": "Yes, by appointment—reach out to schedule a meeting at our New York HQ."
+              },
+              {
+                "q": "How do I get technical support?",
+                "a": "Support is available 24/7 via phone, chat, or email for all customers."
+              }
+            ]
+          }
+        },
+        {
+          "id": "ClosingCTA",
+          "content": {
+            "eyebrow": "Let's talk",
+            "headline": "Ready to see QuantaPay in action?",
+            "subhead": "Contact our team for a live demo or tailored quote.",
+            "cta": {
+              "label": "Book Demo"
+            }
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "QuantaPay",
+            "tagline": "Modern finance, made simple.",
+            "giant": "QUANTAPAY",
+            "columns": [
+              {
+                "title": "Company",
+                "links": [
+                  {
+                    "label": "About"
+                  },
+                  {
+                    "label": "Work",
+                    "href": "/work"
+                  },
+                  {
+                    "label": "Careers"
+                  },
+                  {
+                    "label": "Journal"
+                  }
+                ]
+              },
+              {
+                "title": "Platform",
+                "links": [
+                  {
+                    "label": "Features"
+                  },
+                  {
+                    "label": "Pricing",
+                    "href": "/pricing"
+                  },
+                  {
+                    "label": "API Docs"
+                  },
+                  {
+                    "label": "Security"
+                  }
+                ]
+              },
+              {
+                "title": "Connect",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Studio"
+                  },
+                  {
+                    "label": "Press"
+                  },
+                  {
+                    "label": "Support"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact Us"
+            },
+            "legal": "© 2024 QuantaPay. All rights reserved."
+          }
+        }
+      ]
+    }
+  ]
+}

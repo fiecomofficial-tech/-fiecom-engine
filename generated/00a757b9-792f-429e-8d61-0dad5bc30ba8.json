@@ -1,0 +1,718 @@
+{
+  "theme": {
+    "preset": "fintech-minimal",
+    "bg": "#ffffff",
+    "ink": "#111827",
+    "bgAccent": "#f3f4f6",
+    "fontDisplay": "Inter",
+    "fontBody": "Inter"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "MinimalGrid",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Pricing",
+                "href": "/pricing"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineHero",
+          "content": {
+            "eyebrow": "New",
+            "headline": "Devtools Made Simple",
+            "accent": "_for Teams",
+            "body": "Streamline your engineering workflow with MinimalGrid's seamless integrations and powerful features.",
+            "cta": {
+              "label": "Get Started",
+              "href": "/contact"
+            },
+            "secondaryCta": {
+              "label": "Learn More",
+              "href": "/about"
+            }
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/17642361/pexels-photo-17642361.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Hands typing on a desktop keyboard with a smartwatch visible, indoors.",
+              "attributionAuthor": "iam hogir",
+              "attributionUrl": "https://www.pexels.com/photo/person-touching-computer-keyboard-17642361/"
+            }
+          }
+        },
+        {
+          "id": "BaselineFeatures",
+          "content": {
+            "eyebrow": "Features",
+            "headline": "Core Capabilities at a Glance",
+            "accent": "_engineered for efficiency",
+            "features": [
+              {
+                "eyebrow": "01 — Integration",
+                "title": "Easy Integration",
+                "body": "Connect with your favorite tools effortlessly to keep your workflow uninterrupted."
+              },
+              {
+                "eyebrow": "02 — Automation",
+                "title": "Smart Automation",
+                "body": "Automate repetitive tasks to save time and reduce errors."
+              },
+              {
+                "eyebrow": "03 — Analytics",
+                "title": "Insightful Analytics",
+                "body": "Get real-time insights to optimize your development cycles."
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/34803973/pexels-photo-34803973.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Close-up of laptop with coding software and a motivational coffee mug on a desk.",
+              "attributionAuthor": "Daniil Komov",
+              "attributionUrl": "https://www.pexels.com/photo/laptop-with-coding-software-and-coffee-mug-34803973/"
+            }
+          }
+        },
+        {
+          "id": "BaselineLogoBar",
+          "content": {
+            "eyebrow": "Trusted by Engineering Teams",
+            "clients": [
+              {
+                "name": "TechCorp"
+              },
+              {
+                "name": "DevWorks"
+              },
+              {
+                "name": "CodeBase"
+              },
+              {
+                "name": "SoftLabs"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineTestimonials",
+          "content": {
+            "eyebrow": "Customers",
+            "headline": "What Our Users Say",
+            "testimonials": [
+              {
+                "quote": "MinimalGrid transformed our deployment process.",
+                "author": "Sarah",
+                "role": "Lead Developer"
+              },
+              {
+                "quote": "Integration was seamless and fast.",
+                "author": "James",
+                "role": "DevOps Engineer"
+              },
+              {
+                "quote": "The automation features save us hours weekly.",
+                "author": "Lina",
+                "role": "Product Manager"
+              }
+            ]
+          }
+        },
+        {
+          "id": "FeatureList",
+          "content": {
+            "eyebrow": "Integrations",
+            "headline": "Compatible with Your Stack",
+            "features": [
+              {
+                "title": "GitHub",
+                "body": "Instant sync with your repositories."
+              },
+              {
+                "title": "Jira",
+                "body": "Track issues and progress within your workflow."
+              },
+              {
+                "title": "Slack",
+                "body": "Receive real-time notifications and updates."
+              }
+            ],
+            "body": "MinimalGrid connects with essential tools to fit your existing environment."
+          }
+        },
+        {
+          "id": "BaselineCTA",
+          "content": {
+            "eyebrow": "Get started",
+            "headline": "Power Your Team Today",
+            "accent": "_with MinimalGrid",
+            "body": "Sign up now and experience streamlined development like never before.",
+            "cta": {
+              "label": "Start Free Trial",
+              "href": "/contact"
+            },
+            "secondaryCta": {
+              "label": "Contact Sales",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "MinimalGrid",
+            "brand": "MinimalGrid",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Pricing",
+                    "href": "/pricing"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "Simplify Development. Accelerate Delivery.",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "title": "About",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "MinimalGrid",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Pricing",
+                "href": "/pricing"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselinePageHeader",
+          "content": {
+            "eyebrow": "About",
+            "headline": "Our Mission and Values",
+            "body": "Building tools that empower engineers through simplicity and reliability."
+          }
+        },
+        {
+          "id": "BaselineAboutNarrative",
+          "content": {
+            "body": "Founded by engineers for engineers, MinimalGrid delivers streamlined tools designed to enhance productivity and collaboration.",
+            "pillarEyebrow": "Core pillars",
+            "pillarHeadline": "Driven by transparency, innovation, and customer focus.",
+            "pillars": [
+              {
+                "title": "Transparency",
+                "body": "Clear communication and open development processes."
+              },
+              {
+                "title": "Innovation",
+                "body": "Continuous improvement and embracing new technologies."
+              },
+              {
+                "title": "Customer Focus",
+                "body": "Prioritizing user needs and feedback to guide our roadmap."
+              }
+            ],
+            "statsEyebrow": "By the numbers",
+            "stats": [
+              {
+                "value": "2022",
+                "label": "Founded"
+              },
+              {
+                "value": "34",
+                "label": "Team"
+              },
+              {
+                "value": "12k+",
+                "label": "Active users"
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/8102000/pexels-photo-8102000.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "A professional team collaborating in a modern office setting, focusing on documents and technology.",
+              "attributionAuthor": "Mikhail Nilov",
+              "attributionUrl": "https://www.pexels.com/photo/woman-and-men-working-at-office-8102000/"
+            }
+          }
+        },
+        {
+          "id": "TwoColumnText",
+          "content": {
+            "eyebrow": "Team",
+            "headline": "Meet Our Experts",
+            "paragraphs": [
+              {
+                "heading": "Engineering Leadership",
+                "body": "Experienced developers leading with best practices."
+              },
+              {
+                "heading": "Customer Success",
+                "body": "Dedicated support to help teams thrive."
+              },
+              {
+                "heading": "Product Innovation",
+                "body": "Building features that matter most."
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "MinimalGrid",
+            "brand": "MinimalGrid",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Pricing",
+                    "href": "/pricing"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "MinimalGrid. Built for clarity.",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "MinimalGrid",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Pricing",
+                "href": "/pricing"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselinePageHeader",
+          "content": {
+            "eyebrow": "Contact",
+            "headline": "Get in Touch",
+            "body": "We’re here to help with support or sales inquiries."
+          }
+        },
+        {
+          "id": "BaselineContact",
+          "content": {
+            "formTitle": "Reach Out",
+            "formBody": "Fill out the form and we’ll respond quickly.",
+            "recipientEmail": "support@minimalgrid.com",
+            "subjectTemplate": "New inquiry from {name}",
+            "details": [
+              {
+                "label": "Email",
+                "value": "support@minimalgrid.com",
+                "href": "mailto:support@minimalgrid.com"
+              },
+              {
+                "label": "Phone",
+                "value": "+1 555 123 4567",
+                "href": "tel:+15551234567"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "MinimalGrid",
+            "brand": "MinimalGrid",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Pricing",
+                    "href": "/pricing"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "MinimalGrid. Built for clarity.",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "pricing",
+      "title": "Pricing",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "MinimalGrid",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Pricing",
+                "href": "/pricing"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselinePageHeader",
+          "content": {
+            "eyebrow": "Pricing",
+            "headline": "Simple Plans for Every Team",
+            "body": "Choose the plan that fits your team’s needs and scale as you grow."
+          }
+        },
+        {
+          "id": "PricingTiers",
+          "content": {
+            "eyebrow": "Plans",
+            "headline": "Flexible Pricing Tiers",
+            "tiers": [
+              {
+                "title": "Starter",
+                "body": "Essential features to get your team started.",
+                "cta": {
+                  "label": "Choose plan",
+                  "href": "/contact"
+                }
+              },
+              {
+                "title": "Studio",
+                "body": "Advanced tools for growing teams.",
+                "cta": {
+                  "label": "Choose plan",
+                  "href": "/contact"
+                }
+              },
+              {
+                "title": "Custom",
+                "body": "Tailored solutions for enterprise needs.",
+                "cta": {
+                  "label": "Choose plan",
+                  "href": "/contact"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "FAQAccordion",
+          "content": {
+            "eyebrow": "FAQs",
+            "headline": "Common Questions",
+            "faqs": [
+              {
+                "title": "Can I upgrade later?",
+                "body": "Yes, you can change plans anytime."
+              },
+              {
+                "title": "Is there a free trial?",
+                "body": "We offer a free trial for new users."
+              },
+              {
+                "title": "What support is available?",
+                "body": "Email and chat support included with all plans."
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "MinimalGrid",
+            "brand": "MinimalGrid",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Pricing",
+                    "href": "/pricing"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "MinimalGrid. Built for clarity.",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "intent": {
+    "energy": "product-heavy",
+    "density": "dense",
+    "cinematicIntensity": "restrained",
+    "motionIntensity": "subtle",
+    "copyTone": "clear technical",
+    "themeHint": "fintech-minimal"
+  }
+}

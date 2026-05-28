@@ -1,0 +1,488 @@
+{
+  "theme": {
+    "preset": "fintech-minimal",
+    "accent": "#0073e6",
+    "bg": "#f9fbfd",
+    "ink": "#121212",
+    "bgAccent": "#e0f0ff",
+    "fontDisplay": "Inter",
+    "fontBody": "Inter"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Streamline Devtools",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Streamline Devtools",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get Started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineHero",
+          "content": {
+            "eyebrow": "New — developer tool",
+            "headline": "Tools that empower engineers",
+            "accent": "streamlined workflows",
+            "body": "Simplify your development process with our minimal, high-performance devtools.",
+            "cta": {
+              "label": "Start Your Free Trial",
+              "href": "/contact"
+            },
+            "secondaryCta": {
+              "label": "Learn More",
+              "href": "/about"
+            }
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/29279566/pexels-photo-29279566.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Speckled coffee mug on a laptop with visible code, creating a coding workspace vibe.",
+              "attributionAuthor": "Apollonia",
+              "attributionUrl": "https://www.pexels.com/photo/cozy-coding-workspace-with-coffee-mug-29279566/"
+            }
+          }
+        },
+        {
+          "id": "BaselineLogoBar",
+          "content": {
+            "eyebrow": "Trusted by top teams",
+            "clients": [
+              {
+                "name": "TechCorp"
+              },
+              {
+                "name": "CodeBase"
+              },
+              {
+                "name": "DevHub"
+              },
+              {
+                "name": "APIWorks"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFeatures",
+          "content": {
+            "eyebrow": "Core features",
+            "headline": "Essential tools for efficient coding",
+            "accent": "Built to compound.",
+            "features": [
+              {
+                "title": "Real-time collaboration",
+                "body": "Work seamlessly with your team in a unified environment."
+              },
+              {
+                "title": "Intuitive debugging",
+                "body": "Identify and fix issues faster with smart tools."
+              },
+              {
+                "title": "Lightweight integrations",
+                "body": "Easily connect with your existing stack."
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/256502/pexels-photo-256502.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Close-up of colorful CSS code lines on a computer screen for web development.",
+              "attributionAuthor": "Pixabay",
+              "attributionUrl": "https://www.pexels.com/photo/close-up-of-text-on-black-background-256502/"
+            },
+            "secondary": {
+              "url": "https://images.pexels.com/photos/34212896/pexels-photo-34212896.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "A vibrant workspace showing computer monitors with code, keyboard, and tech accessories.",
+              "attributionAuthor": "Jakub Zerdzicki",
+              "attributionUrl": "https://www.pexels.com/photo/modern-workspace-with-coding-screens-and-keyboard-34212896/"
+            },
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/34804011/pexels-photo-34804011.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Close-up of a laptop screen displaying programming code with a cute plush toy reflecting.",
+                "attributionAuthor": "Daniil Komov",
+                "attributionUrl": "https://www.pexels.com/photo/reflection-in-a-laptop-screen-showing-code-34804011/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/256502/pexels-photo-256502.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Close-up of colorful CSS code lines on a computer screen for web development.",
+                "attributionAuthor": "Pixabay",
+                "attributionUrl": "https://www.pexels.com/photo/close-up-of-text-on-black-background-256502/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/3862599/pexels-photo-3862599.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A woman engineer focuses on software analysis using a laptop indoors.",
+                "attributionAuthor": "ThisIsEngineering",
+                "attributionUrl": "https://www.pexels.com/photo/female-engineer-using-laptop-3862599/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineTestimonials",
+          "content": {
+            "eyebrow": "Reviews",
+            "headline": "What developers say",
+            "testimonials": [
+              {
+                "quote": "Streamline Devtools made our process more efficient.",
+                "author": "Alice",
+                "role": "Backend Engineer"
+              },
+              {
+                "quote": "Easy to integrate and reliable.",
+                "author": "Bob",
+                "role": "Frontend Developer"
+              },
+              {
+                "quote": "A must-have for any engineering team.",
+                "author": "Cara",
+                "role": "DevOps Specialist"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineCTA",
+          "content": {
+            "eyebrow": "Ready to simplify?",
+            "headline": "Get started with Streamline Devtools",
+            "accent": "sign up today",
+            "body": "Experience the difference of streamlined engineering workflows.",
+            "cta": {
+              "label": "Start Free Trial",
+              "href": "/contact"
+            },
+            "secondaryCta": {
+              "label": "Talk to sales",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Streamline Devtools",
+            "brand": "Streamline Devtools",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "Minimal tools. Maximum efficiency.",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "title": "About Streamline Devtools",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Streamline Devtools",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineAboutNarrative",
+          "content": {
+            "eyebrow": "About Streamline Devtools",
+            "headline": "Built for developers, by developers",
+            "body": "Founded by engineers who understand the challenges of modern development, we focus on creating efficient and intuitive tools that fit seamlessly into your workflow.",
+            "pillarEyebrow": "Core pillars",
+            "pillarHeadline": "Our approach to development tools",
+            "pillars": [
+              {
+                "title": "Simplicity",
+                "body": "Focus on essential features without clutter."
+              },
+              {
+                "title": "Performance",
+                "body": "Fast, reliable tools optimized for real use."
+              },
+              {
+                "title": "Collaboration",
+                "body": "Enable smooth teamwork with real-time sync."
+              }
+            ],
+            "statsEyebrow": "By the numbers",
+            "stats": [
+              {
+                "value": "2019",
+                "label": "Founded"
+              },
+              {
+                "value": "10k+",
+                "label": "Users"
+              },
+              {
+                "value": "99.9%",
+                "label": "Uptime"
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/30004358/pexels-photo-30004358.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Diverse real estate professionals posing confidently in a modern office environment.",
+              "attributionAuthor": "Daniel & Hannah Snipes",
+              "attributionUrl": "https://www.pexels.com/photo/professional-team-in-greenville-office-setting-30004358/"
+            }
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Streamline Devtools",
+            "brand": "Streamline Devtools",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "Streamline Devtools. Built for clarity.",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact Streamline Devtools",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Streamline Devtools",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineContact",
+          "content": {
+            "eyebrow": "Contact",
+            "headline": "Let's build something together",
+            "formTitle": "Send us a message",
+            "formBody": "Reach out to request a demo or ask any questions.",
+            "recipientEmail": "support@streamlinedevtools.com",
+            "subjectTemplate": "New inquiry from {name}",
+            "details": [
+              {
+                "label": "Email",
+                "value": "support@streamlinedevtools.com",
+                "href": "mailto:support@streamlinedevtools.com"
+              },
+              {
+                "label": "Phone",
+                "value": "+1 555 0100",
+                "href": "tel:+15550100"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Streamline Devtools",
+            "brand": "Streamline Devtools",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "Streamline Devtools. Built for clarity.",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "intent": {
+    "energy": "minimal",
+    "density": "very-minimal",
+    "cinematicIntensity": "restrained",
+    "motionIntensity": "subtle",
+    "copyTone": "clear technical",
+    "themeHint": "fintech-minimal"
+  }
+}

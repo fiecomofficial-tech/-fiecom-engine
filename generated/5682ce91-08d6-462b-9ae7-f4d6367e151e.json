@@ -1,0 +1,638 @@
+{
+  "theme": {
+    "preset": "midnight-luxury",
+    "bg": "#0a0a0a",
+    "ink": "#e0dacf",
+    "bgAccent": "#1a1a1a",
+    "fontDisplay": "Playfair Display",
+    "fontBody": "Lora"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Bali Serenity Boutique Hotel",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineHero",
+          "content": {
+            "eyebrow": "Welcome",
+            "headline": "Experience Tranquil Luxury",
+            "accent": "Serene Escape",
+            "body": "Discover the unique charm of Bali Serenity Boutique Hotel, where elegance meets peaceful island living.",
+            "cta": {
+              "label": "Book Your Stay",
+              "href": "/contact"
+            },
+            "secondaryCta": {
+              "label": "Explore Our Rooms",
+              "href": "/contact"
+            }
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/6138093/pexels-photo-6138093.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "A serene portrait of a woman with a flower, enjoying a sunset in Bali's infinity pool.",
+              "attributionAuthor": "Alesia  Kozik",
+              "attributionUrl": "https://www.pexels.com/photo/photo-of-a-woman-holding-a-flower-in-a-swimming-pool-6138093/"
+            }
+          }
+        },
+        {
+          "id": "MarqueeBand",
+          "content": {
+            "items": [
+              "Bali Serenity Boutique Hotel",
+              "Strategy",
+              "Motion",
+              "Proof",
+              "Conversion"
+            ],
+            "tone": "normal"
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/10349978/pexels-photo-10349978.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Grayscale close-up of vibrant tropical leaves with intricate patterns in monochrome.",
+              "attributionAuthor": "Budget Bizar",
+              "attributionUrl": "https://www.pexels.com/photo/grayscale-photo-of-leaves-10349978/"
+            }
+          }
+        },
+        {
+          "id": "BaselineLogoBar",
+          "content": {
+            "eyebrow": "Trusted by discerning travelers worldwide",
+            "clients": [
+              {
+                "name": "Condé Nast"
+              },
+              {
+                "name": "Travel + Leisure"
+              },
+              {
+                "name": "Forbes Travel Guide"
+              },
+              {
+                "name": "National Geographic"
+              },
+              {
+                "name": "Luxury Hotels Worldwide"
+              }
+            ]
+          }
+        },
+        {
+          "id": "MessageReveal",
+          "content": {
+            "firstLine": "Bali Serenity Boutique Hotel is not another template",
+            "accent": "different",
+            "secondLine": "It is a structured product story",
+            "body": "Each room is designed to offer a seamless blend of Balinese artistry and modern luxury.",
+            "eyebrow": "Our Rooms",
+            "headline": "Exquisite Comfort Awaits"
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/34790702/pexels-photo-34790702.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Spacious modern hotel room in Bali with stylish decor and natural lighting.",
+              "attributionAuthor": "kevin yung",
+              "attributionUrl": "https://www.pexels.com/photo/elegant-modern-hotel-room-in-bali-34790702/"
+            }
+          }
+        },
+        {
+          "id": "BaselineFeatures",
+          "content": {
+            "eyebrow": "Signature Experiences",
+            "headline": "Immerse in Bali's Essence",
+            "accent": "Unforgettable Moments",
+            "features": [
+              {
+                "eyebrow": "01 — Relaxation",
+                "title": "Spa & Wellness",
+                "body": "Indulge in world-class spa treatments surrounded by tranquil gardens."
+              },
+              {
+                "eyebrow": "02 — Dining",
+                "title": "Gourmet Cuisine",
+                "body": "Savor exquisite flavors crafted from fresh, local ingredients."
+              },
+              {
+                "eyebrow": "03 — Adventure",
+                "title": "Cultural Excursions",
+                "body": "Explore authentic Balinese traditions and breathtaking landscapes."
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/4965913/pexels-photo-4965913.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "A couple in robes enjoy a relaxing moment outside a Balinese villa with ornate carvings.",
+              "attributionAuthor": "Yan Krukau",
+              "attributionUrl": "https://www.pexels.com/photo/woman-and-man-sitting-by-building-4965913/"
+            }
+          }
+        },
+        {
+          "id": "ImageGallery",
+          "content": {
+            "eyebrow": "Gallery",
+            "headline": "Seen from every angle",
+            "body": "A visual layer that makes the offer tangible.",
+            "captions": [
+              {
+                "title": "Signal",
+                "year": "2026"
+              },
+              {
+                "title": "Space",
+                "year": "2025"
+              },
+              {
+                "title": "Detail",
+                "year": "2026"
+              },
+              {
+                "title": "Flow",
+                "year": "2025"
+              },
+              {
+                "title": "Texture",
+                "year": "2026"
+              },
+              {
+                "title": "Proof",
+                "year": "2025"
+              },
+              {
+                "title": "People",
+                "year": "2026"
+              },
+              {
+                "title": "System",
+                "year": "2025"
+              },
+              {
+                "title": "Outcome",
+                "year": "2026"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/6015450/pexels-photo-6015450.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Breathtaking view of Uluwatu cliffs in Bali with ocean at sunset. Ideal for travel and nature enthusiasts.",
+                "attributionAuthor": "Alesia  Kozik",
+                "attributionUrl": "https://www.pexels.com/photo/brown-rock-mountain-near-body-of-water-6015450/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/14464944/pexels-photo-14464944.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Serene infinity pool view with palm trees and ocean at a Bali resort, perfect for relaxation.",
+                "attributionAuthor": "Nastia Ligrain",
+                "attributionUrl": "https://www.pexels.com/photo/a-swimming-pool-in-the-resort-14464944/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/29989223/pexels-photo-29989223.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Lush rice terraces of Bali with a view of a distant mountain, capturing the essence of Indonesia's natural beauty.",
+                "attributionAuthor": "Stijn Dijkstra",
+                "attributionUrl": "https://www.pexels.com/photo/scenic-rice-terraces-in-bali-s-lush-greenery-29989223/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/14464944/pexels-photo-14464944.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Serene infinity pool view with palm trees and ocean at a Bali resort, perfect for relaxation.",
+                "attributionAuthor": "Nastia Ligrain",
+                "attributionUrl": "https://www.pexels.com/photo/a-swimming-pool-in-the-resort-14464944/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineTestimonials",
+          "content": {
+            "eyebrow": "Guest Reviews",
+            "headline": "Stories of Serenity",
+            "testimonials": [
+              {
+                "quote": "An enchanting retreat that exceeded all expectations.",
+                "author": "Anna",
+                "role": "Travel Writer"
+              },
+              {
+                "quote": "Tranquility and luxury perfectly combined.",
+                "author": "Liam",
+                "role": "Hotel Critic"
+              },
+              {
+                "quote": "A sublime experience in the heart of Bali.",
+                "author": "Maya",
+                "role": "Frequent Guest"
+              }
+            ]
+          }
+        },
+        {
+          "id": "HorizontalShowcase",
+          "content": {
+            "eyebrow": "Showcase",
+            "headline": "The product in motion",
+            "body": "Real use cases and moments visitors can scan quickly.",
+            "cards": [
+              {
+                "title": "Overview",
+                "caption": "Overview for Bali Serenity Boutique Hotel"
+              },
+              {
+                "title": "Workflow",
+                "caption": "Workflow for Bali Serenity Boutique Hotel"
+              },
+              {
+                "title": "Proof",
+                "caption": "Proof for Bali Serenity Boutique Hotel"
+              },
+              {
+                "title": "Detail",
+                "caption": "Detail for Bali Serenity Boutique Hotel"
+              },
+              {
+                "title": "Result",
+                "caption": "Result for Bali Serenity Boutique Hotel"
+              },
+              {
+                "title": "Next step",
+                "caption": "Next step for Bali Serenity Boutique Hotel"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/30720681/pexels-photo-30720681.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Cultural Balinese wedding with ornate costumes and rituals, capturing a vibrant local tradition.",
+                "attributionAuthor": "Arjun  Adinata",
+                "attributionUrl": "https://www.pexels.com/photo/traditional-balinese-wedding-ceremony-in-full-attire-30720681/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/4014919/pexels-photo-4014919.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Breathtaking pink sunset over Bali's ocean with dramatic clouds and waves.",
+                "attributionAuthor": "Anna Shvets",
+                "attributionUrl": "https://www.pexels.com/photo/ocean-during-sunset-4014919/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/29870245/pexels-photo-29870245.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Elegant hotel lobby interior in Tokyo, featuring modern design and luxury furniture.",
+                "attributionAuthor": "Szymon Shields",
+                "attributionUrl": "https://www.pexels.com/photo/luxurious-hotel-lobby-in-tokyo-japan-29870245/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineCTA",
+          "content": {
+            "eyebrow": "Reserve Now",
+            "headline": "Embrace Bali's Tranquil Luxury",
+            "accent": "Book Today",
+            "body": "Secure your stay at Bali Serenity Boutique Hotel with personalized service.",
+            "cta": {
+              "label": "Contact Us",
+              "href": "/contact"
+            },
+            "secondaryCta": {
+              "label": "View Our Rooms",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Bali Serenity Boutique Hotel",
+            "brand": "Bali Serenity Boutique Hotel",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "true",
+            "tagline": "Experience serene luxury in the heart of Bali",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "title": "About",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Bali Serenity Boutique Hotel",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineAboutNarrative",
+          "content": {
+            "eyebrow": "About Bali Serenity",
+            "headline": "A Sanctuary of Quiet Luxury",
+            "body": "Nestled in Bali's lush landscapes, our boutique hotel blends authentic Balinese culture with refined comfort to create a tranquil retreat.",
+            "pillarEyebrow": "Core pillars",
+            "pillarHeadline": "Our commitment to exceptional guest experiences",
+            "pillars": [
+              {
+                "title": "Authenticity",
+                "body": "We honor Balinese heritage in every detail."
+              },
+              {
+                "title": "Sustainability",
+                "body": "Dedicated to preserving nature and community."
+              },
+              {
+                "title": "Personalized Service",
+                "body": "Tailored experiences that exceed expectations."
+              }
+            ],
+            "statsEyebrow": "By the numbers",
+            "stats": [
+              {
+                "value": "2010",
+                "label": "Established"
+              },
+              {
+                "value": "50+",
+                "label": "Luxury Suites"
+              },
+              {
+                "value": "5-Star",
+                "label": "Service Rating"
+              }
+            ],
+            "accent": "Rooted in Tradition"
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/17845/pexels-photo.jpg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "A close-up shot of a hand reviewing various logo designs on paper, ideal for business concepts.",
+              "attributionAuthor": "Roman Pohorecki",
+              "attributionUrl": "https://www.pexels.com/photo/hand-on-top-of-paper-17845/"
+            }
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Bali Serenity Boutique Hotel",
+            "brand": "Bali Serenity Boutique Hotel",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "true",
+            "tagline": "Experience serene luxury in the heart of Bali",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Bali Serenity Boutique Hotel",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineContact",
+          "content": {
+            "eyebrow": "Contact",
+            "headline": "Get in Touch",
+            "formTitle": "Send a Message",
+            "formBody": "We look forward to assisting you with your reservation.",
+            "recipientEmail": "reservations@baliserenity.com",
+            "subjectTemplate": "New inquiry from {name}",
+            "details": [
+              {
+                "label": "Email",
+                "value": "reservations@baliserenity.com",
+                "href": "mailto:reservations@baliserenity.com"
+              },
+              {
+                "label": "Phone",
+                "value": "+62 361 1234567",
+                "href": "tel:+623611234567"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Bali Serenity Boutique Hotel",
+            "brand": "Bali Serenity Boutique Hotel",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "true",
+            "tagline": "Experience serene luxury in the heart of Bali",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "intent": {
+    "energy": "quiet-luxury",
+    "density": "spacious",
+    "cinematicIntensity": "high",
+    "motionIntensity": "moderate",
+    "copyTone": "elegant inviting",
+    "themeHint": "midnight-luxury"
+  }
+}

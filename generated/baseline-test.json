@@ -1,0 +1,161 @@
+{
+  "theme": {
+    "preset": "editorial-cream"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Fiecom",
+            "links": [
+              { "label": "Home", "href": "/" },
+              { "label": "About", "href": "/about" },
+              { "label": "Contact", "href": "/contact" }
+            ],
+            "cta": { "label": "Get started", "href": "/contact" }
+          }
+        },
+        {
+          "id": "BaselineHero",
+          "content": {
+            "eyebrow": "Base44 baseline",
+            "headline": "A clean website system",
+            "accent": "ready to adapt",
+            "body": "The baseline renders with stable spacing, typography, navigation, media framing, and responsive behavior before any cinematic layer is added.",
+            "cta": { "label": "Get started", "href": "/contact" },
+            "secondaryCta": { "label": "Learn more", "href": "/about" }
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=960",
+              "alt": "Calm modern workspace"
+            }
+          }
+        },
+        {
+          "id": "BaselineLogoBar",
+          "content": {
+            "eyebrow": "Trusted by focused teams",
+            "clients": [
+              { "name": "Northline" },
+              { "name": "Atlas" },
+              { "name": "Kindred" },
+              { "name": "Forma" },
+              { "name": "Signal" },
+              { "name": "Bright" }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFeatures",
+          "content": {
+            "eyebrow": "What stays intact",
+            "headline": "Structure before expression.",
+            "accent": "Always.",
+            "features": [
+              {
+                "eyebrow": "01 - Layout",
+                "title": "Stable sections",
+                "body": "The page keeps the same baseline rhythm, containers, and responsive proportions."
+              },
+              {
+                "eyebrow": "02 - Media",
+                "title": "Framed imagery",
+                "body": "Images sit inside their component bounds and never become fullscreen by accident."
+              },
+              {
+                "eyebrow": "03 - Content",
+                "title": "Dynamic surface",
+                "body": "Text, brand, color, fonts, and still Pexels images can change without redesigning the architecture."
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=900&w=1200",
+                "alt": "Team planning"
+              },
+              {
+                "url": "https://images.pexels.com/photos/3184639/pexels-photo-3184639.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=900&w=1200",
+                "alt": "Workspace detail"
+              },
+              {
+                "url": "https://images.pexels.com/photos/3182811/pexels-photo-3182811.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=900&w=1200",
+                "alt": "Collaborative work"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineTestimonials",
+          "content": {
+            "eyebrow": "Baseline check",
+            "headline": "The system should feel calm and finished.",
+            "testimonials": [
+              {
+                "quote": "The baseline finally behaves like a real site instead of a motion experiment.",
+                "author": "Maya",
+                "role": "Founder"
+              },
+              {
+                "quote": "The sections are predictable, readable, and easy to scan on desktop and mobile.",
+                "author": "Jonas",
+                "role": "Designer"
+              },
+              {
+                "quote": "Media stays framed, navigation stays usable, and the footer feels intentional.",
+                "author": "Iris",
+                "role": "Operator"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineCTA",
+          "content": {
+            "eyebrow": "Next",
+            "headline": "Baseline first",
+            "accent": "then motion.",
+            "body": "Cinematic homepage sections can return only after this foundation is visually correct.",
+            "cta": { "label": "Contact", "href": "/contact" },
+            "secondaryCta": { "label": "Back home", "href": "/" }
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "brand": "Fiecom",
+            "tagline": "A baseline website system built for clarity.",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  { "label": "Home", "href": "/" },
+                  { "label": "About", "href": "/about" },
+                  { "label": "Contact", "href": "/contact" }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  { "label": "Start a project", "href": "/contact" },
+                  { "label": "Send a message", "href": "mailto:hello@fiecom.co" }
+                ]
+              }
+            ],
+            "legal": "© 2026 Fiecom. All rights reserved.",
+            "meta": [
+              { "label": "Privacy", "href": "/" },
+              { "label": "Terms", "href": "/" }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

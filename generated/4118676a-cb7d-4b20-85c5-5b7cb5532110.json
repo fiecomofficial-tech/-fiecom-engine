@@ -1,0 +1,616 @@
+{
+  "theme": {
+    "preset": "midnight-luxury",
+    "bg": "#0a0a23",
+    "ink": "#f1f1f8",
+    "bgAccent": "#1a1a40",
+    "fontDisplay": "Playfair Display",
+    "fontBody": "Lora"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Serene Bali Retreat",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Serene Bali Retreat",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineHero",
+          "content": {
+            "eyebrow": "New Arrival",
+            "headline": "Discover Quiet Luxury",
+            "accent": "in Bali",
+            "body": "Immerse yourself in the serene beauty and timeless elegance of our boutique retreat.",
+            "cta": {
+              "label": "Book Your Escape",
+              "href": "/contact"
+            },
+            "secondaryCta": {
+              "label": "Explore Rooms",
+              "href": "/contact"
+            }
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/2607113/pexels-photo-2607113.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Relax by a luxurious pool surrounded by bamboo architecture and palm trees in West Nusa Tenggara.",
+              "attributionAuthor": "Palu Malerba",
+              "attributionUrl": "https://www.pexels.com/photo/woman-sitting-by-the-pool-2607113/"
+            }
+          }
+        },
+        {
+          "id": "MarqueeBand",
+          "content": {
+            "items": [
+              "Serene Bali Retreat",
+              "Strategy",
+              "Motion",
+              "Proof",
+              "Conversion"
+            ],
+            "tone": "normal",
+            "eyebrow": "Experience",
+            "headline": "Where Tranquility Meets Elegance"
+          }
+        },
+        {
+          "id": "BaselineLogoBar",
+          "content": {
+            "eyebrow": "Trusted by discerning travelers",
+            "clients": [
+              {
+                "name": "Forbes Travel Guide"
+              },
+              {
+                "name": "Condé Nast"
+              },
+              {
+                "name": "Travel + Leisure"
+              },
+              {
+                "name": "Luxury Collection"
+              }
+            ]
+          }
+        },
+        {
+          "id": "MessageReveal",
+          "content": {
+            "firstLine": "Serene Bali Retreat is not another template",
+            "accent": "different",
+            "secondLine": "It is a structured product story",
+            "body": "Each room blends traditional artistry with modern comfort, offering a peaceful sanctuary.",
+            "eyebrow": "Unique Stays",
+            "headline": "Authentic Balinese Accommodations"
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/32512266/pexels-photo-32512266.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Warm and inviting living room in a Balinese villa featuring traditional decor.",
+              "attributionAuthor": "Didi Lecatompessy",
+              "attributionUrl": "https://www.pexels.com/photo/cozy-balinese-villa-living-room-interior-design-32512266/"
+            }
+          }
+        },
+        {
+          "id": "BaselineFeatures",
+          "content": {
+            "eyebrow": "Our Offerings",
+            "headline": "Elevate Your Stay",
+            "accent": "with bespoke experiences",
+            "features": [
+              {
+                "eyebrow": "01 — Wellness",
+                "title": "Spa & Yoga Retreats",
+                "body": "Rejuvenate your mind and body with expert treatments and daily yoga sessions."
+              },
+              {
+                "eyebrow": "02 — Culinary",
+                "title": "Gourmet Balinese Cuisine",
+                "body": "Savor exquisite dishes crafted from locally sourced ingredients."
+              },
+              {
+                "eyebrow": "03 — Nature",
+                "title": "Tropical Gardens & Pools",
+                "body": "Relax amidst lush landscapes and sparkling infinity pools."
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/36748139/pexels-photo-36748139.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Bathtub filled with rose petals in a romantic 'I Love You' design, perfect for a romantic setting or honeymoon.",
+              "attributionAuthor": "kevin yung",
+              "attributionUrl": "https://www.pexels.com/photo/romantic-bathtub-with-rose-petals-and-i-love-you-message-36748139/"
+            }
+          }
+        },
+        {
+          "id": "ImageGallery",
+          "content": {
+            "eyebrow": "Visual Journey",
+            "headline": "Serene Views & Timeless Design",
+            "body": "A visual layer that makes the offer tangible.",
+            "captions": [
+              {
+                "title": "Signal",
+                "year": "2026"
+              },
+              {
+                "title": "Space",
+                "year": "2025"
+              },
+              {
+                "title": "Detail",
+                "year": "2026"
+              },
+              {
+                "title": "Flow",
+                "year": "2025"
+              },
+              {
+                "title": "Texture",
+                "year": "2026"
+              },
+              {
+                "title": "Proof",
+                "year": "2025"
+              },
+              {
+                "title": "People",
+                "year": "2026"
+              },
+              {
+                "title": "System",
+                "year": "2025"
+              },
+              {
+                "title": "Outcome",
+                "year": "2026"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/35866099/pexels-photo-35866099.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A bright summer cocktail by a pool in Bali surrounded by palm trees, exuding relaxation.",
+                "attributionAuthor": "Yudo  Yulyanto",
+                "attributionUrl": "https://www.pexels.com/photo/refreshing-tropical-cocktail-by-a-bali-pool-35866099/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/20975728/pexels-photo-20975728.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Elegant villa bedroom featuring a modern jacuzzi and wooden ceiling, creating a luxurious and cozy atmosphere.",
+                "attributionAuthor": "Ahmet ÇÖTÜR",
+                "attributionUrl": "https://www.pexels.com/photo/wine-in-glasses-on-hot-tub-in-bedroom-20975728/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/6913563/pexels-photo-6913563.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Collection of exotic plants with large green foliage on thin stems in pots on shelf in hothouse",
+                "attributionAuthor": "Teona Swift",
+                "attributionUrl": "https://www.pexels.com/photo/assorted-tropical-plants-with-lush-leaves-in-orangery-6913563/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/4172889/pexels-photo-4172889.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Side view full length anonymous thoughtful slim female in swimsuit sitting on poolside and enjoying amazing view of peaceful tropical landscape",
+                "attributionAuthor": "Gustavo Fring",
+                "attributionUrl": "https://www.pexels.com/photo/woman-sitting-near-swimming-pool-in-tropical-resort-4172889/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/4014919/pexels-photo-4014919.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Breathtaking pink sunset over Bali's ocean with dramatic clouds and waves.",
+                "attributionAuthor": "Anna Shvets",
+                "attributionUrl": "https://www.pexels.com/photo/ocean-during-sunset-4014919/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineTestimonials",
+          "content": {
+            "eyebrow": "Guest Reviews",
+            "headline": "What Our Visitors Say",
+            "testimonials": [
+              {
+                "quote": "An oasis of calm and sophistication in Bali.",
+                "author": "Emma",
+                "role": "Traveler"
+              },
+              {
+                "quote": "Impeccable service and stunning surroundings.",
+                "author": "Liam",
+                "role": "Guest"
+              },
+              {
+                "quote": "A unique blend of culture and comfort.",
+                "author": "Sophia",
+                "role": "Visitor"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ZentryAbout",
+          "content": {
+            "eyebrow": "Welcome",
+            "headline": "Discover Serene Bali Retreat",
+            "body": "Serene Bali Retreat brings the story, proof, and product promise into one immersive moment."
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/37208722/pexels-photo-37208722.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Detailed shot of a luxury sports car wheel with visible logo, showcasing sleek design and elegance.",
+              "attributionAuthor": "cnrdmroglu",
+              "attributionUrl": "https://www.pexels.com/photo/close-up-of-luxury-sports-car-wheel-and-logo-37208722/"
+            }
+          }
+        },
+        {
+          "id": "BaselineCTA",
+          "content": {
+            "eyebrow": "Reserve Today",
+            "headline": "Your Serene Bali Retreat Awaits",
+            "accent": "Reserve with Confidence",
+            "body": "Experience unparalleled tranquility and luxury. Book your stay now.",
+            "cta": {
+              "label": "Make a Reservation",
+              "href": "/contact"
+            },
+            "secondaryCta": {
+              "label": "Contact Us",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Serene Bali Retreat",
+            "brand": "Serene Bali Retreat",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "Where tranquility embraces you",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "title": "About Serene Bali Retreat",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Serene Bali Retreat",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineAboutNarrative",
+          "content": {
+            "eyebrow": "About Serene Bali Retreat",
+            "headline": "Rooted in Balinese Tradition",
+            "body": "Founded to offer a peaceful haven, our retreat honors Balinese culture while providing modern luxury. Every detail is designed to soothe and inspire.",
+            "pillarEyebrow": "Core pillars",
+            "pillarHeadline": "We embrace holistic wellness, authentic experiences, and personalized care.",
+            "pillars": [
+              {
+                "title": "Holistic Wellness",
+                "body": "Elevating mind, body, and spirit for complete relaxation."
+              },
+              {
+                "title": "Authentic Culture",
+                "body": "Celebrating Balinese heritage through bespoke guest experiences."
+              },
+              {
+                "title": "Personalized Service",
+                "body": "Attentive care tailored to each guest's unique desires."
+              }
+            ],
+            "statsEyebrow": "By the numbers",
+            "stats": [
+              {
+                "value": "2015",
+                "label": "Established"
+              },
+              {
+                "value": "50+",
+                "label": "Luxury Villas"
+              },
+              {
+                "value": "5000+",
+                "label": "Guests annually"
+              }
+            ],
+            "accent": "and Tranquility"
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/17845/pexels-photo.jpg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "A close-up shot of a hand reviewing various logo designs on paper, ideal for business concepts.",
+              "attributionAuthor": "Roman Pohorecki",
+              "attributionUrl": "https://www.pexels.com/photo/hand-on-top-of-paper-17845/"
+            }
+          }
+        },
+        {
+          "id": "TwoColumnText",
+          "content": {
+            "eyebrow": "Meet the Team",
+            "headline": "Guiding Your Serene Journey",
+            "paragraphs": [
+              {
+                "heading": "Founder",
+                "body": "A lifelong lover of Bali’s culture, our founder ensures every stay is meaningful and restful."
+              },
+              {
+                "heading": "Wellness Director",
+                "body": "Expert in holistic therapies, leading our spa and wellness programs."
+              },
+              {
+                "heading": "Guest Relations",
+                "body": "Committed to personalized service and memorable experiences."
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Serene Bali Retreat",
+            "brand": "Serene Bali Retreat",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "Where tranquility embraces you",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact Serene Bali Retreat",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Serene Bali Retreat",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineContact",
+          "content": {
+            "eyebrow": "Contact",
+            "headline": "Let’s Plan Your Stay",
+            "formTitle": "Send us a message",
+            "formBody": "Our team is ready to assist with your inquiries.",
+            "recipientEmail": "reservations@serenebaliretreat.com",
+            "subjectTemplate": "New inquiry from {name}",
+            "details": [
+              {
+                "label": "Email",
+                "value": "reservations@serenebaliretreat.com",
+                "href": "mailto:reservations@serenebaliretreat.com"
+              },
+              {
+                "label": "Phone",
+                "value": "+62 361 123 4567",
+                "href": "tel:+623611234567"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Serene Bali Retreat",
+            "brand": "Serene Bali Retreat",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "Where tranquility embraces you",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "intent": {
+    "energy": "quiet-luxury",
+    "density": "spacious",
+    "cinematicIntensity": "high",
+    "motionIntensity": "moderate",
+    "copyTone": "elegant inviting",
+    "themeHint": "midnight-luxury"
+  }
+}

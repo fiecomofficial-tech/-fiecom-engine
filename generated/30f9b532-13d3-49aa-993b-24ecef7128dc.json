@@ -1,0 +1,813 @@
+{
+  "theme": {
+    "preset": "brutalist-concrete",
+    "bg": "#1A1A1A",
+    "ink": "#E6E6E6",
+    "bgAccent": "#333333",
+    "fontDisplay": "Neue Montreal",
+    "fontBody": "Inter"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Avant-Garde Atelier Antwerp",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Collections",
+                "href": "/collections"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineHero",
+          "content": {
+            "eyebrow": "New — Visionary Fall",
+            "headline": "Where Fashion Meets Artistry",
+            "accent": "visionary couture",
+            "body": "Discover the avant-garde spirit shaping Antwerp's boldest atelier collections.",
+            "cta": {
+              "label": "Explore Collections",
+              "href": "/collections"
+            },
+            "secondaryCta": {
+              "label": "Our Philosophy",
+              "href": "/about"
+            }
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/34221129/pexels-photo-34221129.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Artistic portrait of a woman in bold makeup wearing red avant-garde fashion indoors.",
+              "attributionAuthor": "Astrid Sosa",
+              "attributionUrl": "https://www.pexels.com/photo/elegant-woman-in-red-avant-garde-fashion-34221129/"
+            }
+          }
+        },
+        {
+          "id": "MarqueeBand",
+          "content": {
+            "items": [
+              "Avant-Garde Atelier Antwerp",
+              "Strategy",
+              "Motion",
+              "Proof",
+              "Conversion"
+            ],
+            "tone": "normal",
+            "eyebrow": "Essence of Atelier",
+            "headline": "Bold shapes, raw textures, and daring craftsmanship define our collections."
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/5465156/pexels-photo-5465156.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "A close-up view of brutalist architecture showcasing geometric shapes and concrete textures.",
+              "attributionAuthor": "cottonbro studio",
+              "attributionUrl": "https://www.pexels.com/photo/beige-and-white-concrete-building-5465156/"
+            }
+          }
+        },
+        {
+          "id": "BaselineLogoBar",
+          "content": {
+            "eyebrow": "Trusted by Avant-Garde Visionaries",
+            "clients": [
+              {
+                "name": "Antwerp Fashion Week"
+              },
+              {
+                "name": "Creative Council Antwerp"
+              },
+              {
+                "name": "Fashion Futures"
+              },
+              {
+                "name": "Belgian Style Collective"
+              }
+            ]
+          }
+        },
+        {
+          "id": "MessageReveal",
+          "content": {
+            "firstLine": "Avant-Garde Atelier Antwerp is not another template",
+            "accent": "different",
+            "secondLine": "It is a structured product story",
+            "body": "We challenge norms with each stitch, crafting garments that redefine identity and expression.",
+            "eyebrow": "Manifesto",
+            "headline": "Fashion as Provocation"
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/6648497/pexels-photo-6648497.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Silhouette of a man and woman in a studio with neon pink and blue lighting.",
+              "attributionAuthor": "cottonbro studio",
+              "attributionUrl": "https://www.pexels.com/photo/people-in-the-studio-6648497/"
+            }
+          }
+        },
+        {
+          "id": "BaselineFeatures",
+          "content": {
+            "eyebrow": "Signature Collections",
+            "headline": "Exploring Boundaries in Form and Fabric",
+            "accent": "a tactile journey",
+            "features": [
+              {
+                "eyebrow": "01 — Deconstruction",
+                "title": "Shattered Silhouettes",
+                "body": "Bold fragmentation reflecting contemporary dissonance."
+              },
+              {
+                "eyebrow": "02 — Materiality",
+                "title": "Raw and Refined",
+                "body": "Textures that confront and captivate with tactile intensity."
+              },
+              {
+                "eyebrow": "03 — Futurism",
+                "title": "Tomorrow's Wardrobe",
+                "body": "Avant-garde visions crafting the future of fashion."
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/32848844/pexels-photo-32848844.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Artistic fashion scene with models in İstanbul sewing workshop, showcasing avant-garde garments.",
+              "attributionAuthor": "Eyüpcan Timur",
+              "attributionUrl": "https://www.pexels.com/photo/creative-fashion-scene-in-istanbul-sewing-workshop-32848844/"
+            },
+            "secondary": {
+              "url": "https://images.pexels.com/photos/4862956/pexels-photo-4862956.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "High-quality black fabric with intricate folds and texture, ideal for backgrounds and design.",
+              "attributionAuthor": "www.kaboompics.com",
+              "attributionUrl": "https://www.pexels.com/photo/black-textile-in-close-up-photography-4862956/"
+            },
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/6765167/pexels-photo-6765167.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Various denim garments drying on a clothesline against a neutral background.",
+                "attributionAuthor": "cottonbro studio",
+                "attributionUrl": "https://www.pexels.com/photo/denim-clothes-hanging-on-a-clothesline-6765167/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/6764920/pexels-photo-6764920.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Detailed close-up of assorted plaid and checkered fabrics, showcasing textile textures and patterns.",
+                "attributionAuthor": "Tima Miroshnichenko",
+                "attributionUrl": "https://www.pexels.com/photo/assorted-checkered-fabrics-6764920/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/8727111/pexels-photo-8727111.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Futuristic fashion portrait of an Asian woman and Caucasian man in blue lighting, showcasing minimalist style.",
+                "attributionAuthor": "Michelangelo Buonarroti",
+                "attributionUrl": "https://www.pexels.com/photo/a-man-and-woman-in-white-top-8727111/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ImageGallery",
+          "content": {
+            "eyebrow": "Visual Ode",
+            "headline": "Flagship Pieces in Motion",
+            "body": "Experience the tactile poetry of our latest runway moments.",
+            "captions": [
+              {
+                "title": "Signal",
+                "year": "2026"
+              },
+              {
+                "title": "Space",
+                "year": "2025"
+              },
+              {
+                "title": "Detail",
+                "year": "2026"
+              },
+              {
+                "title": "Flow",
+                "year": "2025"
+              },
+              {
+                "title": "Texture",
+                "year": "2026"
+              },
+              {
+                "title": "Proof",
+                "year": "2025"
+              },
+              {
+                "title": "People",
+                "year": "2026"
+              },
+              {
+                "title": "System",
+                "year": "2025"
+              },
+              {
+                "title": "Outcome",
+                "year": "2026"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/28262886/pexels-photo-28262886.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Artistic fashion portrait featuring unique headwear and formal attire with eyeglasses.",
+                "attributionAuthor": "Sydney Sang",
+                "attributionUrl": "https://www.pexels.com/photo/a-man-with-a-paper-hat-on-his-head-28262886/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/13057767/pexels-photo-13057767.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Model at New Delhi fashion show in elegant designer gown, showcasing modern style.",
+                "attributionAuthor": "RAJESH KUMAR    VERMA",
+                "attributionUrl": "https://www.pexels.com/photo/a-model-posing-in-a-dress-13057767/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/11124950/pexels-photo-11124950.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Close-up of a woman wearing a bright pink coat and a blue striped scarf against a pink background.",
+                "attributionAuthor": "Anna Shvets",
+                "attributionUrl": "https://www.pexels.com/photo/woman-wearing-colorful-clothes-in-a-studio-11124950/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/13787836/pexels-photo-13787836.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Elegant fashion photography of a woman in white, holding a sculpture, against a soft pink background.",
+                "attributionAuthor": "Eyup Beyhan",
+                "attributionUrl": "https://www.pexels.com/photo/elegant-woman-in-a-white-dress-holding-a-bust-13787836/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/36838753/pexels-photo-36838753.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Fashionable woman poses indoors against a neutral background with dramatic lighting and shadow effects.",
+                "attributionAuthor": "DARKMODE CINEMA",
+                "attributionUrl": "https://www.pexels.com/photo/stylish-woman-posing-indoors-with-shadow-effect-36838753/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineTestimonials",
+          "content": {
+            "eyebrow": "Praise",
+            "headline": "Voices from the Avant-Garde",
+            "testimonials": [
+              {
+                "quote": "A visionary force in contemporary fashion.",
+                "author": "Lena",
+                "role": "Stylist",
+                "org": "Fashion Magazine"
+              },
+              {
+                "quote": "Their collections transcend mere clothing—they are wearable art.",
+                "author": "Milo",
+                "role": "Curator"
+              },
+              {
+                "quote": "Antwerp’s boldest atelier, where tradition meets innovation.",
+                "author": "Theo",
+                "role": "Designer"
+              }
+            ]
+          }
+        },
+        {
+          "id": "TruusHorizontalWords",
+          "content": {
+            "headline": "We go where the people are",
+            "body": "Avant-Garde Atelier Antwerp meets audiences where attention already lives."
+          }
+        },
+        {
+          "id": "BaselineCTA",
+          "content": {
+            "eyebrow": "Join The Movement",
+            "headline": "Embrace Visionary Fashion",
+            "accent": "avant-garde style",
+            "body": "Begin your journey into boundary-pushing couture today.",
+            "cta": {
+              "label": "Contact Us",
+              "href": "/contact"
+            },
+            "secondaryCta": {
+              "label": "Explore More",
+              "href": "/collections"
+            }
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Avant-Garde Atelier Antwerp",
+            "brand": "Avant-Garde Atelier Antwerp",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Collections",
+                    "href": "/collections"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "Where fashion transcends the ordinary.",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "title": "About",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Avant-Garde Atelier Antwerp",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Collections",
+                "href": "/collections"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineAboutNarrative",
+          "content": {
+            "eyebrow": "About Avant-Garde Atelier Antwerp",
+            "headline": "Our mission is to transform fashion into living art",
+            "body": "Founded in the heart of Antwerp, the atelier merges craftsmanship with a rebellious spirit to challenge fashion’s conventions.",
+            "pillarEyebrow": "Core pillars",
+            "pillarHeadline": "Three forces that shape our work",
+            "pillars": [
+              {
+                "title": "Artistry",
+                "body": "Each piece is a sculptural statement crafted with precision."
+              },
+              {
+                "title": "Innovation",
+                "body": "We push boundaries through material experimentation and form."
+              },
+              {
+                "title": "Sustainability",
+                "body": "Commitment to responsible practices fuels our creative process."
+              }
+            ],
+            "statsEyebrow": "By the numbers",
+            "stats": [
+              {
+                "value": "2010",
+                "label": "Founded"
+              },
+              {
+                "value": "25",
+                "label": "Collections"
+              },
+              {
+                "value": "50+",
+                "label": "Collaborations"
+              }
+            ],
+            "accent": "fearless expression"
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/30878454/pexels-photo-30878454.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Cinematic scene with neon lights and actors on set, creating a mysterious atmosphere.",
+              "attributionAuthor": "Javo  Films",
+              "attributionUrl": "https://www.pexels.com/photo/moody-indoor-film-set-with-neon-lighting-30878454/"
+            }
+          }
+        },
+        {
+          "id": "FeatureList",
+          "content": {
+            "eyebrow": "Our Craft",
+            "headline": "Distinctive Techniques and Materials",
+            "features": [
+              {
+                "title": "Hand Draping",
+                "body": "Creating fluid forms that articulate movement."
+              },
+              {
+                "title": "Laser Cutting",
+                "body": "Precision cuts that sculpt fabric into avant-garde shapes."
+              },
+              {
+                "title": "Upcycled Textiles",
+                "body": "Innovative use of reclaimed materials to reduce waste."
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Avant-Garde Atelier Antwerp",
+            "brand": "Avant-Garde Atelier Antwerp",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Collections",
+                    "href": "/collections"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "Where fashion transcends the ordinary.",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "collections",
+      "title": "Collections",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Avant-Garde Atelier Antwerp",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Collections",
+                "href": "/collections"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselinePageHeader",
+          "content": {
+            "eyebrow": "Collections",
+            "headline": "Visionary Fashion Works",
+            "body": "A curated display of our current and past collections that redefine style.",
+            "accent": "crafted statements"
+          }
+        },
+        {
+          "id": "TwoColumnText",
+          "content": {
+            "eyebrow": "Stories Behind the Stitch",
+            "headline": "The Vision and Craftsmanship",
+            "paragraphs": [
+              {
+                "heading": "Deconstruction",
+                "body": "A philosophy that breaks down conventional forms to rebuild identity."
+              },
+              {
+                "heading": "Materiality",
+                "body": "The tactile dialogue between fabric and wearer."
+              },
+              {
+                "heading": "Futurism",
+                "body": "Imagining the future of personal expression through avant-garde design."
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Avant-Garde Atelier Antwerp",
+            "brand": "Avant-Garde Atelier Antwerp",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Collections",
+                    "href": "/collections"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "Where fashion transcends the ordinary.",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Avant-Garde Atelier Antwerp",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Collections",
+                "href": "/collections"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineContact",
+          "content": {
+            "eyebrow": "Contact",
+            "headline": "Let's build something together",
+            "formTitle": "Get in Touch",
+            "formBody": "We welcome your messages and inquiries.",
+            "recipientEmail": "contact@avantgardeatelier.be",
+            "subjectTemplate": "New inquiry from {name}",
+            "details": [
+              {
+                "label": "Email",
+                "value": "contact@avantgardeatelier.be",
+                "href": "mailto:contact@avantgardeatelier.be"
+              },
+              {
+                "label": "Phone",
+                "value": "+32 123 456 789",
+                "href": "tel:+32123456789"
+              },
+              {
+                "label": "Office",
+                "value": "Antwerp, Belgium"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Avant-Garde Atelier Antwerp",
+            "brand": "Avant-Garde Atelier Antwerp",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Collections",
+                    "href": "/collections"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "Where fashion transcends the ordinary.",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "intent": {
+    "energy": "artistic",
+    "density": "spacious",
+    "cinematicIntensity": "high",
+    "motionIntensity": "rich",
+    "copyTone": "poetic visionary",
+    "themeHint": "brutalist-concrete"
+  }
+}

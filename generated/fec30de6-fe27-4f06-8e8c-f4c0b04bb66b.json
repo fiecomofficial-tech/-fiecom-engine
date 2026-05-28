@@ -1,0 +1,362 @@
+{
+  "architecture": "fiecom-reference",
+  "prompt": "luxury hotel in bali",
+  "createdAt": "2026-05-25T00:50:41.880Z",
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Welcome to Bali Serenity Resort",
+      "site": {
+        "id": "dbsmcelmv",
+        "createdAt": "2026-05-25T00:50:40.970Z",
+        "prompt": "luxury hotel in bali",
+        "category": "luxury",
+        "template": "editorial-architecture",
+        "intent": {
+          "category": "luxury",
+          "categoryConfidence": 0.7916666666666667,
+          "style": "luxury-elegant",
+          "tone": "confident",
+          "motion": "considered",
+          "subject": "luxury hotel in bali"
+        },
+        "variation": {
+          "density": "spacious",
+          "sectionOrder": "indexical",
+          "typeSystem": "editorial-serif",
+          "accent": "warm-cream",
+          "heroShape": "split",
+          "nav": "top-quiet",
+          "atmosphere": "soft-noise",
+          "cursor": "default"
+        },
+        "brand": {
+          "name": "Bali Serenity Resort",
+          "voice": "Confident and elegant with a warm, inviting tone.",
+          "accent": "warm-cream"
+        },
+        "nav": [
+          {
+            "label": "Welcome to Bali Serenity Resort",
+            "href": "/"
+          },
+          {
+            "label": "About Bali Serenity Resort",
+            "href": "/about"
+          },
+          {
+            "label": "Contact Us",
+            "href": "/contact"
+          }
+        ],
+        "page": {
+          "slug": "home",
+          "title": "Welcome to Bali Serenity Resort",
+          "kind": "home"
+        },
+        "sections": [
+          {
+            "id": "hero",
+            "kind": "hero",
+            "eyebrow": "BALI SERENITY RESORT",
+            "title": "Experience Luxury in the Heart of Bali",
+            "subtitle": "Where elegance meets tranquility amidst tropical paradise",
+            "cta": {
+              "label": "Explore Our Rooms",
+              "href": "#work"
+            },
+            "visualMoodId": "warm-aurora",
+            "media": {
+              "url": "https://images.pexels.com/photos/34790496/pexels-photo-34790496.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "A serene view of a villa's infinity pool at sunset in Bali, Indonesia, with lush greenery and calm reflections.",
+              "attributionAuthor": "kevin yung",
+              "attributionUrl": "https://www.pexels.com/photo/luxury-villa-pool-at-sunset-in-bali-indonesia-34790496/"
+            }
+          },
+          {
+            "id": "marquee",
+            "kind": "marquee",
+            "words": [
+              "Luxury",
+              "Tranquility",
+              "Elegance",
+              "Paradise",
+              "Exclusive",
+              "Serene"
+            ]
+          },
+          {
+            "id": "story",
+            "kind": "story",
+            "eyebrow": "01 / Story",
+            "title": "Your Sanctuary Awaits",
+            "paragraphs": [
+              "Nestled in lush Balinese gardens and overlooking pristine beaches, Bali Serenity Resort offers an unrivaled luxury experience.",
+              "Discover exquisite accommodations, world-class amenities, and personalized service designed to make your stay unforgettable."
+            ]
+          },
+          {
+            "id": "work",
+            "kind": "work",
+            "eyebrow": "02 / Selected work",
+            "title": "A short index of what matters.",
+            "items": [
+              {
+                "title": "Signal",
+                "meta": "luxury hotel in bali",
+                "visualMoodId": "graphite-rise",
+                "media": {
+                  "url": "https://images.pexels.com/photos/34790496/pexels-photo-34790496.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                  "alt": "A serene view of a villa's infinity pool at sunset in Bali, Indonesia, with lush greenery and calm reflections.",
+                  "attributionAuthor": "kevin yung",
+                  "attributionUrl": "https://www.pexels.com/photo/luxury-villa-pool-at-sunset-in-bali-indonesia-34790496/"
+                }
+              },
+              {
+                "title": "System",
+                "meta": "luxury hotel in bali",
+                "visualMoodId": "flux-prism",
+                "media": {
+                  "url": "https://images.pexels.com/photos/19137452/pexels-photo-19137452.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                  "alt": "Stunning aerial shot of a luxury resort surrounded by lush greenery in Ubud, Bali.",
+                  "attributionAuthor": "Joe Fikar",
+                  "attributionUrl": "https://www.pexels.com/photo/aerial-view-of-four-seasons-resort-bali-at-sayan-in-indonesia-19137452/"
+                }
+              },
+              {
+                "title": "Detail",
+                "meta": "luxury hotel in bali",
+                "visualMoodId": "cold-vapor",
+                "media": {
+                  "url": "https://images.pexels.com/photos/33780374/pexels-photo-33780374.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                  "alt": "Modern hotel architecture in Bali, Indonesia captured during a vibrant sunset.",
+                  "attributionAuthor": "Dwi Candra",
+                  "attributionUrl": "https://www.pexels.com/photo/modern-balinese-architecture-at-sunset-33780374/"
+                }
+              },
+              {
+                "title": "Outcome",
+                "meta": "luxury hotel in bali",
+                "visualMoodId": "amber-glow",
+                "media": {
+                  "url": "https://images.pexels.com/photos/14464944/pexels-photo-14464944.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                  "alt": "Serene infinity pool view with palm trees and ocean at a Bali resort, perfect for relaxation.",
+                  "attributionAuthor": "Nastia Ligrain",
+                  "attributionUrl": "https://www.pexels.com/photo/a-swimming-pool-in-the-resort-14464944/"
+                }
+              }
+            ]
+          },
+          {
+            "id": "features",
+            "kind": "feature",
+            "eyebrow": "03 / Approach",
+            "title": "Why Choose Bali Serenity Resort",
+            "features": [
+              {
+                "title": "Exclusive Beachfront Location",
+                "body": "Step directly onto white sand beaches with breathtaking ocean views.",
+                "iconId": "prism"
+              },
+              {
+                "title": "Elegant Balinese Design",
+                "body": "Immerse yourself in authentic luxury with handcrafted interiors and serene aesthetics.",
+                "iconId": "ring"
+              },
+              {
+                "title": "Award-Winning Spa",
+                "body": "Rejuvenate with traditional Balinese treatments and modern wellness therapies.",
+                "iconId": "fold"
+              }
+            ]
+          },
+          {
+            "id": "manifesto",
+            "kind": "manifesto",
+            "eyebrow": "Manifesto",
+            "body": "At Bali Serenity Resort, we believe luxury is not just about opulence, but about creating meaningful and memorable experiences that nourish the body and soul."
+          },
+          {
+            "id": "contact",
+            "kind": "contact",
+            "eyebrow": "Contact",
+            "title": "Start with a focused conversation.",
+            "email": "hello@baliserenityresort.co"
+          }
+        ],
+        "blocks": [
+          "hero.type-only",
+          "marquee.big",
+          "story.editorial",
+          "work.mosaic",
+          "feature.big-row",
+          "manifesto.center",
+          "contact.quiet"
+        ],
+        "footerBlock": "footer.minimal",
+        "typePalette": "fraunces-dm",
+        "status": "draft",
+        "edits": []
+      }
+    },
+    {
+      "slug": "about",
+      "title": "About Bali Serenity Resort",
+      "site": {
+        "id": "46qeobmff",
+        "createdAt": "2026-05-25T00:50:41.460Z",
+        "prompt": "luxury hotel in bali",
+        "category": "luxury",
+        "template": "editorial-architecture",
+        "intent": {
+          "category": "luxury",
+          "categoryConfidence": 0.7916666666666667,
+          "style": "luxury-elegant",
+          "tone": "confident",
+          "motion": "calm",
+          "subject": "luxury hotel in bali"
+        },
+        "variation": {
+          "density": "balanced",
+          "sectionOrder": "narrative",
+          "typeSystem": "editorial-serif",
+          "accent": "warm-cream",
+          "heroShape": "split",
+          "nav": "top-quiet",
+          "atmosphere": "soft-noise",
+          "cursor": "default"
+        },
+        "brand": {
+          "name": "Bali Serenity Resort",
+          "voice": "Confident and elegant with a warm, inviting tone.",
+          "accent": "warm-cream"
+        },
+        "nav": [
+          {
+            "label": "Welcome to Bali Serenity Resort",
+            "href": "/"
+          },
+          {
+            "label": "About Bali Serenity Resort",
+            "href": "/about"
+          },
+          {
+            "label": "Contact Us",
+            "href": "/contact"
+          }
+        ],
+        "page": {
+          "slug": "about",
+          "title": "About Bali Serenity Resort",
+          "kind": "internal"
+        },
+        "sections": [
+          {
+            "id": "story",
+            "kind": "story",
+            "eyebrow": "About Bali Serenity Resort",
+            "title": "Our Heritage and Vision",
+            "paragraphs": [
+              "Founded with passion and a commitment to excellence, Bali Serenity Resort embodies the spirit of Bali through luxurious comfort and impeccable service.",
+              "Our team is dedicated to providing guests with a personalized and authentic Balinese hospitality experience."
+            ]
+          },
+          {
+            "id": "contact",
+            "kind": "contact",
+            "eyebrow": "Contact",
+            "title": "Start with a focused conversation.",
+            "email": "hello@baliserenityresort.co"
+          }
+        ],
+        "blocks": [
+          "story.editorial",
+          "contact.quiet"
+        ],
+        "footerBlock": "footer.minimal",
+        "typePalette": "fraunces-dm",
+        "status": "draft",
+        "edits": []
+      }
+    },
+    {
+      "slug": "contact",
+      "title": "Contact Us",
+      "site": {
+        "id": "8zkmh1mt0",
+        "createdAt": "2026-05-25T00:50:41.880Z",
+        "prompt": "luxury hotel in bali",
+        "category": "luxury",
+        "template": "editorial-architecture",
+        "intent": {
+          "category": "luxury",
+          "categoryConfidence": 0.7916666666666667,
+          "style": "luxury-elegant",
+          "tone": "confident",
+          "motion": "calm",
+          "subject": "luxury hotel in bali"
+        },
+        "variation": {
+          "density": "spacious",
+          "sectionOrder": "narrative",
+          "typeSystem": "humanist-mix",
+          "accent": "ink",
+          "heroShape": "split",
+          "nav": "top-quiet",
+          "atmosphere": "soft-noise",
+          "cursor": "default"
+        },
+        "brand": {
+          "name": "Bali Serenity Resort",
+          "voice": "Confident and elegant with a warm, inviting tone.",
+          "accent": "ink"
+        },
+        "nav": [
+          {
+            "label": "Welcome to Bali Serenity Resort",
+            "href": "/"
+          },
+          {
+            "label": "About Bali Serenity Resort",
+            "href": "/about"
+          },
+          {
+            "label": "Contact Us",
+            "href": "/contact"
+          }
+        ],
+        "page": {
+          "slug": "contact",
+          "title": "Contact Us",
+          "kind": "internal"
+        },
+        "sections": [
+          {
+            "id": "story",
+            "kind": "story",
+            "eyebrow": "Contact Us",
+            "title": "",
+            "paragraphs": [
+              "Bali Serenity Resort brings a focused point of view to luxury hotel in bali."
+            ]
+          },
+          {
+            "id": "contact",
+            "kind": "contact",
+            "eyebrow": "Contact",
+            "title": "Reach Out",
+            "email": "info@baliserenityresort.com"
+          }
+        ],
+        "blocks": [
+          "story.editorial",
+          "contact.quiet"
+        ],
+        "footerBlock": "footer.minimal",
+        "typePalette": "newsreader-mona",
+        "status": "draft",
+        "edits": []
+      }
+    }
+  ]
+}

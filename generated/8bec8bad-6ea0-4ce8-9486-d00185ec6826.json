@@ -1,0 +1,938 @@
+{
+  "theme": {
+    "preset": "editorial-noir",
+    "bg": "#121212",
+    "ink": "#FFFFFF",
+    "bgAccent": "#2A2A2A",
+    "fontDisplay": "Playfair Display",
+    "fontBody": "Lora"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "Noir Atelier",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Work",
+                "href": "/work"
+              },
+              {
+                "label": "Studio",
+                "href": "/studio"
+              },
+              {
+                "label": "Process",
+                "href": "#process"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Start",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "HeroEditorial",
+          "content": {
+            "eyebrow": "NEW SEASON",
+            "headline": "LUXURY CINEMATIC\nPORTFOLIO",
+            "body": "Experience the art of fashion as motion and style merge in a bold narrative."
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/5588847/pexels-photo-5588847.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "A mysterious figure with makeup and a hat, sitting in darkness with a dramatic red light.",
+              "attributionAuthor": "gusat silviu",
+              "attributionUrl": "https://www.pexels.com/photo/scary-person-in-the-dark-wearing-a-black-hat-5588847/"
+            }
+          }
+        },
+        {
+          "id": "MessageReveal",
+          "content": {
+            "firstLine": "Crafting Style Beyond Time",
+            "accent": "VISION",
+            "secondLine": "Where Elegance Meets Innovation",
+            "body": "Our creations reflect timeless luxury with a modern cinematic edge."
+          }
+        },
+        {
+          "id": "HorizontalShowcase",
+          "content": {
+            "eyebrow": "FEATURED COLLECTIONS",
+            "headline": "Curated Cinematic Works",
+            "body": "A glimpse into our most influential fashion narratives.",
+            "cards": [
+              {
+                "title": "Eclipse Series",
+                "caption": "Dark elegance and light play"
+              },
+              {
+                "title": "Noir Shadows",
+                "caption": "Mystery woven in fabric"
+              },
+              {
+                "title": "Urban Silhouettes",
+                "caption": "Modern lines, sharp cuts"
+              },
+              {
+                "title": "Ethereal Textures",
+                "caption": "Soft meets strength"
+              },
+              {
+                "title": "Midnight Reverie",
+                "caption": "Dreamlike fashion moments"
+              },
+              {
+                "title": "Bold Statement",
+                "caption": "Power in every stitch"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/25287573/pexels-photo-25287573.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Stylish studio setup featuring a director's chair and vintage fan against a black backdrop.",
+                "attributionAuthor": "Lisett Kruusimäe",
+                "attributionUrl": "https://www.pexels.com/photo/chair-and-fan-in-studio-25287573/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/37130823/pexels-photo-37130823.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Model being styled by professionals during a fashion photoshoot.",
+                "attributionAuthor": "Luisa Ganatios",
+                "attributionUrl": "https://www.pexels.com/photo/fashion-shoot-with-model-and-stylists-37130823/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/9594091/pexels-photo-9594091.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Studio shot of various clothing tags arranged on a yellow background showcasing minimalist design.",
+                "attributionAuthor": "Ron Lach",
+                "attributionUrl": "https://www.pexels.com/photo/white-printer-paper-on-brown-wall-9594091/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/37178186/pexels-photo-37178186.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A warmly lit vintage boutique showcasing curated artisan goods and decor in Greenville, SC.",
+                "attributionAuthor": "Daniel & Hannah Snipes",
+                "attributionUrl": "https://www.pexels.com/photo/cozy-boutique-interior-with-vintage-decor-37178186/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/25526521/pexels-photo-25526521.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Modern photography studio with lighting equipment and a laptop on a desk.",
+                "attributionAuthor": "Alpha En",
+                "attributionUrl": "https://www.pexels.com/photo/empty-photographer-studio-25526521/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/36700177/pexels-photo-36700177.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Shirtless man poses by pink door in a modern interior, creating an artistic scene.",
+                "attributionAuthor": "Becca Correia",
+                "attributionUrl": "https://www.pexels.com/photo/shirtless-man-in-stylish-interior-setting-36700177/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "StickyChapters",
+          "content": {
+            "eyebrow": "Story",
+            "chapters": [
+              {
+                "title": "The Visionary Journey of Noir Atelier",
+                "body": "Exploring the roots of our cinematic fashion ethos."
+              },
+              {
+                "title": "Innovative Craftsmanship Techniques",
+                "body": "Blending tradition with cutting-edge design."
+              },
+              {
+                "title": "Future of Luxury Fashion",
+                "body": "Embracing sustainability and artistry in motion."
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/30134839/pexels-photo-30134839.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "A man with tattoos poses artistically, hiding his face with a newspaper during a studio photoshoot.",
+              "attributionAuthor": "Ekam Juneja",
+              "attributionUrl": "https://www.pexels.com/photo/artistic-tattooed-model-reading-newspaper-in-studio-30134839/"
+            },
+            "secondary": {
+              "url": "https://images.pexels.com/photos/37178186/pexels-photo-37178186.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "A warmly lit vintage boutique showcasing curated artisan goods and decor in Greenville, SC.",
+              "attributionAuthor": "Daniel & Hannah Snipes",
+              "attributionUrl": "https://www.pexels.com/photo/cozy-boutique-interior-with-vintage-decor-37178186/"
+            }
+          }
+        },
+        {
+          "id": "ImageGallery",
+          "content": {
+            "eyebrow": "Gallery",
+            "headline": "Frames from Our Stories",
+            "body": "Visual chronicles capturing the spirit of Noir Atelier.",
+            "captions": [
+              {
+                "title": "Runway Dawn",
+                "year": "2023"
+              },
+              {
+                "title": "Fabric in Motion",
+                "year": "2022"
+              },
+              {
+                "title": "Shadow Play",
+                "year": "2024"
+              },
+              {
+                "title": "Silhouette Contrast",
+                "year": "2023"
+              },
+              {
+                "title": "Texture Study",
+                "year": "2022"
+              },
+              {
+                "title": "Light and Dark",
+                "year": "2024"
+              },
+              {
+                "title": "Folded Elegance",
+                "year": "2023"
+              },
+              {
+                "title": "Midnight Drapes",
+                "year": "2024"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/13057832/pexels-photo-13057832.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A stunning model graces the catwalk in a unique designer dress during a fashion show in New Delhi.",
+                "attributionAuthor": "RAJESH KUMAR    VERMA",
+                "attributionUrl": "https://www.pexels.com/photo/a-model-on-a-catwalk-13057832/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/6276056/pexels-photo-6276056.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Detailed close-up of textured beige woven fabric with intricate fibers, ideal for textile and design concepts.",
+                "attributionAuthor": "www.kaboompics.com",
+                "attributionUrl": "https://www.pexels.com/photo/close-up-shot-of-woven-fabric-6276056/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/29894792/pexels-photo-29894792.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A woman standing in dramatic lighting with shadows creating an artistic effect indoors.",
+                "attributionAuthor": "sara kazemi",
+                "attributionUrl": "https://www.pexels.com/photo/moody-portrait-of-a-woman-in-dramatic-lighting-29894792/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/16662491/pexels-photo-16662491.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Black and white silhouette of a woman in profile wearing a ruffled collar, exuding elegance.",
+                "attributionAuthor": "Tatan Zuleta",
+                "attributionUrl": "https://www.pexels.com/photo/woman-silhouette-of-white-background-16662491/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/6276056/pexels-photo-6276056.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Detailed close-up of textured beige woven fabric with intricate fibers, ideal for textile and design concepts.",
+                "attributionAuthor": "www.kaboompics.com",
+                "attributionUrl": "https://www.pexels.com/photo/close-up-shot-of-woven-fabric-6276056/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/36838753/pexels-photo-36838753.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Fashionable woman poses indoors against a neutral background with dramatic lighting and shadow effects.",
+                "attributionAuthor": "DARKMODE CINEMA",
+                "attributionUrl": "https://www.pexels.com/photo/stylish-woman-posing-indoors-with-shadow-effect-36838753/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/7946638/pexels-photo-7946638.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A minimalist photograph showcasing the elegance of black fabric folded in soft layers against a white background.",
+                "attributionAuthor": "Hanna Pad",
+                "attributionUrl": "https://www.pexels.com/photo/folds-of-fabric-7946638/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/34937624/pexels-photo-34937624.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A woman wrapped in a blue fabric outdoors, conveying a mysterious and artistic mood.",
+                "attributionAuthor": "Anna Ginger",
+                "attributionUrl": "https://www.pexels.com/photo/mysterious-woman-draped-in-blue-fabric-outdoors-34937624/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "TimelineScroll",
+          "content": {
+            "eyebrow": "Legacy",
+            "headline": "Milestones in Motion",
+            "events": [
+              {
+                "year": "2018",
+                "title": "Founded Noir Atelier",
+                "body": "A vision born to redefine fashion storytelling."
+              },
+              {
+                "year": "2019",
+                "title": "First Cinematic Collection",
+                "body": "Debuted with unprecedented film-like presentation."
+              },
+              {
+                "year": "2021",
+                "title": "Global Recognition",
+                "body": "Featured in international fashion weeks."
+              },
+              {
+                "year": "2023",
+                "title": "Sustainability Initiative",
+                "body": "Launched eco-conscious fabric lines."
+              },
+              {
+                "year": "2024",
+                "title": "Innovative Studio Opening",
+                "body": "Expanded creative space with cinematic production."
+              }
+            ]
+          }
+        },
+        {
+          "id": "TestimonialCarousel",
+          "content": {
+            "eyebrow": "Voices",
+            "testimonials": [
+              {
+                "quote": "Noir Atelier transforms fashion into art.",
+                "author": "Amelia R.",
+                "role": "Fashion Editor",
+                "org": "Vogue"
+              },
+              {
+                "quote": "A visionary blend of cinema and couture.",
+                "author": "Liam K.",
+                "role": "Creative Director",
+                "org": "Harper's Bazaar"
+              },
+              {
+                "quote": "Their craftsmanship tells a compelling story.",
+                "author": "Sofia M.",
+                "role": "Stylist",
+                "org": "Elle"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/25287573/pexels-photo-25287573.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Stylish studio setup featuring a director's chair and vintage fan against a black backdrop.",
+                "attributionAuthor": "Lisett Kruusimäe",
+                "attributionUrl": "https://www.pexels.com/photo/chair-and-fan-in-studio-25287573/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/37130823/pexels-photo-37130823.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Model being styled by professionals during a fashion photoshoot.",
+                "attributionAuthor": "Luisa Ganatios",
+                "attributionUrl": "https://www.pexels.com/photo/fashion-shoot-with-model-and-stylists-37130823/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/9594091/pexels-photo-9594091.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Studio shot of various clothing tags arranged on a yellow background showcasing minimalist design.",
+                "attributionAuthor": "Ron Lach",
+                "attributionUrl": "https://www.pexels.com/photo/white-printer-paper-on-brown-wall-9594091/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/37178186/pexels-photo-37178186.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A warmly lit vintage boutique showcasing curated artisan goods and decor in Greenville, SC.",
+                "attributionAuthor": "Daniel & Hannah Snipes",
+                "attributionUrl": "https://www.pexels.com/photo/cozy-boutique-interior-with-vintage-decor-37178186/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "CTABanner",
+          "content": {
+            "eyebrow": "JOIN THE JOURNEY",
+            "headline": "Discover the Future of Fashion Cinematics",
+            "body": "Give visitors a clear path instead of a dead end.",
+            "cta": {
+              "label": "Explore Our Work",
+              "href": "/work"
+            }
+          }
+        },
+        {
+          "id": "ContactBlock",
+          "content": {
+            "eyebrow": "CONNECT",
+            "headline": "Begin Your Cinematic Experience",
+            "body": "Reach out to collaborate or inquire about our collections.",
+            "cta": {
+              "label": "Email the team",
+              "href": "mailto:hello@fiecom.co"
+            },
+            "details": [
+              {
+                "label": "Email",
+                "value": "contact@noiratelier.com",
+                "href": "mailto:contact@noiratelier.com"
+              },
+              {
+                "label": "Phone",
+                "value": "+1 234 567 8901"
+              },
+              {
+                "label": "Location",
+                "value": "New York, NY"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "work",
+      "title": "Work",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "Fiecom",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Work",
+                "href": "/work"
+              },
+              {
+                "label": "Studio",
+                "href": "/studio"
+              },
+              {
+                "label": "Process",
+                "href": "#process"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Start",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "PageHeader",
+          "content": {
+            "eyebrow": "Fiecom",
+            "headline": "Work",
+            "body": "Everything visitors need to understand work and take the next step.",
+            "crumbs": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Work"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ImageGallery",
+          "content": {
+            "eyebrow": "Gallery",
+            "headline": "Seen from every angle",
+            "body": "A visual layer that makes the offer tangible.",
+            "captions": [
+              {
+                "title": "Signal",
+                "year": "2026"
+              },
+              {
+                "title": "Space",
+                "year": "2025"
+              },
+              {
+                "title": "Detail",
+                "year": "2026"
+              },
+              {
+                "title": "Flow",
+                "year": "2025"
+              },
+              {
+                "title": "Texture",
+                "year": "2026"
+              },
+              {
+                "title": "Proof",
+                "year": "2025"
+              },
+              {
+                "title": "People",
+                "year": "2026"
+              },
+              {
+                "title": "System",
+                "year": "2025"
+              },
+              {
+                "title": "Outcome",
+                "year": "2026"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/25287573/pexels-photo-25287573.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Stylish studio setup featuring a director's chair and vintage fan against a black backdrop.",
+                "attributionAuthor": "Lisett Kruusimäe",
+                "attributionUrl": "https://www.pexels.com/photo/chair-and-fan-in-studio-25287573/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/37130823/pexels-photo-37130823.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Model being styled by professionals during a fashion photoshoot.",
+                "attributionAuthor": "Luisa Ganatios",
+                "attributionUrl": "https://www.pexels.com/photo/fashion-shoot-with-model-and-stylists-37130823/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/9594091/pexels-photo-9594091.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Studio shot of various clothing tags arranged on a yellow background showcasing minimalist design.",
+                "attributionAuthor": "Ron Lach",
+                "attributionUrl": "https://www.pexels.com/photo/white-printer-paper-on-brown-wall-9594091/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/37178186/pexels-photo-37178186.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A warmly lit vintage boutique showcasing curated artisan goods and decor in Greenville, SC.",
+                "attributionAuthor": "Daniel & Hannah Snipes",
+                "attributionUrl": "https://www.pexels.com/photo/cozy-boutique-interior-with-vintage-decor-37178186/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/25526521/pexels-photo-25526521.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Modern photography studio with lighting equipment and a laptop on a desk.",
+                "attributionAuthor": "Alpha En",
+                "attributionUrl": "https://www.pexels.com/photo/empty-photographer-studio-25526521/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/36700177/pexels-photo-36700177.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Shirtless man poses by pink door in a modern interior, creating an artistic scene.",
+                "attributionAuthor": "Becca Correia",
+                "attributionUrl": "https://www.pexels.com/photo/shirtless-man-in-stylish-interior-setting-36700177/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "HorizontalShowcase",
+          "content": {
+            "eyebrow": "Showcase",
+            "headline": "The product in motion",
+            "body": "Real use cases and moments visitors can scan quickly.",
+            "cards": [
+              {
+                "title": "Overview",
+                "caption": "Overview for Fiecom"
+              },
+              {
+                "title": "Workflow",
+                "caption": "Workflow for Fiecom"
+              },
+              {
+                "title": "Proof",
+                "caption": "Proof for Fiecom"
+              },
+              {
+                "title": "Detail",
+                "caption": "Detail for Fiecom"
+              },
+              {
+                "title": "Result",
+                "caption": "Result for Fiecom"
+              },
+              {
+                "title": "Next step",
+                "caption": "Next step for Fiecom"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/25287573/pexels-photo-25287573.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Stylish studio setup featuring a director's chair and vintage fan against a black backdrop.",
+                "attributionAuthor": "Lisett Kruusimäe",
+                "attributionUrl": "https://www.pexels.com/photo/chair-and-fan-in-studio-25287573/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/37130823/pexels-photo-37130823.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Model being styled by professionals during a fashion photoshoot.",
+                "attributionAuthor": "Luisa Ganatios",
+                "attributionUrl": "https://www.pexels.com/photo/fashion-shoot-with-model-and-stylists-37130823/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/9594091/pexels-photo-9594091.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Studio shot of various clothing tags arranged on a yellow background showcasing minimalist design.",
+                "attributionAuthor": "Ron Lach",
+                "attributionUrl": "https://www.pexels.com/photo/white-printer-paper-on-brown-wall-9594091/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/37178186/pexels-photo-37178186.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A warmly lit vintage boutique showcasing curated artisan goods and decor in Greenville, SC.",
+                "attributionAuthor": "Daniel & Hannah Snipes",
+                "attributionUrl": "https://www.pexels.com/photo/cozy-boutique-interior-with-vintage-decor-37178186/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/25526521/pexels-photo-25526521.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Modern photography studio with lighting equipment and a laptop on a desk.",
+                "attributionAuthor": "Alpha En",
+                "attributionUrl": "https://www.pexels.com/photo/empty-photographer-studio-25526521/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/36700177/pexels-photo-36700177.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Shirtless man poses by pink door in a modern interior, creating an artistic scene.",
+                "attributionAuthor": "Becca Correia",
+                "attributionUrl": "https://www.pexels.com/photo/shirtless-man-in-stylish-interior-setting-36700177/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ProcessSteps",
+          "content": {
+            "eyebrow": "Process",
+            "headline": "From first signal to launch",
+            "steps": [
+              {
+                "number": "01",
+                "title": "Discover",
+                "body": "Discover the Fiecom experience with a clear owner and outcome."
+              },
+              {
+                "number": "02",
+                "title": "Shape",
+                "body": "Shape the Fiecom experience with a clear owner and outcome."
+              },
+              {
+                "number": "03",
+                "title": "Build",
+                "body": "Build the Fiecom experience with a clear owner and outcome."
+              },
+              {
+                "number": "04",
+                "title": "Launch",
+                "body": "Launch the Fiecom experience with a clear owner and outcome."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "studio",
+      "title": "Studio",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "Fiecom",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Work",
+                "href": "/work"
+              },
+              {
+                "label": "Studio",
+                "href": "/studio"
+              },
+              {
+                "label": "Process",
+                "href": "#process"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Start",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "PageHeader",
+          "content": {
+            "eyebrow": "Fiecom",
+            "headline": "Studio",
+            "body": "Everything visitors need to understand studio and take the next step.",
+            "crumbs": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Studio"
+              }
+            ]
+          }
+        },
+        {
+          "id": "TwoColumnText",
+          "content": {
+            "eyebrow": "Context",
+            "headline": "Studio in detail",
+            "paragraphs": [
+              {
+                "heading": "Positioning",
+                "body": "Positioning content for Fiecom."
+              },
+              {
+                "heading": "Experience",
+                "body": "Experience content for Fiecom."
+              },
+              {
+                "heading": "Operations",
+                "body": "Operations content for Fiecom."
+              }
+            ]
+          }
+        },
+        {
+          "id": "TimelineScroll",
+          "content": {
+            "eyebrow": "Timeline",
+            "headline": "How the story unfolds",
+            "events": [
+              {
+                "year": "2023",
+                "title": "Foundation",
+                "body": "Fiecom builds credibility through a sequence of visible milestones."
+              },
+              {
+                "year": "2024",
+                "title": "Momentum",
+                "body": "Fiecom builds credibility through a sequence of visible milestones."
+              },
+              {
+                "year": "2025",
+                "title": "Expansion",
+                "body": "Fiecom builds credibility through a sequence of visible milestones."
+              },
+              {
+                "year": "2026",
+                "title": "Next chapter",
+                "body": "Fiecom builds credibility through a sequence of visible milestones."
+              }
+            ]
+          }
+        },
+        {
+          "id": "JobsList",
+          "content": {
+            "eyebrow": "Careers",
+            "headline": "Build with us",
+            "groups": [
+              {
+                "team": "Studio",
+                "jobs": [
+                  {
+                    "role": "Product Designer",
+                    "location": "Remote",
+                    "type": "Full-time"
+                  },
+                  {
+                    "role": "Frontend Engineer",
+                    "location": "Remote",
+                    "type": "Full-time"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "Fiecom",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Work",
+                "href": "/work"
+              },
+              {
+                "label": "Studio",
+                "href": "/studio"
+              },
+              {
+                "label": "Process",
+                "href": "#process"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Start",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "PageHeader",
+          "content": {
+            "eyebrow": "Fiecom",
+            "headline": "Contact",
+            "body": "Everything visitors need to understand contact and take the next step.",
+            "crumbs": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Contact"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ContactForm",
+          "content": {
+            "eyebrow": "Start",
+            "headline": "Tell us what you need",
+            "body": "The form opens your mail client with the right context.",
+            "recipientEmail": "hello@fiecom.co",
+            "submitLabel": "Send request"
+          }
+        },
+        {
+          "id": "ContactBlock",
+          "content": {
+            "eyebrow": "Contact",
+            "headline": "Start with a focused conversation",
+            "body": "Send a note to Fiecom and get a practical next step.",
+            "cta": {
+              "label": "Email the team",
+              "href": "mailto:hello@fiecom.co"
+            },
+            "details": [
+              {
+                "label": "Email",
+                "value": "hello@fiecom.co",
+                "href": "mailto:hello@fiecom.co"
+              },
+              {
+                "label": "Response",
+                "value": "Within one business day"
+              },
+              {
+                "label": "Location",
+                "value": "Remote and on-site"
+              }
+            ]
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "Fiecom",
+            "tagline": "Fiecom is built as a complete website system.",
+            "giant": "Fiecom",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Work",
+                    "href": "/work"
+                  },
+                  {
+                    "label": "Studio",
+                    "href": "/studio"
+                  },
+                  {
+                    "label": "Process",
+                    "href": "#process"
+                  }
+                ]
+              },
+              {
+                "title": "Company",
+                "links": [
+                  {
+                    "label": "About",
+                    "href": "#about"
+                  },
+                  {
+                    "label": "Process",
+                    "href": "#process"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Resources",
+                "links": [
+                  {
+                    "label": "FAQ",
+                    "href": "#faq"
+                  },
+                  {
+                    "label": "Journal",
+                    "href": "/resources"
+                  },
+                  {
+                    "label": "Start",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "2026 Fiecom. All rights reserved."
+          }
+        }
+      ]
+    }
+  ]
+}

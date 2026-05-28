@@ -1,0 +1,1172 @@
+{
+  "theme": {
+    "preset": "fintech-minimal"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "Avanta",
+            "links": [
+              {
+                "label": "Work",
+                "href": "/work"
+              },
+              {
+                "label": "Features"
+              },
+              {
+                "label": "Process"
+              },
+              {
+                "label": "Pricing",
+                "href": "/pricing"
+              },
+              {
+                "label": "FAQ"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get Started"
+            }
+          }
+        },
+        {
+          "id": "HeroCinematic",
+          "content": {
+            "eyebrow": "Next-Gen Fintech",
+            "headline": "Move Money, Instantly",
+            "subhead": "Real-Time Transfers",
+            "body": "Avanta builds smarter financial infrastructure for companies and individuals. Experience seamless payments, global accounts, and powerful APIs in one platform.",
+            "cta": {
+              "label": "Start Now"
+            }
+          }
+        },
+        {
+          "id": "MarqueeBand",
+          "content": {
+            "items": [
+              "Lightning-fast transfers",
+              "Global accounts",
+              "Powerful API",
+              "Transparent pricing",
+              "Secure & compliant",
+              "24/7 support"
+            ],
+            "tone": "invert"
+          }
+        },
+        {
+          "id": "FeatureBento",
+          "content": {
+            "eyebrow": "Unified Financial Stack",
+            "headline": "One Platform. Infinite Possibilities.",
+            "body": "From startups to enterprises, Avanta powers fast, borderless, and programmable money movement for every need.",
+            "features": [
+              {
+                "title": "Open Global Accounts",
+                "body": "Create multi-currency accounts instantly for your business or marketplace.",
+                "size": "md"
+              },
+              {
+                "title": "Real-Time Payments",
+                "body": "Send and receive payments worldwide in seconds, not days.",
+                "size": "lg"
+              },
+              {
+                "title": "Programmable API",
+                "body": "Automate treasury, payouts, and reconciliation with a powerful developer-first API.",
+                "size": "md"
+              },
+              {
+                "title": "Built-In Compliance",
+                "body": "Stay regulatory-ready with advanced identity and risk tools built in.",
+                "size": "sm"
+              },
+              {
+                "title": "Transparent Pricing",
+                "body": "No hidden fees. Know exactly what you pay, every time.",
+                "size": "sm"
+              },
+              {
+                "title": "Financial Grade Security",
+                "body": "Bank-level encryption and 24/7 monitoring keep your assets safe.",
+                "size": "md"
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.unsplash.com/photo-1551650992-ee4fd47df41f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxzdGFydHVwJTIwZmludGVjaCUyMGRhc2hib2FyZCUyMGFwcHxlbnwxfDJ8fHwxNzc5Mzk0NDk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+              "alt": "silver iPhone X",
+              "attributionAuthor": "Balázs Kétyi",
+              "attributionUrl": "https://unsplash.com/photos/silver-iphone-x-6ba_vdgx_go"
+            }
+          }
+        },
+        {
+          "id": "StatsCounter",
+          "content": {
+            "eyebrow": "By the Numbers",
+            "headline": "Trusted Financial Infrastructure",
+            "stats": [
+              {
+                "value": 12,
+                "suffix": "K+",
+                "label": "Businesses served"
+              },
+              {
+                "value": 97,
+                "suffix": "%",
+                "label": "Funds settled in real time"
+              },
+              {
+                "value": 32,
+                "suffix": "",
+                "label": "Supported currencies"
+              },
+              {
+                "value": 1.2,
+                "prefix": "$",
+                "suffix": "B",
+                "label": "Monthly volume processed"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ProcessSteps",
+          "content": {
+            "eyebrow": "How It Works",
+            "headline": "From Signup to Scaling: Avanta in Action",
+            "steps": [
+              {
+                "number": "01",
+                "title": "Create Your Account",
+                "body": "Sign up and verify your business in minutes.",
+                "duration": "5 min"
+              },
+              {
+                "number": "02",
+                "title": "Set Up Global Wallets",
+                "body": "Choose currencies and configure your virtual accounts.",
+                "duration": "Instant"
+              },
+              {
+                "number": "03",
+                "title": "Integrate API or Dashboard",
+                "body": "Plug Avanta into your workflow or use our intuitive web portal.",
+                "duration": "10 min"
+              },
+              {
+                "number": "04",
+                "title": "Move Money Anywhere",
+                "body": "Send, receive, and manage funds with total visibility.",
+                "duration": "Real-time"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ImageGallery",
+          "content": {
+            "eyebrow": "Experience Avanta",
+            "headline": "Modern Interfaces, Real Impact",
+            "body": "See how Avanta powers next-generation financial operations.",
+            "captions": [
+              {
+                "title": "Unified dashboard"
+              },
+              {
+                "title": "Multi-currency wallets"
+              },
+              {
+                "title": "Instant payout flow"
+              },
+              {
+                "title": "Global account setup"
+              },
+              {
+                "title": "Security monitoring"
+              },
+              {
+                "title": "API integrations"
+              },
+              {
+                "title": "Compliance center"
+              },
+              {
+                "title": "Mobile experience"
+              },
+              {
+                "title": "Collaborative tools"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.unsplash.com/photo-1726065235221-78562122baf3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBiYW5raW5nJTIwYXBwfGVufDF8MXx8fDE3NzkzOTQzOTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "A man holding a cell phone in front of a computer screen",
+                "attributionAuthor": "SumUp",
+                "attributionUrl": "https://unsplash.com/photos/a-man-holding-a-cell-phone-in-front-of-a-computer-screen-7YG1ClM06Sc"
+              }
+            ]
+          }
+        },
+        {
+          "id": "CTABanner",
+          "content": {
+            "eyebrow": "Ready to Transform?",
+            "headline": "Start moving money smarter with Avanta.",
+            "body": "Automate, scale, and streamline your financial operations today.",
+            "cta": {
+              "label": "Request Demo"
+            }
+          }
+        },
+        {
+          "id": "TestimonialCarousel",
+          "content": {
+            "eyebrow": "What Clients Say",
+            "testimonials": [
+              {
+                "quote": "Avanta made international payouts effortless for our team. The API integration was a breeze.",
+                "author": "Elena Rao",
+                "role": "CTO",
+                "org": "Pacific Health"
+              },
+              {
+                "quote": "We scaled to new markets using Avanta’s global accounts and never looked back.",
+                "author": "Marcus Lee",
+                "role": "Finance Lead",
+                "org": "Travello"
+              },
+              {
+                "quote": "Transparent pricing and excellent support—exactly what we need from a financial partner.",
+                "author": "Chloe Martin",
+                "role": "COO",
+                "org": "Horizon Studio"
+              }
+            ]
+          }
+        },
+        {
+          "id": "PricingTiers",
+          "content": {
+            "eyebrow": "Simple, Transparent Pricing",
+            "headline": "Choose the Plan That Fits You",
+            "body": "Flexible plans for startups, scale-ups, and enterprises. No hidden fees—ever.",
+            "tiers": [
+              {
+                "name": "Starter",
+                "price": "$29",
+                "period": "mo",
+                "description": "For small teams launching global payments",
+                "features": [
+                  "Up to $100k/mo volume",
+                  "3 currencies included",
+                  "Core dashboard access",
+                  "Email support"
+                ],
+                "cta": {
+                  "label": "Start Free"
+                }
+              },
+              {
+                "name": "Growth",
+                "price": "$99",
+                "period": "mo",
+                "description": "For growing businesses moving serious funds",
+                "features": [
+                  "Up to $1M/mo volume",
+                  "10 currencies",
+                  "Priority API access",
+                  "Chat + email support"
+                ],
+                "featured": true,
+                "cta": {
+                  "label": "Get Growth"
+                }
+              },
+              {
+                "name": "Enterprise",
+                "price": "Custom",
+                "description": "Custom solutions for high-volume and regulated enterprises",
+                "features": [
+                  "Unlimited volume",
+                  "All currencies",
+                  "Dedicated support",
+                  "Advanced compliance tools"
+                ],
+                "cta": {
+                  "label": "Contact Sales"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "FAQAccordion",
+          "content": {
+            "eyebrow": "Frequently Asked",
+            "headline": "Questions About Avanta",
+            "body": "Answers to common inquiries about our platform, security, and onboarding.",
+            "faqs": [
+              {
+                "q": "How fast can I set up an account?",
+                "a": "Most businesses are onboarded within minutes using our automated KYC and KYB checks. For larger enterprises, our team can help guide you through advanced setup."
+              },
+              {
+                "q": "Is Avanta available globally?",
+                "a": "Yes, we support clients from over 70 countries and continue to expand our coverage and supported currencies."
+              },
+              {
+                "q": "How secure is my data?",
+                "a": "We use industry-standard encryption, continuous monitoring, and undergo regular security audits to ensure your data and funds are safe."
+              },
+              {
+                "q": "What is the cost per transaction?",
+                "a": "Transaction fees depend on your plan and volume. Full pricing is transparent and available in your dashboard or by contacting our team."
+              },
+              {
+                "q": "Can I integrate Avanta with my existing tools?",
+                "a": "Absolutely. Avanta offers a well-documented API and easy integrations for your business workflows."
+              }
+            ]
+          }
+        },
+        {
+          "id": "ContactBlock",
+          "content": {
+            "eyebrow": "Let’s Connect",
+            "headline": "Talk to Our Team Today",
+            "body": "Reach out for a product tour, partnership, or custom solutions. We respond within one business day.",
+            "cta": {
+              "label": "Email Avanta",
+              "href": "mailto:hello@avanta.io"
+            },
+            "details": [
+              {
+                "label": "Email",
+                "value": "hello@avanta.io",
+                "href": "mailto:hello@avanta.io"
+              },
+              {
+                "label": "Phone",
+                "value": "+1 415 555 0188"
+              },
+              {
+                "label": "HQ",
+                "value": "San Francisco, CA"
+              },
+              {
+                "label": "Support",
+                "value": "support@avanta.io",
+                "href": "mailto:support@avanta.io"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ClosingCTA",
+          "content": {
+            "eyebrow": "Start Smarter",
+            "headline": "Make Money Movement Effortless with Avanta",
+            "subhead": "Sign up or speak to our team and unlock the modern financial stack.",
+            "cta": {
+              "label": "Get Started"
+            }
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "Avanta",
+            "tagline": "Modern infrastructure for money movement.",
+            "giant": "AVANTA",
+            "columns": [
+              {
+                "title": "Company",
+                "links": [
+                  {
+                    "label": "About"
+                  },
+                  {
+                    "label": "Careers"
+                  },
+                  {
+                    "label": "Journal"
+                  },
+                  {
+                    "label": "Contact"
+                  }
+                ]
+              },
+              {
+                "title": "Platform",
+                "links": [
+                  {
+                    "label": "Features"
+                  },
+                  {
+                    "label": "API Docs"
+                  },
+                  {
+                    "label": "Pricing"
+                  },
+                  {
+                    "label": "Security"
+                  }
+                ]
+              },
+              {
+                "title": "Resources",
+                "links": [
+                  {
+                    "label": "Editorial"
+                  },
+                  {
+                    "label": "Identity"
+                  },
+                  {
+                    "label": "Motion"
+                  },
+                  {
+                    "label": "Studio"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Email Sales"
+            },
+            "legal": "© 2024 Avanta Inc. All rights reserved."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "work",
+      "title": "Work",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "Avanta",
+            "links": [
+              {
+                "label": "Work",
+                "href": "/work"
+              },
+              {
+                "label": "Features"
+              },
+              {
+                "label": "Process"
+              },
+              {
+                "label": "Pricing",
+                "href": "/pricing"
+              },
+              {
+                "label": "FAQ"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get Started"
+            }
+          }
+        },
+        {
+          "id": "PageHeader",
+          "content": {
+            "crumbs": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Work"
+              }
+            ],
+            "eyebrow": "Selected Engagements",
+            "headline": "Avanta in Action",
+            "body": "How innovative companies use Avanta to power their finances."
+          }
+        },
+        {
+          "id": "HorizontalShowcase",
+          "content": {
+            "eyebrow": "Case Studies",
+            "headline": "Real Businesses. Real Results.",
+            "body": "From startups to platforms, see our clients’ success stories.",
+            "cards": [
+              {
+                "title": "Pacific Health",
+                "caption": "Borderless payouts for global contractors"
+              },
+              {
+                "title": "Travello",
+                "caption": "Scaling travel payments to new markets"
+              },
+              {
+                "title": "Horizon Studio",
+                "caption": "Instant digital wallet onboarding"
+              },
+              {
+                "title": "Nova Commerce",
+                "caption": "Automated treasury for e-commerce"
+              },
+              {
+                "title": "Sympli",
+                "caption": "Secure mass payout workflows"
+              },
+              {
+                "title": "Plexon",
+                "caption": "Integrated compliance for fintech apps"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ImageGallery",
+          "content": {
+            "eyebrow": "Our Work",
+            "headline": "Snapshots From Projects",
+            "captions": [
+              {
+                "title": "Platform integration"
+              },
+              {
+                "title": "Onboarding workflow"
+              },
+              {
+                "title": "Team session"
+              },
+              {
+                "title": "API in use"
+              },
+              {
+                "title": "Compliance review"
+              },
+              {
+                "title": "Financial dashboard"
+              },
+              {
+                "title": "Real-time transfer"
+              },
+              {
+                "title": "Customer support"
+              },
+              {
+                "title": "Innovation hub"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.unsplash.com/photo-1777785113215-ed916eb90a91?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxhcGklMjBpbnRlZ3JhdGlvbiUyMGZpbnRlY2h8ZW58MXwxfHx8MTc3OTM5NDQxNXww&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "Postman advertisement asking about ai agent readiness for apis.",
+                "attributionAuthor": "Igor Shalyminov",
+                "attributionUrl": "https://unsplash.com/photos/postman-advertisement-asking-about-ai-agent-readiness-for-apis-sMihOz43pN4"
+              }
+            ]
+          }
+        },
+        {
+          "id": "CTABanner",
+          "content": {
+            "eyebrow": "See More?",
+            "headline": "Request a deeper case study or tailored demo.",
+            "body": "Discover how Avanta can impact your operations.",
+            "cta": {
+              "label": "Contact Us"
+            }
+          }
+        },
+        {
+          "id": "TestimonialCarousel",
+          "content": {
+            "eyebrow": "Client Voices",
+            "testimonials": [
+              {
+                "quote": "Thanks to Avanta, our finance team saves hours every week.",
+                "author": "Daniel Harper",
+                "role": "VP Finance",
+                "org": "Nova Commerce"
+              },
+              {
+                "quote": "Compliance is now seamless for our global contractors.",
+                "author": "Priya Desai",
+                "role": "COO",
+                "org": "Sympli"
+              },
+              {
+                "quote": "The insight and speed Avanta provides is unmatched.",
+                "author": "Alexis Chen",
+                "role": "CEO",
+                "org": "Plexon"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ClosingCTA",
+          "content": {
+            "eyebrow": "Inspired?",
+            "headline": "Let’s Build the Future of Finance Together",
+            "subhead": "Start your journey or schedule a personal walkthrough.",
+            "cta": {
+              "label": "Book Demo"
+            }
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "Avanta",
+            "tagline": "Modern infrastructure for money movement.",
+            "giant": "AVANTA",
+            "columns": [
+              {
+                "title": "Company",
+                "links": [
+                  {
+                    "label": "About"
+                  },
+                  {
+                    "label": "Careers"
+                  },
+                  {
+                    "label": "Journal"
+                  },
+                  {
+                    "label": "Contact"
+                  }
+                ]
+              },
+              {
+                "title": "Platform",
+                "links": [
+                  {
+                    "label": "Features"
+                  },
+                  {
+                    "label": "API Docs"
+                  },
+                  {
+                    "label": "Pricing"
+                  },
+                  {
+                    "label": "Security"
+                  }
+                ]
+              },
+              {
+                "title": "Resources",
+                "links": [
+                  {
+                    "label": "Editorial"
+                  },
+                  {
+                    "label": "Identity"
+                  },
+                  {
+                    "label": "Motion"
+                  },
+                  {
+                    "label": "Studio"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Email Sales"
+            },
+            "legal": "© 2024 Avanta Inc. All rights reserved."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "pricing",
+      "title": "Pricing",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "Avanta",
+            "links": [
+              {
+                "label": "Work",
+                "href": "/work"
+              },
+              {
+                "label": "Features"
+              },
+              {
+                "label": "Process"
+              },
+              {
+                "label": "Pricing",
+                "href": "/pricing"
+              },
+              {
+                "label": "FAQ"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get Started"
+            }
+          }
+        },
+        {
+          "id": "PageHeader",
+          "content": {
+            "crumbs": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Pricing"
+              }
+            ],
+            "eyebrow": "Pricing Plans",
+            "headline": "Transparent Pricing, No Surprises",
+            "body": "Select the plan that fits your scale. Upgrade or downgrade any time."
+          }
+        },
+        {
+          "id": "PricingTiers",
+          "content": {
+            "eyebrow": "Flexible Packages",
+            "headline": "Plans for Every Stage",
+            "body": "Choose from startup-friendly to enterprise-scale options.",
+            "tiers": [
+              {
+                "name": "Starter",
+                "price": "$29",
+                "period": "mo",
+                "description": "Best for new businesses or low volume.",
+                "features": [
+                  "Up to $100k/mo volume",
+                  "3 currencies included",
+                  "Dashboard access",
+                  "Email support"
+                ],
+                "cta": {
+                  "label": "Start Free"
+                }
+              },
+              {
+                "name": "Growth",
+                "price": "$99",
+                "period": "mo",
+                "description": "For scaling companies and growing teams.",
+                "features": [
+                  "Up to $1M/mo volume",
+                  "10 currencies",
+                  "Priority API",
+                  "Chat + email support"
+                ],
+                "featured": true,
+                "cta": {
+                  "label": "Get Growth"
+                }
+              },
+              {
+                "name": "Enterprise",
+                "price": "Custom",
+                "description": "Tailored for regulated or high-complexity businesses.",
+                "features": [
+                  "Unlimited volume",
+                  "All currencies",
+                  "Dedicated support",
+                  "Advanced compliance"
+                ],
+                "cta": {
+                  "label": "Contact Sales"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "StatsCounter",
+          "content": {
+            "eyebrow": "Value by the Numbers",
+            "headline": "Clear Pricing. Powerful Features.",
+            "stats": [
+              {
+                "value": 0,
+                "prefix": "$",
+                "suffix": "",
+                "label": "Onboarding fees"
+              },
+              {
+                "value": 97,
+                "suffix": "%",
+                "label": "Avg. payout settled instantly"
+              },
+              {
+                "value": 24,
+                "suffix": "/7",
+                "label": "Live support"
+              }
+            ]
+          }
+        },
+        {
+          "id": "FAQAccordion",
+          "content": {
+            "eyebrow": "Pricing FAQs",
+            "headline": "All About Plans and Billing",
+            "faqs": [
+              {
+                "q": "Are there any setup or hidden fees?",
+                "a": "No, Avanta does not charge setup or hidden fees. All costs are clearly listed on your plan and in your dashboard."
+              },
+              {
+                "q": "How does transaction pricing work?",
+                "a": "Each plan comes with a transparent transaction fee, visible before you confirm any transfer or payout."
+              },
+              {
+                "q": "Can I change my plan later?",
+                "a": "Yes, plans are flexible—upgrade or downgrade anytime without penalty."
+              },
+              {
+                "q": "Is there a free trial?",
+                "a": "Our Starter plan offers a free option for new clients to explore core features."
+              }
+            ]
+          }
+        },
+        {
+          "id": "ContactForm",
+          "content": {
+            "eyebrow": "Get In Touch",
+            "headline": "Request Custom Pricing or Demo",
+            "body": "Let us know your needs and our team will follow up within 24 hours."
+          }
+        },
+        {
+          "id": "ClosingCTA",
+          "content": {
+            "eyebrow": "Let’s Go",
+            "headline": "Experience Instant, Borderless Payments",
+            "subhead": "Grow your business with modern financial tools.",
+            "cta": {
+              "label": "Start Now"
+            }
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "Avanta",
+            "tagline": "Modern infrastructure for money movement.",
+            "giant": "AVANTA",
+            "columns": [
+              {
+                "title": "Company",
+                "links": [
+                  {
+                    "label": "About"
+                  },
+                  {
+                    "label": "Careers"
+                  },
+                  {
+                    "label": "Journal"
+                  },
+                  {
+                    "label": "Contact"
+                  }
+                ]
+              },
+              {
+                "title": "Platform",
+                "links": [
+                  {
+                    "label": "Features"
+                  },
+                  {
+                    "label": "API Docs"
+                  },
+                  {
+                    "label": "Pricing"
+                  },
+                  {
+                    "label": "Security"
+                  }
+                ]
+              },
+              {
+                "title": "Resources",
+                "links": [
+                  {
+                    "label": "Editorial"
+                  },
+                  {
+                    "label": "Identity"
+                  },
+                  {
+                    "label": "Motion"
+                  },
+                  {
+                    "label": "Studio"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Email Sales"
+            },
+            "legal": "© 2024 Avanta Inc. All rights reserved."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "Avanta",
+            "links": [
+              {
+                "label": "Work",
+                "href": "/work"
+              },
+              {
+                "label": "Features"
+              },
+              {
+                "label": "Process"
+              },
+              {
+                "label": "Pricing",
+                "href": "/pricing"
+              },
+              {
+                "label": "FAQ"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get Started"
+            }
+          }
+        },
+        {
+          "id": "PageHeader",
+          "content": {
+            "crumbs": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Contact"
+              }
+            ],
+            "eyebrow": "Say Hello",
+            "headline": "Connect With Avanta",
+            "body": "We’re here for onboarding, support, partnerships, and press."
+          }
+        },
+        {
+          "id": "ContactBlock",
+          "content": {
+            "eyebrow": "Let’s Talk",
+            "headline": "Reach Our Team",
+            "body": "We respond to all inquiries within a business day.",
+            "cta": {
+              "label": "Email Avanta",
+              "href": "mailto:hello@avanta.io"
+            },
+            "details": [
+              {
+                "label": "Email",
+                "value": "hello@avanta.io",
+                "href": "mailto:hello@avanta.io"
+              },
+              {
+                "label": "Support",
+                "value": "support@avanta.io",
+                "href": "mailto:support@avanta.io"
+              },
+              {
+                "label": "Phone",
+                "value": "+1 415 555 0188"
+              },
+              {
+                "label": "HQ",
+                "value": "San Francisco, CA"
+              }
+            ]
+          }
+        },
+        {
+          "id": "FeatureList",
+          "content": {
+            "eyebrow": "Why Avanta?",
+            "headline": "Best-in-Class Support, Always On",
+            "features": [
+              {
+                "title": "24/7 Customer Service",
+                "body": "Live chat and email response at any hour."
+              },
+              {
+                "title": "Expert Integration Help",
+                "body": "Hands-on API and workflow onboarding for your engineering team."
+              },
+              {
+                "title": "Dedicated Account Managers",
+                "body": "For Growth and Enterprise clients."
+              },
+              {
+                "title": "Comprehensive Documentation",
+                "body": "Everything you need to launch and scale."
+              },
+              {
+                "title": "Global Support Coverage",
+                "body": "Helpful humans in every major timezone."
+              }
+            ]
+          }
+        },
+        {
+          "id": "NewsletterSignup",
+          "content": {
+            "eyebrow": "Stay Updated",
+            "headline": "Get Fintech News and Updates",
+            "body": "Occasional insights, platform updates, and best practices straight to your inbox.",
+            "placeholder": "Your email address"
+          }
+        },
+        {
+          "id": "FAQAccordion",
+          "content": {
+            "eyebrow": "Contact FAQs",
+            "headline": "How Can We Help?",
+            "faqs": [
+              {
+                "q": "How quickly will I get a reply?",
+                "a": "We aim to respond to all new inquiries within one business day."
+              },
+              {
+                "q": "Who do I contact for technical issues?",
+                "a": "Use our support email address or the live chat in your dashboard for the fastest resolution."
+              },
+              {
+                "q": "Can I schedule a call or demo?",
+                "a": "Yes, submit your request and our team will arrange a session at your convenience."
+              }
+            ]
+          }
+        },
+        {
+          "id": "ClosingCTA",
+          "content": {
+            "eyebrow": "Join Avanta",
+            "headline": "Make Your Money Work Globally",
+            "subhead": "Contact us today for onboarding or a product tour.",
+            "cta": {
+              "label": "Contact Us"
+            }
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "Avanta",
+            "tagline": "Modern infrastructure for money movement.",
+            "giant": "AVANTA",
+            "columns": [
+              {
+                "title": "Company",
+                "links": [
+                  {
+                    "label": "About"
+                  },
+                  {
+                    "label": "Careers"
+                  },
+                  {
+                    "label": "Journal"
+                  },
+                  {
+                    "label": "Contact"
+                  }
+                ]
+              },
+              {
+                "title": "Platform",
+                "links": [
+                  {
+                    "label": "Features"
+                  },
+                  {
+                    "label": "API Docs"
+                  },
+                  {
+                    "label": "Pricing"
+                  },
+                  {
+                    "label": "Security"
+                  }
+                ]
+              },
+              {
+                "title": "Resources",
+                "links": [
+                  {
+                    "label": "Editorial"
+                  },
+                  {
+                    "label": "Identity"
+                  },
+                  {
+                    "label": "Motion"
+                  },
+                  {
+                    "label": "Studio"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Email Sales"
+            },
+            "legal": "© 2024 Avanta Inc. All rights reserved."
+          }
+        }
+      ]
+    }
+  ]
+}

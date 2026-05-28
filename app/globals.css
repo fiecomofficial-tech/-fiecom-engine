@@ -1,0 +1,239 @@
+@import "tailwindcss";
+
+/* Tailwind v4 auto-detection misses sibling directories under Turbopack
+   in this project layout, so utility classes used in components/ (e.g.
+   lg:grid-cols-12, aspect-[4/5], md:grid-cols-3) were never compiled and
+   the Baseline layout collapsed. Explicit @source paths fix it. */
+@source "../app";
+@source "../components";
+@source "../lib";
+
+@theme {
+  --font-sans: "Geist", "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, "SF Mono", monospace;
+  --font-display: "Instrument Serif", "Times New Roman", serif;
+
+  --color-ink: #0a0a0a;
+  --color-ink-2: #1a1a1a;
+  --color-ink-3: #2a2a2a;
+  --color-mist: #ffffff;
+  --color-mist-2: #fafaf7;
+  --color-mist-3: #f3f2ec;
+  --color-mist-4: #e9e7df;
+  --color-line: #d8d6cc;
+  --color-line-2: #b8b6ac;
+  --color-amber: #ff7a1a;
+  --color-amber-2: #ffb070;
+  --color-amber-soft: #fff4e6;
+  --color-flux: #5b46f5;
+  --color-flux-soft: #ecebff;
+  --color-jade: #1f8a5b;
+
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+  --ease-in-out-circ: cubic-bezier(0.85, 0, 0.15, 1);
+  --ease-emphatic: cubic-bezier(0.2, 0.8, 0.2, 1);
+
+  --shadow-edge: 0 0 0 1px rgba(10, 10, 10, 0.06);
+  --shadow-soft: 0 1px 2px rgba(10, 10, 10, 0.04), 0 8px 24px rgba(10, 10, 10, 0.04);
+  --shadow-lift: 0 2px 4px rgba(10, 10, 10, 0.04), 0 24px 48px rgba(10, 10, 10, 0.08);
+
+  --radius-pill: 999px;
+}
+
+:root {
+  color-scheme: light;
+  --bg: var(--color-mist-2);
+  --fg: var(--color-ink);
+  --grain-opacity: 0.035;
+
+  /* Bridge for the generated Baseline* components. */
+  --background: 60 23% 97%;
+  --foreground: 0 0% 4%;
+  --secondary: 48 28% 94%;
+  --secondary-foreground: 0 0% 4%;
+  --muted: 48 28% 94%;
+  --muted-foreground: 0 0% 31%;
+  --accent: 24 100% 55%;
+  --accent-foreground: 60 23% 97%;
+  --border: 50 18% 82%;
+  --ring: 24 100% 55%;
+  --radius: 0.75rem;
+  --font-serif: var(--font-display);
+}
+
+@theme inline {
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+  --color-border: hsl(var(--border));
+  --color-ring: hsl(var(--ring));
+  --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-sm: calc(var(--radius) - 4px);
+  --font-serif: var(--font-serif);
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  border-color: hsl(var(--border));
+}
+
+html, body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-sans);
+  font-feature-settings: "ss01", "cv11";
+  letter-spacing: -0.011em;
+}
+
+html {
+  scroll-behavior: auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+::selection {
+  background: var(--color-ink);
+  color: var(--color-mist-2);
+}
+
+button, a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+img {
+  image-rendering: -webkit-optimize-contrast;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+.font-display {
+  font-family: var(--font-display);
+  font-feature-settings: "ss01";
+  letter-spacing: -0.02em;
+}
+
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+.tracking-tightest {
+  letter-spacing: -0.03em;
+}
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-ink-3);
+  font-weight: 500;
+}
+
+.grain {
+  position: relative;
+}
+.grain::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: var(--grain-opacity);
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  mix-blend-mode: overlay;
+}
+
+.hairline {
+  height: 1px;
+  background: var(--color-line);
+}
+
+@keyframes drift-y {
+  from { transform: translate3d(0, 0, 0); }
+  to { transform: translate3d(0, -50%, 0); }
+}
+.drift-y { animation: drift-y 60s linear infinite; }
+
+@keyframes drift-x {
+  from { transform: translate3d(0, 0, 0); }
+  to { transform: translate3d(-50%, 0, 0); }
+}
+.drift-x { animation: drift-x 80s linear infinite; }
+
+.dot {
+  width: 4px;
+  height: 4px;
+  background: var(--color-line-2);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.weight-tx {
+  transition: font-weight 600ms var(--ease-out-expo), letter-spacing 600ms var(--ease-out-expo);
+}
+
+.surface-iframe {
+  background: white;
+}
+
+*::-webkit-scrollbar { width: 10px; height: 10px; }
+*::-webkit-scrollbar-track { background: transparent; }
+*::-webkit-scrollbar-thumb {
+  background: var(--color-line);
+  border-radius: 999px;
+  border: 3px solid transparent;
+  background-clip: padding-box;
+}
+*::-webkit-scrollbar-thumb:hover {
+  background: var(--color-line-2);
+  border: 3px solid transparent;
+  background-clip: padding-box;
+}
+
+.dark-canvas {
+  --bg: #060606;
+  --fg: #f5f5f0;
+  --color-line: rgba(255,255,255,0.08);
+  background: var(--bg);
+  color: var(--fg);
+}
+
+.ease-weightless {
+  transition-timing-function: var(--ease-out-expo);
+}
+
+.shadow-luxe {
+  box-shadow: var(--shadow-soft);
+}
+
+.shadow-luxe-hover {
+  box-shadow: var(--shadow-lift);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

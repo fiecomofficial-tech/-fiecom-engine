@@ -1,0 +1,475 @@
+{
+  "architecture": "fiecom-reference",
+  "prompt": "luxury boutique hotel in bali",
+  "createdAt": "2026-05-25T00:54:56.924Z",
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Welcome to Bali Serenity Boutique",
+      "site": {
+        "id": "es8739299",
+        "createdAt": "2026-05-25T00:54:55.657Z",
+        "prompt": "luxury boutique hotel in bali",
+        "category": "luxury",
+        "template": "editorial-architecture",
+        "intent": {
+          "category": "luxury",
+          "categoryConfidence": 0.7916666666666667,
+          "style": "luxury-elegant",
+          "tone": "confident",
+          "motion": "considered",
+          "subject": "luxury boutique hotel in bali"
+        },
+        "variation": {
+          "density": "spacious",
+          "sectionOrder": "manifesto-first",
+          "typeSystem": "editorial-serif",
+          "accent": "warm-cream",
+          "heroShape": "split",
+          "nav": "side-rail",
+          "atmosphere": "soft-noise",
+          "cursor": "ring"
+        },
+        "brand": {
+          "name": "Bali Serenity Boutique",
+          "voice": "Confident, elegant, and inviting",
+          "accent": "warm-cream"
+        },
+        "nav": [
+          {
+            "label": "Welcome to Bali Serenity Boutique",
+            "href": "/"
+          },
+          {
+            "label": "About Bali Serenity Boutique",
+            "href": "/about"
+          },
+          {
+            "label": "Services",
+            "href": "/services"
+          },
+          {
+            "label": "Contact Us",
+            "href": "/contact"
+          }
+        ],
+        "page": {
+          "slug": "home",
+          "title": "Welcome to Bali Serenity Boutique",
+          "kind": "home"
+        },
+        "sections": [
+          {
+            "id": "hero",
+            "kind": "hero",
+            "eyebrow": "BALI SERENITY BOUTIQUE",
+            "title": "Experience Timeless Luxury Amidst Bali's Natural Beauty",
+            "subtitle": "Discover a sanctuary where elegance meets serenity, crafted for discerning travelers.",
+            "cta": {
+              "label": "Discover Your Escape",
+              "href": "#work"
+            },
+            "visualMoodId": "warm-aurora",
+            "media": {
+              "url": "https://images.pexels.com/photos/34790496/pexels-photo-34790496.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "A serene view of a villa's infinity pool at sunset in Bali, Indonesia, with lush greenery and calm reflections.",
+              "attributionAuthor": "kevin yung",
+              "attributionUrl": "https://www.pexels.com/photo/luxury-villa-pool-at-sunset-in-bali-indonesia-34790496/"
+            }
+          },
+          {
+            "id": "marquee",
+            "kind": "marquee",
+            "words": [
+              "Luxury",
+              "Serenity",
+              "Elegance",
+              "Bali",
+              "Exclusivity",
+              "Tranquility"
+            ]
+          },
+          {
+            "id": "story",
+            "kind": "story",
+            "eyebrow": "01 / Story",
+            "title": "A Unique Blend of Tradition and Modern Elegance",
+            "paragraphs": [
+              "Nestled in the heart of Bali, Bali Serenity Boutique offers an exclusive retreat designed to immerse you in the island’s rich culture and breathtaking landscapes.",
+              "Our boutique hotel combines sophisticated design with personalized service to create an unforgettable experience.",
+              "From curated local art to serene private villas, every detail reflects a commitment to luxury and authenticity."
+            ]
+          },
+          {
+            "id": "work",
+            "kind": "work",
+            "eyebrow": "02 / Selected work",
+            "title": "A short index of what matters.",
+            "items": [
+              {
+                "title": "Signal",
+                "meta": "luxury boutique hotel in bali",
+                "visualMoodId": "graphite-rise",
+                "media": {
+                  "url": "https://images.pexels.com/photos/34790496/pexels-photo-34790496.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                  "alt": "A serene view of a villa's infinity pool at sunset in Bali, Indonesia, with lush greenery and calm reflections.",
+                  "attributionAuthor": "kevin yung",
+                  "attributionUrl": "https://www.pexels.com/photo/luxury-villa-pool-at-sunset-in-bali-indonesia-34790496/"
+                }
+              },
+              {
+                "title": "System",
+                "meta": "luxury boutique hotel in bali",
+                "visualMoodId": "flux-prism",
+                "media": {
+                  "url": "https://images.pexels.com/photos/19137452/pexels-photo-19137452.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                  "alt": "Stunning aerial shot of a luxury resort surrounded by lush greenery in Ubud, Bali.",
+                  "attributionAuthor": "Joe Fikar",
+                  "attributionUrl": "https://www.pexels.com/photo/aerial-view-of-four-seasons-resort-bali-at-sayan-in-indonesia-19137452/"
+                }
+              },
+              {
+                "title": "Detail",
+                "meta": "luxury boutique hotel in bali",
+                "visualMoodId": "cold-vapor",
+                "media": {
+                  "url": "https://images.pexels.com/photos/33780374/pexels-photo-33780374.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                  "alt": "Modern hotel architecture in Bali, Indonesia captured during a vibrant sunset.",
+                  "attributionAuthor": "Dwi Candra",
+                  "attributionUrl": "https://www.pexels.com/photo/modern-balinese-architecture-at-sunset-33780374/"
+                }
+              },
+              {
+                "title": "Outcome",
+                "meta": "luxury boutique hotel in bali",
+                "visualMoodId": "amber-glow",
+                "media": {
+                  "url": "https://images.pexels.com/photos/14464944/pexels-photo-14464944.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                  "alt": "Serene infinity pool view with palm trees and ocean at a Bali resort, perfect for relaxation.",
+                  "attributionAuthor": "Nastia Ligrain",
+                  "attributionUrl": "https://www.pexels.com/photo/a-swimming-pool-in-the-resort-14464944/"
+                }
+              }
+            ]
+          },
+          {
+            "id": "features",
+            "kind": "feature",
+            "eyebrow": "03 / Approach",
+            "title": "Our Signature Experiences",
+            "features": [
+              {
+                "title": "Private Pool Villas",
+                "body": "Elegant villas with private pools offering unmatched privacy and comfort.",
+                "iconId": "prism"
+              },
+              {
+                "title": "Gourmet Balinese Cuisine",
+                "body": "Savor exquisite dishes crafted from the freshest local ingredients by our master chefs.",
+                "iconId": "ring"
+              },
+              {
+                "title": "Wellness & Spa",
+                "body": "Rejuvenate your body and mind with our holistic spa treatments inspired by traditional Balinese healing.",
+                "iconId": "fold"
+              }
+            ]
+          },
+          {
+            "id": "contact",
+            "kind": "contact",
+            "eyebrow": "Contact",
+            "title": "Start with a focused conversation.",
+            "email": "hello@baliserenityboutique.co"
+          }
+        ],
+        "blocks": [
+          "hero.split",
+          "marquee.big",
+          "story.editorial",
+          "work.mosaic",
+          "feature.big-row",
+          "contact.quiet"
+        ],
+        "footerBlock": "footer.minimal",
+        "typePalette": "fraunces-dm",
+        "status": "draft",
+        "edits": []
+      }
+    },
+    {
+      "slug": "about",
+      "title": "About Bali Serenity Boutique",
+      "site": {
+        "id": "59u63y2y2",
+        "createdAt": "2026-05-25T00:54:56.064Z",
+        "prompt": "luxury boutique hotel in bali",
+        "category": "luxury",
+        "template": "editorial-architecture",
+        "intent": {
+          "category": "luxury",
+          "categoryConfidence": 0.7916666666666667,
+          "style": "luxury-elegant",
+          "tone": "confident",
+          "motion": "calm",
+          "subject": "luxury boutique hotel in bali"
+        },
+        "variation": {
+          "density": "spacious",
+          "sectionOrder": "narrative",
+          "typeSystem": "humanist-mix",
+          "accent": "ink",
+          "heroShape": "split",
+          "nav": "top-quiet",
+          "atmosphere": "warm-glow",
+          "cursor": "default"
+        },
+        "brand": {
+          "name": "Bali Serenity Boutique",
+          "voice": "Confident, elegant, and inviting",
+          "accent": "ink"
+        },
+        "nav": [
+          {
+            "label": "Welcome to Bali Serenity Boutique",
+            "href": "/"
+          },
+          {
+            "label": "About Bali Serenity Boutique",
+            "href": "/about"
+          },
+          {
+            "label": "Services",
+            "href": "/services"
+          },
+          {
+            "label": "Contact Us",
+            "href": "/contact"
+          }
+        ],
+        "page": {
+          "slug": "about",
+          "title": "About Bali Serenity Boutique",
+          "kind": "internal"
+        },
+        "sections": [
+          {
+            "id": "story",
+            "kind": "story",
+            "eyebrow": "About Bali Serenity Boutique",
+            "title": "Our Commitment to Authentic Luxury",
+            "paragraphs": [
+              "Founded by hospitality visionaries, Bali Serenity Boutique strives to offer an intimate and authentic experience that honors the island’s heritage.",
+              "We embrace sustainable practices and partner with local artisans to enrich your stay and support the community.",
+              "Our dedicated team ensures personalized service, anticipating your every need with grace and professionalism."
+            ]
+          },
+          {
+            "id": "contact",
+            "kind": "contact",
+            "eyebrow": "Contact",
+            "title": "Start with a focused conversation.",
+            "email": "hello@baliserenityboutique.co"
+          }
+        ],
+        "blocks": [
+          "story.editorial",
+          "contact.quiet"
+        ],
+        "footerBlock": "footer.minimal",
+        "typePalette": "newsreader-mona",
+        "status": "draft",
+        "edits": []
+      }
+    },
+    {
+      "slug": "services",
+      "title": "Services",
+      "site": {
+        "id": "thvq3s39c",
+        "createdAt": "2026-05-25T00:54:56.495Z",
+        "prompt": "luxury boutique hotel in bali",
+        "category": "luxury",
+        "template": "editorial-architecture",
+        "intent": {
+          "category": "luxury",
+          "categoryConfidence": 0.7916666666666667,
+          "style": "luxury-elegant",
+          "tone": "confident",
+          "motion": "calm",
+          "subject": "luxury boutique hotel in bali"
+        },
+        "variation": {
+          "density": "spacious",
+          "sectionOrder": "narrative",
+          "typeSystem": "humanist-mix",
+          "accent": "warm-cream",
+          "heroShape": "split",
+          "nav": "top-quiet",
+          "atmosphere": "warm-glow",
+          "cursor": "default"
+        },
+        "brand": {
+          "name": "Bali Serenity Boutique",
+          "voice": "Confident, elegant, and inviting",
+          "accent": "warm-cream"
+        },
+        "nav": [
+          {
+            "label": "Welcome to Bali Serenity Boutique",
+            "href": "/"
+          },
+          {
+            "label": "About Bali Serenity Boutique",
+            "href": "/about"
+          },
+          {
+            "label": "Services",
+            "href": "/services"
+          },
+          {
+            "label": "Contact Us",
+            "href": "/contact"
+          }
+        ],
+        "page": {
+          "slug": "services",
+          "title": "Services",
+          "kind": "internal"
+        },
+        "sections": [
+          {
+            "id": "story",
+            "kind": "story",
+            "eyebrow": "Services",
+            "title": "Designed around the guest experience.",
+            "paragraphs": [
+              "Bali Serenity Boutique turns the promise into concrete moments visitors can understand quickly."
+            ]
+          },
+          {
+            "id": "features",
+            "kind": "feature",
+            "eyebrow": "Details",
+            "title": "What visitors can expect.",
+            "features": [
+              {
+                "title": "Clear positioning",
+                "body": "A site structure tuned to luxury boutique hotel in bali.",
+                "iconId": "prism"
+              },
+              {
+                "title": "Premium presentation",
+                "body": "Typography, motion, and media work together without crowding the page.",
+                "iconId": "ring"
+              },
+              {
+                "title": "Useful conversion",
+                "body": "Every page gives visitors a clear next step.",
+                "iconId": "fold"
+              }
+            ]
+          },
+          {
+            "id": "contact",
+            "kind": "contact",
+            "eyebrow": "Contact",
+            "title": "Start with a focused conversation.",
+            "email": "hello@baliserenityboutique.co"
+          }
+        ],
+        "blocks": [
+          "story.editorial",
+          "feature.big-row",
+          "contact.quiet"
+        ],
+        "footerBlock": "footer.minimal",
+        "typePalette": "newsreader-mona",
+        "status": "draft",
+        "edits": []
+      }
+    },
+    {
+      "slug": "contact",
+      "title": "Contact Us",
+      "site": {
+        "id": "l01ceb3lb",
+        "createdAt": "2026-05-25T00:54:56.924Z",
+        "prompt": "luxury boutique hotel in bali",
+        "category": "luxury",
+        "template": "editorial-architecture",
+        "intent": {
+          "category": "luxury",
+          "categoryConfidence": 0.7916666666666667,
+          "style": "luxury-elegant",
+          "tone": "confident",
+          "motion": "calm",
+          "subject": "luxury boutique hotel in bali"
+        },
+        "variation": {
+          "density": "balanced",
+          "sectionOrder": "narrative",
+          "typeSystem": "humanist-mix",
+          "accent": "graphite",
+          "heroShape": "split",
+          "nav": "top-quiet",
+          "atmosphere": "warm-glow",
+          "cursor": "default"
+        },
+        "brand": {
+          "name": "Bali Serenity Boutique",
+          "voice": "Confident, elegant, and inviting",
+          "accent": "graphite"
+        },
+        "nav": [
+          {
+            "label": "Welcome to Bali Serenity Boutique",
+            "href": "/"
+          },
+          {
+            "label": "About Bali Serenity Boutique",
+            "href": "/about"
+          },
+          {
+            "label": "Services",
+            "href": "/services"
+          },
+          {
+            "label": "Contact Us",
+            "href": "/contact"
+          }
+        ],
+        "page": {
+          "slug": "contact",
+          "title": "Contact Us",
+          "kind": "internal"
+        },
+        "sections": [
+          {
+            "id": "story",
+            "kind": "story",
+            "eyebrow": "Contact Us",
+            "paragraphs": [
+              "Bali Serenity Boutique brings a focused point of view to luxury boutique hotel in bali."
+            ]
+          },
+          {
+            "id": "contact",
+            "kind": "contact",
+            "eyebrow": "Contact",
+            "title": "Reach Out to Bali Serenity Boutique",
+            "email": "contact@baliserenityboutique.com"
+          }
+        ],
+        "blocks": [
+          "story.editorial",
+          "contact.quiet"
+        ],
+        "footerBlock": "footer.minimal",
+        "typePalette": "newsreader-mona",
+        "status": "draft",
+        "edits": []
+      }
+    }
+  ]
+}

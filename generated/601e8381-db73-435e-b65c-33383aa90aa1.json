@@ -1,0 +1,764 @@
+{
+  "theme": {
+    "preset": "fintech-minimal",
+    "accent": "#0D47A1",
+    "bg": "#FFFFFF",
+    "ink": "#212121",
+    "bgAccent": "#E3F2FD",
+    "fontDisplay": "Inter",
+    "fontBody": "Roboto"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "DevToolX",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Pricing",
+                "href": "/pricing"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get Started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineHero",
+          "content": {
+            "eyebrow": "New",
+            "headline": "Empower Your Development",
+            "accent": "Seamlessly",
+            "body": "DevToolX streamlines your workflow with integrated tools built for developers.",
+            "cta": {
+              "label": "Start Free Trial",
+              "href": "/pricing"
+            },
+            "secondaryCta": {
+              "label": "Learn More",
+              "href": "/about"
+            }
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/12899149/pexels-photo-12899149.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Blurred figure at a desk with a laptop displaying colorful code, indicating a programming environment.",
+              "attributionAuthor": "Mizuno K",
+              "attributionUrl": "https://www.pexels.com/photo/laptop-on-desk-in-office-12899149/"
+            }
+          }
+        },
+        {
+          "id": "BaselineFeatures",
+          "content": {
+            "eyebrow": "Core Benefits",
+            "headline": "Tools That Boost Productivity",
+            "accent": "Efficiency",
+            "features": [
+              {
+                "eyebrow": "01 — Integration",
+                "title": "Seamless API Access",
+                "body": "Connect your apps with our easy-to-use APIs for faster development."
+              },
+              {
+                "eyebrow": "02 — Automation",
+                "title": "Automate Workflows",
+                "body": "Reduce manual tasks with powerful automation features."
+              },
+              {
+                "eyebrow": "03 — Analytics",
+                "title": "Insightful Metrics",
+                "body": "Track performance with real-time analytics dashboards."
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/256502/pexels-photo-256502.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Close-up of colorful CSS code lines on a computer screen for web development.",
+              "attributionAuthor": "Pixabay",
+              "attributionUrl": "https://www.pexels.com/photo/close-up-of-text-on-black-background-256502/"
+            }
+          }
+        },
+        {
+          "id": "PricingTiers",
+          "content": {
+            "eyebrow": "Pricing",
+            "headline": "Simple Plans for Every Team",
+            "tiers": [
+              {
+                "name": "Starter",
+                "price": "Starter",
+                "description": "Starter engagement for DevToolX.",
+                "features": [
+                  "Strategy and direction",
+                  "Design and build",
+                  "Ongoing support"
+                ],
+                "featured": false,
+                "cta": {
+                  "label": "Choose plan",
+                  "href": "/contact"
+                }
+              },
+              {
+                "name": "Studio",
+                "price": "Studio",
+                "description": "Studio engagement for DevToolX.",
+                "features": [
+                  "Strategy and direction",
+                  "Design and build",
+                  "Ongoing support"
+                ],
+                "featured": true,
+                "cta": {
+                  "label": "Choose plan",
+                  "href": "/contact"
+                }
+              },
+              {
+                "name": "Custom",
+                "price": "Custom",
+                "description": "Tailored engagement for DevToolX.",
+                "features": [
+                  "Strategy and direction",
+                  "Design and build",
+                  "Ongoing support"
+                ],
+                "featured": false,
+                "cta": {
+                  "label": "Choose plan",
+                  "href": "/contact"
+                }
+              }
+            ],
+            "body": "Choose the right plan to fit your development needs.",
+            "features": [
+              {
+                "title": "Starter",
+                "body": "Ideal for small projects and individual developers."
+              },
+              {
+                "title": "Studio",
+                "body": "Advanced features for growing teams and collaboration."
+              },
+              {
+                "title": "Custom",
+                "body": "Tailored solutions for enterprises with specialized needs."
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineTestimonials",
+          "content": {
+            "eyebrow": "Customers",
+            "headline": "Trusted by Developers Worldwide",
+            "testimonials": [
+              {
+                "quote": "DevToolX transformed our deployment process.",
+                "author": "Alice",
+                "role": "Backend Engineer"
+              },
+              {
+                "quote": "The automation saved us countless hours every week.",
+                "author": "Mark",
+                "role": "DevOps Specialist"
+              },
+              {
+                "quote": "Insightful metrics helped us optimize performance.",
+                "author": "Jenna",
+                "role": "Product Manager"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineCTA",
+          "content": {
+            "eyebrow": "Get Started",
+            "headline": "Join Thousands of Developers",
+            "accent": "Effortlessly",
+            "body": "Sign up today and elevate your development workflow.",
+            "cta": {
+              "label": "Start Free Trial",
+              "href": "/pricing"
+            },
+            "secondaryCta": {
+              "label": "Contact Sales",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "DevToolX",
+            "brand": "DevToolX",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Pricing",
+                    "href": "/pricing"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "© 2024 DevToolX",
+            "tagline": "Empowering developers with smart tools.",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/privacy"
+              },
+              {
+                "label": "Terms",
+                "href": "/terms"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "title": "About",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "DevToolX",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Pricing",
+                "href": "/pricing"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get Started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselinePageHeader",
+          "content": {
+            "eyebrow": "About",
+            "headline": "Our Mission to Simplify Development",
+            "body": "We create tools that empower developers to build faster and smarter.",
+            "accent": "Reliable"
+          }
+        },
+        {
+          "id": "BaselineAboutNarrative",
+          "content": {
+            "body": "Founded by industry veterans, DevToolX combines innovation with reliability to meet developer needs worldwide.",
+            "pillarEyebrow": "Core Pillars",
+            "pillarHeadline": "Commitment to excellence in every release.",
+            "pillars": [
+              {
+                "title": "Innovation",
+                "body": "Constantly improving to deliver cutting-edge features."
+              },
+              {
+                "title": "Reliability",
+                "body": "Ensuring uptime and stability for critical workflows."
+              },
+              {
+                "title": "Support",
+                "body": "Dedicated customer service and developer resources."
+              }
+            ],
+            "statsEyebrow": "By the Numbers",
+            "stats": [
+              {
+                "value": "10k+",
+                "label": "Active Users"
+              },
+              {
+                "value": "99.9%",
+                "label": "Uptime"
+              },
+              {
+                "value": "5",
+                "label": "Years in Market"
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/8102000/pexels-photo-8102000.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "A professional team collaborating in a modern office setting, focusing on documents and technology.",
+              "attributionAuthor": "Mikhail Nilov",
+              "attributionUrl": "https://www.pexels.com/photo/woman-and-men-working-at-office-8102000/"
+            }
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "DevToolX",
+            "brand": "DevToolX",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Pricing",
+                    "href": "/pricing"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "© 2024 DevToolX",
+            "tagline": "Empowering developers with smart tools.",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/privacy"
+              },
+              {
+                "label": "Terms",
+                "href": "/terms"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "pricing",
+      "title": "Pricing",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "DevToolX",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Pricing",
+                "href": "/pricing"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get Started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselinePageHeader",
+          "content": {
+            "eyebrow": "Pricing",
+            "headline": "Choose Your Plan",
+            "body": "Select the perfect plan tailored for your development needs.",
+            "accent": "Flexible"
+          }
+        },
+        {
+          "id": "PricingTiers",
+          "content": {
+            "eyebrow": "Plans",
+            "headline": "Transparent Pricing Options",
+            "tiers": [
+              {
+                "name": "Starter",
+                "price": "Starter",
+                "description": "Starter engagement for DevToolX.",
+                "features": [
+                  "Strategy and direction",
+                  "Design and build",
+                  "Ongoing support"
+                ],
+                "featured": false,
+                "cta": {
+                  "label": "Choose plan",
+                  "href": "/contact"
+                }
+              },
+              {
+                "name": "Studio",
+                "price": "Studio",
+                "description": "Studio engagement for DevToolX.",
+                "features": [
+                  "Strategy and direction",
+                  "Design and build",
+                  "Ongoing support"
+                ],
+                "featured": true,
+                "cta": {
+                  "label": "Choose plan",
+                  "href": "/contact"
+                }
+              },
+              {
+                "name": "Custom",
+                "price": "Custom",
+                "description": "Tailored engagement for DevToolX.",
+                "features": [
+                  "Strategy and direction",
+                  "Design and build",
+                  "Ongoing support"
+                ],
+                "featured": false,
+                "cta": {
+                  "label": "Choose plan",
+                  "href": "/contact"
+                }
+              }
+            ],
+            "features": [
+              {
+                "title": "Starter",
+                "body": "Basic tools for individual developers and small projects."
+              },
+              {
+                "title": "Studio",
+                "body": "Enhanced collaboration and advanced features for growing teams."
+              },
+              {
+                "title": "Custom",
+                "body": "Enterprise-grade solutions with personalized support and integrations."
+              }
+            ]
+          }
+        },
+        {
+          "id": "FAQAccordion",
+          "content": {
+            "eyebrow": "FAQs",
+            "headline": "Common Questions",
+            "faqs": [
+              {
+                "title": "Can I switch plans later?",
+                "body": "Yes, you can upgrade or downgrade your plan anytime."
+              },
+              {
+                "title": "Is there a free trial available?",
+                "body": "We offer a 14-day free trial for all plans."
+              },
+              {
+                "title": "What payment methods do you accept?",
+                "body": "We accept major credit cards and PayPal."
+              }
+            ],
+            "body": "Get quick answers about our pricing and plans."
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "DevToolX",
+            "brand": "DevToolX",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Pricing",
+                    "href": "/pricing"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "© 2024 DevToolX",
+            "tagline": "Empowering developers with smart tools.",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/privacy"
+              },
+              {
+                "label": "Terms",
+                "href": "/terms"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "DevToolX",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Pricing",
+                "href": "/pricing"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get Started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselinePageHeader",
+          "content": {
+            "eyebrow": "Contact",
+            "headline": "We're Here to Help",
+            "body": "Reach out with questions or support requests anytime.",
+            "accent": "Support"
+          }
+        },
+        {
+          "id": "BaselineContact",
+          "content": {
+            "formTitle": "Get in Touch",
+            "formBody": "Fill out the form and our team will respond promptly.",
+            "recipientEmail": "support@devtoolx.com",
+            "subjectTemplate": "New inquiry from {name}",
+            "details": [
+              {
+                "label": "Email",
+                "value": "support@devtoolx.com",
+                "href": "mailto:support@devtoolx.com"
+              },
+              {
+                "label": "Phone",
+                "value": "+1-555-123-4567",
+                "href": "tel:+15551234567"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "DevToolX",
+            "brand": "DevToolX",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Pricing",
+                    "href": "/pricing"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "© 2024 DevToolX",
+            "tagline": "Empowering developers with smart tools.",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/privacy"
+              },
+              {
+                "label": "Terms",
+                "href": "/terms"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "intent": {
+    "energy": "product-heavy",
+    "density": "dense",
+    "cinematicIntensity": "restrained",
+    "motionIntensity": "subtle",
+    "copyTone": "clear technical",
+    "themeHint": "fintech-minimal"
+  }
+}

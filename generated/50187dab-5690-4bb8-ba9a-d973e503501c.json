@@ -1,0 +1,864 @@
+{
+  "theme": {
+    "preset": "warm-sand",
+    "bg": "#FFF4E1",
+    "ink": "#5A3E36",
+    "bgAccent": "#F9E2D2",
+    "fontDisplay": "Georgia, serif",
+    "fontBody": "Arial, sans-serif"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "SweetWhisk Cupcake Bar",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "SweetWhisk",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Menu",
+                "href": "/menu"
+              },
+              {
+                "label": "About Us",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Start",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "HeroCinematic",
+          "content": {
+            "eyebrow": "Welcome to SweetWhisk",
+            "headline": "Delight In Every Bite",
+            "subhead": "Signature Cupcakes",
+            "body": "Crafted with passion and a sprinkle of magic, our cupcakes promise a moment of pure joy.",
+            "cta": {
+              "label": "Order Now",
+              "href": "/menu"
+            }
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/videos/15017690/age-anniversary-background-birthday-15017690.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+              "alt": "Engin Akyurt on Pexels",
+              "attributionAuthor": "Engin Akyurt",
+              "attributionUrl": "https://www.pexels.com/video/a-row-of-cupcakes-with-lighted-candles-15017690/",
+              "videoUrl": "https://videos.pexels.com/video-files/15017690/15017690-hd_1366_720_30fps.mp4"
+            }
+          }
+        },
+        {
+          "id": "ImageGallery",
+          "content": {
+            "eyebrow": "Our Creations",
+            "headline": "A Visual Feast of Flavors",
+            "body": "Explore our signature cupcakes crafted to enchant your taste buds.",
+            "captions": [
+              {
+                "title": "Velvet Rose",
+                "year": "2024"
+              },
+              {
+                "title": "Chocolate Dream",
+                "year": "2024"
+              },
+              {
+                "title": "Lemon Zest",
+                "year": "2024"
+              },
+              {
+                "title": "Salted Caramel Bliss",
+                "year": "2024"
+              },
+              {
+                "title": "Vanilla Cloud",
+                "year": "2024"
+              },
+              {
+                "title": "Berry Burst",
+                "year": "2024"
+              },
+              {
+                "title": "Mocha Magic",
+                "year": "2024"
+              },
+              {
+                "title": "Tropical Twist",
+                "year": "2024"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/12419449/pexels-photo-12419449.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Colorful cupcakes on a multi-tier stand, perfect for dessert inspiration.",
+                "attributionAuthor": "Julia Fuchs",
+                "attributionUrl": "https://www.pexels.com/photo/photograph-of-cupcakes-12419449/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/12419449/pexels-photo-12419449.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Colorful cupcakes on a multi-tier stand, perfect for dessert inspiration.",
+                "attributionAuthor": "Julia Fuchs",
+                "attributionUrl": "https://www.pexels.com/photo/photograph-of-cupcakes-12419449/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/30715444/pexels-photo-30715444.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Tasty display of decadent brownies and lemon bars in a bakery window",
+                "attributionAuthor": "James Collington",
+                "attributionUrl": "https://www.pexels.com/photo/close-up-of-pastry-display-with-brownies-and-lemon-bars-30715444/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/8909525/pexels-photo-8909525.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Modern café interior in Moscow with pastries and stylish design elements.",
+                "attributionAuthor": "Elena Yunina",
+                "attributionUrl": "https://www.pexels.com/photo/a-display-counter-in-a-cafe-8909525/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/5964541/pexels-photo-5964541.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Hands of a pastry chef in black gloves kneading dough on a floured surface.",
+                "attributionAuthor": "Anna Shvets",
+                "attributionUrl": "https://www.pexels.com/photo/pastry-chef-kneading-a-dough-5964541/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "StickyChapters",
+          "content": {
+            "eyebrow": "Our Story",
+            "chapters": [
+              {
+                "title": "Born from a Love of Baking",
+                "body": "SweetWhisk began as a passion project to share joy through cupcakes."
+              },
+              {
+                "title": "Crafted With Care",
+                "body": "Each cupcake is hand-decorated with fresh, high-quality ingredients."
+              },
+              {
+                "title": "Community and Celebration",
+                "body": "We cherish every smile our treats bring and every moment shared."
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/27584001/pexels-photo-27584001.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "A man stands enveloped in smoke and firelight, creating an intense atmosphere at night.",
+              "attributionAuthor": "Manish Jangid",
+              "attributionUrl": "https://www.pexels.com/photo/a-man-standing-in-front-of-a-fire-with-smoke-27584001/"
+            },
+            "secondary": {
+              "url": "https://images.pexels.com/photos/35457880/pexels-photo-35457880.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Serene winter scene in a misty forest in Kosovo, capturing cold and tranquil atmosphere.",
+              "attributionAuthor": "Andi Dautaj",
+              "attributionUrl": "https://www.pexels.com/photo/misty-forest-pathway-in-kosovo-s-winter-woods-35457880/"
+            }
+          }
+        },
+        {
+          "id": "HorizontalShowcase",
+          "content": {
+            "eyebrow": "Menu Highlights",
+            "headline": "Irresistible Cupcake Flavors",
+            "body": "Discover our delightful seasonal specials and classic favorites.",
+            "cards": [
+              {
+                "title": "Salted Caramel Bliss"
+              },
+              {
+                "title": "Lemon Zest Surprise"
+              },
+              {
+                "title": "Chocolate Dream"
+              },
+              {
+                "title": "Berry Burst Delight"
+              },
+              {
+                "title": "Classic Red Velvet"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/35285710/pexels-photo-35285710.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A cozy vintage interior featuring a warm glowing industrial fan and a potted plant.",
+                "attributionAuthor": "Connor Scott McManus",
+                "attributionUrl": "https://www.pexels.com/photo/vintage-interior-with-industrial-fan-and-warm-lighting-35285710/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/32930797/pexels-photo-32930797.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Silhouette of a person in dramatic fog and light setting, creating a mystical atmosphere.",
+                "attributionAuthor": "cnrdmroglu",
+                "attributionUrl": "https://www.pexels.com/photo/mysterious-silhouette-in-foggy-light-32930797/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/27583986/pexels-photo-27583986.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Silhouetted figure with blue light and smoke on a nighttime street scene, creating an air of mystery.",
+                "attributionAuthor": "Manish Jangid",
+                "attributionUrl": "https://www.pexels.com/photo/a-man-in-a-suit-standing-in-front-of-a-fire-27583986/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35457880/pexels-photo-35457880.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Serene winter scene in a misty forest in Kosovo, capturing cold and tranquil atmosphere.",
+                "attributionAuthor": "Andi Dautaj",
+                "attributionUrl": "https://www.pexels.com/photo/misty-forest-pathway-in-kosovo-s-winter-woods-35457880/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35457884/pexels-photo-35457884.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Mysterious misty forest scene in winter, captured in Rugova, Kosovo.",
+                "attributionAuthor": "Andi Dautaj",
+                "attributionUrl": "https://www.pexels.com/photo/misty-forest-landscape-in-winter-kosovo-35457884/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35457880/pexels-photo-35457880.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Serene winter scene in a misty forest in Kosovo, capturing cold and tranquil atmosphere.",
+                "attributionAuthor": "Andi Dautaj",
+                "attributionUrl": "https://www.pexels.com/photo/misty-forest-pathway-in-kosovo-s-winter-woods-35457880/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ContactBlock",
+          "content": {
+            "eyebrow": "Connect With Us",
+            "headline": "Book Your Sweet Experience",
+            "body": "Visit, order online, or reach out for custom cupcake creations.",
+            "cta": {
+              "label": "Email the team",
+              "href": "mailto:hello@sweetwhiskcupcakebar.co"
+            },
+            "details": [
+              {
+                "label": "Email",
+                "value": "contact@sweetwhisk.com"
+              },
+              {
+                "label": "Phone",
+                "value": "(555) 123-4567"
+              },
+              {
+                "label": "Location",
+                "value": "123 Dessert Lane, Sweet City"
+              },
+              {
+                "label": "Hours",
+                "value": "Mon-Sat 9am - 8pm"
+              }
+            ]
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "SweetWhisk Cupcake Bar",
+            "tagline": "SweetWhisk Cupcake Bar is built as a complete website system.",
+            "giant": "SweetWhisk Cupcake Bar",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Menu",
+                    "href": "/menu"
+                  },
+                  {
+                    "label": "About Us",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "2026 SweetWhisk Cupcake Bar. All rights reserved."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "title": "About SweetWhisk",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "SweetWhisk",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Menu",
+                "href": "/menu"
+              },
+              {
+                "label": "About Us",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Start",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "PageHeader",
+          "content": {
+            "eyebrow": "Our Story",
+            "headline": "Passion in Every Cupcake",
+            "body": "Learn about the craft, care, and community behind SweetWhisk."
+          }
+        },
+        {
+          "id": "TwoColumnText",
+          "content": {
+            "eyebrow": "Context",
+            "headline": "Crafting Joy",
+            "paragraphs": [
+              {
+                "heading": "From Humble Beginnings",
+                "body": "SweetWhisk started with a simple love for baking and a dream to sweeten days."
+              },
+              {
+                "heading": "Quality Ingredients",
+                "body": "We select only the finest local and organic ingredients to ensure freshness."
+              },
+              {
+                "heading": "Our Dedicated Team",
+                "body": "A passionate team of bakers and decorators ensures every cupcake is perfect."
+              }
+            ]
+          }
+        },
+        {
+          "id": "FeatureList",
+          "content": {
+            "eyebrow": "Our Values",
+            "headline": "What Sets Us Apart",
+            "features": [
+              {
+                "title": "Handcrafted Excellence",
+                "body": "Every cupcake is made with care and artistic detail."
+              },
+              {
+                "title": "Community Focus",
+                "body": "We believe in celebrating together and giving back."
+              },
+              {
+                "title": "Sustainability",
+                "body": "Eco-friendly practices are at the heart of our bakery."
+              },
+              {
+                "title": "Customer Delight",
+                "body": "Your happiness is our sweetest reward."
+              }
+            ]
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "SweetWhisk",
+            "tagline": "Sweet Moments, Crafted Daily",
+            "giant": "SWEETWHISK",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Menu",
+                    "href": "/menu"
+                  },
+                  {
+                    "label": "About Us",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "© 2024 SweetWhisk Cupcake Bar"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "menu",
+      "title": "SweetWhisk Menu",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "SweetWhisk",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Menu",
+                "href": "/menu"
+              },
+              {
+                "label": "About Us",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Start",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "PageHeader",
+          "content": {
+            "eyebrow": "Menu",
+            "headline": "Delightful Cupcakes",
+            "body": "Choose from our variety of flavors and seasonal treats."
+          }
+        },
+        {
+          "id": "FeatureBento",
+          "content": {
+            "eyebrow": "Our Selections",
+            "headline": "Cupcake Flavors & Specials",
+            "body": "A focused set of proof points, workflows, and conversion paths.",
+            "features": [
+              {
+                "title": "Classic Red Velvet",
+                "body": "Rich, velvety, and topped with cream cheese frosting."
+              },
+              {
+                "title": "Salted Caramel Bliss",
+                "body": "A perfect balance of sweet and salty."
+              },
+              {
+                "title": "Lemon Zest Surprise",
+                "body": "Bright and tangy with a cheerful finish."
+              },
+              {
+                "title": "Chocolate Dream",
+                "body": "Decadent chocolate with a silky ganache."
+              },
+              {
+                "title": "Berry Burst Delight",
+                "body": "Fresh berries bursting with every bite."
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/12506515/pexels-photo-12506515.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A cozy vintage living room featuring retro decor, a classic television, and warm sunlight.",
+                "attributionAuthor": "Yusuf P",
+                "attributionUrl": "https://www.pexels.com/photo/vintage-tv-in-room-12506515/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35574315/pexels-photo-35574315.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Two people walking through a foggy park path in Tychy, Poland during the early morning.",
+                "attributionAuthor": "Alexander Zvir",
+                "attributionUrl": "https://www.pexels.com/photo/serene-morning-walk-in-foggy-park-35574315/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35574315/pexels-photo-35574315.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Two people walking through a foggy park path in Tychy, Poland during the early morning.",
+                "attributionAuthor": "Alexander Zvir",
+                "attributionUrl": "https://www.pexels.com/photo/serene-morning-walk-in-foggy-park-35574315/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/5982829/pexels-photo-5982829.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Scenery of mystic forest with dark trees in fog under cloudy sky in daytime",
+                "attributionAuthor": "Jamie Saw",
+                "attributionUrl": "https://www.pexels.com/photo/dark-forest-in-cloudy-day-5982829/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "PricingTiers",
+          "content": {
+            "eyebrow": "Ordering Options",
+            "headline": "Simple Pricing, Sweet Choices",
+            "tiers": [
+              {
+                "name": "Starter",
+                "price": "$15",
+                "period": "per dozen",
+                "description": "Perfect for small gatherings.",
+                "features": [
+                  "5 classic flavors",
+                  "Custom packaging",
+                  "Pickup or delivery"
+                ],
+                "cta": {
+                  "label": "Choose plan",
+                  "href": "/contact"
+                }
+              },
+              {
+                "name": "Studio",
+                "price": "$30",
+                "period": "per two dozen",
+                "description": "Ideal for parties and events.",
+                "features": [
+                  "All flavors included",
+                  "Custom decorations",
+                  "Priority order"
+                ],
+                "cta": {
+                  "label": "Choose plan",
+                  "href": "/contact"
+                }
+              },
+              {
+                "name": "Custom",
+                "price": "Contact us",
+                "description": "Tailored creations for your special moments.",
+                "features": [
+                  "Flavor customization",
+                  "Design consultation",
+                  "Flexible delivery"
+                ],
+                "cta": {
+                  "label": "Choose plan",
+                  "href": "/contact"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "FAQAccordion",
+          "content": {
+            "eyebrow": "Need Help?",
+            "headline": "Frequently Asked Questions",
+            "faqs": [
+              {
+                "q": "Do you offer vegan options?",
+                "a": "Yes, we have a selection of vegan cupcakes available seasonally."
+              },
+              {
+                "q": "Can I customize my order?",
+                "a": "Absolutely! Custom designs and flavors are welcome."
+              },
+              {
+                "q": "What is your delivery area?",
+                "a": "We deliver within the city and nearby neighborhoods."
+              },
+              {
+                "q": "How far in advance should I place an order?",
+                "a": "Please order at least 48 hours before your desired pickup or delivery."
+              }
+            ]
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "SweetWhisk",
+            "tagline": "Sweet Moments, Crafted Daily",
+            "giant": "SWEETWHISK",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Menu",
+                    "href": "/menu"
+                  },
+                  {
+                    "label": "About Us",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "© 2024 SweetWhisk Cupcake Bar"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact SweetWhisk",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "SweetWhisk",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Menu",
+                "href": "/menu"
+              },
+              {
+                "label": "About Us",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Start",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "PageHeader",
+          "content": {
+            "eyebrow": "Get In Touch",
+            "headline": "Contact & Bookings",
+            "body": "Reach out to SweetWhisk for orders, questions, or special events."
+          }
+        },
+        {
+          "id": "ContactForm",
+          "content": {
+            "eyebrow": "Send Us a Message",
+            "headline": "We'd Love to Hear From You",
+            "body": "Fill out the form and we'll get back to you soon.",
+            "recipientEmail": "contact@sweetwhisk.com",
+            "submitLabel": "Send Message",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Your Name",
+                "type": "text",
+                "required": true,
+                "placeholder": "Jane Doe"
+              },
+              {
+                "name": "email",
+                "label": "Email Address",
+                "type": "email",
+                "required": true,
+                "placeholder": "jane@example.com"
+              },
+              {
+                "name": "message",
+                "label": "Message",
+                "type": "textarea",
+                "required": true,
+                "placeholder": "Tell us about your order or question."
+              }
+            ]
+          }
+        },
+        {
+          "id": "ContactBlock",
+          "content": {
+            "eyebrow": "Visit Us",
+            "headline": "Find SweetWhisk Cupcake Bar",
+            "body": "Located in the heart of Sweet City, we welcome you to indulge.",
+            "cta": {
+              "label": "Email the team",
+              "href": "mailto:hello@sweetwhiskcupcakebar.co"
+            },
+            "details": [
+              {
+                "label": "Address",
+                "value": "123 Dessert Lane, Sweet City"
+              },
+              {
+                "label": "Phone",
+                "value": "(555) 123-4567"
+              },
+              {
+                "label": "Hours",
+                "value": "Mon-Sat 9am - 8pm"
+              }
+            ]
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "SweetWhisk",
+            "tagline": "Sweet Moments, Crafted Daily",
+            "giant": "SWEETWHISK",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Menu",
+                    "href": "/menu"
+                  },
+                  {
+                    "label": "About Us",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "© 2024 SweetWhisk Cupcake Bar"
+          }
+        }
+      ]
+    }
+  ],
+  "intent": {
+    "energy": "cinematic",
+    "density": "spacious",
+    "cinematicIntensity": "high",
+    "motionIntensity": "moderate",
+    "copyTone": "playful and inviting",
+    "themeHint": "warm-sand"
+  }
+}

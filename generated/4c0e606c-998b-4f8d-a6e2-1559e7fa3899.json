@@ -1,0 +1,778 @@
+{
+  "theme": {
+    "preset": "midnight-luxury",
+    "bg": "#0a0f14",
+    "ink": "#e6e8ea",
+    "bgAccent": "#14242d",
+    "fontDisplay": "Playfair Display",
+    "fontBody": "Open Sans"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Alpine Serenity Resort",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Accommodations",
+                "href": "/accommodations"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineHero",
+          "content": {
+            "eyebrow": "Discover",
+            "headline": "Serene Alpine Luxury",
+            "accent": "in the Swiss Alps",
+            "body": "Experience tranquility and refined elegance in a secluded alpine retreat.",
+            "cta": {
+              "label": "Explore Accommodations",
+              "href": "/accommodations"
+            },
+            "secondaryCta": {
+              "label": "Contact Us",
+              "href": "/contact"
+            }
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/35450236/pexels-photo-35450236.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Stunning view of snow-capped Swiss Alps at sunrise above a blanket of clouds in Crans-Montana.",
+              "attributionAuthor": "Hugo Sykes",
+              "attributionUrl": "https://www.pexels.com/photo/majestic-swiss-alps-at-sunrise-with-cloud-sea-35450236/"
+            }
+          }
+        },
+        {
+          "id": "MarqueeBand",
+          "content": {
+            "items": [
+              "Alpine Serenity Resort",
+              "Strategy",
+              "Motion",
+              "Proof",
+              "Conversion"
+            ],
+            "tone": "normal",
+            "eyebrow": "Whispers of the Mountains"
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/19367249/pexels-photo-19367249.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "A scenic mountain enveloped in mist above a dense coniferous forest, capturing nature's grandeur.",
+              "attributionAuthor": "Elias Tigiser",
+              "attributionUrl": "https://www.pexels.com/photo/fog-over-an-alpine-forest-19367249/"
+            }
+          }
+        },
+        {
+          "id": "BaselineLogoBar",
+          "content": {
+            "eyebrow": "Trusted by Discerning Travelers",
+            "clients": [
+              {
+                "name": "Travel + Leisure"
+              },
+              {
+                "name": "Condé Nast"
+              },
+              {
+                "name": "National Geographic"
+              },
+              {
+                "name": "Forbes"
+              },
+              {
+                "name": "Vogue"
+              }
+            ]
+          }
+        },
+        {
+          "id": "MessageReveal",
+          "content": {
+            "firstLine": "Alpine Serenity Resort is not another template",
+            "accent": "different",
+            "secondLine": "It is a structured product story",
+            "body": "From guided glacier walks to spa indulgence, each moment is crafted for your peace and pleasure.",
+            "eyebrow": "Exclusive Experiences",
+            "headline": "Unwind with bespoke alpine adventures"
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/6903222/pexels-photo-6903222.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Modern white ceramic tub with illumination and contemporary control panel with buttons and levers placed in stylish bathroom among walls",
+              "attributionAuthor": "Max Vakhtbovych",
+              "attributionUrl": "https://www.pexels.com/photo/contemporary-bathtub-with-lighting-in-bathroom-6903222/"
+            }
+          }
+        },
+        {
+          "id": "BaselineFeatures",
+          "content": {
+            "eyebrow": "Our Signature Stays",
+            "headline": "Boutique suites with breathtaking views",
+            "accent": "and alpine charm",
+            "features": [
+              {
+                "eyebrow": "01 — Mountain Suites",
+                "title": "Elevated Comfort",
+                "body": "Private balconies with panoramic vistas and cozy fireplaces."
+              },
+              {
+                "eyebrow": "02 — Forest Villas",
+                "title": "Secluded Luxury",
+                "body": "Exclusive villas nestled in lush pine woods with gourmet kitchens."
+              },
+              {
+                "eyebrow": "03 — Snow Chalets",
+                "title": "Alpine Elegance",
+                "body": "Traditional charm meets modern amenities in intimate chalet settings."
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/6466496/pexels-photo-6466496.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "A chambermaid arranges pillows in a luxurious hotel room, showcasing comfort and elegance.",
+              "attributionAuthor": "cottonbro studio",
+              "attributionUrl": "https://www.pexels.com/photo/woman-in-black-blazer-and-white-dress-shirt-arranging-the-bed-6466496/"
+            }
+          }
+        },
+        {
+          "id": "ImageGallery",
+          "content": {
+            "eyebrow": "Visual Journey",
+            "headline": "Discover the essence of Alpine Serenity",
+            "body": "A collection of moments captured in our mountain sanctuary.",
+            "captions": [
+              {
+                "title": "Signal",
+                "year": "2026"
+              },
+              {
+                "title": "Space",
+                "year": "2025"
+              },
+              {
+                "title": "Detail",
+                "year": "2026"
+              },
+              {
+                "title": "Flow",
+                "year": "2025"
+              },
+              {
+                "title": "Texture",
+                "year": "2026"
+              },
+              {
+                "title": "Proof",
+                "year": "2025"
+              },
+              {
+                "title": "People",
+                "year": "2026"
+              },
+              {
+                "title": "System",
+                "year": "2025"
+              },
+              {
+                "title": "Outcome",
+                "year": "2026"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/19849687/pexels-photo-19849687.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A breathtaking view of a rugged mountain range bathed in warm sunrise light.",
+                "attributionAuthor": "eberhard grossgasteiger",
+                "attributionUrl": "https://www.pexels.com/photo/majestic-mountains-landscape-19849687/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35070915/pexels-photo-35070915.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A cozy wooden cabin surrounded by snow in a mountainous winter setting.",
+                "attributionAuthor": "Yunus Tuğ",
+                "attributionUrl": "https://www.pexels.com/photo/rustic-cabin-in-snowy-mountain-landscape-35070915/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/7041600/pexels-photo-7041600.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A woman enjoying a hot tub amidst a snowy forest landscape, creating a serene winter retreat.",
+                "attributionAuthor": "Yaroslav Shuraev",
+                "attributionUrl": "https://www.pexels.com/photo/woman-in-a-hot-tub-near-a-snow-covered-forest-7041600/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/2583494/pexels-photo-2583494.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Enchanting view of a snow-covered cabin at dusk in Les Gets, France, with mountain backdrop.",
+                "attributionAuthor": "Guillaume Hankenne",
+                "attributionUrl": "https://www.pexels.com/photo/brown-and-black-wooden-chalet-house-in-a-snowy-mountain-2583494/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineTestimonials",
+          "content": {
+            "eyebrow": "Guest Reflections",
+            "headline": "Stories of peace and luxury",
+            "testimonials": [
+              {
+                "quote": "A flawless retreat that rejuvenated my soul.",
+                "author": "Eva",
+                "role": "Traveler"
+              },
+              {
+                "quote": "Unmatched beauty and impeccable service.",
+                "author": "Luca",
+                "role": "Photographer"
+              },
+              {
+                "quote": "Every detail was thoughtfully curated for comfort.",
+                "author": "Anna",
+                "role": "Writer"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineCTA",
+          "content": {
+            "eyebrow": "Reserve Your Escape",
+            "headline": "Experience Alpine Serenity Today",
+            "accent": "luxury awaits",
+            "body": "Book your stay and immerse yourself in quiet alpine elegance.",
+            "cta": {
+              "label": "Book Now",
+              "href": "/accommodations"
+            },
+            "secondaryCta": {
+              "label": "Get in Touch",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Alpine Serenity Resort",
+            "brand": "Alpine Serenity Resort",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Accommodations",
+                    "href": "/accommodations"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "true",
+            "tagline": "Elevate your senses in the heart of the Alps",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "title": "About",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Alpine Serenity Resort",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Accommodations",
+                "href": "/accommodations"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineAboutNarrative",
+          "content": {
+            "eyebrow": "About Alpine Serenity Resort",
+            "headline": "Our mission is to create unparalleled alpine retreats",
+            "body": "Founded on a love for the mountains and dedication to impeccable service, our resort invites guests to experience tranquility and sophistication.",
+            "pillarEyebrow": "Core pillars",
+            "pillarHeadline": "Foundations of our philosophy",
+            "pillars": [
+              {
+                "title": "Authenticity",
+                "body": "We honor local traditions and natural beauty in every detail."
+              },
+              {
+                "title": "Excellence",
+                "body": "Service and quality that exceed expectations."
+              },
+              {
+                "title": "Sustainability",
+                "body": "Commitment to preserving our alpine environment."
+              }
+            ],
+            "statsEyebrow": "By the numbers",
+            "stats": [
+              {
+                "value": "10+",
+                "label": "Years in operation"
+              },
+              {
+                "value": "5-star",
+                "label": "Guest rating"
+              },
+              {
+                "value": "100%",
+                "label": "Eco-certified"
+              }
+            ],
+            "accent": "timeless elegance"
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/17845/pexels-photo.jpg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "A close-up shot of a hand reviewing various logo designs on paper, ideal for business concepts.",
+              "attributionAuthor": "Roman Pohorecki",
+              "attributionUrl": "https://www.pexels.com/photo/hand-on-top-of-paper-17845/"
+            }
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Alpine Serenity Resort",
+            "brand": "Alpine Serenity Resort",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Accommodations",
+                    "href": "/accommodations"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "true",
+            "tagline": "Elevate your senses in the heart of the Alps",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "accommodations",
+      "title": "Accommodations",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Alpine Serenity Resort",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Accommodations",
+                "href": "/accommodations"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselinePageHeader",
+          "content": {
+            "eyebrow": "Accommodations",
+            "headline": "Exclusive Alpine Suites & Chalets",
+            "body": "Explore our curated collection of rooms designed for luxury and relaxation.",
+            "accent": "comfort meets elegance"
+          }
+        },
+        {
+          "id": "FeatureList",
+          "content": {
+            "eyebrow": "Room Types",
+            "headline": "Distinctive stays tailored to your desires",
+            "features": [
+              {
+                "title": "Mountain Suites",
+                "body": "Spacious rooms with floor-to-ceiling windows framing alpine vistas.",
+                "meta": "Balcony, Fireplace, Wi-Fi"
+              },
+              {
+                "title": "Forest Villas",
+                "body": "Private villas nestled among pine trees offering exceptional privacy.",
+                "meta": "Kitchenette, Terrace, Fireplace"
+              },
+              {
+                "title": "Snow Chalets",
+                "body": "Cozy chalets blending rustic charm with contemporary comforts.",
+                "meta": "Fireplace, Sauna, Mountain View"
+              }
+            ]
+          }
+        },
+        {
+          "id": "FAQAccordion",
+          "content": {
+            "eyebrow": "FAQs",
+            "headline": "Your questions answered",
+            "faqs": [
+              {
+                "title": "What amenities are included?",
+                "body": "Complimentary Wi-Fi, spa access, gourmet dining, and daily housekeeping."
+              },
+              {
+                "title": "Is there ski-in/ski-out access?",
+                "body": "Yes, direct access to nearby slopes during winter season."
+              },
+              {
+                "title": "Are pets allowed?",
+                "body": "We welcome pets in select accommodations with prior notice."
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Alpine Serenity Resort",
+            "brand": "Alpine Serenity Resort",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Accommodations",
+                    "href": "/accommodations"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "true",
+            "tagline": "Elevate your senses in the heart of the Alps",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Alpine Serenity Resort",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Accommodations",
+                "href": "/accommodations"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineContact",
+          "content": {
+            "eyebrow": "Contact",
+            "headline": "Get in touch with Alpine Serenity",
+            "formTitle": "Send us a message",
+            "formBody": "We look forward to crafting your perfect stay.",
+            "recipientEmail": "info@alpineserenityresort.com",
+            "subjectTemplate": "New inquiry from {name}",
+            "details": [
+              {
+                "label": "Email",
+                "value": "info@alpineserenityresort.com",
+                "href": "mailto:info@alpineserenityresort.com"
+              },
+              {
+                "label": "Phone",
+                "value": "+41 27 123 4567",
+                "href": "tel:+41271234567"
+              },
+              {
+                "label": "Office",
+                "value": "Swiss Alps, Valais, Switzerland"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Alpine Serenity Resort",
+            "brand": "Alpine Serenity Resort",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Accommodations",
+                    "href": "/accommodations"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "true",
+            "tagline": "Elevate your senses in the heart of the Alps",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "intent": {
+    "energy": "quiet-luxury",
+    "density": "spacious",
+    "cinematicIntensity": "high",
+    "motionIntensity": "moderate",
+    "copyTone": "elegant inviting",
+    "themeHint": "midnight-luxury"
+  }
+}

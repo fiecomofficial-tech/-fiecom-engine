@@ -1,0 +1,191 @@
+{
+  "theme": {
+    "mode": "light",
+    "accent": "#e4572e",
+    "bg": "#f9f6f3",
+    "ink": "#23211e",
+    "bgAccent": "#fff3eb",
+    "fontDisplay": "Fraunces",
+    "fontBody": "Sora"
+  },
+  "sections": [
+    {
+      "id": "HeroCinematic",
+      "content": {
+        "eyebrow": "Crafted Refreshment",
+        "headline": "Sip Into Flavor",
+        "subhead": "Elevate your every moment with a drink worth savoring.",
+        "body": "Discover a collection of vibrant, handcrafted beverages that awaken your senses. Refreshment reimagined, one pour at a time.",
+        "cta": {
+          "label": "Explore Our Drinks"
+        }
+      },
+      "images": {
+        "primary": {
+          "url": "https://images.unsplash.com/photo-1647776112459-0417c1c43b8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxhcnRpc2FuJTIwZHJpbmtzJTIwdmlicmFudHxlbnwxfDB8fHwxNzc5MzE4MDE4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "alt": "a bottle of alcohol sitting next to two glasses",
+          "attributionAuthor": "Olena Bohovyk",
+          "attributionUrl": "https://unsplash.com/photos/a-bottle-of-alcohol-sitting-next-to-two-glasses--BzEB4PHOXo"
+        },
+        "secondary": {
+          "url": "https://images.unsplash.com/photo-1775638409001-3a90d37a2dd4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxwb3VyaW5nJTIwZHJpbmslMjBjbG9zZXVwfGVufDF8MHx8fDE3NzkzMTgwMTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "alt": "Liquid being poured from bottle into a tall glass",
+          "attributionAuthor": "Andrea Huls Pareja",
+          "attributionUrl": "https://unsplash.com/photos/liquid-being-poured-from-bottle-into-a-tall-glass-Fqjwv1lcsT4"
+        }
+      }
+    },
+    {
+      "id": "HorizontalShowcase",
+      "content": {
+        "eyebrow": "Signature Selections",
+        "headline": "A spectrum of curated drinks awaits",
+        "body": "Each blend is crafted for distinctive taste and style.",
+        "cards": [
+          {
+            "title": "Citrus Sparkler",
+            "caption": "Zesty citrus with a sparkling twist."
+          },
+          {
+            "title": "Berry Infusion",
+            "caption": "A burst of wild berries in every sip."
+          },
+          {
+            "title": "Herbal Tonic",
+            "caption": "Botanical notes for the mindful palate."
+          },
+          {
+            "title": "Golden Brew",
+            "caption": "Rich, malty depth for slow afternoons."
+          },
+          {
+            "title": "Tropical Cooler",
+            "caption": "Pineapple, coconut, pure escape."
+          },
+          {
+            "title": "Classic Spritz",
+            "caption": "Timeless and effervescent delight."
+          }
+        ]
+      },
+      "images": {
+        "gallery": [
+          {
+            "url": "https://images.unsplash.com/photo-1662967551369-7d25d29df265?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxjaXRydXMlMjBkcmlua3xlbnwxfDF8fHwxNzc5MzE4MDE4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "alt": "a glass of milk with a straw",
+            "attributionAuthor": "Daniel Boberg",
+            "attributionUrl": "https://unsplash.com/photos/a-glass-of-milk-with-a-straw-ON7qRp6ru1A"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1517620430776-0ec904756579?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxiZXJyeSUyMGNvY2t0YWlsfGVufDF8MXx8fDE3NzkzMTgwMTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "alt": "closeup photo of vodka with lemon in glass",
+            "attributionAuthor": "Melissa Walker Horn",
+            "attributionUrl": "https://unsplash.com/photos/closeup-photo-of-vodka-with-lemon-in-glass-S7VRvq6sCvA"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1600329163538-373c3c2fcefc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxoZXJiYWwlMjB0b25pYyUyMGRyaW5rfGVufDF8MXx8fDE3NzkzMTgwMTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "alt": "green glass bottle on black table",
+            "attributionAuthor": "Rio Lecatompessy",
+            "attributionUrl": "https://unsplash.com/photos/green-glass-bottle-on-black-table-yt1wdVEc3aQ"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1770462594831-1ccd50813277?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxpY2VkJTIwdGVhJTIwZ2xhc3N8ZW58MXwxfHx8MTc3OTMxODAxOXww&ixlib=rb-4.1.0&q=80&w=1080",
+            "alt": "Two drinks on a green plastic stool.",
+            "attributionAuthor": "Nhung Le",
+            "attributionUrl": "https://unsplash.com/photos/two-drinks-on-a-green-plastic-stool-nXQIUnspQSk"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1764426380945-a720f7f997d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHx0cm9waWNhbCUyMGJldmVyYWdlfGVufDF8MXx8fDE3NzkzMTgwMTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "alt": "Young boy holding a coconut with a straw.",
+            "attributionAuthor": "Prakash Rao",
+            "attributionUrl": "https://unsplash.com/photos/young-boy-holding-a-coconut-with-a-straw--wPkShIF22s"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1560512823-829485b8bf24?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxjbGFzc2ljJTIwc3ByaXR6JTIwZ2xhc3N8ZW58MXwxfHx8MTc3OTMxODAxOHww&ixlib=rb-4.1.0&q=80&w=1080",
+            "alt": "clear wine glass",
+            "attributionAuthor": "Victoria Shes",
+            "attributionUrl": "https://unsplash.com/photos/clear-wine-glass-8OpyEpJVgiQ"
+          }
+        ]
+      }
+    },
+    {
+      "id": "MarqueeBand",
+      "content": {
+        "items": [
+          "Small batch blends",
+          "Unfiltered ingredients",
+          "Seasonal favorites",
+          "Sparkling or still",
+          "Zero added sugar",
+          "Chill and enjoy"
+        ],
+        "tone": "invert"
+      }
+    },
+    {
+      "id": "StickyChapters",
+      "content": {
+        "eyebrow": "Our Process",
+        "chapters": [
+          {
+            "title": "We source real, seasonal ingredients only.",
+            "body": "Every beverage begins with nature, not syrup."
+          },
+          {
+            "title": "Blending and brewing with precision and care.",
+            "body": "Our makers craft each recipe in small batches."
+          },
+          {
+            "title": "Poured fresh, enjoyed anytime, anywhere.",
+            "body": "Packaged to preserve flavor and elevate your moments."
+          }
+        ]
+      },
+      "images": {
+        "primary": {
+          "url": "https://images.unsplash.com/photo-1769264962872-17994956dc85?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxoYW5kY3JhZnRlZCUyMGRyaW5rJTIwcHJvY2Vzc3xlbnwxfDF8fHwxNzc5MzE4MDE5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "alt": "Barista pouring espresso into a paper cup.",
+          "attributionAuthor": "Zoshua Colah",
+          "attributionUrl": "https://unsplash.com/photos/barista-pouring-espresso-into-a-paper-cup-PK5_61L9_RE"
+        }
+      }
+    },
+    {
+      "id": "MessageReveal",
+      "content": {
+        "firstLine": "Refreshment without compromise",
+        "accent": "Pure Taste",
+        "secondLine": "Savor each pour, guilt free",
+        "body": "No artificial flavors, colors, or preservatives—just honest ingredients."
+      },
+      "images": {
+        "primary": {
+          "url": "https://images.unsplash.com/photo-1777699813297-092e2c6cc3bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxuYXR1cmFsJTIwaW5ncmVkaWVudHMlMjBkcmlua3xlbnwxfDB8fHwxNzc5MzE4MDE4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "alt": "A glass of iced coffee with cream and two lemons.",
+          "attributionAuthor": "光术 山影",
+          "attributionUrl": "https://unsplash.com/photos/a-glass-of-iced-coffee-with-cream-and-two-lemons-TeBkZRz3GZc"
+        }
+      }
+    },
+    {
+      "id": "ClosingCTA",
+      "content": {
+        "eyebrow": "Join The Flavor Movement",
+        "headline": "Raise Your Glass",
+        "subhead": "Experience drinks that celebrate authentic taste—crafted for every occasion.",
+        "cta": {
+          "label": "Find Your Flavor"
+        }
+      },
+      "images": {
+        "primary": {
+          "url": "https://images.unsplash.com/photo-1624634562305-cd0513d0cb8e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxjaGVlcnMlMjBmcmllbmRzJTIwZHJpbmtzfGVufDF8MHx8fDE3NzkzMTgwMTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "alt": "person holding clear wine glass",
+          "attributionAuthor": "engin akyurt",
+          "attributionUrl": "https://unsplash.com/photos/person-holding-clear-wine-glass-NaftblmpF3I"
+        }
+      }
+    }
+  ]
+}

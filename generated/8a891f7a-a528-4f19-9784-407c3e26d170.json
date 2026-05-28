@@ -1,0 +1,485 @@
+{
+  "architecture": "fiecom-reference",
+  "prompt": "architecture studio in switzerland",
+  "createdAt": "2026-05-25T00:52:41.199Z",
+  "pages": [
+    {
+      "slug": "home",
+      "title": "AlpineForm Studio",
+      "site": {
+        "id": "cyvw0t501",
+        "createdAt": "2026-05-25T00:52:39.297Z",
+        "prompt": "architecture studio in switzerland",
+        "category": "architecture",
+        "template": "soft-studio",
+        "intent": {
+          "category": "architecture",
+          "categoryConfidence": 0.7857142857142857,
+          "style": "modern-minimal",
+          "tone": "confident",
+          "motion": "considered",
+          "subject": "architecture studio in switzerland"
+        },
+        "variation": {
+          "density": "spacious",
+          "sectionOrder": "narrative",
+          "typeSystem": "humanist-mix",
+          "accent": "jade",
+          "heroShape": "centered",
+          "nav": "minimal",
+          "atmosphere": "warm-glow",
+          "cursor": "default"
+        },
+        "brand": {
+          "name": "AlpineForm Studio",
+          "voice": "confident, modern, minimal",
+          "accent": "jade"
+        },
+        "nav": [
+          {
+            "label": "AlpineForm Studio",
+            "href": "/"
+          },
+          {
+            "label": "About AlpineForm Studio",
+            "href": "/about"
+          },
+          {
+            "label": "Our Work",
+            "href": "/work"
+          },
+          {
+            "label": "Contact AlpineForm Studio",
+            "href": "/contact"
+          }
+        ],
+        "page": {
+          "slug": "home",
+          "title": "AlpineForm Studio",
+          "kind": "home"
+        },
+        "sections": [
+          {
+            "id": "hero",
+            "kind": "hero",
+            "eyebrow": "ALPINEFORM STUDIO",
+            "title": "Designing Swiss Precision into Every Structure",
+            "subtitle": "Modern Architecture Rooted in Alpine Elegance",
+            "cta": {
+              "label": "Explore Our Work",
+              "href": "#work"
+            },
+            "visualMoodId": "warm-aurora",
+            "media": {
+              "url": "https://images.pexels.com/photos/18087748/pexels-photo-18087748.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Contemporary glass facade of an office building in Lausanne, Switzerland, showcasing reflections and sunlight.",
+              "attributionAuthor": "Hugo Sykes",
+              "attributionUrl": "https://www.pexels.com/photo/exterior-of-a-modern-office-building-in-city-18087748/"
+            }
+          },
+          {
+            "id": "marquee",
+            "kind": "marquee",
+            "words": [
+              "Precision",
+              "Sustainability",
+              "Innovation",
+              "Minimalism",
+              "Swiss Design"
+            ]
+          },
+          {
+            "id": "story",
+            "kind": "story",
+            "eyebrow": "01 / Story",
+            "title": "Our Vision",
+            "paragraphs": [
+              "At AlpineForm Studio, we blend Swiss meticulousness with modern minimalism to craft spaces that inspire and endure.",
+              "Our designs emphasize clarity, function, and harmony with the surrounding environment, embodying the essence of Swiss architecture."
+            ]
+          },
+          {
+            "id": "work",
+            "kind": "work",
+            "eyebrow": "02 / Selected work",
+            "title": "Featured Projects",
+            "items": [
+              {
+                "title": "Lakeview Residence",
+                "meta": "Contemporary Home Overlooking Lake Geneva",
+                "visualMoodId": "graphite-rise",
+                "media": {
+                  "url": "https://images.pexels.com/photos/26245668/pexels-photo-26245668.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                  "alt": "Low angle view of a modern skyscraper in Zurich showcasing sleek architecture against a cloudy sky.",
+                  "attributionAuthor": "Louis",
+                  "attributionUrl": "https://www.pexels.com/photo/modern-office-skyscraper-building-26245668/"
+                }
+              },
+              {
+                "title": "Zurich Office Tower",
+                "meta": "Sustainable Commercial Design in Urban Zurich",
+                "visualMoodId": "flux-prism",
+                "media": {
+                  "url": "https://images.pexels.com/photos/4082527/pexels-photo-4082527.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                  "alt": "From below facade of contemporary building with geometric pattern and glass balconies against cloudless blue sky",
+                  "attributionAuthor": "Vlad Chețan",
+                  "attributionUrl": "https://www.pexels.com/photo/stylish-geometric-building-with-glass-balconies-4082527/"
+                }
+              },
+              {
+                "title": "Mountain Retreat",
+                "meta": "Eco-Friendly Alpine Cabin",
+                "visualMoodId": "cold-vapor",
+                "media": {
+                  "url": "https://images.pexels.com/photos/14498846/pexels-photo-14498846.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                  "alt": "Grayscale photo of Lumen Museum perched on the mountains of South Tyrol, Italy.",
+                  "attributionAuthor": "Flavio Vallone",
+                  "attributionUrl": "https://www.pexels.com/photo/lumen-museum-of-mountain-photography-at-plan-de-corones-in-italy-14498846/"
+                }
+              }
+            ]
+          },
+          {
+            "id": "features",
+            "kind": "feature",
+            "eyebrow": "03 / Approach",
+            "title": "Why Choose AlpineForm",
+            "features": [
+              {
+                "title": "Precision Engineering",
+                "body": "Leveraging Swiss engineering excellence to ensure structural integrity and aesthetic purity.",
+                "iconId": "prism"
+              },
+              {
+                "title": "Sustainable Design",
+                "body": "Committed to environmentally responsible practices that respect the alpine surroundings.",
+                "iconId": "ring"
+              },
+              {
+                "title": "Client-Centered Approach",
+                "body": "Collaborative process tailored to each client’s vision and lifestyle.",
+                "iconId": "fold"
+              }
+            ]
+          },
+          {
+            "id": "manifesto",
+            "kind": "manifesto",
+            "eyebrow": "Manifesto",
+            "body": "We believe architecture is the art of creating meaningful spaces that connect people to nature and culture with timeless minimalism."
+          },
+          {
+            "id": "contact",
+            "kind": "contact",
+            "eyebrow": "Contact",
+            "title": "Connect with AlpineForm Studio",
+            "email": "contact@alpineform.ch"
+          }
+        ],
+        "blocks": [
+          "hero.split",
+          "marquee.big",
+          "story.editorial",
+          "work.mosaic",
+          "feature.bento",
+          "manifesto.center",
+          "contact.quiet"
+        ],
+        "footerBlock": "footer.minimal",
+        "typePalette": "fragment-manrope",
+        "status": "draft",
+        "edits": []
+      }
+    },
+    {
+      "slug": "about",
+      "title": "About AlpineForm Studio",
+      "site": {
+        "id": "5i43xe5q9",
+        "createdAt": "2026-05-25T00:52:39.700Z",
+        "prompt": "architecture studio in switzerland",
+        "category": "architecture",
+        "template": "soft-studio",
+        "intent": {
+          "category": "architecture",
+          "categoryConfidence": 0.7857142857142857,
+          "style": "modern-minimal",
+          "tone": "confident",
+          "motion": "calm",
+          "subject": "architecture studio in switzerland"
+        },
+        "variation": {
+          "density": "spacious",
+          "sectionOrder": "narrative",
+          "typeSystem": "geometric-sans",
+          "accent": "jade",
+          "heroShape": "split",
+          "nav": "top-quiet",
+          "atmosphere": "warm-glow",
+          "cursor": "default"
+        },
+        "brand": {
+          "name": "AlpineForm Studio",
+          "voice": "confident, modern, minimal",
+          "accent": "jade"
+        },
+        "nav": [
+          {
+            "label": "AlpineForm Studio",
+            "href": "/"
+          },
+          {
+            "label": "About AlpineForm Studio",
+            "href": "/about"
+          },
+          {
+            "label": "Our Work",
+            "href": "/work"
+          },
+          {
+            "label": "Contact AlpineForm Studio",
+            "href": "/contact"
+          }
+        ],
+        "page": {
+          "slug": "about",
+          "title": "About AlpineForm Studio",
+          "kind": "internal"
+        },
+        "sections": [
+          {
+            "id": "story",
+            "kind": "story",
+            "eyebrow": "About AlpineForm Studio",
+            "title": "Our Journey",
+            "paragraphs": [
+              "Founded in Switzerland, AlpineForm Studio embodies the fusion of traditional Swiss craftsmanship and contemporary design philosophies.",
+              "Our team includes architects and designers passionate about creating spaces that balance form and function seamlessly."
+            ]
+          },
+          {
+            "id": "contact",
+            "kind": "contact",
+            "eyebrow": "Contact",
+            "title": "Start with a focused conversation.",
+            "email": "hello@alpineformstudio.co"
+          }
+        ],
+        "blocks": [
+          "story.editorial",
+          "contact.quiet"
+        ],
+        "footerBlock": "footer.minimal",
+        "typePalette": "souve-inter",
+        "status": "draft",
+        "edits": []
+      }
+    },
+    {
+      "slug": "work",
+      "title": "Our Work",
+      "site": {
+        "id": "h7iprq61g",
+        "createdAt": "2026-05-25T00:52:40.741Z",
+        "prompt": "architecture studio in switzerland",
+        "category": "architecture",
+        "template": "soft-studio",
+        "intent": {
+          "category": "architecture",
+          "categoryConfidence": 0.7857142857142857,
+          "style": "modern-minimal",
+          "tone": "confident",
+          "motion": "calm",
+          "subject": "architecture studio in switzerland"
+        },
+        "variation": {
+          "density": "spacious",
+          "sectionOrder": "narrative",
+          "typeSystem": "humanist-mix",
+          "accent": "jade",
+          "heroShape": "split",
+          "nav": "top-quiet",
+          "atmosphere": "warm-glow",
+          "cursor": "default"
+        },
+        "brand": {
+          "name": "AlpineForm Studio",
+          "voice": "confident, modern, minimal",
+          "accent": "jade"
+        },
+        "nav": [
+          {
+            "label": "AlpineForm Studio",
+            "href": "/"
+          },
+          {
+            "label": "About AlpineForm Studio",
+            "href": "/about"
+          },
+          {
+            "label": "Our Work",
+            "href": "/work"
+          },
+          {
+            "label": "Contact AlpineForm Studio",
+            "href": "/contact"
+          }
+        ],
+        "page": {
+          "slug": "work",
+          "title": "Our Work",
+          "kind": "internal"
+        },
+        "sections": [
+          {
+            "id": "story",
+            "kind": "story",
+            "eyebrow": "Our Work",
+            "paragraphs": [
+              "AlpineForm Studio brings a focused point of view to architecture studio in switzerland."
+            ]
+          },
+          {
+            "id": "work",
+            "kind": "work",
+            "eyebrow": "Selected",
+            "title": "Recent Projects",
+            "items": [
+              {
+                "title": "Alpine Wellness Center",
+                "meta": "A serene retreat combining luxury and nature",
+                "visualMoodId": "graphite-rise",
+                "media": {
+                  "url": "https://images.pexels.com/photos/17057573/pexels-photo-17057573.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                  "alt": "Contemporary building in Charmey with lush greenery and mountain backdrop.",
+                  "attributionAuthor": "Xavier Messina",
+                  "attributionUrl": "https://www.pexels.com/photo/luxurious-gruyere-baths-in-switzerland-17057573/"
+                }
+              },
+              {
+                "title": "Lakeside Villa",
+                "meta": "Minimalist residence with panoramic views",
+                "visualMoodId": "flux-prism",
+                "media": {
+                  "url": "https://images.pexels.com/photos/12241109/pexels-photo-12241109.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                  "alt": "Scenic view of historic buildings along the lakefront in Zürich, Switzerland, during the day.",
+                  "attributionAuthor": "Ryan Klaus",
+                  "attributionUrl": "https://www.pexels.com/photo/white-and-brown-houses-near-lake-12241109/"
+                }
+              },
+              {
+                "title": "Urban Art Gallery",
+                "meta": "Contemporary cultural space in Zurich",
+                "visualMoodId": "cold-vapor",
+                "media": {
+                  "url": "https://images.pexels.com/photos/15988007/pexels-photo-15988007.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                  "alt": "Silhouette of a man walking through a dimly lit art gallery surrounded by illuminated screens.",
+                  "attributionAuthor": "Kyle  Miller",
+                  "attributionUrl": "https://www.pexels.com/photo/man-walking-in-art-gallery-15988007/"
+                }
+              }
+            ]
+          },
+          {
+            "id": "contact",
+            "kind": "contact",
+            "eyebrow": "Contact",
+            "title": "Start with a focused conversation.",
+            "email": "hello@alpineformstudio.co"
+          }
+        ],
+        "blocks": [
+          "story.editorial",
+          "work.mosaic",
+          "contact.quiet"
+        ],
+        "footerBlock": "footer.minimal",
+        "typePalette": "fragment-manrope",
+        "status": "draft",
+        "edits": []
+      }
+    },
+    {
+      "slug": "contact",
+      "title": "Contact AlpineForm Studio",
+      "site": {
+        "id": "hhusaw6ud",
+        "createdAt": "2026-05-25T00:52:41.199Z",
+        "prompt": "architecture studio in switzerland",
+        "category": "architecture",
+        "template": "soft-studio",
+        "intent": {
+          "category": "architecture",
+          "categoryConfidence": 0.7857142857142857,
+          "style": "modern-minimal",
+          "tone": "confident",
+          "motion": "calm",
+          "subject": "architecture studio in switzerland"
+        },
+        "variation": {
+          "density": "balanced",
+          "sectionOrder": "narrative",
+          "typeSystem": "geometric-sans",
+          "accent": "flux-violet",
+          "heroShape": "split",
+          "nav": "top-quiet",
+          "atmosphere": "warm-glow",
+          "cursor": "default"
+        },
+        "brand": {
+          "name": "AlpineForm Studio",
+          "voice": "confident, modern, minimal",
+          "accent": "flux-violet"
+        },
+        "nav": [
+          {
+            "label": "AlpineForm Studio",
+            "href": "/"
+          },
+          {
+            "label": "About AlpineForm Studio",
+            "href": "/about"
+          },
+          {
+            "label": "Our Work",
+            "href": "/work"
+          },
+          {
+            "label": "Contact AlpineForm Studio",
+            "href": "/contact"
+          }
+        ],
+        "page": {
+          "slug": "contact",
+          "title": "Contact AlpineForm Studio",
+          "kind": "internal"
+        },
+        "sections": [
+          {
+            "id": "story",
+            "kind": "story",
+            "eyebrow": "Contact AlpineForm Studio",
+            "paragraphs": [
+              "AlpineForm Studio brings a focused point of view to architecture studio in switzerland."
+            ]
+          },
+          {
+            "id": "contact",
+            "kind": "contact",
+            "eyebrow": "Contact",
+            "title": "Get in Touch",
+            "email": "contact@alpineform.ch"
+          }
+        ],
+        "blocks": [
+          "story.editorial",
+          "contact.quiet"
+        ],
+        "footerBlock": "footer.minimal",
+        "typePalette": "souve-inter",
+        "status": "draft",
+        "edits": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,809 @@
+{
+  "theme": {
+    "preset": "editorial-noir",
+    "bg": "#1a1a1a",
+    "ink": "#f0f0f0",
+    "bgAccent": "#2e2e2e",
+    "fontDisplay": "Playfair Display",
+    "fontBody": "Montserrat"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Avant Antwerp",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Avant Antwerp",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Collections",
+                "href": "/collections"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineHero",
+          "content": {
+            "eyebrow": "New — Fall '24",
+            "headline": "Sculpting Fashion Boundaries",
+            "accent": "avant-garde vision",
+            "body": "Experience Antwerp's premier atelier where artistry meets bold design.",
+            "cta": {
+              "label": "Explore Collections",
+              "href": "/collections"
+            },
+            "secondaryCta": {
+              "label": "Discover Our Story",
+              "href": "/about"
+            }
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/28262886/pexels-photo-28262886.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Artistic fashion portrait featuring unique headwear and formal attire with eyeglasses.",
+              "attributionAuthor": "Sydney Sang",
+              "attributionUrl": "https://www.pexels.com/photo/a-man-with-a-paper-hat-on-his-head-28262886/"
+            }
+          }
+        },
+        {
+          "id": "MarqueeBand",
+          "content": {
+            "items": [
+              "Avant Antwerp",
+              "Strategy",
+              "Motion",
+              "Proof",
+              "Conversion"
+            ],
+            "tone": "normal",
+            "eyebrow": "Artistry in Motion"
+          }
+        },
+        {
+          "id": "BaselineLogoBar",
+          "content": {
+            "eyebrow": "Trusted by Visionaries",
+            "clients": [
+              {
+                "name": "Vogue"
+              },
+              {
+                "name": "Dazed"
+              },
+              {
+                "name": "i-D"
+              },
+              {
+                "name": "L'Officiel"
+              }
+            ]
+          }
+        },
+        {
+          "id": "MessageReveal",
+          "content": {
+            "firstLine": "Avant Antwerp is not another template",
+            "accent": "handcrafted excellence",
+            "secondLine": "It is a structured product story",
+            "body": "Our atelier blends tradition with innovation to redefine fashion's future.",
+            "eyebrow": "Unseen Craftsmanship",
+            "headline": "Every Stitch Tells A Story"
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/9849651/pexels-photo-9849651.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "A designer skillfully cuts fabric following a pattern in a fashion studio, showcasing creativity and precision.",
+              "attributionAuthor": "Ron Lach",
+              "attributionUrl": "https://www.pexels.com/photo/close-up-vew-of-fashion-designer-cutting-fabrics-9849651/"
+            }
+          }
+        },
+        {
+          "id": "BaselineFeatures",
+          "content": {
+            "eyebrow": "The Collections",
+            "headline": "Daring Designs, Distinctive Silhouettes",
+            "accent": "limited editions",
+            "features": [
+              {
+                "eyebrow": "01 — The Abyss",
+                "title": "Sculptural forms in monochrome",
+                "body": "A collection inspired by darkness and fluidity blending sharp tailoring with artistic drapes."
+              },
+              {
+                "eyebrow": "02 — The Fringe",
+                "title": "Experimental textures and layers",
+                "body": "Exploring materials that challenge norms with bold shapes and asymmetry."
+              },
+              {
+                "eyebrow": "03 — The Lumen",
+                "title": "Light-infused avant-garde pieces",
+                "body": "A luminous series capturing movement and shadow interplay."
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/8431759/pexels-photo-8431759.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Stylized players in avant-garde fashion playing chess under dramatic lighting.",
+              "attributionAuthor": "cottonbro studio",
+              "attributionUrl": "https://www.pexels.com/photo/sculpture-thinking-about-its-next-chess-move-against-a-group-of-people-8431759/"
+            }
+          }
+        },
+        {
+          "id": "ImageGallery",
+          "content": {
+            "eyebrow": "Visual Symphony",
+            "headline": "Immersive Lookbook",
+            "body": "Dive into the artistry through our latest collection's evocative imagery.",
+            "captions": [
+              {
+                "title": "Signal",
+                "year": "2026"
+              },
+              {
+                "title": "Space",
+                "year": "2025"
+              },
+              {
+                "title": "Detail",
+                "year": "2026"
+              },
+              {
+                "title": "Flow",
+                "year": "2025"
+              },
+              {
+                "title": "Texture",
+                "year": "2026"
+              },
+              {
+                "title": "Proof",
+                "year": "2025"
+              },
+              {
+                "title": "People",
+                "year": "2026"
+              },
+              {
+                "title": "System",
+                "year": "2025"
+              },
+              {
+                "title": "Outcome",
+                "year": "2026"
+              }
+            ],
+            "accent": "artistic frames"
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/34221129/pexels-photo-34221129.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Artistic portrait of a woman in bold makeup wearing red avant-garde fashion indoors.",
+                "attributionAuthor": "Astrid Sosa",
+                "attributionUrl": "https://www.pexels.com/photo/elegant-woman-in-red-avant-garde-fashion-34221129/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/17945059/pexels-photo-17945059.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Stylish black and white portrait of a woman posing on stool in a studio setting.",
+                "attributionAuthor": "Nur Demirbaş",
+                "attributionUrl": "https://www.pexels.com/photo/brunette-woman-posing-in-black-blazer-jeans-and-boots-17945059/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35279463/pexels-photo-35279463.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Artistic close-up of a bronze statue's hands delicately holding a ring, emphasizing texture and patina.",
+                "attributionAuthor": "Burak Karaman",
+                "attributionUrl": "https://www.pexels.com/photo/close-up-of-bronze-statue-s-hands-holding-ring-35279463/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/7641148/pexels-photo-7641148.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A dark fabric texture showcasing intricate patterns under subdued lighting.",
+                "attributionAuthor": "Eva Bronzini",
+                "attributionUrl": "https://www.pexels.com/photo/black-cloth-in-close-up-photography-7641148/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineTestimonials",
+          "content": {
+            "eyebrow": "Voices",
+            "headline": "Echoes from the Avant-Garde",
+            "testimonials": [
+              {
+                "quote": "A relentless pursuit of beauty and boundary-pushing design.",
+                "author": "Eve",
+                "role": "Fashion Critic",
+                "org": "Vogue"
+              },
+              {
+                "quote": "Each piece is a wearable sculpture, alive with emotion.",
+                "author": "Liam",
+                "role": "Stylist"
+              },
+              {
+                "quote": "Avant Antwerp reshapes the future of fashion through fearless creativity.",
+                "author": "Mara",
+                "role": "Designer"
+              }
+            ]
+          }
+        },
+        {
+          "id": "HorizontalShowcase",
+          "content": {
+            "eyebrow": "Signature Craft",
+            "headline": "The Atelier's Philosophy",
+            "body": "Where each creation transcends fashion into art.",
+            "cards": [
+              {
+                "title": "Overview",
+                "caption": "Overview for Avant Antwerp"
+              },
+              {
+                "title": "Workflow",
+                "caption": "Workflow for Avant Antwerp"
+              },
+              {
+                "title": "Proof",
+                "caption": "Proof for Avant Antwerp"
+              },
+              {
+                "title": "Detail",
+                "caption": "Detail for Avant Antwerp"
+              },
+              {
+                "title": "Result",
+                "caption": "Result for Avant Antwerp"
+              },
+              {
+                "title": "Next step",
+                "caption": "Next step for Avant Antwerp"
+              }
+            ],
+            "accent": "crafted authenticity"
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/9849657/pexels-photo-9849657.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Fashion studio interior featuring design workstations, mannequins, and textile patterns.",
+              "attributionAuthor": "Ron Lach",
+              "attributionUrl": "https://www.pexels.com/photo/interior-of-fashion-designer-studio-9849657/"
+            }
+          }
+        },
+        {
+          "id": "BaselineCTA",
+          "content": {
+            "eyebrow": "Join The Movement",
+            "headline": "Experience Avant Antwerp",
+            "accent": "visit or connect",
+            "body": "Step into our world of visionary fashion and bespoke craftsmanship.",
+            "cta": {
+              "label": "Contact Us",
+              "href": "/contact"
+            },
+            "secondaryCta": {
+              "label": "Book A Visit",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Avant Antwerp",
+            "brand": "Avant Antwerp",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Collections",
+                    "href": "/collections"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "Where fashion meets fearless artistry",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "title": "About Avant Antwerp",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Avant Antwerp",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Collections",
+                "href": "/collections"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineAboutNarrative",
+          "content": {
+            "eyebrow": "About Avant Antwerp",
+            "headline": "Redefining Fashion Through Artistry",
+            "body": "Founded in Antwerp, our atelier pioneers avant-garde designs that challenge conventions through meticulous craftsmanship and visionary artistry.",
+            "pillarEyebrow": "Core pillars",
+            "pillarHeadline": "Our essence distilled",
+            "pillars": [
+              {
+                "title": "Innovative Design",
+                "body": "Pushing the limits of form and function to create wearable art."
+              },
+              {
+                "title": "Handcrafted Excellence",
+                "body": "Every piece is meticulously crafted to reflect our dedication to quality."
+              },
+              {
+                "title": "Sustainable Vision",
+                "body": "We honor materials and methods that respect the environment."
+              }
+            ],
+            "statsEyebrow": "Milestones",
+            "stats": [
+              {
+                "value": "2010",
+                "label": "Established"
+              },
+              {
+                "value": "5",
+                "label": "Collections per Year"
+              },
+              {
+                "value": "1000+",
+                "label": "Pieces Crafted"
+              }
+            ],
+            "accent": "bold innovation"
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/30878454/pexels-photo-30878454.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Cinematic scene with neon lights and actors on set, creating a mysterious atmosphere.",
+              "attributionAuthor": "Javo  Films",
+              "attributionUrl": "https://www.pexels.com/photo/moody-indoor-film-set-with-neon-lighting-30878454/"
+            }
+          }
+        },
+        {
+          "id": "TwoColumnText",
+          "content": {
+            "eyebrow": "Philosophy",
+            "headline": "The Spirit Behind The Stitch",
+            "paragraphs": [
+              {
+                "heading": "Art As Fashion",
+                "body": "Our work blurs the line between sculpture and clothing, emphasizing form, texture, and conceptual depth."
+              },
+              {
+                "heading": "Cultural Roots",
+                "body": "Inspired by Antwerp’s rich heritage, we fuse tradition with the avant-garde to create unique narratives."
+              },
+              {
+                "heading": "Future Focus",
+                "body": "Committed to innovation and sustainability, we continuously evolve our craft for the next generation."
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Avant Antwerp",
+            "brand": "Avant Antwerp",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Collections",
+                    "href": "/collections"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "Where fashion meets fearless artistry",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "collections",
+      "title": "Collections",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Avant Antwerp",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Collections",
+                "href": "/collections"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselinePageHeader",
+          "content": {
+            "eyebrow": "Collections",
+            "headline": "Curated Avant-Garde Fashion",
+            "body": "Explore our latest collections sculpted into visionary statements.",
+            "accent": "limited editions"
+          }
+        },
+        {
+          "id": "FeatureList",
+          "content": {
+            "eyebrow": "Design Philosophy",
+            "headline": "Concepts Behind The Craft",
+            "features": [
+              {
+                "title": "Material Alchemy",
+                "body": "Selective use of fabrics that challenge traditional norms."
+              },
+              {
+                "title": "Form Exploration",
+                "body": "Innovative silhouettes creating new spatial experiences in fashion."
+              },
+              {
+                "title": "Artisanal Techniques",
+                "body": "Hand-stitching and detailing that honor craftsmanship."
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Avant Antwerp",
+            "brand": "Avant Antwerp",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Collections",
+                    "href": "/collections"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "Where fashion meets fearless artistry",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact Avant Antwerp",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Avant Antwerp",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Collections",
+                "href": "/collections"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineContact",
+          "content": {
+            "eyebrow": "Contact",
+            "headline": "Let's build something together",
+            "formTitle": "Get in touch",
+            "formBody": "Complete the form or reach us through below details.",
+            "recipientEmail": "hello@avantantwerp.com",
+            "subjectTemplate": "New inquiry from {name}",
+            "details": [
+              {
+                "label": "Email",
+                "value": "hello@avantantwerp.com",
+                "href": "mailto:hello@avantantwerp.com"
+              },
+              {
+                "label": "Phone",
+                "value": "+32 123 456 789",
+                "href": "tel:+32123456789"
+              },
+              {
+                "label": "Office",
+                "value": "Antwerp, Belgium"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Avant Antwerp",
+            "brand": "Avant Antwerp",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Collections",
+                    "href": "/collections"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "Where fashion meets fearless artistry",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "intent": {
+    "energy": "artistic",
+    "density": "spacious",
+    "cinematicIntensity": "high",
+    "motionIntensity": "rich",
+    "copyTone": "expressive avant-garde",
+    "themeHint": "editorial-noir"
+  }
+}

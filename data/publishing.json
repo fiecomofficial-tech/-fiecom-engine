@@ -1,0 +1,36 @@
+{
+  "projects": [
+    {
+      "id": "d38c73a4-0510-4d3b-baba-b0ea03ae413b",
+      "userId": "local-demo-user",
+      "name": "Test Site",
+      "slug": "test-site",
+      "generatedConfig": {
+        "theme": {},
+        "pages": [
+          {
+            "slug": "home",
+            "sections": []
+          }
+        ]
+      },
+      "status": "published",
+      "previewUrl": null,
+      "publishedUrl": "https://test-site.fiecom.com",
+      "createdAt": "2026-05-28T00:18:25.706Z",
+      "updatedAt": "2026-05-28T00:19:19.234Z"
+    }
+  ],
+  "domains": [
+    {
+      "id": "db0de5e2-9780-47fc-b5cb-b1317fff13c3",
+      "projectId": "d38c73a4-0510-4d3b-baba-b0ea03ae413b",
+      "hostname": "test-site.fiecom.com",
+      "type": "subdomain",
+      "status": "active",
+      "verificationToken": "fiecom-02f144ad755eb5922045d91e553fbc26",
+      "createdAt": "2026-05-28T00:19:19.235Z",
+      "updatedAt": "2026-05-28T00:19:19.235Z"
+    }
+  ]
+}

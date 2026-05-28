@@ -1,0 +1,1135 @@
+{
+  "theme": {
+    "preset": "midnight-luxury"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Halcyon — Studio of motion",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "Halcyon",
+            "links": [
+              {
+                "label": "Work",
+                "href": "/work"
+              },
+              {
+                "label": "Journal",
+                "href": "/journal"
+              },
+              {
+                "label": "Careers",
+                "href": "/careers"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              },
+              {
+                "label": "Pricing",
+                "href": "/pricing"
+              }
+            ],
+            "cta": {
+              "label": "Start a project",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "HeroEditorial",
+          "content": {
+            "eyebrow": "Studio · Est. 2019",
+            "headline": "Halcyon",
+            "body": "An independent studio for editorial brands.\nFilm-grade motion. Magazine-grade typography.\nDelivered in six weeks, not six months."
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?auto=format&fit=crop&w=2000&q=80"
+            }
+          }
+        },
+        {
+          "id": "MarqueeBand",
+          "content": {
+            "items": [
+              "Editorial sites",
+              "Brand systems",
+              "Motion direction",
+              "Launch films",
+              "Art direction"
+            ],
+            "tone": "invert"
+          }
+        },
+        {
+          "id": "FeatureBento",
+          "content": {
+            "eyebrow": "Capabilities",
+            "headline": "A studio without seams.",
+            "body": "Identity, motion, editorial — one team, one cadence.",
+            "features": [
+              {
+                "title": "Editorial sites",
+                "body": "Built on Next.js with our internal motion grammar.",
+                "size": "lg"
+              },
+              {
+                "title": "Brand systems",
+                "body": "Voice, type, visual language — built to last."
+              },
+              {
+                "title": "Motion direction",
+                "body": "Choreographed scroll, first frame to footer."
+              },
+              {
+                "title": "Launch films",
+                "body": "60-second narrative cuts for product launches."
+              },
+              {
+                "title": "Naming",
+                "body": "Words that hold up under pressure."
+              },
+              {
+                "title": "Art direction",
+                "body": "On-set or in-house.",
+                "size": "md"
+              }
+            ]
+          }
+        },
+        {
+          "id": "PricingTiers",
+          "content": {
+            "eyebrow": "Engagements",
+            "headline": "Three ways to start.",
+            "tiers": [
+              {
+                "name": "Sprint",
+                "price": "€18k",
+                "period": "1 week",
+                "features": [
+                  "Brand audit",
+                  "Direction deck",
+                  "Senior team only"
+                ],
+                "cta": {
+                  "label": "Start a sprint"
+                }
+              },
+              {
+                "name": "Atelier",
+                "price": "€72k",
+                "period": "6 weeks",
+                "featured": true,
+                "features": [
+                  "Full site",
+                  "Motion system",
+                  "Identity refresh",
+                  "Launch film"
+                ],
+                "cta": {
+                  "label": "Book Atelier"
+                }
+              },
+              {
+                "name": "Studio",
+                "price": "€18k",
+                "period": "month",
+                "features": [
+                  "Embedded direction",
+                  "Weekly cadence",
+                  "Roadmap ownership"
+                ],
+                "cta": {
+                  "label": "Talk to us"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "LogoCloud",
+          "content": {
+            "eyebrow": "Selected clients",
+            "headline": "Brands we have shipped for.",
+            "clients": [
+              {
+                "name": "Vela",
+                "feature": true
+              },
+              {
+                "name": "Foundry"
+              },
+              {
+                "name": "Northstar"
+              },
+              {
+                "name": "Anvil"
+              },
+              {
+                "name": "Meridian"
+              },
+              {
+                "name": "Halcyon"
+              },
+              {
+                "name": "Tellus"
+              },
+              {
+                "name": "Cipher"
+              }
+            ]
+          }
+        },
+        {
+          "id": "CTABanner",
+          "content": {
+            "eyebrow": "Begin",
+            "headline": "Tell us about the brand.",
+            "body": "We respond within 48 hours, with a direction not a brochure.",
+            "cta": {
+              "label": "Start a project",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "Halcyon",
+            "tagline": "An independent studio for editorial brands.",
+            "giant": "Halcyon",
+            "columns": [
+              {
+                "title": "Studio",
+                "links": [
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Journal",
+                    "href": "/journal"
+                  },
+                  {
+                    "label": "Careers",
+                    "href": "/careers"
+                  }
+                ]
+              },
+              {
+                "title": "Work",
+                "links": [
+                  {
+                    "label": "Work",
+                    "href": "/work"
+                  },
+                  {
+                    "label": "Process",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "Contact",
+                "links": [
+                  {
+                    "label": "studio@halcyon.co"
+                  },
+                  {
+                    "label": "Berlin · Remote"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Start a project",
+              "href": "/contact"
+            },
+            "legal": "© 2026 Halcyon Studio"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "work",
+      "title": "Work — Halcyon",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "Halcyon",
+            "links": [
+              {
+                "label": "Work",
+                "href": "/work"
+              },
+              {
+                "label": "Journal",
+                "href": "/journal"
+              },
+              {
+                "label": "Careers",
+                "href": "/careers"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Start a project",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "PageHeader",
+          "content": {
+            "crumbs": [
+              {
+                "label": "Halcyon",
+                "href": "/"
+              },
+              {
+                "label": "Work"
+              }
+            ],
+            "eyebrow": "Selected · 2023–2026",
+            "headline": "Sites that ship like films.",
+            "body": "A small selection of the last 24 months. Full case studies on request."
+          }
+        },
+        {
+          "id": "HorizontalShowcase",
+          "content": {
+            "eyebrow": "In motion",
+            "headline": "Six recent projects.",
+            "body": "Pinned scroll — drift through each at its own pace.",
+            "cards": [
+              {
+                "title": "Vela",
+                "caption": "Editorial site · 2025"
+              },
+              {
+                "title": "Foundry",
+                "caption": "Identity & launch · 2025"
+              },
+              {
+                "title": "Northstar",
+                "caption": "Brand film · 2024"
+              },
+              {
+                "title": "Anvil",
+                "caption": "Motion system · 2024"
+              },
+              {
+                "title": "Meridian",
+                "caption": "Editorial direction · 2024"
+              },
+              {
+                "title": "Halcyon",
+                "caption": "Studio identity · 2023"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1000&q=80"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1000&q=80"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1000&q=80"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1000&q=80"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1418065460487-3e41a6c84dc5?auto=format&fit=crop&w=1000&q=80"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1000&q=80"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ImageGallery",
+          "content": {
+            "eyebrow": "Frames",
+            "headline": "Stills from the last year.",
+            "captions": [
+              {
+                "title": "Vela",
+                "year": "2025"
+              },
+              {
+                "title": "Foundry",
+                "year": "2025"
+              },
+              {
+                "title": "Northstar",
+                "year": "2024"
+              },
+              {
+                "title": "Anvil",
+                "year": "2024"
+              },
+              {
+                "title": "Meridian",
+                "year": "2024"
+              },
+              {
+                "title": "Halcyon",
+                "year": "2023"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=900&q=80"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=900&q=80"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=900&q=80"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=900&q=80"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1418065460487-3e41a6c84dc5?auto=format&fit=crop&w=900&q=80"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=900&q=80"
+              }
+            ]
+          }
+        },
+        {
+          "id": "CTABanner",
+          "content": {
+            "eyebrow": "Next",
+            "headline": "Brief us on yours.",
+            "cta": {
+              "label": "Start a project",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "Halcyon",
+            "tagline": "An independent studio for editorial brands.",
+            "giant": "Halcyon",
+            "columns": [
+              {
+                "title": "Studio",
+                "links": [
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Journal",
+                    "href": "/journal"
+                  },
+                  {
+                    "label": "Careers",
+                    "href": "/careers"
+                  }
+                ]
+              },
+              {
+                "title": "Work",
+                "links": [
+                  {
+                    "label": "Work",
+                    "href": "/work"
+                  },
+                  {
+                    "label": "Process",
+                    "href": "/about"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Start a project",
+              "href": "/contact"
+            },
+            "legal": "© 2026 Halcyon Studio"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "pricing",
+      "title": "Pricing — Halcyon",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "Halcyon",
+            "links": [
+              {
+                "label": "Work",
+                "href": "/work"
+              },
+              {
+                "label": "Journal",
+                "href": "/journal"
+              },
+              {
+                "label": "Careers",
+                "href": "/careers"
+              },
+              {
+                "label": "Pricing",
+                "href": "/pricing"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Start a project",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "PageHeader",
+          "content": {
+            "crumbs": [
+              {
+                "label": "Halcyon",
+                "href": "/"
+              },
+              {
+                "label": "Pricing"
+              }
+            ],
+            "eyebrow": "Engagements",
+            "headline": "Three ways to start.",
+            "body": "Every engagement begins with a one-week alignment sprint."
+          }
+        },
+        {
+          "id": "PricingTiers",
+          "content": {
+            "eyebrow": "Engagements",
+            "headline": "Pick a cadence.",
+            "tiers": [
+              {
+                "name": "Sprint",
+                "price": "€18k",
+                "period": "1 week",
+                "features": [
+                  "Brand audit",
+                  "Direction deck",
+                  "Senior team only"
+                ],
+                "cta": {
+                  "label": "Start a sprint"
+                }
+              },
+              {
+                "name": "Atelier",
+                "price": "€72k",
+                "period": "6 weeks",
+                "featured": true,
+                "features": [
+                  "Full site",
+                  "Motion system",
+                  "Identity refresh",
+                  "Launch film"
+                ],
+                "cta": {
+                  "label": "Book Atelier"
+                }
+              },
+              {
+                "name": "Studio",
+                "price": "€18k",
+                "period": "month",
+                "features": [
+                  "Embedded direction",
+                  "Weekly cadence",
+                  "Roadmap ownership"
+                ],
+                "cta": {
+                  "label": "Talk to us"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "FAQAccordion",
+          "content": {
+            "eyebrow": "Pricing FAQ",
+            "headline": "Common questions about engagements.",
+            "faqs": [
+              {
+                "q": "Can we pause an Atelier mid-engagement?",
+                "a": "Yes — once. The pause adds two weeks to the final date."
+              },
+              {
+                "q": "Do you take equity?",
+                "a": "Occasionally, for early-stage founders we believe in. Always alongside a meaningful cash fee."
+              }
+            ]
+          }
+        },
+        {
+          "id": "CTABanner",
+          "content": {
+            "eyebrow": "Next",
+            "headline": "Tell us about the brand.",
+            "cta": {
+              "label": "Start a project",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "Halcyon",
+            "tagline": "An independent studio for editorial brands.",
+            "giant": "Halcyon",
+            "columns": [
+              {
+                "title": "Studio",
+                "links": [
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Journal",
+                    "href": "/journal"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Start a project",
+              "href": "/contact"
+            },
+            "legal": "© 2026 Halcyon Studio"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "journal",
+      "title": "Journal — Halcyon",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "Halcyon",
+            "links": [
+              {
+                "label": "Work",
+                "href": "/work"
+              },
+              {
+                "label": "Journal",
+                "href": "/journal"
+              },
+              {
+                "label": "Careers",
+                "href": "/careers"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Start a project",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "PageHeader",
+          "content": {
+            "crumbs": [
+              {
+                "label": "Halcyon",
+                "href": "/"
+              },
+              {
+                "label": "Journal"
+              }
+            ],
+            "eyebrow": "Field notes",
+            "headline": "Studio writing.",
+            "body": "Essays on motion, type, and the work of running a small studio."
+          }
+        },
+        {
+          "id": "BlogIndex",
+          "content": {
+            "eyebrow": "Latest",
+            "headline": "Recent dispatches.",
+            "posts": [
+              {
+                "title": "The case for slow type",
+                "excerpt": "Why we set body copy in serifs again, after a decade of UI sans.",
+                "date": "April 2026",
+                "category": "Type",
+                "author": "Mira Olsen",
+                "readingMinutes": 7
+              },
+              {
+                "title": "Pinned scroll, paced like a film",
+                "excerpt": "A breakdown of the choreography behind our Vela launch.",
+                "date": "March 2026",
+                "category": "Motion",
+                "readingMinutes": 11
+              },
+              {
+                "title": "Why we built our own engine",
+                "excerpt": "Or: how a small studio ships sites in six weeks.",
+                "date": "February 2026",
+                "category": "Studio",
+                "readingMinutes": 9
+              },
+              {
+                "title": "Two-direction marquee",
+                "excerpt": "Bi-directional scroll cues without confusing the reader.",
+                "date": "January 2026",
+                "category": "Motion",
+                "readingMinutes": 5
+              },
+              {
+                "title": "Hiring senior designers in a fast-AI year",
+                "excerpt": "What changed, what didn't, what we look for now.",
+                "date": "December 2025",
+                "category": "Studio",
+                "readingMinutes": 12
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=1100&q=80"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&w=900&q=80"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=900&q=80"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=900&q=80"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=900&q=80"
+              }
+            ]
+          }
+        },
+        {
+          "id": "NewsletterSignup",
+          "content": {
+            "eyebrow": "Quarterly",
+            "headline": "Subscribe to the journal.",
+            "body": "Four dispatches a year. No marketing.",
+            "cta": {
+              "label": "Subscribe"
+            }
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "Halcyon",
+            "tagline": "An independent studio for editorial brands.",
+            "giant": "Halcyon",
+            "columns": [
+              {
+                "title": "Studio",
+                "links": [
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Journal",
+                    "href": "/journal"
+                  },
+                  {
+                    "label": "Careers",
+                    "href": "/careers"
+                  }
+                ]
+              },
+              {
+                "title": "Work",
+                "links": [
+                  {
+                    "label": "Work",
+                    "href": "/work"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Start a project",
+              "href": "/contact"
+            },
+            "legal": "© 2026 Halcyon Studio"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "careers",
+      "title": "Careers — Halcyon",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "Halcyon",
+            "links": [
+              {
+                "label": "Work",
+                "href": "/work"
+              },
+              {
+                "label": "Journal",
+                "href": "/journal"
+              },
+              {
+                "label": "Careers",
+                "href": "/careers"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Start a project",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "PageHeader",
+          "content": {
+            "crumbs": [
+              {
+                "label": "Halcyon",
+                "href": "/"
+              },
+              {
+                "label": "Careers"
+              }
+            ],
+            "eyebrow": "Working at Halcyon",
+            "headline": "We hire one person at a time.",
+            "body": "The studio is nine people. We add one role every six months, and only when the work demands it."
+          }
+        },
+        {
+          "id": "TwoColumnText",
+          "content": {
+            "eyebrow": "How we work",
+            "headline": "Slow, on purpose.",
+            "paragraphs": [
+              {
+                "heading": "One project at a time.",
+                "body": "Every senior at the studio leads one engagement end to end. No swarming, no parallelization, no junior teams."
+              },
+              {
+                "heading": "Four-day week.",
+                "body": "We work Monday to Thursday. Friday is for studio research, writing, and rest. The cadence is not a perk; it is what makes the work hold up."
+              },
+              {
+                "heading": "No agencies in disguise.",
+                "body": "We do not subcontract. Everyone on a project is in the room — direction, design, engineering — for the full six weeks."
+              }
+            ]
+          }
+        },
+        {
+          "id": "JobsList",
+          "content": {
+            "eyebrow": "Open roles",
+            "headline": "Currently hiring.",
+            "groups": [
+              {
+                "team": "Design",
+                "jobs": [
+                  {
+                    "role": "Senior brand designer",
+                    "location": "Berlin",
+                    "type": "Full-time",
+                    "description": "Lead identity systems from research to launch."
+                  },
+                  {
+                    "role": "Motion designer",
+                    "location": "Berlin / Remote",
+                    "type": "Full-time",
+                    "description": "Choreograph scroll, frame title sequences, prototype in After Effects + GSAP."
+                  }
+                ]
+              },
+              {
+                "team": "Engineering",
+                "jobs": [
+                  {
+                    "role": "Senior front-end engineer",
+                    "location": "Berlin / Remote",
+                    "type": "Full-time",
+                    "description": "Ship Next.js + GSAP sites with our internal motion grammar."
+                  }
+                ]
+              },
+              {
+                "team": "Studio",
+                "jobs": [
+                  {
+                    "role": "Producer",
+                    "location": "Berlin",
+                    "type": "Full-time",
+                    "description": "Pace each engagement, own client conversations, keep the studio cadence."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "Halcyon",
+            "tagline": "An independent studio for editorial brands.",
+            "giant": "Halcyon",
+            "columns": [
+              {
+                "title": "Studio",
+                "links": [
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Journal",
+                    "href": "/journal"
+                  },
+                  {
+                    "label": "Careers",
+                    "href": "/careers"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Start a project",
+              "href": "/contact"
+            },
+            "legal": "© 2026 Halcyon Studio"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact — Halcyon",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "Halcyon",
+            "links": [
+              {
+                "label": "Work",
+                "href": "/work"
+              },
+              {
+                "label": "Journal",
+                "href": "/journal"
+              },
+              {
+                "label": "Careers",
+                "href": "/careers"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Start a project",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "PageHeader",
+          "content": {
+            "crumbs": [
+              {
+                "label": "Halcyon",
+                "href": "/"
+              },
+              {
+                "label": "Contact"
+              }
+            ],
+            "eyebrow": "Get in touch",
+            "headline": "Tell us about the brand.",
+            "body": "One project, one senior team. We respond within 48 hours."
+          }
+        },
+        {
+          "id": "ContactForm",
+          "content": {
+            "eyebrow": "Brief us",
+            "headline": "What are we making?",
+            "body": "A few sentences is plenty. We come back with a direction, not a deck.",
+            "recipientEmail": "studio@halcyon.co",
+            "subjectTemplate": "Halcyon project brief",
+            "submitLabel": "Send brief",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Name",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "company",
+                "label": "Company"
+              },
+              {
+                "name": "scope",
+                "label": "Engagement",
+                "type": "select",
+                "options": [
+                  "Sprint (1 wk)",
+                  "Atelier (6 wks)",
+                  "Studio (retainer)",
+                  "Not sure yet"
+                ]
+              },
+              {
+                "name": "message",
+                "label": "Project",
+                "type": "textarea",
+                "required": true,
+                "placeholder": "Tell us about the brand and the timing."
+              }
+            ]
+          }
+        },
+        {
+          "id": "LinkList",
+          "content": {
+            "eyebrow": "Other channels",
+            "headline": "Where else to find us.",
+            "groups": [
+              {
+                "title": "Email",
+                "links": [
+                  {
+                    "label": "studio@halcyon.co",
+                    "description": "Project inquiries",
+                    "href": "mailto:studio@halcyon.co"
+                  },
+                  {
+                    "label": "press@halcyon.co",
+                    "description": "Press and speaking",
+                    "href": "mailto:press@halcyon.co"
+                  },
+                  {
+                    "label": "jobs@halcyon.co",
+                    "description": "Careers",
+                    "href": "mailto:jobs@halcyon.co"
+                  }
+                ]
+              },
+              {
+                "title": "Studio",
+                "links": [
+                  {
+                    "label": "Schönhauser Allee 13, Berlin",
+                    "description": "Mon–Thu · By appointment"
+                  }
+                ]
+              },
+              {
+                "title": "Elsewhere",
+                "links": [
+                  {
+                    "label": "Are.na",
+                    "description": "Studio research channel",
+                    "href": "#"
+                  },
+                  {
+                    "label": "Journal",
+                    "description": "Field notes",
+                    "href": "/journal"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "Halcyon",
+            "tagline": "An independent studio for editorial brands.",
+            "giant": "Halcyon",
+            "columns": [
+              {
+                "title": "Studio",
+                "links": [
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Journal",
+                    "href": "/journal"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Start a project",
+              "href": "/contact"
+            },
+            "legal": "© 2026 Halcyon Studio"
+          }
+        }
+      ]
+    }
+  ]
+}

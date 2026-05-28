@@ -1,0 +1,939 @@
+{
+  "theme": {
+    "preset": "midnight-luxury"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "AeroLuxe",
+            "links": [
+              {
+                "label": "Work",
+                "href": "/work"
+              },
+              {
+                "label": "Studio",
+                "href": "/about"
+              },
+              {
+                "label": "Process",
+                "href": "/process"
+              },
+              {
+                "label": "Pricing",
+                "href": "/pricing"
+              },
+              {
+                "label": "FAQ",
+                "href": "#faq"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Book a Flight"
+            }
+          }
+        },
+        {
+          "id": "HeroCinematic",
+          "content": {
+            "eyebrow": "Private Jet Charters",
+            "headline": "Luxury In The Sky",
+            "subhead": "Fly Beyond",
+            "body": "Experience seamless, bespoke travel with AeroLuxe — where time, privacy, and elegance accompany every mile.",
+            "cta": {
+              "label": "Start Your Journey"
+            }
+          }
+        },
+        {
+          "id": "MarqueeBand",
+          "content": {
+            "items": [
+              "24/7 Concierge",
+              "Transcontinental Flights",
+              "Onboard Private Chef",
+              "Seamless Ground Transfers",
+              "Discreet Service",
+              "Customizable Itineraries"
+            ],
+            "tone": "invert"
+          }
+        },
+        {
+          "id": "FeatureBento",
+          "content": {
+            "eyebrow": "What Sets Us Apart",
+            "headline": "Unmatched Private Aviation Experience",
+            "features": [
+              {
+                "title": "Tailored Flight Plans",
+                "body": "Design your schedule, choose your destination, and depart on your timeline.",
+                "size": "md"
+              },
+              {
+                "title": "Elite Aircraft Fleet",
+                "body": "From light jets to long-range luxury cabins, our fleet is maintained to perfection.",
+                "size": "md"
+              },
+              {
+                "title": "Private Terminal Access",
+                "body": "Avoid crowds and delays with exclusive FBO lounges and expedited boarding.",
+                "size": "sm"
+              },
+              {
+                "title": "Personalized In-Flight Service",
+                "body": "Enjoy gourmet dining and attentive staff for a bespoke onboard experience.",
+                "size": "md"
+              },
+              {
+                "title": "Global Reach",
+                "body": "Access 6,000+ airports worldwide and reach remote destinations with ease.",
+                "size": "sm"
+              },
+              {
+                "title": "Total Discretion",
+                "body": "Your privacy and confidentiality are guaranteed from door to door.",
+                "size": "md"
+              }
+            ]
+          }
+        },
+        {
+          "id": "StatsCounter",
+          "content": {
+            "eyebrow": "At A Glance",
+            "headline": "AeroLuxe By The Numbers",
+            "stats": [
+              {
+                "value": 17,
+                "suffix": "+",
+                "label": "Years of Operation"
+              },
+              {
+                "value": 42,
+                "suffix": "",
+                "label": "Aircraft In Fleet"
+              },
+              {
+                "value": 96,
+                "suffix": "%",
+                "label": "Client Retention Rate"
+              },
+              {
+                "value": 6000,
+                "suffix": "+",
+                "label": "Destinations Served"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ProcessSteps",
+          "content": {
+            "eyebrow": "How It Works",
+            "headline": "Your Journey, Simplified",
+            "steps": [
+              {
+                "number": "01",
+                "title": "Request & Personalize",
+                "body": "Submit your desired itinerary and preferences — our concierge handles the rest."
+              },
+              {
+                "number": "02",
+                "title": "Seamless Boarding",
+                "body": "Arrive at a private terminal, avoid lines, and step directly onto your jet."
+              },
+              {
+                "number": "03",
+                "title": "Elevated In-Flight Experience",
+                "body": "Enjoy tailored amenities and exceptional comfort throughout your journey."
+              },
+              {
+                "number": "04",
+                "title": "Arrival & Beyond",
+                "body": "Private ground transport and bespoke arrangements for your destination."
+              }
+            ]
+          }
+        },
+        {
+          "id": "ImageGallery",
+          "content": {
+            "eyebrow": "Visual Journey",
+            "headline": "Inside the AeroLuxe Experience",
+            "captions": [
+              {
+                "title": "Gulfstream G650 Cabin",
+                "year": "2023"
+              },
+              {
+                "title": "Chef-Crafted Dining"
+              },
+              {
+                "title": "Private Terminal Lounge"
+              },
+              {
+                "title": "Evening Takeoff"
+              },
+              {
+                "title": "Leather Reclining Seats"
+              },
+              {
+                "title": "Sky-High Meetings"
+              },
+              {
+                "title": "Signature Welcome Service"
+              },
+              {
+                "title": "City Lights Approach"
+              },
+              {
+                "title": "Personalized Touches"
+              }
+            ]
+          }
+        },
+        {
+          "id": "CTABanner",
+          "content": {
+            "eyebrow": "Ready to Fly?",
+            "headline": "Unlock a New Standard in Personal Air Travel",
+            "body": "Discover the AeroLuxe advantage with your next journey.",
+            "cta": {
+              "label": "Speak With Concierge"
+            }
+          }
+        },
+        {
+          "id": "TestimonialCarousel",
+          "content": {
+            "eyebrow": "Our Clients Say",
+            "testimonials": [
+              {
+                "quote": "AeroLuxe made international travel effortless. The service was immaculate and truly private.",
+                "author": "Samantha Greene",
+                "role": "CEO",
+                "org": "Luxura Ventures"
+              },
+              {
+                "quote": "From the custom catering to the seamless ground transfers, every detail was perfect.",
+                "author": "James Santoro",
+                "role": "Managing Director",
+                "org": "Santoro Capital"
+              },
+              {
+                "quote": "Their team delivered true luxury and discretion — I wouldn’t fly any other way.",
+                "author": "Elena Kovacs",
+                "role": "Fashion Designer"
+              }
+            ]
+          }
+        },
+        {
+          "id": "PricingTiers",
+          "content": {
+            "eyebrow": "Transparent Value",
+            "headline": "Private Jet Charter Pricing",
+            "tiers": [
+              {
+                "name": "Light Jet",
+                "price": "$5,200",
+                "period": "per hour",
+                "description": "Ideal for regional hops or quick business trips.",
+                "features": [
+                  "Seats 4-6",
+                  "Range up to 2,000 miles",
+                  "Onboard refreshments",
+                  "Private terminal access"
+                ],
+                "featured": false,
+                "cta": {
+                  "label": "Enquire"
+                }
+              },
+              {
+                "name": "Midsize Jet",
+                "price": "$7,800",
+                "period": "per hour",
+                "description": "For longer flights and elevated comfort.",
+                "features": [
+                  "Seats 6-8",
+                  "Range up to 3,200 miles",
+                  "Gourmet catering",
+                  "Enhanced cabin space"
+                ],
+                "featured": true,
+                "cta": {
+                  "label": "Reserve Now"
+                }
+              },
+              {
+                "name": "Large Jet",
+                "price": "$11,500",
+                "period": "per hour",
+                "description": "Ultimate luxury for transcontinental journeys.",
+                "features": [
+                  "Seats 10-16",
+                  "Range up to 7,000 miles",
+                  "Private bedroom & shower",
+                  "Dedicated flight attendant"
+                ],
+                "featured": false,
+                "cta": {
+                  "label": "Request Quote"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "FAQAccordion",
+          "content": {
+            "eyebrow": "Frequently Asked Questions",
+            "headline": "Your Questions, Answered",
+            "faqs": [
+              {
+                "q": "How far in advance should I book a flight?",
+                "a": "We recommend booking at least 24-48 hours ahead to ensure preferred aircraft availability, but we can often accommodate urgent requests."
+              },
+              {
+                "q": "Can I bring pets on board?",
+                "a": "Yes, AeroLuxe welcomes pets and will make all necessary arrangements for their comfort and safety. Please inform us in advance."
+              },
+              {
+                "q": "Which airports can I use with AeroLuxe?",
+                "a": "You can access major and regional airports, plus exclusive private terminals at over 6,000 locations worldwide."
+              },
+              {
+                "q": "Is there Wi-Fi on every flight?",
+                "a": "Most aircraft in our fleet offer high-speed Wi-Fi. Please request this amenity if needed when booking your flight."
+              },
+              {
+                "q": "How does onboard catering work?",
+                "a": "Menus are fully customizable. Enjoy chef-prepared meals tailored to your tastes, dietary needs, and desired cuisine."
+              }
+            ]
+          }
+        },
+        {
+          "id": "ContactBlock",
+          "content": {
+            "eyebrow": "Contact",
+            "headline": "Begin Your AeroLuxe Journey",
+            "body": "Our concierge team is available around the clock to assist with all inquiries and booking requests.",
+            "cta": {
+              "label": "Email Our Concierge",
+              "href": "mailto:concierge@aeroluxe.com"
+            },
+            "details": [
+              {
+                "label": "Concierge",
+                "value": "+1 212 555 8473"
+              },
+              {
+                "label": "General Inquiries",
+                "value": "info@aeroluxe.com",
+                "href": "mailto:info@aeroluxe.com"
+              },
+              {
+                "label": "Private Terminal",
+                "value": "Teterboro Airport, NJ"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ClosingCTA",
+          "content": {
+            "eyebrow": "Next Level Service",
+            "headline": "Your Sky Awaits",
+            "subhead": "Step aboard and discover a world where luxury, privacy, and precision take flight.",
+            "cta": {
+              "label": "Request a Flight"
+            }
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "AeroLuxe",
+            "giant": "AEROLUXE",
+            "tagline": "Private Jet Charters | Luxury Without Limits",
+            "columns": [
+              {
+                "title": "Studio",
+                "links": [
+                  {
+                    "label": "About"
+                  },
+                  {
+                    "label": "Editorial"
+                  },
+                  {
+                    "label": "Identity"
+                  },
+                  {
+                    "label": "Contact"
+                  }
+                ]
+              },
+              {
+                "title": "Work",
+                "links": [
+                  {
+                    "label": "Motion"
+                  },
+                  {
+                    "label": "Films"
+                  },
+                  {
+                    "label": "Journal"
+                  },
+                  {
+                    "label": "Careers"
+                  }
+                ]
+              },
+              {
+                "title": "Explore",
+                "links": [
+                  {
+                    "label": "Features"
+                  },
+                  {
+                    "label": "Pricing"
+                  },
+                  {
+                    "label": "Process"
+                  },
+                  {
+                    "label": "FAQ"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Start Your Journey"
+            },
+            "legal": "© 2024 AeroLuxe. All rights reserved."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "work",
+      "title": "Work",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "AeroLuxe",
+            "links": [
+              {
+                "label": "Work",
+                "href": "/work"
+              },
+              {
+                "label": "Studio",
+                "href": "/about"
+              },
+              {
+                "label": "Process",
+                "href": "/process"
+              },
+              {
+                "label": "Pricing",
+                "href": "/pricing"
+              },
+              {
+                "label": "FAQ",
+                "href": "#faq"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Book a Flight"
+            }
+          }
+        },
+        {
+          "id": "PageHeader",
+          "content": {
+            "crumbs": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Work"
+              }
+            ],
+            "headline": "Client Journeys & Signature Flights",
+            "body": "Explore how AeroLuxe redefines luxury travel for business leaders, creatives, and discerning travelers."
+          }
+        },
+        {
+          "id": "HorizontalShowcase",
+          "content": {
+            "eyebrow": "A Selection",
+            "headline": "Signature Flights Across The Globe",
+            "body": "From European business hops to Caribbean escapes, AeroLuxe delivers tailored journeys for every need.",
+            "cards": [
+              {
+                "title": "London to Nice",
+                "caption": "Midsize Jet | Fashion Week Transfer"
+              },
+              {
+                "title": "New York to Aspen",
+                "caption": "Large Jet | Ski Season Getaway"
+              },
+              {
+                "title": "Hong Kong to Maldives",
+                "caption": "The Ultra-Long Range Experience"
+              },
+              {
+                "title": "Los Angeles to Hawaii",
+                "caption": "Family Escape With Gourmet Dining"
+              },
+              {
+                "title": "Zurich to Dubai",
+                "caption": "Executive Retreat"
+              }
+            ]
+          }
+        },
+        {
+          "id": "MessageReveal",
+          "content": {
+            "firstLine": "Every Journey Is",
+            "accent": "Bespoke",
+            "secondLine": "With AeroLuxe",
+            "body": "Our commitment is crafting experiences as unique as each client’s vision."
+          }
+        },
+        {
+          "id": "ImageGallery",
+          "content": {
+            "eyebrow": "Gallery",
+            "headline": "Scenes From Our Flights",
+            "captions": [
+              {
+                "title": "Champagne Toast"
+              },
+              {
+                "title": "Mountain Arrival"
+              },
+              {
+                "title": "Private Briefing Room"
+              },
+              {
+                "title": "Onboard Celebration"
+              },
+              {
+                "title": "Luxury Cabin Details"
+              },
+              {
+                "title": "Jet Over The Alps"
+              },
+              {
+                "title": "Family Welcome"
+              },
+              {
+                "title": "Luggage Concierge"
+              },
+              {
+                "title": "Night Landing"
+              }
+            ]
+          }
+        },
+        {
+          "id": "TestimonialCarousel",
+          "content": {
+            "eyebrow": "Client Experiences",
+            "testimonials": [
+              {
+                "quote": "A flawless experience from curbside to touchdown. AeroLuxe is the gold standard.",
+                "author": "David Lin",
+                "role": "Investor"
+              },
+              {
+                "quote": "My family felt safe, pampered, and at ease — every detail was impeccable.",
+                "author": "Marie Dubois",
+                "role": "Artist"
+              },
+              {
+                "quote": "Flying for business is now a pleasure. Punctual, private, and always comfortable.",
+                "author": "Carlos Mendes",
+                "role": "Founder",
+                "org": "Mendes Group"
+              }
+            ]
+          }
+        },
+        {
+          "id": "CTABanner",
+          "content": {
+            "eyebrow": "Inspired?",
+            "headline": "Let Us Tailor Your Next Flight",
+            "body": "Reach out to design a journey that matches your aspirations.",
+            "cta": {
+              "label": "Connect With Us"
+            }
+          }
+        },
+        {
+          "id": "ClosingCTA",
+          "content": {
+            "eyebrow": "Elevate Your Expectations",
+            "headline": "AeroLuxe. Where Journeys Become Destinations.",
+            "subhead": "Book your signature flight and experience personalized aviation.",
+            "cta": {
+              "label": "Start Planning"
+            }
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "AeroLuxe",
+            "giant": "AEROLUXE",
+            "tagline": "Private Jet Charters | Luxury Without Limits",
+            "columns": [
+              {
+                "title": "Studio",
+                "links": [
+                  {
+                    "label": "About"
+                  },
+                  {
+                    "label": "Editorial"
+                  },
+                  {
+                    "label": "Identity"
+                  },
+                  {
+                    "label": "Contact"
+                  }
+                ]
+              },
+              {
+                "title": "Work",
+                "links": [
+                  {
+                    "label": "Motion"
+                  },
+                  {
+                    "label": "Films"
+                  },
+                  {
+                    "label": "Journal"
+                  },
+                  {
+                    "label": "Careers"
+                  }
+                ]
+              },
+              {
+                "title": "Explore",
+                "links": [
+                  {
+                    "label": "Features"
+                  },
+                  {
+                    "label": "Pricing"
+                  },
+                  {
+                    "label": "Process"
+                  },
+                  {
+                    "label": "FAQ"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Start Your Journey"
+            },
+            "legal": "© 2024 AeroLuxe. All rights reserved."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "title": "Studio",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "AeroLuxe",
+            "links": [
+              {
+                "label": "Work",
+                "href": "/work"
+              },
+              {
+                "label": "Studio",
+                "href": "/about"
+              },
+              {
+                "label": "Process",
+                "href": "/process"
+              },
+              {
+                "label": "Pricing",
+                "href": "/pricing"
+              },
+              {
+                "label": "FAQ",
+                "href": "#faq"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Book a Flight"
+            }
+          }
+        },
+        {
+          "id": "PageHeader",
+          "content": {
+            "crumbs": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Studio"
+              }
+            ],
+            "eyebrow": "About AeroLuxe",
+            "headline": "Crafting Bespoke Aviation",
+            "body": "Meet the people and vision behind the world’s most refined private jet experience."
+          }
+        },
+        {
+          "id": "StickyChapters",
+          "content": {
+            "chapters": [
+              {
+                "title": "Founded to Redefine Private Air Travel in 2007.",
+                "body": "AeroLuxe began with a single vision: to create seamless, luxurious, and entirely personal journeys."
+              },
+              {
+                "title": "A Team of Aviation Veterans and Service Artisans.",
+                "body": "Each member brings decades of experience, ensuring safety and five-star hospitality."
+              },
+              {
+                "title": "Driven by Discretion, Craft, and Innovation.",
+                "body": "We invest in technology, comfort, and privacy to provide unmatched peace of mind."
+              }
+            ]
+          }
+        },
+        {
+          "id": "StatsCounter",
+          "content": {
+            "eyebrow": "Our Studio",
+            "headline": "Pillars Of AeroLuxe",
+            "stats": [
+              {
+                "value": 80,
+                "suffix": "+",
+                "label": "Dedicated Crew & Staff"
+              },
+              {
+                "value": 15,
+                "suffix": "",
+                "label": "Nationalities Represented"
+              },
+              {
+                "value": 2500,
+                "suffix": "+",
+                "label": "Flights Annually"
+              }
+            ]
+          }
+        },
+        {
+          "id": "FeatureList",
+          "content": {
+            "eyebrow": "Our Values",
+            "headline": "What Guides Our Service",
+            "features": [
+              {
+                "title": "Safety First",
+                "body": "Every journey meets rigorous safety standards and regular audits.",
+                "meta": "IS-BAO Stage 3 Certified"
+              },
+              {
+                "title": "Absolute Discretion",
+                "body": "Your privacy is paramount, from reservations to arrival.",
+                "meta": "Non-Disclosure Protocols"
+              },
+              {
+                "title": "Sustainability",
+                "body": "We invest in carbon offset programs and efficient fleet operations.",
+                "meta": "Green Skies Pledge"
+              },
+              {
+                "title": "Service Excellence",
+                "body": "Our team elevates every detail to anticipate your needs.",
+                "meta": "24/7 Concierge"
+              },
+              {
+                "title": "Innovation",
+                "body": "Technology-driven solutions streamline booking and in-flight experience.",
+                "meta": "AeroLuxe App"
+              }
+            ]
+          }
+        },
+        {
+          "id": "TimelineScroll",
+          "content": {
+            "eyebrow": "Our Story",
+            "headline": "Milestones",
+            "events": [
+              {
+                "year": "2007",
+                "title": "AeroLuxe Founded",
+                "body": "Launched with a mission to deliver unrivaled personalized aviation."
+              },
+              {
+                "year": "2012",
+                "title": "Fleet Expansion",
+                "body": "Doubled aircraft range and introduced long-haul jet service."
+              },
+              {
+                "year": "2016",
+                "title": "Client App Launch",
+                "body": "Rolled out streamlined digital booking and trip management."
+              },
+              {
+                "year": "2020",
+                "title": "Sustainability Commitment",
+                "body": "Became the first regional jet company to offer carbon offset options."
+              },
+              {
+                "year": "2023",
+                "title": "Global Awards",
+                "body": "Recognized by LuxTravel Magazine for Excellence in Luxury Aviation."
+              }
+            ]
+          }
+        },
+        {
+          "id": "TestimonialCarousel",
+          "content": {
+            "eyebrow": "Industry Voices",
+            "testimonials": [
+              {
+                "quote": "AeroLuxe sets the benchmark for discretion and client care in private aviation.",
+                "author": "Brian O’Connell",
+                "role": "Travel Editor",
+                "org": "LuxTravel Magazine"
+              },
+              {
+                "quote": "An unwavering commitment to safety and service sets this team apart.",
+                "author": "Jennifer Wu",
+                "role": "Aviation Consultant"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ClosingCTA",
+          "content": {
+            "eyebrow": "Meet Our Studio",
+            "headline": "A New Standard Awaits",
+            "subhead": "Contact the AeroLuxe team and experience the difference in bespoke jet travel.",
+            "cta": {
+              "label": "Connect With Us"
+            }
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "AeroLuxe",
+            "giant": "AEROLUXE",
+            "tagline": "Private Jet Charters | Luxury Without Limits",
+            "columns": [
+              {
+                "title": "Studio",
+                "links": [
+                  {
+                    "label": "About"
+                  },
+                  {
+                    "label": "Editorial"
+                  },
+                  {
+                    "label": "Identity"
+                  },
+                  {
+                    "label": "Contact"
+                  }
+                ]
+              },
+              {
+                "title": "Work",
+                "links": [
+                  {
+                    "label": "Motion"
+                  },
+                  {
+                    "label": "Films"
+                  },
+                  {
+                    "label": "Journal"
+                  },
+                  {
+                    "label": "Careers"
+                  }
+                ]
+              },
+              {
+                "title": "Explore",
+                "links": [
+                  {
+                    "label": "Features"
+                  },
+                  {
+                    "label": "Pricing"
+                  },
+                  {
+                    "label": "Process"
+                  },
+                  {
+                    "label": "FAQ"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Start Your Journey"
+            },
+            "legal": "© 2024 AeroLuxe. All rights reserved."
+          }
+        }
+      ]
+    }
+  ]
+}

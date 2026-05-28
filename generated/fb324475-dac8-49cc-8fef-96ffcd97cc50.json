@@ -1,0 +1,742 @@
+{
+  "theme": {
+    "preset": "warm-sand",
+    "bg": "#FFF5E1",
+    "ink": "#362C24",
+    "bgAccent": "#FCEBD4",
+    "fontDisplay": "Georgia, serif",
+    "fontBody": "Arial, sans-serif"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Sweet Amsterdam Cupcakery",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Menu",
+                "href": "/menu"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Order Now",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineHero",
+          "content": {
+            "eyebrow": "Freshly Baked",
+            "headline": "Artisan Cupcakes in Amsterdam",
+            "accent": "Sweet Delight",
+            "body": "Discover our handcrafted cupcakes made with love and the finest ingredients.",
+            "cta": {
+              "label": "Explore Menu",
+              "href": "/menu"
+            },
+            "secondaryCta": {
+              "label": "Visit Us",
+              "href": "/contact"
+            }
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/18101274/pexels-photo-18101274.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Vibrant cupcakes showcased in a Lalitpur bakery, ideal for food photography enthusiasts.",
+              "attributionAuthor": "nusi limbu",
+              "attributionUrl": "https://www.pexels.com/photo/close-up-of-cupcakes-in-store-18101274/"
+            }
+          }
+        },
+        {
+          "id": "BaselineLogoBar",
+          "content": {
+            "eyebrow": "Trusted by Locals",
+            "clients": [
+              {
+                "name": "Amsterdam Foodies"
+              },
+              {
+                "name": "Local Markets"
+              },
+              {
+                "name": "Weekend Brunchers"
+              },
+              {
+                "name": "Sweet Lovers"
+              }
+            ]
+          }
+        },
+        {
+          "id": "MarqueeBand",
+          "content": {
+            "items": [
+              "Sweet Amsterdam Cupcakery",
+              "Strategy",
+              "Motion",
+              "Proof",
+              "Conversion"
+            ],
+            "tone": "normal"
+          }
+        },
+        {
+          "id": "BaselineFeatures",
+          "content": {
+            "eyebrow": "Signature Flavors",
+            "headline": "Our Most Loved Cupcakes",
+            "accent": "Handcrafted daily",
+            "features": [
+              {
+                "eyebrow": "01 — Classic Vanilla",
+                "title": "Velvety Vanilla with Buttercream",
+                "body": "A timeless favorite with delicate flavors and creamy frosting."
+              },
+              {
+                "eyebrow": "02 — Rich Chocolate",
+                "title": "Decadent Dark Chocolate",
+                "body": "Moist chocolate cupcake topped with luscious ganache."
+              },
+              {
+                "eyebrow": "03 — Seasonal Berry",
+                "title": "Fresh Berry Twist",
+                "body": "Inspired by local fruits, bursting with fresh seasonal berries."
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/12171163/pexels-photo-12171163.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Close-up of a cupcake with frosting, sprinkles, and edible flowers on a plate.",
+              "attributionAuthor": "Jordan Rushton",
+              "attributionUrl": "https://www.pexels.com/photo/a-cupcake-on-a-plate-12171163/"
+            },
+            "secondary": {
+              "url": "https://images.pexels.com/photos/9295343/pexels-photo-9295343.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Three chocolate cupcakes with creamy frosting and sprinkles displayed elegantly with decor.",
+              "attributionAuthor": "Skyler Ewing",
+              "attributionUrl": "https://www.pexels.com/photo/cupcakes-on-white-platforms-9295343/"
+            },
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/9579405/pexels-photo-9579405.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Mouth-watering cupcakes topped with fresh berries and whipped cream, perfect for a sweet treat.",
+                "attributionAuthor": "Kiril Georgiev",
+                "attributionUrl": "https://www.pexels.com/photo/close-up-shot-of-cupcakes-9579405/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/8014818/pexels-photo-8014818.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Delicious cupcakes with colorful balloons create a festive celebration atmosphere.",
+                "attributionAuthor": "Cup of  Couple",
+                "attributionUrl": "https://www.pexels.com/photo/an-assortment-of-birthday-cupcakes-8014818/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/5112583/pexels-photo-5112583.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Close-up display of artisan breads and sandwiches on wooden platter, highlighting baked goods.",
+                "attributionAuthor": "Shameel mukkath",
+                "attributionUrl": "https://www.pexels.com/photo/delectable-baked-goods-in-tilt-shift-lens-5112583/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineTestimonials",
+          "content": {
+            "eyebrow": "Happy Customers",
+            "headline": "What Locals Say",
+            "testimonials": [
+              {
+                "quote": "The best cupcakes in Amsterdam, always fresh and delicious!",
+                "author": "Sophie",
+                "role": "Regular Customer"
+              },
+              {
+                "quote": "Unique flavors that remind me of home and comfort.",
+                "author": "Jeroen",
+                "role": "Food Blogger"
+              },
+              {
+                "quote": "A cozy bakery with truly artisan treats worth visiting.",
+                "author": "Lena",
+                "role": "Local Resident"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineCTA",
+          "content": {
+            "eyebrow": "Order Today",
+            "headline": "Taste the Artisan Difference",
+            "accent": "Warmly Yours",
+            "body": "Visit our Amsterdam bakery or place your cupcake order online now.",
+            "cta": {
+              "label": "Order Online",
+              "href": "/contact"
+            },
+            "secondaryCta": {
+              "label": "Plan Your Visit",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Sweet Amsterdam Cupcakery",
+            "brand": "Sweet Amsterdam Cupcakery",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Menu",
+                    "href": "/menu"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "true",
+            "tagline": "Baking joy in every bite",
+            "meta": [
+              {
+                "label": "Privacy Policy"
+              },
+              {
+                "label": "Terms of Service"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "title": "About",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Sweet Amsterdam Cupcakery",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Menu",
+                "href": "/menu"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Order Now",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselinePageHeader",
+          "content": {
+            "eyebrow": "About",
+            "headline": "Our Story and Values",
+            "body": "Discover how our Amsterdam bakery crafts cupcakes with passion and local ingredients.",
+            "accent": "Artisan Roots"
+          }
+        },
+        {
+          "id": "BaselineAboutNarrative",
+          "content": {
+            "body": "Founded in the heart of Amsterdam, Sweet Amsterdam Cupcakery brings traditional recipes to life with a modern touch. We source natural, local ingredients to ensure freshness and support our community.",
+            "pillarEyebrow": "Core pillars",
+            "pillarHeadline": "Quality, Tradition, Community",
+            "pillars": [
+              {
+                "title": "Handcrafted",
+                "body": "Each cupcake is made by hand with attention to detail."
+              },
+              {
+                "title": "Local Ingredients",
+                "body": "We support local farmers and use seasonal produce."
+              },
+              {
+                "title": "Sustainability",
+                "body": "Eco-friendly packaging and mindful baking practices."
+              }
+            ],
+            "statsEyebrow": "By the numbers",
+            "stats": [
+              {
+                "value": "2015",
+                "label": "Founded"
+              },
+              {
+                "value": "10k+",
+                "label": "Cupcakes sold/year"
+              },
+              {
+                "value": "5",
+                "label": "Award-winning recipes"
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/17845/pexels-photo.jpg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "A close-up shot of a hand reviewing various logo designs on paper, ideal for business concepts.",
+              "attributionAuthor": "Roman Pohorecki",
+              "attributionUrl": "https://www.pexels.com/photo/hand-on-top-of-paper-17845/"
+            }
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Sweet Amsterdam Cupcakery",
+            "brand": "Sweet Amsterdam Cupcakery",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Menu",
+                    "href": "/menu"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "true",
+            "tagline": "Baking joy in every bite",
+            "meta": [
+              {
+                "label": "Privacy Policy"
+              },
+              {
+                "label": "Terms of Service"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "menu",
+      "title": "Menu",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Sweet Amsterdam Cupcakery",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Menu",
+                "href": "/menu"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Order Now",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselinePageHeader",
+          "content": {
+            "eyebrow": "Menu",
+            "headline": "Cupcakes and Specials",
+            "body": "Explore our variety of cupcake flavors and seasonal specialties.",
+            "accent": "Seasonal Flavors"
+          }
+        },
+        {
+          "id": "FeatureList",
+          "content": {
+            "eyebrow": "Cupcake Varieties",
+            "headline": "Delight In Every Bite",
+            "features": [
+              {
+                "title": "Classic Vanilla",
+                "body": "Light vanilla base topped with creamy buttercream."
+              },
+              {
+                "title": "Rich Chocolate",
+                "body": "Moist chocolate cake with decadent ganache."
+              },
+              {
+                "title": "Lemon Raspberry",
+                "body": "Zesty lemon cupcake with fresh raspberry topping."
+              },
+              {
+                "title": "Salted Caramel",
+                "body": "Sweet caramel cupcake with a hint of sea salt."
+              },
+              {
+                "title": "Seasonal Berry",
+                "body": "Cupcake inspired by fresh, local seasonal berries."
+              }
+            ]
+          }
+        },
+        {
+          "id": "PricingTiers",
+          "content": {
+            "eyebrow": "Pricing",
+            "headline": "Simple Transparent Pricing",
+            "tiers": [
+              {
+                "title": "Starter Pack",
+                "body": "Perfect for a small treat or gathering.",
+                "cta": {
+                  "label": "Choose plan",
+                  "href": "/contact"
+                }
+              },
+              {
+                "title": "Party Box",
+                "body": "A selection ideal for celebrations.",
+                "cta": {
+                  "label": "Choose plan",
+                  "href": "/contact"
+                }
+              },
+              {
+                "title": "Custom Orders",
+                "body": "Tailored cupcakes for your special events.",
+                "cta": {
+                  "label": "Choose plan",
+                  "href": "/contact"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "FAQAccordion",
+          "content": {
+            "eyebrow": "FAQ",
+            "headline": "Frequently Asked Questions",
+            "faqs": [
+              {
+                "title": "Do you offer vegan options?",
+                "body": "Yes, we have select vegan cupcakes available seasonally."
+              },
+              {
+                "title": "Can I order custom designs?",
+                "body": "Custom orders are welcome with advance notice."
+              },
+              {
+                "title": "What are your opening hours?",
+                "body": "We are open from 8am to 6pm every day."
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Sweet Amsterdam Cupcakery",
+            "brand": "Sweet Amsterdam Cupcakery",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Menu",
+                    "href": "/menu"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "true",
+            "tagline": "Baking joy in every bite",
+            "meta": [
+              {
+                "label": "Privacy Policy"
+              },
+              {
+                "label": "Terms of Service"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Sweet Amsterdam Cupcakery",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Menu",
+                "href": "/menu"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Order Now",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselinePageHeader",
+          "content": {
+            "eyebrow": "Contact",
+            "headline": "Get in Touch with Us",
+            "body": "Reach out for orders, questions, or a warm welcome at our bakery.",
+            "accent": "We're Here for You"
+          }
+        },
+        {
+          "id": "BaselineContact",
+          "content": {
+            "formTitle": "Send Us a Message",
+            "formBody": "Fill out the form or contact us directly.",
+            "recipientEmail": "hello@sweetamsterdamcupcakery.com",
+            "subjectTemplate": "Website Inquiry",
+            "details": [
+              {
+                "label": "Email",
+                "value": "hello@sweetamsterdamcupcakery.com",
+                "href": "mailto:hello@sweetamsterdamcupcakery.com"
+              },
+              {
+                "label": "Phone",
+                "value": "+31 20 123 4567",
+                "href": "tel:+31201234567"
+              },
+              {
+                "label": "Location",
+                "value": "123 Cupcake Street, Amsterdam"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Sweet Amsterdam Cupcakery",
+            "brand": "Sweet Amsterdam Cupcakery",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Menu",
+                    "href": "/menu"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "true",
+            "tagline": "Baking joy in every bite",
+            "meta": [
+              {
+                "label": "Privacy Policy"
+              },
+              {
+                "label": "Terms of Service"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "intent": {
+    "energy": "editorial",
+    "density": "spacious",
+    "cinematicIntensity": "moderate",
+    "motionIntensity": "subtle",
+    "copyTone": "warm inviting",
+    "themeHint": "warm-sand"
+  }
+}

@@ -1,0 +1,280 @@
+{
+  "theme": { "preset": "fintech-minimal" },
+  "sections": [
+    {
+      "id": "StickyNavbar",
+      "content": {
+        "brand": "Ledger",
+        "links": [
+          { "label": "Product" },
+          { "label": "Pricing" },
+          { "label": "Customers" },
+          { "label": "Docs" },
+          { "label": "Contact" }
+        ],
+        "cta": { "label": "Start free" }
+      }
+    },
+    {
+      "id": "HeroCinematic",
+      "content": {
+        "eyebrow": "Treasury · Modern teams",
+        "headline": "Ledger",
+        "subhead": "Always-on",
+        "body": "Multi-currency treasury, reconciled in seconds, audited by default.",
+        "cta": { "label": "Start free trial" }
+      },
+      "images": {
+        "primary": { "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=2000&q=80" }
+      }
+    },
+    {
+      "id": "LogoCloud",
+      "content": {
+        "eyebrow": "Trusted by",
+        "headline": "Teams running €4B+ in monthly volume.",
+        "clients": [
+          { "name": "Vela", "feature": true },
+          { "name": "Foundry" },
+          { "name": "Northstar" },
+          { "name": "Anvil" },
+          { "name": "Meridian" },
+          { "name": "Halcyon" },
+          { "name": "Tellus" },
+          { "name": "Cipher" }
+        ]
+      }
+    },
+    {
+      "id": "MessageReveal",
+      "content": {
+        "firstLine": "Finance teams move at the speed",
+        "accent": "of code",
+        "secondLine": "not the speed of spreadsheets.",
+        "body": "Ledger replaces five tools with one API and one screen."
+      }
+    },
+    {
+      "id": "MetricRow",
+      "content": {
+        "eyebrow": "Live operating metrics",
+        "headline": "What a Ledger month looks like.",
+        "metrics": [
+          { "value": "€412M", "label": "Volume reconciled this month", "delta": "+18.2%", "trend": "up" },
+          { "value": "97.4%", "label": "Auto-match rate", "delta": "+1.1pp", "trend": "up" },
+          { "value": "3.1s", "label": "Median close latency", "delta": "-0.6s", "trend": "up" },
+          { "value": "0", "label": "Open exceptions", "delta": "flat", "trend": "flat" }
+        ]
+      }
+    },
+    {
+      "id": "FeatureBento",
+      "content": {
+        "eyebrow": "Built into the platform",
+        "headline": "One workspace. The whole stack.",
+        "body": "Replace your treasury, reconciliation, payments, and audit tooling with one engine.",
+        "features": [
+          { "title": "Treasury", "body": "Multi-currency cash positions reconciled in real time. Sweep rules, forecasts, FX hedging built in.", "size": "lg" },
+          { "title": "Reconciliation", "body": "97% auto-match on day one, 99.4% by month three." },
+          { "title": "Payments", "body": "ACH, SEPA, FX, card — one API, one ledger." },
+          { "title": "Audit trail", "body": "Every state change signed, indexed, and exportable." },
+          { "title": "Permissions", "body": "Granular roles, SCIM, SAML — enterprise from day one." },
+          { "title": "API & webhooks", "body": "REST, GraphQL, idempotent retries, signed webhooks.", "size": "md" }
+        ]
+      }
+    },
+    {
+      "id": "DataTable",
+      "content": {
+        "eyebrow": "Side by side",
+        "headline": "How Ledger compares.",
+        "body": "Functionality typical finance teams stitch together from five vendors.",
+        "columns": [
+          { "key": "feature", "label": "Capability" },
+          { "key": "ledger", "label": "Ledger" },
+          { "key": "legacy", "label": "Legacy stack" }
+        ],
+        "rows": [
+          { "feature": "Real-time reconciliation", "ledger": "Built in", "legacy": "Bolt-on, batch nightly" },
+          { "feature": "Multi-currency treasury", "ledger": "Built in", "legacy": "Separate TMS" },
+          { "feature": "Audit trail", "ledger": "Cryptographically signed", "legacy": "CSV exports" },
+          { "feature": "SCIM / SAML SSO", "ledger": "Included", "legacy": "Enterprise add-on" },
+          { "feature": "Deployment", "ledger": "Hosted or self-hosted", "legacy": "Hosted only" },
+          { "feature": "Pricing", "ledger": "Flat platform fee", "legacy": "Per seat × per module" }
+        ]
+      }
+    },
+    {
+      "id": "StickyChapters",
+      "content": {
+        "chapters": [
+          { "title": "Connect every cash account.", "body": "100+ direct bank integrations, no aggregator middleman." },
+          { "title": "Match in real time.", "body": "ML-assisted reconciliation closes the day before close happens." },
+          { "title": "Close in minutes.", "body": "Hit the month-end with a button, not a war room." }
+        ]
+      },
+      "images": {
+        "primary": { "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1400&q=80" },
+        "secondary": { "url": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?auto=format&fit=crop&w=1400&q=80" }
+      }
+    },
+    {
+      "id": "ProcessSteps",
+      "content": {
+        "eyebrow": "Implementation",
+        "headline": "Live in 14 days. Not 14 months.",
+        "body": "Ledger replaces the ERP-implementation playbook with a developer-first onboarding.",
+        "steps": [
+          { "title": "Connect accounts", "duration": "Day 1–2", "body": "Direct bank integrations and ERP connectors via a guided console." },
+          { "title": "Map your ledger", "duration": "Day 3–5", "body": "Import your chart of accounts; Ledger maps it to its model in one pass." },
+          { "title": "Reconcile history", "duration": "Day 6–10", "body": "Replay the last 90 days; resolve exceptions before go-live." },
+          { "title": "Go live", "duration": "Day 14", "body": "Switch your team. We support both ledgers side-by-side for the first month." }
+        ]
+      }
+    },
+    {
+      "id": "CTABanner",
+      "content": {
+        "eyebrow": "Talk to a finance engineer",
+        "headline": "See your books reconciled in 30 minutes.",
+        "body": "Drop us a recent CSV. We'll send back a reconciled close before our next call.",
+        "cta": { "label": "Book a session" }
+      }
+    },
+    {
+      "id": "TestimonialCarousel",
+      "content": {
+        "eyebrow": "What CFOs say",
+        "testimonials": [
+          { "quote": "We replaced four vendors and our reconciliation team gets weekends back.", "author": "Mira Olsen", "role": "CFO", "org": "Vela" },
+          { "quote": "Ledger compresses close from nine days to one. The audit trail alone is worth the switch.", "author": "Tomas Hahn", "role": "VP Finance", "org": "Foundry" },
+          { "quote": "We migrated 90 days of history in an afternoon. The product feels designed by people who have done this job.", "author": "Ana Reyes", "role": "Controller", "org": "Northstar" }
+        ]
+      },
+      "images": {
+        "gallery": [
+          { "url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=600&q=80" },
+          { "url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=600&q=80" },
+          { "url": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=600&q=80" }
+        ]
+      }
+    },
+    {
+      "id": "PricingTiers",
+      "content": {
+        "eyebrow": "Pricing",
+        "headline": "Flat platform fee. No per-seat tax.",
+        "body": "Three tiers, all included. No upcharges for SSO or audit.",
+        "tiers": [
+          {
+            "name": "Starter",
+            "price": "€990",
+            "period": "month",
+            "description": "For teams reconciling under €1M / month.",
+            "features": ["10 connected accounts", "Real-time reconciliation", "API access", "Email support"],
+            "cta": { "label": "Start free" }
+          },
+          {
+            "name": "Growth",
+            "price": "€2,990",
+            "period": "month",
+            "description": "For teams scaling past Series A.",
+            "features": ["Unlimited accounts", "Multi-currency treasury", "SAML SSO + SCIM", "Slack + email support", "Audit trail export"],
+            "featured": true,
+            "cta": { "label": "Try Growth" }
+          },
+          {
+            "name": "Scale",
+            "price": "Custom",
+            "period": "",
+            "description": "For finance teams running €100M+ / month.",
+            "features": ["Self-hosted option", "Dedicated finance engineer", "99.99% SLA", "Custom integrations"],
+            "cta": { "label": "Talk to sales" }
+          }
+        ]
+      }
+    },
+    {
+      "id": "FAQAccordion",
+      "content": {
+        "eyebrow": "Common questions",
+        "headline": "Everything finance teams ask first.",
+        "body": "If something is missing, write to sales@ledger.co.",
+        "faqs": [
+          { "q": "How long does it take to go live?", "a": "Most teams are live in 10–14 days. Migration time depends on history depth and ERP complexity, not on Ledger." },
+          { "q": "Where is data stored?", "a": "EU customers: Frankfurt. US customers: Virginia. Self-hosted available on Growth and Scale plans." },
+          { "q": "Do you support our bank?", "a": "Ledger ships 100+ direct integrations covering >95% of OECD-bank volume. If yours is missing, we add it in two weeks." },
+          { "q": "Can I export everything?", "a": "Yes. Every ledger movement and the signed audit trail are exportable as CSV, Parquet, or via the API." },
+          { "q": "What about SOC 2 and ISO 27001?", "a": "Both audited annually. Most recent reports are available under NDA via your account team." }
+        ]
+      }
+    },
+    {
+      "id": "ContactForm",
+      "content": {
+        "eyebrow": "Talk to us",
+        "headline": "Send us the close that took longest.",
+        "body": "Drop the details. A finance engineer replies the same day, not the same quarter.",
+        "recipientEmail": "sales@ledger.co",
+        "subjectTemplate": "Ledger inquiry",
+        "submitLabel": "Send brief",
+        "fields": [
+          { "name": "name", "label": "Name", "required": true },
+          { "name": "email", "label": "Work email", "type": "email", "required": true },
+          { "name": "company", "label": "Company" },
+          {
+            "name": "volume",
+            "label": "Monthly volume",
+            "type": "select",
+            "options": ["< €1M", "€1–10M", "€10–100M", "€100M+"]
+          },
+          {
+            "name": "message",
+            "label": "What hurts most about close today?",
+            "type": "textarea",
+            "required": true,
+            "placeholder": "One paragraph is plenty."
+          }
+        ]
+      }
+    },
+    {
+      "id": "NewsletterSignup",
+      "content": {
+        "eyebrow": "Field notes",
+        "headline": "Quarterly note from the engineering team.",
+        "body": "Four times a year. No marketing. Architecture deep-dives, performance work, post-mortems.",
+        "placeholder": "you@company.co",
+        "cta": { "label": "Subscribe" }
+      }
+    },
+    {
+      "id": "ClosingCTA",
+      "content": {
+        "eyebrow": "Begin",
+        "headline": "Replace your finance stack in two weeks.",
+        "subhead": "Start with a free trial. Migrate when you're convinced. No procurement loop required.",
+        "cta": { "label": "Start free trial" }
+      },
+      "images": {
+        "primary": { "url": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=2000&q=80" }
+      }
+    },
+    {
+      "id": "FooterRich",
+      "content": {
+        "brand": "Ledger",
+        "tagline": "Treasury, reconciliation, payments, audit. One workspace.",
+        "giant": "Ledger",
+        "columns": [
+          { "title": "Product", "links": [{ "label": "Treasury" }, { "label": "Reconciliation" }, { "label": "Payments" }, { "label": "Audit" }] },
+          { "title": "Company", "links": [{ "label": "About" }, { "label": "Customers" }, { "label": "Careers" }, { "label": "Security" }] },
+          { "title": "Resources", "links": [{ "label": "Docs" }, { "label": "API reference" }, { "label": "Changelog" }, { "label": "Status" }] },
+          { "title": "Contact", "links": [{ "label": "sales@ledger.co" }, { "label": "Berlin · New York" }] }
+        ],
+        "cta": { "label": "Start free trial" },
+        "legal": "© 2026 Ledger Finance, Inc."
+      }
+    }
+  ]
+}

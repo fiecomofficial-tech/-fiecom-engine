@@ -1,0 +1,943 @@
+{
+  "theme": {
+    "preset": "editorial-cream",
+    "bg": "#fffaf0",
+    "ink": "#3e2c1c",
+    "bgAccent": "#f7e7c6",
+    "fontDisplay": "Merriweather",
+    "fontBody": "Lora"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Field & Frame",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Work",
+                "href": "/work"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineHero",
+          "content": {
+            "eyebrow": "Introducing",
+            "headline": "Field & Frame",
+            "accent": "architectural vision",
+            "body": "Crafting spaces where form meets function in Copenhagen's urban fabric.",
+            "cta": {
+              "label": "Explore Our Work",
+              "href": "/work"
+            },
+            "secondaryCta": {
+              "label": "About Us",
+              "href": "/about"
+            }
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/15687268/pexels-photo-15687268.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Evening view of modern office buildings along a waterfront in Copenhagen.",
+              "attributionAuthor": "Ezequiel Filiberto",
+              "attributionUrl": "https://www.pexels.com/photo/fisketorvet-copenhagen-mall-15687268/"
+            }
+          }
+        },
+        {
+          "id": "MarqueeBand",
+          "content": {
+            "items": [
+              "Field & Frame",
+              "Strategy",
+              "Motion",
+              "Proof",
+              "Conversion"
+            ],
+            "tone": "normal",
+            "eyebrow": "Essence in motion"
+          }
+        },
+        {
+          "id": "BaselineLogoBar",
+          "content": {
+            "eyebrow": "Trusted by discerning clients",
+            "clients": [
+              {
+                "name": "Danish Design Council"
+              },
+              {
+                "name": "Nordic Real Estate"
+              },
+              {
+                "name": "Urban Habitat"
+              },
+              {
+                "name": "Copenhagen Art Foundation"
+              }
+            ]
+          }
+        },
+        {
+          "id": "HorizontalShowcase",
+          "content": {
+            "eyebrow": "Showcase",
+            "headline": "The product in motion",
+            "body": "Real use cases and moments visitors can scan quickly.",
+            "cards": [
+              {
+                "title": "Overview",
+                "caption": "Overview for Field & Frame"
+              },
+              {
+                "title": "Workflow",
+                "caption": "Workflow for Field & Frame"
+              },
+              {
+                "title": "Proof",
+                "caption": "Proof for Field & Frame"
+              },
+              {
+                "title": "Detail",
+                "caption": "Detail for Field & Frame"
+              },
+              {
+                "title": "Result",
+                "caption": "Result for Field & Frame"
+              },
+              {
+                "title": "Next step",
+                "caption": "Next step for Field & Frame"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/14019974/pexels-photo-14019974.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Close-up of a luxurious tan leather car seat with branding in focus.",
+                "attributionAuthor": "Cole Kitchen",
+                "attributionUrl": "https://www.pexels.com/photo/ferrari-logo-on-leather-car-seat-14019974/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/19746805/pexels-photo-19746805.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Detailed close-up of the Mercedes-Benz logo on a luxury car, emphasizing metallic finish.",
+                "attributionAuthor": "Zaid Ahmed",
+                "attributionUrl": "https://www.pexels.com/photo/mercedes-benz-logo-in-close-up-view-19746805/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/30405425/pexels-photo-30405425.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Elegant flat lay featuring Opium perfume bottles on fashion magazines. Perfect for luxury and style themes.",
+                "attributionAuthor": "Veronica Bratunov",
+                "attributionUrl": "https://www.pexels.com/photo/stylish-flat-lay-of-fashion-magazines-and-perfume-bottles-30405425/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/5348872/pexels-photo-5348872.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Detailed shot of AMG logo on a luxury car wheel, emphasizing elegance and automotive design.",
+                "attributionAuthor": "hachem bgr",
+                "attributionUrl": "https://www.pexels.com/photo/close-up-shot-of-a-car-brand-5348872/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/37077889/pexels-photo-37077889.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Close-up of a sleek silver Jaguar car hood ornament with a tiger emblem, showcasing luxury and craftsmanship.",
+                "attributionAuthor": "atelierbyvineeth . . .",
+                "attributionUrl": "https://www.pexels.com/photo/elegant-silver-jaguar-car-hood-ornament-37077889/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/32614631/pexels-photo-32614631.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Luxurious brown leather wallet with elegant logo on soft white fabric, suggesting elegance and style.",
+                "attributionAuthor": "Ejov Igor",
+                "attributionUrl": "https://www.pexels.com/photo/elegant-designer-leather-wallet-on-white-fabric-32614631/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ZentryStory",
+          "content": {
+            "eyebrow": "The story",
+            "headline": "The world behind Field & Frame",
+            "body": "Field & Frame gives visitors a memorable story instead of a static pitch."
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/37208722/pexels-photo-37208722.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Detailed shot of a luxury sports car wheel with visible logo, showcasing sleek design and elegance.",
+              "attributionAuthor": "cnrdmroglu",
+              "attributionUrl": "https://www.pexels.com/photo/close-up-of-luxury-sports-car-wheel-and-logo-37208722/"
+            },
+            "secondary": {
+              "url": "https://images.pexels.com/photos/37208722/pexels-photo-37208722.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Detailed shot of a luxury sports car wheel with visible logo, showcasing sleek design and elegance.",
+              "attributionAuthor": "cnrdmroglu",
+              "attributionUrl": "https://www.pexels.com/photo/close-up-of-luxury-sports-car-wheel-and-logo-37208722/"
+            }
+          }
+        },
+        {
+          "id": "BaselineFeatures",
+          "content": {
+            "eyebrow": "Signature Projects",
+            "headline": "Portfolio Highlights",
+            "accent": "each with a story",
+            "features": [
+              {
+                "title": "Harborview Residences",
+                "body": "Elevating waterfront living with minimalist elegance."
+              },
+              {
+                "title": "Nordic Art Pavilion",
+                "body": "A seamless blend of natural light and sculptural form."
+              },
+              {
+                "title": "City Central Library",
+                "body": "Modern learning spaces that embrace community."
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/37177323/pexels-photo-37177323.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Symmetrical architectural view of residential courtyard buildings in Berlin, capturing urban geometry.",
+                "attributionAuthor": "Travel with  Lenses",
+                "attributionUrl": "https://www.pexels.com/photo/symmetrical-view-of-residential-courtyard-in-berlin-37177323/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/9845176/pexels-photo-9845176.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Modern architectural detail showcasing a bridge with glass facade and sleek design.",
+                "attributionAuthor": "Mathias Reding",
+                "attributionUrl": "https://www.pexels.com/photo/low-angle-view-of-overpass-bridge-joining-buildings-9845176/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/8970656/pexels-photo-8970656.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A smartphone and notebook on a desk for business planning and branding strategy.",
+                "attributionAuthor": "Leeloo The First",
+                "attributionUrl": "https://www.pexels.com/photo/business-branding-information-on-smartphone-8970656/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "MessageReveal",
+          "content": {
+            "firstLine": "Field & Frame is not another template",
+            "accent": "different",
+            "secondLine": "It is a structured product story",
+            "body": "The rhythm, sections, and proof points change with the market instead of repainting the same layout."
+          }
+        },
+        {
+          "id": "BaselineTestimonials",
+          "content": {
+            "eyebrow": "Clients",
+            "headline": "Voices of Trust",
+            "testimonials": [
+              {
+                "quote": "Field & Frame transformed our vision into reality with remarkable precision.",
+                "author": "Anna",
+                "role": "Developer",
+                "org": "Nordic Real Estate"
+              },
+              {
+                "quote": "Their designs marry elegance and function effortlessly.",
+                "author": "Lars",
+                "role": "Curator",
+                "org": "Copenhagen Art Foundation"
+              },
+              {
+                "quote": "A partner that understands both innovation and tradition.",
+                "author": "Sofie",
+                "role": "Project Manager",
+                "org": "Danish Design Council"
+              }
+            ]
+          }
+        },
+        {
+          "id": "TruusHorizontalWords",
+          "content": {
+            "headline": "We go where the people are",
+            "body": "Field & Frame meets audiences where attention already lives."
+          }
+        },
+        {
+          "id": "BaselineAboutNarrative",
+          "content": {
+            "eyebrow": "Our Services",
+            "headline": "Expertise that shapes experiences",
+            "body": "Field & Frame was founded by a small team of designers and engineers who had spent years building software at category-defining companies. We were tired of tools that fought us. So we started building one that doesn't.",
+            "pillarEyebrow": "Core pillars",
+            "pillarHeadline": "The principles we build by.",
+            "pillars": [
+              {
+                "title": "Residential Architecture",
+                "body": "Tailored living spaces blending comfort and style."
+              },
+              {
+                "title": "Cultural Spaces",
+                "body": "Innovative venues for art and community engagement."
+              },
+              {
+                "title": "Commercial Design",
+                "body": "Efficient, inspiring work environments for modern businesses."
+              }
+            ],
+            "statsEyebrow": "By the numbers",
+            "stats": [
+              {
+                "value": "2022",
+                "label": "Founded"
+              },
+              {
+                "value": "34",
+                "label": "Team"
+              },
+              {
+                "value": "12k+",
+                "label": "Active users"
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/17845/pexels-photo.jpg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "A close-up shot of a hand reviewing various logo designs on paper, ideal for business concepts.",
+              "attributionAuthor": "Roman Pohorecki",
+              "attributionUrl": "https://www.pexels.com/photo/hand-on-top-of-paper-17845/"
+            }
+          }
+        },
+        {
+          "id": "ImageGallery",
+          "content": {
+            "eyebrow": "Gallery",
+            "headline": "Seen from every angle",
+            "body": "A visual layer that makes the offer tangible.",
+            "captions": [
+              {
+                "title": "Signal",
+                "year": "2026"
+              },
+              {
+                "title": "Space",
+                "year": "2025"
+              },
+              {
+                "title": "Detail",
+                "year": "2026"
+              },
+              {
+                "title": "Flow",
+                "year": "2025"
+              },
+              {
+                "title": "Texture",
+                "year": "2026"
+              },
+              {
+                "title": "Proof",
+                "year": "2025"
+              },
+              {
+                "title": "People",
+                "year": "2026"
+              },
+              {
+                "title": "System",
+                "year": "2025"
+              },
+              {
+                "title": "Outcome",
+                "year": "2026"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/14019974/pexels-photo-14019974.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Close-up of a luxurious tan leather car seat with branding in focus.",
+                "attributionAuthor": "Cole Kitchen",
+                "attributionUrl": "https://www.pexels.com/photo/ferrari-logo-on-leather-car-seat-14019974/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/19746805/pexels-photo-19746805.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Detailed close-up of the Mercedes-Benz logo on a luxury car, emphasizing metallic finish.",
+                "attributionAuthor": "Zaid Ahmed",
+                "attributionUrl": "https://www.pexels.com/photo/mercedes-benz-logo-in-close-up-view-19746805/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/30405425/pexels-photo-30405425.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Elegant flat lay featuring Opium perfume bottles on fashion magazines. Perfect for luxury and style themes.",
+                "attributionAuthor": "Veronica Bratunov",
+                "attributionUrl": "https://www.pexels.com/photo/stylish-flat-lay-of-fashion-magazines-and-perfume-bottles-30405425/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/5348872/pexels-photo-5348872.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Detailed shot of AMG logo on a luxury car wheel, emphasizing elegance and automotive design.",
+                "attributionAuthor": "hachem bgr",
+                "attributionUrl": "https://www.pexels.com/photo/close-up-shot-of-a-car-brand-5348872/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/37077889/pexels-photo-37077889.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Close-up of a sleek silver Jaguar car hood ornament with a tiger emblem, showcasing luxury and craftsmanship.",
+                "attributionAuthor": "atelierbyvineeth . . .",
+                "attributionUrl": "https://www.pexels.com/photo/elegant-silver-jaguar-car-hood-ornament-37077889/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/32614631/pexels-photo-32614631.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Luxurious brown leather wallet with elegant logo on soft white fabric, suggesting elegance and style.",
+                "attributionAuthor": "Ejov Igor",
+                "attributionUrl": "https://www.pexels.com/photo/elegant-designer-leather-wallet-on-white-fabric-32614631/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/32614631/pexels-photo-32614631.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Luxurious brown leather wallet with elegant logo on soft white fabric, suggesting elegance and style.",
+                "attributionAuthor": "Ejov Igor",
+                "attributionUrl": "https://www.pexels.com/photo/elegant-designer-leather-wallet-on-white-fabric-32614631/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/32614631/pexels-photo-32614631.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Luxurious brown leather wallet with elegant logo on soft white fabric, suggesting elegance and style.",
+                "attributionAuthor": "Ejov Igor",
+                "attributionUrl": "https://www.pexels.com/photo/elegant-designer-leather-wallet-on-white-fabric-32614631/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/32614631/pexels-photo-32614631.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Luxurious brown leather wallet with elegant logo on soft white fabric, suggesting elegance and style.",
+                "attributionAuthor": "Ejov Igor",
+                "attributionUrl": "https://www.pexels.com/photo/elegant-designer-leather-wallet-on-white-fabric-32614631/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineCTA",
+          "content": {
+            "eyebrow": "Get in Touch",
+            "headline": "Shape Your Vision with Us",
+            "accent": "together",
+            "body": "Connect with Field & Frame to begin your architectural journey.",
+            "cta": {
+              "label": "Contact Us",
+              "href": "/contact"
+            },
+            "secondaryCta": {
+              "label": "Talk to sales",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Field & Frame",
+            "brand": "Field & Frame",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Work",
+                    "href": "/work"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "Crafting timeless architecture with editorial grace",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "title": "About",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Field & Frame",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Work",
+                "href": "/work"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineAboutNarrative",
+          "content": {
+            "eyebrow": "About Field & Frame",
+            "headline": "Our mission is to inspire through refined architecture",
+            "body": "Founded in Copenhagen, Field & Frame merges modernist principles with contextual depth to create meaningful spaces.",
+            "pillarEyebrow": "Core pillars",
+            "pillarHeadline": "The principles we build by.",
+            "pillars": [
+              {
+                "title": "Contextual Design",
+                "body": "Every project reflects its unique environment and culture."
+              },
+              {
+                "title": "Sustainable Practices",
+                "body": "Committed to eco-conscious methods and materials."
+              },
+              {
+                "title": "Collaborative Process",
+                "body": "Partnering closely with clients and communities."
+              }
+            ],
+            "statsEyebrow": "By the numbers",
+            "stats": [
+              {
+                "value": "15+",
+                "label": "Years of experience"
+              },
+              {
+                "value": "50+",
+                "label": "Completed projects"
+              },
+              {
+                "value": "10",
+                "label": "Awards won"
+              }
+            ],
+            "accent": "crafted"
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/17845/pexels-photo.jpg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "A close-up shot of a hand reviewing various logo designs on paper, ideal for business concepts.",
+              "attributionAuthor": "Roman Pohorecki",
+              "attributionUrl": "https://www.pexels.com/photo/hand-on-top-of-paper-17845/"
+            }
+          }
+        },
+        {
+          "id": "TwoColumnText",
+          "content": {
+            "eyebrow": "Our Team",
+            "headline": "Meet the minds shaping Field & Frame",
+            "paragraphs": [
+              {
+                "heading": "Leadership",
+                "body": "Seasoned architects with diverse expertise in modern and sustainable design."
+              },
+              {
+                "heading": "Design Philosophy",
+                "body": "We prioritize clarity, simplicity, and lasting impact through every detail."
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Field & Frame",
+            "brand": "Field & Frame",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Work",
+                    "href": "/work"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "Crafting timeless architecture with editorial grace",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "work",
+      "title": "Work",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Field & Frame",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Work",
+                "href": "/work"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselinePageHeader",
+          "content": {
+            "eyebrow": "Work",
+            "headline": "Portfolio of Signature Projects",
+            "body": "Explore our architectural approach through key case studies.",
+            "accent": "designed"
+          }
+        },
+        {
+          "id": "FeatureList",
+          "content": {
+            "eyebrow": "Design Approach",
+            "headline": "Our Process and Expertise",
+            "features": [
+              {
+                "title": "Conceptualization",
+                "body": "In-depth research and context analysis to inform design."
+              },
+              {
+                "title": "Schematic Design",
+                "body": "Clear, elegant plans that balance aesthetics and function."
+              },
+              {
+                "title": "Construction Documentation",
+                "body": "Detailed documentation ensuring build quality and compliance."
+              },
+              {
+                "title": "Project Management",
+                "body": "Coordinated execution with transparent communication."
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Field & Frame",
+            "brand": "Field & Frame",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Work",
+                    "href": "/work"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "Crafting timeless architecture with editorial grace",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Field & Frame",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Work",
+                "href": "/work"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineContact",
+          "content": {
+            "eyebrow": "Contact",
+            "headline": "Let's build something together",
+            "formTitle": "Reach Out",
+            "formBody": "Send us your message and project details.",
+            "recipientEmail": "info@fieldandframe.com",
+            "subjectTemplate": "New inquiry from {name}",
+            "details": [
+              {
+                "label": "Email",
+                "value": "info@fieldandframe.com",
+                "href": "mailto:info@fieldandframe.com"
+              },
+              {
+                "label": "Office",
+                "value": "Copenhagen, Denmark"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Field & Frame",
+            "brand": "Field & Frame",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Work",
+                    "href": "/work"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "Crafting timeless architecture with editorial grace",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "intent": {
+    "energy": "editorial",
+    "density": "spacious",
+    "cinematicIntensity": "high",
+    "motionIntensity": "moderate",
+    "copyTone": "sophisticated editorial",
+    "themeHint": "editorial-cream"
+  }
+}

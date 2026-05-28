@@ -1,0 +1,648 @@
+{
+  "theme": {
+    "preset": "editorial-cream",
+    "bg": "#F9F6F0",
+    "ink": "#333333",
+    "bgAccent": "#E5E1D9",
+    "fontDisplay": "Playfair Display",
+    "fontBody": "Source Sans Pro"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Lumen Architekten",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Lumen Architekten",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Projects",
+                "href": "/projects"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineHero",
+          "content": {
+            "eyebrow": "Minimal Swiss Design",
+            "headline": "Timeless Architecture Crafted Simply",
+            "accent": "refined balance",
+            "body": "We create serene spaces emphasizing purity, light, and materiality.",
+            "cta": {
+              "label": "Explore Our Work",
+              "href": "/projects"
+            },
+            "secondaryCta": {
+              "label": "Learn more",
+              "href": "/about"
+            }
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/18378540/pexels-photo-18378540.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Contemporary office building with colorful facade and vibrant red ground, emphasizing modern architecture.",
+              "attributionAuthor": "Adrien Olichon",
+              "attributionUrl": "https://www.pexels.com/photo/bank-building-in-switzerland-18378540/"
+            },
+            "secondary": {
+              "url": "https://images.pexels.com/photos/12924727/pexels-photo-12924727.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Detailed view of a classic building facade featuring ornate columns and decorative elements in warm lighting.",
+              "attributionAuthor": "Levent Simsek",
+              "attributionUrl": "https://www.pexels.com/photo/closeup-of-an-architectural-detail-of-a-classicist-building-12924727/"
+            }
+          }
+        },
+        {
+          "id": "BaselineLogoBar",
+          "content": {
+            "eyebrow": "Trusted by discerning clients",
+            "clients": [
+              {
+                "name": "Private Residences"
+              },
+              {
+                "name": "Cultural Institutions"
+              },
+              {
+                "name": "Commercial Spaces"
+              },
+              {
+                "name": "Urban Projects"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineCTA",
+          "content": {
+            "eyebrow": "Start Your Project",
+            "headline": "Let’s Create Your Minimalist Space",
+            "accent": "pure design",
+            "body": "Connect with us to discuss your vision and needs.",
+            "cta": {
+              "label": "Contact Us",
+              "href": "/contact"
+            },
+            "secondaryCta": {
+              "label": "Talk to sales",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Lumen Architekten",
+            "brand": "Lumen Architekten",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Projects",
+                    "href": "/projects"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "© 2026 Lumen Architekten. All rights reserved.",
+            "tagline": "Lumen Architekten. Built for clarity.",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "title": "About Lumen Architekten",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Lumen Architekten",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Projects",
+                "href": "/projects"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselinePageHeader",
+          "content": {
+            "eyebrow": "About",
+            "headline": "Our Philosophy of Minimalism",
+            "body": "A commitment to simplicity and spatial harmony guides our design process.",
+            "accent": "quiet precision"
+          }
+        },
+        {
+          "id": "BaselineAboutNarrative",
+          "content": {
+            "body": "Founded in Switzerland, Lumen Architekten draws inspiration from natural light and material honesty. Our team cares deeply about crafting spaces that speak through silence and order.",
+            "pillarEyebrow": "Core pillars",
+            "pillarHeadline": "Our values shape every project we undertake.",
+            "pillars": [
+              {
+                "title": "Simplicity",
+                "body": "Reducing design to essential elements for clarity."
+              },
+              {
+                "title": "Functionality",
+                "body": "Purpose-driven spaces that serve everyday life."
+              },
+              {
+                "title": "Sustainability",
+                "body": "Respecting environment through mindful architecture."
+              }
+            ],
+            "statsEyebrow": "By the numbers",
+            "stats": [
+              {
+                "value": "2022",
+                "label": "Founded"
+              },
+              {
+                "value": "34",
+                "label": "Team"
+              },
+              {
+                "value": "12k+",
+                "label": "Active users"
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/17845/pexels-photo.jpg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "A close-up shot of a hand reviewing various logo designs on paper, ideal for business concepts.",
+              "attributionAuthor": "Roman Pohorecki",
+              "attributionUrl": "https://www.pexels.com/photo/hand-on-top-of-paper-17845/"
+            }
+          }
+        },
+        {
+          "id": "FeatureList",
+          "content": {
+            "eyebrow": "Our Expertise",
+            "headline": "Areas of Specialization",
+            "features": [
+              {
+                "title": "Residential Architecture",
+                "body": "Tailored living environments that inspire calm."
+              },
+              {
+                "title": "Cultural Projects",
+                "body": "Spaces that celebrate heritage with modern sensibility."
+              },
+              {
+                "title": "Commercial Design",
+                "body": "Efficient and inviting workspaces."
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Lumen Architekten",
+            "brand": "Lumen Architekten",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Projects",
+                    "href": "/projects"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "© 2024 Lumen Architekten",
+            "tagline": "Crafting simplicity with purpose",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "projects",
+      "title": "Projects",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Lumen Architekten",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Projects",
+                "href": "/projects"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselinePageHeader",
+          "content": {
+            "eyebrow": "Projects",
+            "headline": "Selected Architectural Works",
+            "body": "A showcase of our carefully crafted spaces that embody minimalism.",
+            "accent": "minimal clarity"
+          }
+        },
+        {
+          "id": "FeatureList",
+          "content": {
+            "eyebrow": "Portfolio",
+            "headline": "Curated Projects",
+            "features": [
+              {
+                "title": "Mountain Retreat",
+                "body": "A minimalist haven blending with alpine surroundings."
+              },
+              {
+                "title": "Urban Gallery",
+                "body": "Modern lines fostering cultural dialogue."
+              },
+              {
+                "title": "Lake House",
+                "body": "Transparent design embracing nature’s beauty."
+              },
+              {
+                "title": "Studio Workspace",
+                "body": "Functional spaces designed for creativity."
+              },
+              {
+                "title": "Public Library",
+                "body": "Calm environments for learning and reflection."
+              }
+            ]
+          }
+        },
+        {
+          "id": "TwoColumnText",
+          "content": {
+            "eyebrow": "Design Process",
+            "headline": "How We Approach Each Project",
+            "paragraphs": [
+              {
+                "heading": "Conceptualization",
+                "body": "We begin with understanding client needs and site context."
+              },
+              {
+                "heading": "Development",
+                "body": "Refining design with clarity and precision."
+              },
+              {
+                "heading": "Execution",
+                "body": "Attention to detail ensures the highest quality outcomes."
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Lumen Architekten",
+            "brand": "Lumen Architekten",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Projects",
+                    "href": "/projects"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "© 2024 Lumen Architekten",
+            "tagline": "Crafting simplicity with purpose",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Lumen Architekten",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Projects",
+                "href": "/projects"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselinePageHeader",
+          "content": {
+            "eyebrow": "Contact",
+            "headline": "Get In Touch",
+            "body": "Reach out to discuss your architectural needs or inquiries.",
+            "accent": "open dialogue"
+          }
+        },
+        {
+          "id": "BaselineContact",
+          "content": {
+            "formTitle": "Connect with Us",
+            "formBody": "We welcome your questions and project ideas.",
+            "recipientEmail": "info@lumenarchitekten.ch",
+            "subjectTemplate": "New inquiry from {name}",
+            "details": [
+              {
+                "label": "Email",
+                "value": "info@lumenarchitekten.ch",
+                "href": "mailto:info@lumenarchitekten.ch"
+              },
+              {
+                "label": "Phone",
+                "value": "+41 22 123 4567",
+                "href": "tel:+41221234567"
+              },
+              {
+                "label": "Office",
+                "value": "Zurich, Switzerland"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Lumen Architekten",
+            "brand": "Lumen Architekten",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Projects",
+                    "href": "/projects"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "© 2024 Lumen Architekten",
+            "tagline": "Crafting simplicity with purpose",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "intent": {
+    "energy": "quiet-luxury",
+    "density": "spacious",
+    "cinematicIntensity": "restrained",
+    "motionIntensity": "subtle",
+    "copyTone": "clean minimal",
+    "themeHint": "editorial-cream"
+  }
+}

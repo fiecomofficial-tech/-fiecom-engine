@@ -1,0 +1,674 @@
+{
+  "theme": {
+    "preset": "warm-sand",
+    "bg": "#fff8f0",
+    "ink": "#5a3e1b",
+    "bgAccent": "#f6e4d9",
+    "fontDisplay": "Georgia",
+    "fontBody": "Georgia"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "Cupcake Bakery",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Menu",
+                "href": "/menu"
+              },
+              {
+                "label": "Story",
+                "href": "#story"
+              },
+              {
+                "label": "Reservations",
+                "href": "/reservations"
+              },
+              {
+                "label": "Contact",
+                "href": "#contact"
+              }
+            ],
+            "cta": {
+              "label": "Start",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "HeroEditorial",
+          "content": {
+            "eyebrow": "FRESH DAILY",
+            "headline": "Sweet Moments",
+            "body": "Handcrafted cupcakes baked fresh every morning\nTaste the joy in every bite\nA treat for every celebration"
+          }
+        },
+        {
+          "id": "MessageReveal",
+          "content": {
+            "firstLine": "Indulge your senses",
+            "accent": "delight",
+            "secondLine": "Experience cupcake bliss",
+            "body": "Our recipes blend tradition and innovation for unforgettable flavors."
+          }
+        },
+        {
+          "id": "ImageGallery",
+          "content": {
+            "eyebrow": "GALLERY",
+            "headline": "Savor Our Craft",
+            "body": "Visual delights from our bakery",
+            "captions": [
+              {
+                "title": "Vanilla Dream",
+                "year": "2023"
+              },
+              {
+                "title": "Chocolate Bliss",
+                "year": "2023"
+              },
+              {
+                "title": "Raspberry Swirl",
+                "year": "2024"
+              },
+              {
+                "title": "Caramel Magic",
+                "year": "2024"
+              },
+              {
+                "title": "Seasonal Specials",
+                "year": "2024"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.unsplash.com/photo-1641369935151-68e93bbbcc82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHx3YXJtJTIwcmVzdGF1cmFudCUyMGRpbmluZyUyMGludGVyaW9yfGVufDF8MXx8fDE3Nzk0MDcxNjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "a view of a restaurant through a window",
+                "attributionAuthor": "Thanos Pal",
+                "attributionUrl": "https://unsplash.com/photos/a-view-of-a-restaurant-through-a-window-ME4oeoPEwlw"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1581954548218-415cd6ee5f4d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHx3YXJtJTIwcmVzdGF1cmFudCUyMGRpbmluZyUyMHRlYW18ZW58MXwxfHx8MTc3OTQwNzE2OXww&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "man in blue and white checkered button up shirt holding bread",
+                "attributionAuthor": "Sebastian Coman Photography",
+                "attributionUrl": "https://unsplash.com/photos/man-in-blue-and-white-checkered-button-up-shirt-holding-bread-r3ZRvvCZKDk"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1602232037779-30b01ac3c457?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHx3YXJtJTIwcmVzdGF1cmFudCUyMGRpbmluZyUyMHByb2R1Y3R8ZW58MXwxfHx8MTc3OTQwNzE3MHww&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "brown wooden table with chairs",
+                "attributionAuthor": "Alessio Dandi",
+                "attributionUrl": "https://unsplash.com/photos/brown-wooden-table-with-chairs-LusjIyLfZ70"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1636405188904-bc706f07aa37?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHx3YXJtJTIwcmVzdGF1cmFudCUyMGRpbmluZyUyMGRldGFpbHxlbnwxfDF8fHwxNzc5NDA3MTY5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "a restaurant with wooden tables and chairs",
+                "attributionAuthor": "Jelezniac Bianca",
+                "attributionUrl": "https://unsplash.com/photos/a-restaurant-with-wooden-tables-and-chairs-FTHK04C2FLg"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1728395235153-5999948803cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHx3YXJtJTIwcmVzdGF1cmFudCUyMGRpbmluZyUyMHdvcmtmbG93fGVufDF8MXx8fDE3Nzk0MDcxNzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "A table with plates of food on it in a kitchen",
+                "attributionAuthor": "Julie Bounseng",
+                "attributionUrl": "https://unsplash.com/photos/a-table-with-plates-of-food-on-it-in-a-kitchen-ha_PIsXPbcY"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1636405188904-bc706f07aa37?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHx3YXJtJTIwcmVzdGF1cmFudCUyMGRpbmluZyUyMHRleHR1cmV8ZW58MXwxfHx8MTc3OTQwNzE3MHww&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "a restaurant with wooden tables and chairs",
+                "attributionAuthor": "Jelezniac Bianca",
+                "attributionUrl": "https://unsplash.com/photos/a-restaurant-with-wooden-tables-and-chairs-FTHK04C2FLg"
+              }
+            ]
+          }
+        },
+        {
+          "id": "FeatureBento",
+          "content": {
+            "eyebrow": "OUR SPECIALTIES",
+            "headline": "Crafted Cupcakes",
+            "body": "From classic to creative, our cupcakes are made with love.",
+            "features": [
+              {
+                "title": "Classic Vanilla",
+                "body": "Rich vanilla bean with creamy frosting",
+                "size": "md"
+              },
+              {
+                "title": "Decadent Chocolate",
+                "body": "Dark chocolate with ganache drizzle",
+                "size": "md"
+              },
+              {
+                "title": "Seasonal Flavors",
+                "body": "Rotating cakes inspired by fresh ingredients",
+                "size": "md"
+              },
+              {
+                "title": "Vegan Options",
+                "body": "Delicious and plant-based treats",
+                "size": "md"
+              },
+              {
+                "title": "Custom Orders",
+                "body": "Perfect for events and celebrations",
+                "size": "md"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.unsplash.com/photo-1766023505762-2fd1359c4cb8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHx3YXJtJTIwcmVzdGF1cmFudCUyMGRpbmluZyUyMGludGVyaW9yfGVufDF8Mnx8fDE3Nzk0MDcxNjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "Elegant restaurant interior with city view at sunset.",
+                "attributionAuthor": "Joseph Prospere",
+                "attributionUrl": "https://unsplash.com/photos/elegant-restaurant-interior-with-city-view-at-sunset-22uJv3nFInI"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1726884979024-a618202c4a3c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHx3YXJtJTIwcmVzdGF1cmFudCUyMGRpbmluZyUyMHRlYW18ZW58MXwyfHx8MTc3OTQwNzE2OXww&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "A person pouring wine into a wine glass",
+                "attributionAuthor": "Racha Debbech",
+                "attributionUrl": "https://unsplash.com/photos/a-person-pouring-wine-into-a-wine-glass-BlRQjyGsEvk"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1663530761401-15eefb544889?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHx3YXJtJTIwcmVzdGF1cmFudCUyMGRpbmluZyUyMHByb2R1Y3R8ZW58MXwyfHx8MTc3OTQwNzE3MHww&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "chef pouring sauce over plated steak",
+                "attributionAuthor": "Urban Gyllström",
+                "attributionUrl": "https://unsplash.com/photos/chef-pouring-sauce-over-plated-steak-MaWMfm-HCqQ"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1640703935937-5e6ec134977d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHx3YXJtJTIwcmVzdGF1cmFudCUyMGRpbmluZyUyMGRldGFpbHxlbnwxfDJ8fHwxNzc5NDA3MTcwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "a wooden table topped with glasses and silverware",
+                "attributionAuthor": "Allan Francis",
+                "attributionUrl": "https://unsplash.com/photos/a-wooden-table-topped-with-glasses-and-silverware-v0XT3cnX2pA"
+              }
+            ]
+          }
+        },
+        {
+          "id": "TimelineScroll",
+          "content": {
+            "eyebrow": "OUR STORY",
+            "headline": "Cupcake Journey",
+            "events": [
+              {
+                "year": "2015",
+                "title": "Founded with passion",
+                "body": "Started as a small neighborhood bakery."
+              },
+              {
+                "year": "2018",
+                "title": "Expanded menu",
+                "body": "Introduced seasonal and vegan cupcake options."
+              },
+              {
+                "year": "2021",
+                "title": "Community favorite",
+                "body": "Loved by locals and featured in food guides."
+              },
+              {
+                "year": "2023",
+                "title": "New location",
+                "body": "Opened a cozy spot downtown for gatherings."
+              }
+            ]
+          }
+        },
+        {
+          "id": "TestimonialCarousel",
+          "content": {
+            "eyebrow": "CUSTOMER LOVE",
+            "testimonials": [
+              {
+                "quote": "Best cupcakes in town! Fresh and delicious every time.",
+                "author": "Emma",
+                "role": "Regular Customer"
+              },
+              {
+                "quote": "The seasonal flavors are always a highlight. Highly recommend!",
+                "author": "Liam",
+                "role": "Food Blogger"
+              },
+              {
+                "quote": "Perfect for our wedding. Beautiful and tasty cupcakes.",
+                "author": "Sophia",
+                "role": "Bride"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.unsplash.com/photo-1641369935151-68e93bbbcc82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHx3YXJtJTIwcmVzdGF1cmFudCUyMGRpbmluZyUyMGludGVyaW9yfGVufDF8MXx8fDE3Nzk0MDcxNjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "a view of a restaurant through a window",
+                "attributionAuthor": "Thanos Pal",
+                "attributionUrl": "https://unsplash.com/photos/a-view-of-a-restaurant-through-a-window-ME4oeoPEwlw"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1581954548218-415cd6ee5f4d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHx3YXJtJTIwcmVzdGF1cmFudCUyMGRpbmluZyUyMHRlYW18ZW58MXwxfHx8MTc3OTQwNzE2OXww&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "man in blue and white checkered button up shirt holding bread",
+                "attributionAuthor": "Sebastian Coman Photography",
+                "attributionUrl": "https://unsplash.com/photos/man-in-blue-and-white-checkered-button-up-shirt-holding-bread-r3ZRvvCZKDk"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1602232037779-30b01ac3c457?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHx3YXJtJTIwcmVzdGF1cmFudCUyMGRpbmluZyUyMHByb2R1Y3R8ZW58MXwxfHx8MTc3OTQwNzE3MHww&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "brown wooden table with chairs",
+                "attributionAuthor": "Alessio Dandi",
+                "attributionUrl": "https://unsplash.com/photos/brown-wooden-table-with-chairs-LusjIyLfZ70"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1636405188904-bc706f07aa37?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHx3YXJtJTIwcmVzdGF1cmFudCUyMGRpbmluZyUyMGRldGFpbHxlbnwxfDF8fHwxNzc5NDA3MTY5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "a restaurant with wooden tables and chairs",
+                "attributionAuthor": "Jelezniac Bianca",
+                "attributionUrl": "https://unsplash.com/photos/a-restaurant-with-wooden-tables-and-chairs-FTHK04C2FLg"
+              }
+            ]
+          }
+        },
+        {
+          "id": "CTABanner",
+          "content": {
+            "eyebrow": "READY TO TASTE?",
+            "headline": "Order Your Favorite Cupcakes Today",
+            "body": "Visit us or reserve your cupcakes ahead.",
+            "cta": {
+              "label": "Reserve Now",
+              "href": "/reservations"
+            }
+          }
+        },
+        {
+          "id": "ContactBlock",
+          "content": {
+            "eyebrow": "GET IN TOUCH",
+            "headline": "Contact Cupcake Bakery",
+            "body": "We’re here for your sweet cravings and event orders.",
+            "cta": {
+              "label": "Email the team",
+              "href": "mailto:hello@fiecom.co"
+            },
+            "details": [
+              {
+                "label": "Address",
+                "value": "123 Sweet St, Downtown"
+              },
+              {
+                "label": "Phone",
+                "value": "(555) 123-4567"
+              },
+              {
+                "label": "Email",
+                "value": "contact@cupcakebakery.com"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "menu",
+      "title": "Menu",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "Fiecom",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Menu",
+                "href": "/menu"
+              },
+              {
+                "label": "Story",
+                "href": "#story"
+              },
+              {
+                "label": "Reservations",
+                "href": "/reservations"
+              },
+              {
+                "label": "Contact",
+                "href": "#contact"
+              }
+            ],
+            "cta": {
+              "label": "Start",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "PageHeader",
+          "content": {
+            "eyebrow": "Fiecom",
+            "headline": "Menu",
+            "body": "Everything visitors need to understand menu and take the next step.",
+            "crumbs": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Menu"
+              }
+            ]
+          }
+        },
+        {
+          "id": "FeatureList",
+          "content": {
+            "eyebrow": "Details",
+            "headline": "Menu details",
+            "features": [
+              {
+                "title": "Core offer",
+                "body": "Core offer information for Fiecom."
+              },
+              {
+                "title": "Delivery",
+                "body": "Delivery information for Fiecom."
+              },
+              {
+                "title": "Support",
+                "body": "Support information for Fiecom."
+              },
+              {
+                "title": "Measurement",
+                "body": "Measurement information for Fiecom."
+              },
+              {
+                "title": "Next step",
+                "body": "Next step information for Fiecom."
+              }
+            ]
+          }
+        },
+        {
+          "id": "ImageGallery",
+          "content": {
+            "eyebrow": "Gallery",
+            "headline": "Seen from every angle",
+            "body": "A visual layer that makes the offer tangible.",
+            "captions": [
+              {
+                "title": "Signal",
+                "year": "2026"
+              },
+              {
+                "title": "Space",
+                "year": "2025"
+              },
+              {
+                "title": "Detail",
+                "year": "2026"
+              },
+              {
+                "title": "Flow",
+                "year": "2025"
+              },
+              {
+                "title": "Texture",
+                "year": "2026"
+              },
+              {
+                "title": "Proof",
+                "year": "2025"
+              },
+              {
+                "title": "People",
+                "year": "2026"
+              },
+              {
+                "title": "System",
+                "year": "2025"
+              },
+              {
+                "title": "Outcome",
+                "year": "2026"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.unsplash.com/photo-1641369935151-68e93bbbcc82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHx3YXJtJTIwcmVzdGF1cmFudCUyMGRpbmluZyUyMGludGVyaW9yfGVufDF8MXx8fDE3Nzk0MDcxNjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "a view of a restaurant through a window",
+                "attributionAuthor": "Thanos Pal",
+                "attributionUrl": "https://unsplash.com/photos/a-view-of-a-restaurant-through-a-window-ME4oeoPEwlw"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1581954548218-415cd6ee5f4d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHx3YXJtJTIwcmVzdGF1cmFudCUyMGRpbmluZyUyMHRlYW18ZW58MXwxfHx8MTc3OTQwNzE2OXww&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "man in blue and white checkered button up shirt holding bread",
+                "attributionAuthor": "Sebastian Coman Photography",
+                "attributionUrl": "https://unsplash.com/photos/man-in-blue-and-white-checkered-button-up-shirt-holding-bread-r3ZRvvCZKDk"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1602232037779-30b01ac3c457?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHx3YXJtJTIwcmVzdGF1cmFudCUyMGRpbmluZyUyMHByb2R1Y3R8ZW58MXwxfHx8MTc3OTQwNzE3MHww&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "brown wooden table with chairs",
+                "attributionAuthor": "Alessio Dandi",
+                "attributionUrl": "https://unsplash.com/photos/brown-wooden-table-with-chairs-LusjIyLfZ70"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1636405188904-bc706f07aa37?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHx3YXJtJTIwcmVzdGF1cmFudCUyMGRpbmluZyUyMGRldGFpbHxlbnwxfDF8fHwxNzc5NDA3MTY5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "a restaurant with wooden tables and chairs",
+                "attributionAuthor": "Jelezniac Bianca",
+                "attributionUrl": "https://unsplash.com/photos/a-restaurant-with-wooden-tables-and-chairs-FTHK04C2FLg"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1728395235153-5999948803cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHx3YXJtJTIwcmVzdGF1cmFudCUyMGRpbmluZyUyMHdvcmtmbG93fGVufDF8MXx8fDE3Nzk0MDcxNzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "A table with plates of food on it in a kitchen",
+                "attributionAuthor": "Julie Bounseng",
+                "attributionUrl": "https://unsplash.com/photos/a-table-with-plates-of-food-on-it-in-a-kitchen-ha_PIsXPbcY"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1636405188904-bc706f07aa37?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHx3YXJtJTIwcmVzdGF1cmFudCUyMGRpbmluZyUyMHRleHR1cmV8ZW58MXwxfHx8MTc3OTQwNzE3MHww&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "a restaurant with wooden tables and chairs",
+                "attributionAuthor": "Jelezniac Bianca",
+                "attributionUrl": "https://unsplash.com/photos/a-restaurant-with-wooden-tables-and-chairs-FTHK04C2FLg"
+              }
+            ]
+          }
+        },
+        {
+          "id": "FAQAccordion",
+          "content": {
+            "eyebrow": "FAQ",
+            "headline": "Questions before you start",
+            "faqs": [
+              {
+                "q": "How quickly can we launch?",
+                "a": "The site is structured so the first version can launch quickly, then expand with focused edits and new pages."
+              },
+              {
+                "q": "What do you need from us?",
+                "a": "The site is structured so the first version can launch quickly, then expand with focused edits and new pages."
+              },
+              {
+                "q": "Can this scale into more pages?",
+                "a": "The site is structured so the first version can launch quickly, then expand with focused edits and new pages."
+              },
+              {
+                "q": "How does support work?",
+                "a": "The site is structured so the first version can launch quickly, then expand with focused edits and new pages."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "reservations",
+      "title": "Reservations",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "Fiecom",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Menu",
+                "href": "/menu"
+              },
+              {
+                "label": "Story",
+                "href": "#story"
+              },
+              {
+                "label": "Reservations",
+                "href": "/reservations"
+              },
+              {
+                "label": "Contact",
+                "href": "#contact"
+              }
+            ],
+            "cta": {
+              "label": "Start",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "PageHeader",
+          "content": {
+            "eyebrow": "Fiecom",
+            "headline": "Reservations",
+            "body": "Everything visitors need to understand reservations and take the next step.",
+            "crumbs": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Reservations"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ContactForm",
+          "content": {
+            "eyebrow": "Start",
+            "headline": "Tell us what you need",
+            "body": "The form opens your mail client with the right context.",
+            "recipientEmail": "hello@fiecom.co",
+            "submitLabel": "Send request"
+          }
+        },
+        {
+          "id": "ContactBlock",
+          "content": {
+            "eyebrow": "Contact",
+            "headline": "Start with a focused conversation",
+            "body": "Send a note to Fiecom and get a practical next step.",
+            "cta": {
+              "label": "Email the team",
+              "href": "mailto:hello@fiecom.co"
+            },
+            "details": [
+              {
+                "label": "Email",
+                "value": "hello@fiecom.co",
+                "href": "mailto:hello@fiecom.co"
+              },
+              {
+                "label": "Response",
+                "value": "Within one business day"
+              },
+              {
+                "label": "Location",
+                "value": "Remote and on-site"
+              }
+            ]
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "Fiecom",
+            "tagline": "Fiecom is built as a complete website system.",
+            "giant": "Fiecom",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Menu",
+                    "href": "/menu"
+                  },
+                  {
+                    "label": "Story",
+                    "href": "#story"
+                  },
+                  {
+                    "label": "Reservations",
+                    "href": "/reservations"
+                  }
+                ]
+              },
+              {
+                "title": "Company",
+                "links": [
+                  {
+                    "label": "About",
+                    "href": "#about"
+                  },
+                  {
+                    "label": "Process",
+                    "href": "#process"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Resources",
+                "links": [
+                  {
+                    "label": "FAQ",
+                    "href": "#faq"
+                  },
+                  {
+                    "label": "Journal",
+                    "href": "/resources"
+                  },
+                  {
+                    "label": "Start",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "2026 Fiecom. All rights reserved."
+          }
+        }
+      ]
+    }
+  ]
+}

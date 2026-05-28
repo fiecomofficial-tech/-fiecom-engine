@@ -1,0 +1,828 @@
+{
+  "theme": {
+    "preset": "midnight-luxury",
+    "bg": "#0B0B1A",
+    "ink": "#E3D7B8",
+    "bgAccent": "#1B1B3A",
+    "fontDisplay": "Playfair Display",
+    "fontBody": "Roboto"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Bali Luxe Retreat",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Rooms",
+                "href": "/rooms"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Book Now",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineHero",
+          "content": {
+            "eyebrow": "New — Grand Opening",
+            "headline": "Experience Bali's Hidden Luxury",
+            "accent": "Serene Escape",
+            "body": "Immerse yourself in a world where cinematic beauty and editorial elegance meet exquisite hospitality by the sea.",
+            "cta": {
+              "label": "Discover More",
+              "href": "/about"
+            },
+            "secondaryCta": {
+              "label": "View Rooms",
+              "href": "/rooms"
+            }
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/6132763/pexels-photo-6132763.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Woman enjoying a tranquil moment by the pool in Bali during sunset.",
+              "attributionAuthor": "Alesia  Kozik",
+              "attributionUrl": "https://www.pexels.com/photo/woman-wearing-white-swimsuit-6132763/"
+            }
+          }
+        },
+        {
+          "id": "BaselineLogoBar",
+          "content": {
+            "eyebrow": "Trusted by Discerning Travelers",
+            "clients": [
+              {
+                "name": "Travel+Leisure"
+              },
+              {
+                "name": "Condé Nast"
+              },
+              {
+                "name": "National Geographic"
+              },
+              {
+                "name": "Forbes Travel"
+              },
+              {
+                "name": "Luxury Escapes"
+              }
+            ]
+          }
+        },
+        {
+          "id": "MarqueeBand",
+          "content": {
+            "items": [
+              "Bali Luxe Retreat",
+              "Strategy",
+              "Motion",
+              "Proof",
+              "Conversion"
+            ],
+            "tone": "normal"
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/18753761/pexels-photo-18753761.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Aerial view of a tropical beach with lush greenery and turquoise ocean waves.",
+              "attributionAuthor": "Adelien Vandeweghe",
+              "attributionUrl": "https://www.pexels.com/photo/beach-of-exotic-island-18753761/"
+            }
+          }
+        },
+        {
+          "id": "BaselineAboutNarrative",
+          "content": {
+            "body": "Bali Luxe Retreat embodies the spirit of Bali through a curated blend of luxury, culture, and cinematic elegance, creating a sanctuary like no other.",
+            "pillarEyebrow": "Our Essence",
+            "pillarHeadline": "Rooted in Bali’s timeless beauty and refined hospitality",
+            "pillars": [
+              {
+                "title": "Authenticity",
+                "body": "Deep respect for Balinese traditions woven into every experience."
+              },
+              {
+                "title": "Luxury",
+                "body": "Unparalleled comfort paired with elegant, editorial design."
+              },
+              {
+                "title": "Impression",
+                "body": "An immersive sensory journey that stays with you."
+              }
+            ],
+            "statsEyebrow": "By the Numbers",
+            "stats": [
+              {
+                "value": "2024",
+                "label": "Year Founded"
+              },
+              {
+                "value": "5",
+                "label": "Exclusive Villas"
+              },
+              {
+                "value": "100%",
+                "label": "Guest Satisfaction"
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/32267340/pexels-photo-32267340.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "People engaging in a vibrant Hindu ritual in Bali, showcasing traditional attire and offerings.",
+              "attributionAuthor": "Arjun  Adinata",
+              "attributionUrl": "https://www.pexels.com/photo/traditional-hindu-ceremony-in-bali-indonesia-32267340/"
+            }
+          }
+        },
+        {
+          "id": "MessageReveal",
+          "content": {
+            "firstLine": "Bali Luxe Retreat is not another template",
+            "accent": "different",
+            "secondLine": "It is a structured product story",
+            "body": "From dawn to dusk, Bali Luxe Retreat crafts moments of sublime beauty and lasting memories.",
+            "eyebrow": "Discover Your Sanctuary",
+            "headline": "Where Every Moment is a Story"
+          }
+        },
+        {
+          "id": "BaselineFeatures",
+          "content": {
+            "eyebrow": "Highlights",
+            "headline": "Exquisite Rooms & Amenities",
+            "accent": "Designed for Serenity",
+            "features": [
+              {
+                "eyebrow": "01 — Ocean View Villas",
+                "title": "Private Luxury Suites",
+                "body": "Elegant rooms with panoramic views of Bali’s pristine coastline."
+              },
+              {
+                "eyebrow": "02 — Spa & Wellness",
+                "title": "Holistic Rejuvenation",
+                "body": "Signature spa treatments inspired by Balinese healing traditions."
+              },
+              {
+                "eyebrow": "03 — Gourmet Dining",
+                "title": "Culinary Artistry",
+                "body": "Award-winning chefs crafting flavors that celebrate local ingredients."
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/34790702/pexels-photo-34790702.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Spacious modern hotel room in Bali with stylish decor and natural lighting.",
+              "attributionAuthor": "kevin yung",
+              "attributionUrl": "https://www.pexels.com/photo/elegant-modern-hotel-room-in-bali-34790702/"
+            },
+            "secondary": {
+              "url": "https://images.pexels.com/photos/6629608/pexels-photo-6629608.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Close-up of a relaxing back massage at a spa with hands applying massage oil.",
+              "attributionAuthor": "www.kaboompics.com",
+              "attributionUrl": "https://www.pexels.com/photo/a-woman-getting-a-back-massage-6629608/"
+            },
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/6019589/pexels-photo-6019589.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A chef prepares a meal in an open-air kitchen setting in Bali, Indonesia.",
+                "attributionAuthor": "Alesia  Kozik",
+                "attributionUrl": "https://www.pexels.com/photo/a-man-wearing-black-apron-cooking-food-in-a-cooking-competition-6019589/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/261101/pexels-photo-261101.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Relaxing tropical poolside scene with palm trees, gazebo, and clear blue water at a luxury resort.",
+                "attributionAuthor": "Pixabay",
+                "attributionUrl": "https://www.pexels.com/photo/palm-tree-planted-near-pool-261101/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/10187577/pexels-photo-10187577.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Detailed macro shot of vibrant Protea flowers with dramatic lighting.",
+                "attributionAuthor": "Marek Kupiec",
+                "attributionUrl": "https://www.pexels.com/photo/close-up-of-flowers-10187577/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ImageGallery",
+          "content": {
+            "eyebrow": "Gallery",
+            "headline": "Seen from every angle",
+            "body": "A visual layer that makes the offer tangible.",
+            "captions": [
+              {
+                "title": "Signal",
+                "year": "2026"
+              },
+              {
+                "title": "Space",
+                "year": "2025"
+              },
+              {
+                "title": "Detail",
+                "year": "2026"
+              },
+              {
+                "title": "Flow",
+                "year": "2025"
+              },
+              {
+                "title": "Texture",
+                "year": "2026"
+              },
+              {
+                "title": "Proof",
+                "year": "2025"
+              },
+              {
+                "title": "People",
+                "year": "2026"
+              },
+              {
+                "title": "System",
+                "year": "2025"
+              },
+              {
+                "title": "Outcome",
+                "year": "2026"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/30766942/pexels-photo-30766942.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Chic outdoor lounge area featuring wooden sofas with plush cushions in a Bali villa.",
+                "attributionAuthor": "Didi Lecatompessy",
+                "attributionUrl": "https://www.pexels.com/photo/elegant-outdoor-sofa-with-cushions-in-bali-30766942/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/6132763/pexels-photo-6132763.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Woman enjoying a tranquil moment by the pool in Bali during sunset.",
+                "attributionAuthor": "Alesia  Kozik",
+                "attributionUrl": "https://www.pexels.com/photo/woman-wearing-white-swimsuit-6132763/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/36418274/pexels-photo-36418274.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A serene pathway through lush tropical gardens in Bali, perfect for relaxation and exploration.",
+                "attributionAuthor": "Mark Direen",
+                "attributionUrl": "https://www.pexels.com/photo/tranquil-garden-pathway-in-bali-indonesia-36418274/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/14464944/pexels-photo-14464944.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Serene infinity pool view with palm trees and ocean at a Bali resort, perfect for relaxation.",
+                "attributionAuthor": "Nastia Ligrain",
+                "attributionUrl": "https://www.pexels.com/photo/a-swimming-pool-in-the-resort-14464944/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineTestimonials",
+          "content": {
+            "eyebrow": "Guests",
+            "headline": "Hear From Our Visitors",
+            "testimonials": [
+              {
+                "quote": "An unforgettable retreat where every detail exudes elegance.",
+                "author": "Sophia",
+                "role": "Traveler"
+              },
+              {
+                "quote": "The perfect blend of culture, comfort, and cinematic charm.",
+                "author": "Liam",
+                "role": "Writer"
+              },
+              {
+                "quote": "Bali Luxe Retreat redefines luxury hospitality in paradise.",
+                "author": "Isabella",
+                "role": "Photographer"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineCTA",
+          "content": {
+            "eyebrow": "Plan Your Escape",
+            "headline": "Reserve Your Place in Paradise",
+            "accent": "Exclusively Yours",
+            "body": "Experience the art of refined living at Bali Luxe Retreat. Book now for an unforgettable stay.",
+            "cta": {
+              "label": "Book Now",
+              "href": "/contact"
+            },
+            "secondaryCta": {
+              "label": "Learn More",
+              "href": "/about"
+            }
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Bali Luxe Retreat",
+            "brand": "Bali Luxe Retreat",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Rooms",
+                    "href": "/rooms"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "true",
+            "tagline": "Elevating Your Bali Experience",
+            "meta": [
+              {
+                "label": "Privacy Policy"
+              },
+              {
+                "label": "Terms of Service"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "title": "About",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Bali Luxe Retreat",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Rooms",
+                "href": "/rooms"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Book Now",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineAboutNarrative",
+          "content": {
+            "body": "Founded to celebrate Bali’s natural beauty and rich traditions, our retreat blends editorial design with immersive experiences.",
+            "pillarEyebrow": "Core Pillars",
+            "pillarHeadline": "Values that Define Us",
+            "pillars": [
+              {
+                "title": "Heritage",
+                "body": "Preserving local culture with deep respect and authenticity."
+              },
+              {
+                "title": "Excellence",
+                "body": "Providing impeccable service in every detail."
+              },
+              {
+                "title": "Innovation",
+                "body": "Blending cinematic storytelling with luxury hospitality."
+              }
+            ],
+            "statsEyebrow": "Our Impact",
+            "stats": [
+              {
+                "value": "5",
+                "label": "Exclusive Villas"
+              },
+              {
+                "value": "98%",
+                "label": "Guest Satisfaction"
+              },
+              {
+                "value": "200+",
+                "label": "Stories Shared"
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/27375306/pexels-photo-27375306.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Close-up of an ornate Balinese temple sculpture showcasing intricate stone carvings and spirituality.",
+              "attributionAuthor": "Lucas Tran",
+              "attributionUrl": "https://www.pexels.com/photo/ulun-danu-beratan-temple-27375306/"
+            }
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Bali Luxe Retreat",
+            "brand": "Bali Luxe Retreat",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Rooms",
+                    "href": "/rooms"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "true",
+            "tagline": "Elevating Your Bali Experience",
+            "meta": [
+              {
+                "label": "Privacy Policy"
+              },
+              {
+                "label": "Terms of Service"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "rooms",
+      "title": "Rooms",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Bali Luxe Retreat",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Rooms",
+                "href": "/rooms"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Book Now",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselinePageHeader",
+          "content": {
+            "eyebrow": "Rooms",
+            "headline": "Luxury Suites & Villas",
+            "body": "Explore spaces crafted for comfort, privacy, and breathtaking views.",
+            "accent": "Tailored Elegance"
+          }
+        },
+        {
+          "id": "FeatureList",
+          "content": {
+            "eyebrow": "Our Offerings",
+            "headline": "Exclusive Room Types",
+            "features": [
+              {
+                "title": "Ocean View Villa",
+                "body": "Private villa with expansive ocean vistas and elegant Balinese décor.",
+                "meta": "King-size bed, private pool, beachfront access"
+              },
+              {
+                "title": "Garden Suite",
+                "body": "Serene suite overlooking lush tropical gardens, with open-air living space.",
+                "meta": "Queen bed, spa tub, garden terrace"
+              },
+              {
+                "title": "Horizon Penthouse",
+                "body": "Luxurious penthouse with panoramic views and exclusive amenities.",
+                "meta": "King bed, rooftop deck, personal butler service"
+              }
+            ],
+            "body": "Each room designed to encapsulate Bali Luxe Retreat’s signature sophistication."
+          }
+        },
+        {
+          "id": "FAQAccordion",
+          "content": {
+            "eyebrow": "FAQs",
+            "headline": "Questions About Your Stay",
+            "faqs": [
+              {
+                "title": "What is the check-in time?",
+                "body": "Standard check-in begins at 3 PM local time."
+              },
+              {
+                "title": "Are pets allowed?",
+                "body": "We welcome service animals; pets are subject to prior approval."
+              },
+              {
+                "title": "Is airport transfer available?",
+                "body": "Complimentary airport transfer is provided for all bookings."
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Bali Luxe Retreat",
+            "brand": "Bali Luxe Retreat",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Rooms",
+                    "href": "/rooms"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "true",
+            "tagline": "Elevating Your Bali Experience",
+            "meta": [
+              {
+                "label": "Privacy Policy"
+              },
+              {
+                "label": "Terms of Service"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Bali Luxe Retreat",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Rooms",
+                "href": "/rooms"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Book Now",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineContact",
+          "content": {
+            "formTitle": "Contact Us",
+            "formBody": "We respond promptly to all inquiries.",
+            "recipientEmail": "reservations@baliluxe.com",
+            "subjectTemplate": "Inquiry from Bali Luxe Retreat Website",
+            "details": [
+              {
+                "label": "Email",
+                "value": "reservations@baliluxe.com",
+                "href": "mailto:reservations@baliluxe.com"
+              },
+              {
+                "label": "Phone",
+                "value": "+62 361 1234567",
+                "href": "tel:+623611234567"
+              },
+              {
+                "label": "Office",
+                "value": "Jl. Sunset Road, Bali, Indonesia"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Bali Luxe Retreat",
+            "brand": "Bali Luxe Retreat",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Rooms",
+                    "href": "/rooms"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "true",
+            "tagline": "Elevating Your Bali Experience",
+            "meta": [
+              {
+                "label": "Privacy Policy"
+              },
+              {
+                "label": "Terms of Service"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "intent": {
+    "energy": "cinematic",
+    "density": "spacious",
+    "cinematicIntensity": "high",
+    "motionIntensity": "rich",
+    "copyTone": "elegant editorial",
+    "themeHint": "midnight-luxury"
+  }
+}

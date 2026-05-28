@@ -1,0 +1,990 @@
+{
+  "theme": {
+    "preset": "editorial-noir",
+    "bg": "#0f0f0f",
+    "ink": "#e0e0e0",
+    "bgAccent": "#1a1a1a",
+    "fontDisplay": "Playfair Display",
+    "fontBody": "Roboto"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Mira Sera",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Collections",
+                "href": "/collections"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineHero",
+          "content": {
+            "eyebrow": "Avant-garde",
+            "headline": "Crafting Shadows & Light",
+            "accent": "in Paris",
+            "body": "Mira Sera unveils a fashion realm where form transcends convention and art embraces every stitch.",
+            "cta": {
+              "label": "Explore Collections",
+              "href": "/collections"
+            },
+            "secondaryCta": {
+              "label": "Our Story",
+              "href": "/about"
+            }
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/28262886/pexels-photo-28262886.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Artistic fashion portrait featuring unique headwear and formal attire with eyeglasses.",
+              "attributionAuthor": "Sydney Sang",
+              "attributionUrl": "https://www.pexels.com/photo/a-man-with-a-paper-hat-on-his-head-28262886/"
+            }
+          }
+        },
+        {
+          "id": "MarqueeBand",
+          "content": {
+            "items": [
+              "Mira Sera",
+              "Strategy",
+              "Motion",
+              "Proof",
+              "Conversion"
+            ],
+            "tone": "normal"
+          }
+        },
+        {
+          "id": "BaselineLogoBar",
+          "content": {
+            "eyebrow": "Worn by visionaries",
+            "clients": [
+              {
+                "name": "Vogue"
+              },
+              {
+                "name": "Dazed"
+              },
+              {
+                "name": "Numero"
+              },
+              {
+                "name": "L'Officiel"
+              },
+              {
+                "name": "i-D"
+              }
+            ]
+          }
+        },
+        {
+          "id": "MessageReveal",
+          "content": {
+            "firstLine": "Mira Sera is not another template",
+            "accent": "different",
+            "secondLine": "It is a structured product story",
+            "body": "In our Paris atelier, every garment is a poem—woven with passion, daring to challenge norms.",
+            "eyebrow": "The Atelier",
+            "headline": "Where Ideas Take Form"
+          }
+        },
+        {
+          "id": "BaselineFeatures",
+          "content": {
+            "eyebrow": "Collections",
+            "headline": "Sculpting Avant-Garde Silhouettes",
+            "accent": "— a bold narrative",
+            "features": [
+              {
+                "eyebrow": "01 — Ethereal",
+                "title": "Whispers of Fabric",
+                "body": "Delicate layers that dance between shadow and light."
+              },
+              {
+                "eyebrow": "02 — Structural",
+                "title": "Geometry in Motion",
+                "body": "Sharp angles and fluid movements collide in harmony."
+              },
+              {
+                "eyebrow": "03 — Futuristic",
+                "title": "Tomorrow’s Couture",
+                "body": "Innovative materials shaping the unknown."
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/9085380/pexels-photo-9085380.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Stylish portrait of a woman in a silver futuristic outfit, showcasing modern fashion trends.",
+                "attributionAuthor": "Odin Reyna",
+                "attributionUrl": "https://www.pexels.com/photo/a-woman-in-a-silver-outfit-9085380/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/12507848/pexels-photo-12507848.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Artistic display of wooden geometric shapes on brown fabric background.",
+                "attributionAuthor": "Andreea Airinei",
+                "attributionUrl": "https://www.pexels.com/photo/wooden-decoration-on-brown-textile-12507848/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35457879/pexels-photo-35457879.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Captivating misty forest scene in Kosovo's Rugova Valley during winter, offering a serene and cinematic atmosphere.",
+                "attributionAuthor": "Andi Dautaj",
+                "attributionUrl": "https://www.pexels.com/photo/misty-winter-forest-in-kosovo-s-rugova-valley-35457879/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ZentryFeatures",
+          "content": {
+            "eyebrow": "Inside the system",
+            "headline": "Connected pieces with motion",
+            "body": "Each card turns a core capability into a visual beat.",
+            "features": [
+              {
+                "title": "Signal",
+                "body": "Signal for Mira Sera."
+              },
+              {
+                "title": "World",
+                "body": "World for Mira Sera."
+              },
+              {
+                "title": "Layer",
+                "body": "Layer for Mira Sera."
+              },
+              {
+                "title": "Momentum",
+                "body": "Momentum for Mira Sera."
+              },
+              {
+                "title": "More soon",
+                "body": "More soon for Mira Sera."
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/30878453/pexels-photo-30878453.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "An intimate indoor setting with warm, moody lighting and a couple seated amidst filming equipment.",
+                "attributionAuthor": "Javo  Films",
+                "attributionUrl": "https://www.pexels.com/photo/artistic-indoor-scene-with-warm-lighting-30878453/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/34007217/pexels-photo-34007217.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Film crew collaborating on set with cinematic lighting in Baghdad, Iraq, showcasing teamwork and creativity.",
+                "attributionAuthor": "khezez  | خزاز",
+                "attributionUrl": "https://www.pexels.com/photo/cinematic-production-team-in-baghdad-on-set-34007217/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/23384428/pexels-photo-23384428.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Dramatic silhouette of armed figures in a smoky, dimly lit environment, depicting a military scene.",
+                "attributionAuthor": "Wolrider YURTSEVEN",
+                "attributionUrl": "https://www.pexels.com/photo/a-professional-camera-filming-a-person-with-a-weapon-23384428/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/9665180/pexels-photo-9665180.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Dynamic view of dust particles in motion, illuminated against a black background, creating an ethereal effect.",
+                "attributionAuthor": "cottonbro studio",
+                "attributionUrl": "https://www.pexels.com/photo/white-dust-particles-on-black-background-9665180/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35457879/pexels-photo-35457879.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Captivating misty forest scene in Kosovo's Rugova Valley during winter, offering a serene and cinematic atmosphere.",
+                "attributionAuthor": "Andi Dautaj",
+                "attributionUrl": "https://www.pexels.com/photo/misty-winter-forest-in-kosovo-s-rugova-valley-35457879/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ImageGallery",
+          "content": {
+            "eyebrow": "Gallery",
+            "headline": "Seen from every angle",
+            "body": "A visual layer that makes the offer tangible.",
+            "captions": [
+              {
+                "title": "Signal",
+                "year": "2026"
+              },
+              {
+                "title": "Space",
+                "year": "2025"
+              },
+              {
+                "title": "Detail",
+                "year": "2026"
+              },
+              {
+                "title": "Flow",
+                "year": "2025"
+              },
+              {
+                "title": "Texture",
+                "year": "2026"
+              },
+              {
+                "title": "Proof",
+                "year": "2025"
+              },
+              {
+                "title": "People",
+                "year": "2026"
+              },
+              {
+                "title": "System",
+                "year": "2025"
+              },
+              {
+                "title": "Outcome",
+                "year": "2026"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/11188303/pexels-photo-11188303.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Fashion model on runway with striking backlighting creating a dramatic effect.",
+                "attributionAuthor": "Keith Lobo",
+                "attributionUrl": "https://www.pexels.com/photo/a-woman-in-blue-dress-11188303/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/37420546/pexels-photo-37420546.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Browse a vibrant display of summer clothes on wooden hangers, featuring textures and patterns.",
+                "attributionAuthor": "Swarup Sarkar",
+                "attributionUrl": "https://www.pexels.com/photo/colorful-summer-clothing-display-on-rack-37420546/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/9876017/pexels-photo-9876017.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Stylish woman in monochrome outfit seated at an outdoor cafe",
+                "attributionAuthor": "Вальдемар",
+                "attributionUrl": "https://www.pexels.com/photo/moncohrome-photo-of-stylish-woman-sitting-on-a-chair-9876017/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/34585894/pexels-photo-34585894.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A woman peeks through vibrant orange threads creating a dramatic, artistic pose.",
+                "attributionAuthor": "Juan Jesus Madrigal Herrera",
+                "attributionUrl": "https://www.pexels.com/photo/artistic-portrait-behind-orange-threads-34585894/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35285710/pexels-photo-35285710.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A cozy vintage interior featuring a warm glowing industrial fan and a potted plant.",
+                "attributionAuthor": "Connor Scott McManus",
+                "attributionUrl": "https://www.pexels.com/photo/vintage-interior-with-industrial-fan-and-warm-lighting-35285710/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/32930797/pexels-photo-32930797.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Silhouette of a person in dramatic fog and light setting, creating a mystical atmosphere.",
+                "attributionAuthor": "cnrdmroglu",
+                "attributionUrl": "https://www.pexels.com/photo/mysterious-silhouette-in-foggy-light-32930797/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/27583986/pexels-photo-27583986.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Silhouetted figure with blue light and smoke on a nighttime street scene, creating an air of mystery.",
+                "attributionAuthor": "Manish Jangid",
+                "attributionUrl": "https://www.pexels.com/photo/a-man-in-a-suit-standing-in-front-of-a-fire-27583986/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35457880/pexels-photo-35457880.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Serene winter scene in a misty forest in Kosovo, capturing cold and tranquil atmosphere.",
+                "attributionAuthor": "Andi Dautaj",
+                "attributionUrl": "https://www.pexels.com/photo/misty-forest-pathway-in-kosovo-s-winter-woods-35457880/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35457884/pexels-photo-35457884.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Mysterious misty forest scene in winter, captured in Rugova, Kosovo.",
+                "attributionAuthor": "Andi Dautaj",
+                "attributionUrl": "https://www.pexels.com/photo/misty-forest-landscape-in-winter-kosovo-35457884/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ZentryStory",
+          "content": {
+            "eyebrow": "Our Vision",
+            "headline": "A Legacy of Fearless Creation",
+            "body": "Mira Sera blends tradition and rebellion to craft garments that speak without words.",
+            "accent": "inspired by Parisian nights"
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/9849315/pexels-photo-9849315.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "A fashion designer contemplates a project at her desk, dimly lit workspace with design sketches.",
+              "attributionAuthor": "Ron Lach",
+              "attributionUrl": "https://www.pexels.com/photo/profile-view-of-woman-sitting-at-desk-with-hand-on-chin-9849315/"
+            },
+            "secondary": {
+              "url": "https://images.pexels.com/photos/9665180/pexels-photo-9665180.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Dynamic view of dust particles in motion, illuminated against a black background, creating an ethereal effect.",
+              "attributionAuthor": "cottonbro studio",
+              "attributionUrl": "https://www.pexels.com/photo/white-dust-particles-on-black-background-9665180/"
+            }
+          }
+        },
+        {
+          "id": "BaselineTestimonials",
+          "content": {
+            "eyebrow": "Voices",
+            "headline": "Echoes from the Avant-Garde",
+            "testimonials": [
+              {
+                "quote": "Mira Sera is poetry embodied in fashion.",
+                "author": "Elise",
+                "role": "Fashion Editor",
+                "org": "Vogue"
+              },
+              {
+                "quote": "An atelier where art and couture converge.",
+                "author": "Julien",
+                "role": "Stylist",
+                "org": "Dazed"
+              },
+              {
+                "quote": "Transformative designs that defy expectations.",
+                "author": "Sophie",
+                "role": "Buyer",
+                "org": "Numero"
+              }
+            ]
+          }
+        },
+        {
+          "id": "TruusShowreel",
+          "content": {
+            "headline": "Showreel",
+            "body": "Mira Sera in motion across the moments that matter."
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/23384428/pexels-photo-23384428.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Dramatic silhouette of armed figures in a smoky, dimly lit environment, depicting a military scene.",
+              "attributionAuthor": "Wolrider YURTSEVEN",
+              "attributionUrl": "https://www.pexels.com/photo/a-professional-camera-filming-a-person-with-a-weapon-23384428/"
+            }
+          }
+        },
+        {
+          "id": "HorizontalShowcase",
+          "content": {
+            "eyebrow": "Showcase",
+            "headline": "The product in motion",
+            "body": "Real use cases and moments visitors can scan quickly.",
+            "cards": [
+              {
+                "title": "Overview",
+                "caption": "Overview for Mira Sera"
+              },
+              {
+                "title": "Workflow",
+                "caption": "Workflow for Mira Sera"
+              },
+              {
+                "title": "Proof",
+                "caption": "Proof for Mira Sera"
+              },
+              {
+                "title": "Detail",
+                "caption": "Detail for Mira Sera"
+              },
+              {
+                "title": "Result",
+                "caption": "Result for Mira Sera"
+              },
+              {
+                "title": "Next step",
+                "caption": "Next step for Mira Sera"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/29878479/pexels-photo-29878479.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A detailed shot of a camera-shaped necklace on a knitted sweater, highlighting texture and style.",
+                "attributionAuthor": "Zehra K.",
+                "attributionUrl": "https://www.pexels.com/photo/close-up-of-camera-necklace-on-knitted-sweater-29878479/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/7147465/pexels-photo-7147465.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Professional mannequin with unfinished white garment placed near white wall in light room of modern workshop on blurred background",
+                "attributionAuthor": "Michael Burrows",
+                "attributionUrl": "https://www.pexels.com/photo/mannequin-with-cloth-in-light-atelier-7147465/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/15213183/pexels-photo-15213183.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Silhouette of a woman running against a cityscape background, creating a dynamic urban scene.",
+                "attributionAuthor": "Connor Scott McManus",
+                "attributionUrl": "https://www.pexels.com/photo/silhouette-of-running-woman-15213183/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35285710/pexels-photo-35285710.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A cozy vintage interior featuring a warm glowing industrial fan and a potted plant.",
+                "attributionAuthor": "Connor Scott McManus",
+                "attributionUrl": "https://www.pexels.com/photo/vintage-interior-with-industrial-fan-and-warm-lighting-35285710/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/32930797/pexels-photo-32930797.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Silhouette of a person in dramatic fog and light setting, creating a mystical atmosphere.",
+                "attributionAuthor": "cnrdmroglu",
+                "attributionUrl": "https://www.pexels.com/photo/mysterious-silhouette-in-foggy-light-32930797/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/27583986/pexels-photo-27583986.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Silhouetted figure with blue light and smoke on a nighttime street scene, creating an air of mystery.",
+                "attributionAuthor": "Manish Jangid",
+                "attributionUrl": "https://www.pexels.com/photo/a-man-in-a-suit-standing-in-front-of-a-fire-27583986/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "TruusHorizontalWords",
+          "content": {
+            "headline": "Disrupting Tradition",
+            "body": "Each piece is a challenge; each stitch, a rebellion against the ordinary.",
+            "eyebrow": "Philosophy"
+          }
+        },
+        {
+          "id": "BaselineCTA",
+          "content": {
+            "eyebrow": "Experience Mira Sera",
+            "headline": "Step Into Our World",
+            "accent": "and redefine fashion",
+            "body": "Join us at the atelier or explore our latest collections online.",
+            "cta": {
+              "label": "Contact Us",
+              "href": "/contact"
+            },
+            "secondaryCta": {
+              "label": "Browse Collections",
+              "href": "/collections"
+            }
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Mira Sera",
+            "brand": "Mira Sera",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Collections",
+                    "href": "/collections"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "© 2026 Mira Sera. All rights reserved.",
+            "tagline": "Mira Sera. Built for clarity.",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "title": "About",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Mira Sera",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Collections",
+                "href": "/collections"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineAboutNarrative",
+          "content": {
+            "eyebrow": "About Mira Sera",
+            "headline": "Where Artistry Transforms Fabric",
+            "body": "Founded in the heart of Paris, Mira Sera is an atelier where rebellion meets refinement, crafting garments that are both statements and stories.",
+            "pillarEyebrow": "Core pillars",
+            "pillarHeadline": "Three threads weave our identity.",
+            "pillars": [
+              {
+                "title": "Visionary Design",
+                "body": "Pushing fashion’s boundaries with bold concepts."
+              },
+              {
+                "title": "Handcrafted Excellence",
+                "body": "Every stitch tells a story of dedication."
+              },
+              {
+                "title": "Sustainable Avant-Garde",
+                "body": "Innovating responsibly for future generations."
+              }
+            ],
+            "statsEyebrow": "Milestones",
+            "stats": [
+              {
+                "value": "2015",
+                "label": "Founded"
+              },
+              {
+                "value": "300+",
+                "label": "Artisan hours per collection"
+              },
+              {
+                "value": "50+",
+                "label": "Exclusive pieces annually"
+              }
+            ],
+            "accent": "atelier spirit"
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/30878454/pexels-photo-30878454.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Cinematic scene with neon lights and actors on set, creating a mysterious atmosphere.",
+              "attributionAuthor": "Javo  Films",
+              "attributionUrl": "https://www.pexels.com/photo/moody-indoor-film-set-with-neon-lighting-30878454/"
+            }
+          }
+        },
+        {
+          "id": "TwoColumnText",
+          "content": {
+            "eyebrow": "The Process",
+            "headline": "From Sketch to Statement",
+            "paragraphs": [
+              {
+                "heading": "Conceptualization",
+                "body": "Ideas sparked by life, art, and the Parisian streets."
+              },
+              {
+                "heading": "Creation",
+                "body": "Meticulous handcrafting in our atelier with rare materials."
+              },
+              {
+                "heading": "Presentation",
+                "body": "Showcased through exclusive runway and client experiences."
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Mira Sera",
+            "brand": "Mira Sera",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Collections",
+                    "href": "/collections"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "Where fashion meets fearless art.",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "collections",
+      "title": "Collections",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Mira Sera",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Collections",
+                "href": "/collections"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselinePageHeader",
+          "content": {
+            "eyebrow": "Collections",
+            "headline": "Sculptural Expressions in Fabric",
+            "body": "Explore our curated avant-garde collections, each piece a narrative of form and emotion.",
+            "accent": "the art of fashion"
+          }
+        },
+        {
+          "id": "FeatureList",
+          "content": {
+            "eyebrow": "Ongoing Works",
+            "headline": "The Atelier’s Latest",
+            "features": [
+              {
+                "title": "Shadow Drapes",
+                "body": "Experimental layering with dark hues."
+              },
+              {
+                "title": "Angular Frames",
+                "body": "Structural garments in bold cuts."
+              },
+              {
+                "title": "Lightwave Textures",
+                "body": "Play of light and fabric innovation."
+              }
+            ],
+            "body": "Continually evolving pieces that define the future of fashion."
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Mira Sera",
+            "brand": "Mira Sera",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Collections",
+                    "href": "/collections"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "Where fashion meets fearless art.",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Mira Sera",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Collections",
+                "href": "/collections"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineContact",
+          "content": {
+            "eyebrow": "Contact",
+            "headline": "Let's collaborate and create",
+            "formTitle": "Get in touch",
+            "formBody": "We welcome your questions and ideas.",
+            "recipientEmail": "contact@mirasera.com",
+            "subjectTemplate": "New inquiry from {name}",
+            "details": [
+              {
+                "label": "Email",
+                "value": "contact@mirasera.com",
+                "href": "mailto:contact@mirasera.com"
+              },
+              {
+                "label": "Phone",
+                "value": "+33 1 23 45 67 89",
+                "href": "tel:+33123456789"
+              },
+              {
+                "label": "Office",
+                "value": "Paris, France"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Mira Sera",
+            "brand": "Mira Sera",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Collections",
+                    "href": "/collections"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "Where fashion meets fearless art.",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "intent": {
+    "energy": "artistic",
+    "density": "spacious",
+    "cinematicIntensity": "extreme",
+    "motionIntensity": "rich",
+    "copyTone": "poetic avant-garde",
+    "themeHint": "editorial-noir"
+  }
+}

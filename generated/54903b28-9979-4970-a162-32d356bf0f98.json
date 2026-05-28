@@ -1,0 +1,649 @@
+{
+  "theme": {
+    "preset": "editorial-noir",
+    "bg": "#121212",
+    "ink": "#e0e0e0",
+    "bgAccent": "#1a1a1a",
+    "fontDisplay": "Didot",
+    "fontBody": "Helvetica Neue"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "Minimal Swiss Architecture Studio",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Work",
+                "href": "/work"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Start",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "HeroEditorial",
+          "content": {
+            "eyebrow": "PHILOSOPHY",
+            "headline": "REFINED MINIMALISM",
+            "body": "Celebrating the essence of form and function through Swiss architectural clarity.",
+            "cta": {
+              "label": "Explore Our Vision",
+              "href": "#ethos"
+            }
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/videos/8558509/pexels-photo-8558509.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+              "alt": "cottonbro studio on Pexels",
+              "attributionAuthor": "cottonbro studio",
+              "attributionUrl": "https://www.pexels.com/video/low-angle-shot-of-a-man-looking-at-the-camera-8558509/",
+              "videoUrl": "https://videos.pexels.com/video-files/8558509/8558509-hd_1366_720_25fps.mp4"
+            }
+          }
+        },
+        {
+          "id": "MessageReveal",
+          "content": {
+            "firstLine": "Pure forms speak volumes",
+            "accent": "ESSENCE",
+            "secondLine": "Silence reveals structure",
+            "body": "Our design ethos embraces simplicity to amplify spatial experience."
+          }
+        },
+        {
+          "id": "ContactBlock",
+          "content": {
+            "eyebrow": "GET IN TOUCH",
+            "headline": "Connect with Minimal Swiss Architecture Studio",
+            "body": "We welcome inquiries and collaborations grounded in thoughtful design.",
+            "cta": {
+              "label": "Email the team",
+              "href": "mailto:hello@minimalswissarchitectures.co"
+            },
+            "details": [
+              {
+                "label": "Email",
+                "value": "contact@minimalarchitecture.swiss",
+                "href": "mailto:contact@minimalarchitecture.swiss"
+              },
+              {
+                "label": "Phone",
+                "value": "+41 22 000 0000"
+              },
+              {
+                "label": "Location",
+                "value": "Zurich, Switzerland"
+              }
+            ]
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "Minimal Swiss Architecture Studio",
+            "tagline": "Minimal Swiss Architecture S is built as a complete website system.",
+            "giant": "Minimal Swiss Architecture S",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Work",
+                    "href": "/work"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "2026 Minimal Swiss Architecture S. All rights reserved."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "title": "About",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "Minimal Swiss Architecture Studio",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Work",
+                "href": "/work"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Start",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "PageHeader",
+          "content": {
+            "eyebrow": "STUDIO",
+            "headline": "Our Philosophy",
+            "body": "A minimalist approach rooted in Swiss tradition and contemporary clarity."
+          }
+        },
+        {
+          "id": "TwoColumnText",
+          "content": {
+            "eyebrow": "BACKGROUND",
+            "headline": "A Tradition of Precision",
+            "paragraphs": [
+              {
+                "body": "Founded with a commitment to clean lines and essential forms, our studio exemplifies Swiss precision in architecture."
+              },
+              {
+                "body": "We prioritize material integrity, thoughtful spatial relationships, and environmental harmony."
+              },
+              {
+                "body": "Our team blends experience with innovation to deliver timeless, refined spaces."
+              }
+            ]
+          }
+        },
+        {
+          "id": "FeatureList",
+          "content": {
+            "eyebrow": "OUR APPROACH",
+            "headline": "Principles of Minimalism",
+            "features": [
+              {
+                "title": "Clarity",
+                "body": "Simplicity in design that communicates purpose."
+              },
+              {
+                "title": "Craftsmanship",
+                "body": "Attention to detail and material honesty."
+              },
+              {
+                "title": "Functionality",
+                "body": "Spaces designed for seamless living and work."
+              },
+              {
+                "title": "Sustainability",
+                "body": "Eco-conscious choices embedded in every step."
+              }
+            ],
+            "body": "Key values guiding every project."
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "Minimal Swiss Architecture Studio",
+            "tagline": "Minimal Swiss Architecture S is built as a complete website system.",
+            "giant": "Minimal Swiss Architecture S",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Work",
+                    "href": "/work"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "2026 Minimal Swiss Architecture S. All rights reserved."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "work",
+      "title": "Work",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "Minimal Swiss Architecture Studio",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Work",
+                "href": "/work"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Start",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "PageHeader",
+          "content": {
+            "eyebrow": "PORTFOLIO",
+            "headline": "Selected Projects",
+            "body": "Precision-crafted architecture showcasing minimalist ideals."
+          }
+        },
+        {
+          "id": "FeatureList",
+          "content": {
+            "eyebrow": "PROJECT HIGHLIGHTS",
+            "headline": "Exquisite Simplicity",
+            "features": [
+              {
+                "title": "Montreux Residence",
+                "body": "A serene retreat balancing light and materiality."
+              },
+              {
+                "title": "Zurich Art Pavilion",
+                "body": "An intersection of cultural space and minimalist form."
+              },
+              {
+                "title": "Lucerne Office Complex",
+                "body": "Functional workspace imbued with clarity and elegance."
+              },
+              {
+                "title": "Basel Gallery",
+                "body": "Showcasing art within a refined architectural shell."
+              }
+            ]
+          }
+        },
+        {
+          "id": "TestimonialCarousel",
+          "content": {
+            "eyebrow": "CLIENT REFLECTIONS",
+            "testimonials": [
+              {
+                "quote": "Their design captures purity and function flawlessly.",
+                "author": "Anna",
+                "role": "Curator"
+              },
+              {
+                "quote": "A seamless collaboration that brought our vision to life.",
+                "author": "Mark",
+                "role": "Developer"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/14019974/pexels-photo-14019974.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Close-up of a luxurious tan leather car seat with branding in focus.",
+                "attributionAuthor": "Cole Kitchen",
+                "attributionUrl": "https://www.pexels.com/photo/ferrari-logo-on-leather-car-seat-14019974/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/19746805/pexels-photo-19746805.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Detailed close-up of the Mercedes-Benz logo on a luxury car, emphasizing metallic finish.",
+                "attributionAuthor": "Zaid Ahmed",
+                "attributionUrl": "https://www.pexels.com/photo/mercedes-benz-logo-in-close-up-view-19746805/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/30405425/pexels-photo-30405425.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Elegant flat lay featuring Opium perfume bottles on fashion magazines. Perfect for luxury and style themes.",
+                "attributionAuthor": "Veronica Bratunov",
+                "attributionUrl": "https://www.pexels.com/photo/stylish-flat-lay-of-fashion-magazines-and-perfume-bottles-30405425/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/5348872/pexels-photo-5348872.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Detailed shot of AMG logo on a luxury car wheel, emphasizing elegance and automotive design.",
+                "attributionAuthor": "hachem bgr",
+                "attributionUrl": "https://www.pexels.com/photo/close-up-shot-of-a-car-brand-5348872/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "FAQAccordion",
+          "content": {
+            "eyebrow": "FAQS",
+            "headline": "Common Questions",
+            "faqs": [
+              {
+                "q": "What defines your minimalist approach?",
+                "a": "We focus on essentials, clarity, and spatial harmony."
+              },
+              {
+                "q": "How do you incorporate sustainability?",
+                "a": "Integrating eco-friendly materials and energy-efficient systems."
+              },
+              {
+                "q": "Can you tailor designs to unique site conditions?",
+                "a": "Absolutely, each project responds specifically to its environment."
+              }
+            ]
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "Minimal Swiss Architecture Studio",
+            "tagline": "Minimal Swiss Architecture S is built as a complete website system.",
+            "giant": "Minimal Swiss Architecture S",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Work",
+                    "href": "/work"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "2026 Minimal Swiss Architecture S. All rights reserved."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "Minimal Swiss Architecture Studio",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Work",
+                "href": "/work"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Start",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "PageHeader",
+          "content": {
+            "eyebrow": "REACH OUT",
+            "headline": "Get in Touch",
+            "body": "We welcome inquiries and collaborations grounded in thoughtful design."
+          }
+        },
+        {
+          "id": "ContactForm",
+          "content": {
+            "eyebrow": "CONTACT FORM",
+            "headline": "Send Us a Message",
+            "body": "The form opens your mail client with the right context.",
+            "recipientEmail": "contact@minimalarchitecture.swiss",
+            "submitLabel": "Send",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Name",
+                "type": "text",
+                "required": true,
+                "placeholder": "Your full name"
+              },
+              {
+                "name": "email",
+                "label": "Email",
+                "type": "email",
+                "required": true,
+                "placeholder": "you@example.com"
+              },
+              {
+                "name": "message",
+                "label": "Message",
+                "type": "textarea",
+                "required": true,
+                "placeholder": "How can we help?"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ContactBlock",
+          "content": {
+            "eyebrow": "STUDIO LOCATION",
+            "headline": "Minimal Swiss Architecture Studio",
+            "body": "Zurich-based studio specializing in minimalist design.",
+            "cta": {
+              "label": "Email the team",
+              "href": "mailto:hello@minimalswissarchitectures.co"
+            },
+            "details": [
+              {
+                "label": "Email",
+                "value": "contact@minimalarchitecture.swiss",
+                "href": "mailto:contact@minimalarchitecture.swiss"
+              },
+              {
+                "label": "Phone",
+                "value": "+41 22 000 0000"
+              },
+              {
+                "label": "Address",
+                "value": "Bahnhofstrasse 1, Zurich, Switzerland"
+              }
+            ]
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "Minimal Swiss Architecture Studio",
+            "tagline": "Minimal Swiss Architecture S is built as a complete website system.",
+            "giant": "Minimal Swiss Architecture S",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Work",
+                    "href": "/work"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "2026 Minimal Swiss Architecture S. All rights reserved."
+          }
+        }
+      ]
+    }
+  ],
+  "intent": {
+    "energy": "quiet-luxury",
+    "density": "spacious",
+    "cinematicIntensity": "restrained",
+    "motionIntensity": "subtle",
+    "copyTone": "precise refined",
+    "themeHint": "editorial-noir"
+  }
+}

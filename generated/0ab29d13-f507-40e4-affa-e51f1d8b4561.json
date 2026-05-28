@@ -1,0 +1,444 @@
+{
+  "theme": {
+    "preset": "fintech-minimal",
+    "bg": "#ffffff",
+    "ink": "#111111",
+    "bgAccent": "#f5faff",
+    "fontDisplay": "Inter",
+    "fontBody": "Inter"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "EdgeTool",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineHero",
+          "content": {
+            "eyebrow": "New",
+            "headline": "Streamline Your Dev Workflow",
+            "accent": "efficient",
+            "body": "EdgeTool simplifies engineering team workflows with minimal setup and powerful integrations.",
+            "cta": {
+              "label": "Get Started",
+              "href": "/contact"
+            },
+            "secondaryCta": {
+              "label": "Learn More",
+              "href": "/about"
+            }
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/12899149/pexels-photo-12899149.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Blurred figure at a desk with a laptop displaying colorful code, indicating a programming environment.",
+              "attributionAuthor": "Mizuno K",
+              "attributionUrl": "https://www.pexels.com/photo/laptop-on-desk-in-office-12899149/"
+            }
+          }
+        },
+        {
+          "id": "BaselineFeatures",
+          "content": {
+            "eyebrow": "Core Benefits",
+            "headline": "Key Features for Teams",
+            "accent": "Built to compound.",
+            "features": [
+              {
+                "eyebrow": "01 — Integration",
+                "title": "Seamless Toolchain Sync",
+                "body": "Connect your existing developer tools effortlessly for smooth operations."
+              },
+              {
+                "eyebrow": "02 — Automation",
+                "title": "Automate Repetitive Tasks",
+                "body": "Reduce manual work with customizable automation workflows."
+              },
+              {
+                "eyebrow": "03 — Insights",
+                "title": "Real-Time Metrics",
+                "body": "Monitor team performance and project status with live dashboards."
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/27141316/pexels-photo-27141316.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Close-up of a digital interface showcasing futuristic graphs and data analytics in low light.",
+              "attributionAuthor": "Egor Komarov",
+              "attributionUrl": "https://www.pexels.com/photo/options-on-device-screen-27141316/"
+            }
+          }
+        },
+        {
+          "id": "BaselineTestimonials",
+          "content": {
+            "eyebrow": "Reviews",
+            "headline": "Trusted by Engineering Teams",
+            "testimonials": [
+              {
+                "quote": "EdgeTool cut our deployment times in half.",
+                "author": "Alex",
+                "role": "DevOps Engineer"
+              },
+              {
+                "quote": "Simple setup and immediate impact on productivity.",
+                "author": "Maya",
+                "role": "Software Developer"
+              },
+              {
+                "quote": "A must-have for any serious engineering team.",
+                "author": "Liam",
+                "role": "Team Lead"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineCTA",
+          "content": {
+            "eyebrow": "Get started",
+            "headline": "Simplify Your Development Process",
+            "accent": "remarkable.",
+            "body": "Join engineering teams who trust EdgeTool to enhance their workflows.",
+            "cta": {
+              "label": "Request a Demo",
+              "href": "/contact"
+            },
+            "secondaryCta": {
+              "label": "Talk to sales",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "EdgeTool",
+            "brand": "EdgeTool",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "Minimal tools. Maximum efficiency.",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "title": "About",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "EdgeTool",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineAboutNarrative",
+          "content": {
+            "eyebrow": "About EdgeTool",
+            "headline": "Focused on engineering efficiency",
+            "body": "EdgeTool was created to eliminate complexity and empower developers with streamlined workflows. Our team values clarity, simplicity, and reliability.",
+            "pillarEyebrow": "Core pillars",
+            "pillarHeadline": "Our commitment to quality and user trust.",
+            "pillars": [
+              {
+                "title": "Simplicity",
+                "body": "Designing intuitive tools that reduce friction."
+              },
+              {
+                "title": "Performance",
+                "body": "Ensuring fast and reliable software."
+              },
+              {
+                "title": "Support",
+                "body": "Providing responsive assistance whenever needed."
+              }
+            ],
+            "statsEyebrow": "By the numbers",
+            "stats": [
+              {
+                "value": "2022",
+                "label": "Founded"
+              },
+              {
+                "value": "34",
+                "label": "Team"
+              },
+              {
+                "value": "12k+",
+                "label": "Active users"
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/30004358/pexels-photo-30004358.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Diverse real estate professionals posing confidently in a modern office environment.",
+              "attributionAuthor": "Daniel & Hannah Snipes",
+              "attributionUrl": "https://www.pexels.com/photo/professional-team-in-greenville-office-setting-30004358/"
+            }
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "EdgeTool",
+            "brand": "EdgeTool",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "Minimal tools. Maximum efficiency.",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "EdgeTool",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineContact",
+          "content": {
+            "eyebrow": "Contact",
+            "headline": "Let's build something together",
+            "formTitle": "Get in touch",
+            "formBody": "Fill out the form below and we'll respond promptly.",
+            "recipientEmail": "support@edgetool.com",
+            "subjectTemplate": "New inquiry from {name}",
+            "details": [
+              {
+                "label": "Email",
+                "value": "support@edgetool.com",
+                "href": "mailto:support@edgetool.com"
+              },
+              {
+                "label": "Phone",
+                "value": "+1 555 123 4567",
+                "href": "tel:+15551234567"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "EdgeTool",
+            "brand": "EdgeTool",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "Minimal tools. Maximum efficiency.",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "intent": {
+    "energy": "minimal",
+    "density": "very-minimal",
+    "cinematicIntensity": "restrained",
+    "motionIntensity": "still",
+    "copyTone": "clear technical",
+    "themeHint": "fintech-minimal"
+  }
+}

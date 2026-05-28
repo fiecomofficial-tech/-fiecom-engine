@@ -1,0 +1,1471 @@
+{
+  "theme": {
+    "preset": "warm-sand",
+    "bg": "#fdf7f0",
+    "ink": "#4a3c2f",
+    "bgAccent": "#f4e6d7",
+    "fontDisplay": "Playfair Display",
+    "fontBody": "Lora"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "LuxeArch Studio",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Experience",
+                "href": "/experience"
+              },
+              {
+                "label": "Rooms",
+                "href": "/rooms"
+              },
+              {
+                "label": "Reservations",
+                "href": "/reservations"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Start",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "HeroCinematic",
+          "content": {
+            "eyebrow": "ARCHITECTURE REIMAGINED",
+            "headline": "L U X E\nA R C H I T E C T U R E",
+            "subhead": "EXQUISITE",
+            "body": "Experience the art of space, where design meets cinematic luxury.",
+            "cta": {
+              "label": "Discover More",
+              "href": "/experience"
+            }
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/videos/34458918/4k-hdr-architecture-beautiful-evening-breathtaking-sunset-34458918.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+              "alt": "Rec Everywhere on Pexels",
+              "attributionAuthor": "Rec Everywhere",
+              "attributionUrl": "https://www.pexels.com/video/dynamic-urban-skyline-at-sunset-34458918/",
+              "videoUrl": "https://videos.pexels.com/video-files/34458918/14601126_1280_720_60fps.mp4"
+            }
+          }
+        },
+        {
+          "id": "MessageReveal",
+          "content": {
+            "firstLine": "Crafting spaces with",
+            "accent": "timeless grace",
+            "secondLine": "and visionary elegance",
+            "body": "Our studio blends artistry and innovation for unforgettable environments."
+          }
+        },
+        {
+          "id": "StickyChapters",
+          "content": {
+            "eyebrow": "STORY OF LUXEARCH",
+            "chapters": [
+              {
+                "title": "Pioneering luxury architectural experiences",
+                "body": "We redefine hospitality through design excellence."
+              },
+              {
+                "title": "Inspired by nature and refined by craftsmanship",
+                "body": "Every project reflects layered narratives and deep emotion."
+              },
+              {
+                "title": "Engaging clients in a journey of space and light",
+                "body": "Collaborating to shape iconic destinations."
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/33803734/pexels-photo-33803734.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Explore the elegance of a heritage hotel corridor in Bikaner, showcasing luxurious Rajasthani design.",
+              "attributionAuthor": "Abhishek  Navlakha",
+              "attributionUrl": "https://www.pexels.com/photo/elegant-heritage-hotel-corridor-in-bikaner-33803734/"
+            },
+            "secondary": {
+              "url": "https://images.pexels.com/photos/33803734/pexels-photo-33803734.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Explore the elegance of a heritage hotel corridor in Bikaner, showcasing luxurious Rajasthani design.",
+              "attributionAuthor": "Abhishek  Navlakha",
+              "attributionUrl": "https://www.pexels.com/photo/elegant-heritage-hotel-corridor-in-bikaner-33803734/"
+            }
+          }
+        },
+        {
+          "id": "ImageGallery",
+          "content": {
+            "eyebrow": "GALLERY",
+            "headline": "Immersive architectural moments",
+            "body": "Spaces captured in timeless light and shadow.",
+            "captions": [
+              {
+                "title": "Serene lobby",
+                "year": "2023"
+              },
+              {
+                "title": "Elevated suites",
+                "year": "2022"
+              },
+              {
+                "title": "Sunlit terrace",
+                "year": "2024"
+              },
+              {
+                "title": "Grand entrance",
+                "year": "2021"
+              },
+              {
+                "title": "Intimate lounge",
+                "year": "2023"
+              },
+              {
+                "title": "Rooftop view",
+                "year": "2022"
+              },
+              {
+                "title": "Artful facade",
+                "year": "2024"
+              },
+              {
+                "title": "Poolside retreat",
+                "year": "2023"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/33803734/pexels-photo-33803734.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Explore the elegance of a heritage hotel corridor in Bikaner, showcasing luxurious Rajasthani design.",
+                "attributionAuthor": "Abhishek  Navlakha",
+                "attributionUrl": "https://www.pexels.com/photo/elegant-heritage-hotel-corridor-in-bikaner-33803734/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/11673913/pexels-photo-11673913.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A minimalist vertical view of a modern building facade highlighting geometric patterns and clean lines.",
+                "attributionAuthor": "Mathias Reding",
+                "attributionUrl": "https://www.pexels.com/photo/modern-buildings-walls-11673913/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/18127757/pexels-photo-18127757.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Minimalist facade of a modern building with lamps against a clear blue sky.",
+                "attributionAuthor": "Orhan Pergel",
+                "attributionUrl": "https://www.pexels.com/photo/lamps-on-modern-residential-building-18127757/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/8251251/pexels-photo-8251251.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A serene Japandi-style room features wooden furniture and minimalist art, creating a calm, uncluttered space.",
+                "attributionAuthor": "PNW Production",
+                "attributionUrl": "https://www.pexels.com/photo/wooden-cabinet-beside-the-brown-chair-8251251/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/14841133/pexels-photo-14841133.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Elegant hotel lobby featuring a stunning modern chandelier and sophisticated architecture.",
+                "attributionAuthor": "Meriç Aydın",
+                "attributionUrl": "https://www.pexels.com/photo/hallway-in-the-jw-marriott-hotel-ankara-turkey-14841133/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/17158806/pexels-photo-17158806.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Close-up of a modern architectural facade featuring geometric patterns and textures.",
+                "attributionAuthor": "Arthur  Swiffen",
+                "attributionUrl": "https://www.pexels.com/photo/geometric-modern-facade-17158806/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/10611847/pexels-photo-10611847.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Elegant Mediterranean balcony with sunset lighting, ideal for relaxation and luxury getaways.",
+                "attributionAuthor": "alleksana",
+                "attributionUrl": "https://www.pexels.com/photo/balcony-at-luxurious-hotel-10611847/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/19344317/pexels-photo-19344317.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A contemporary villa featuring a luxurious swimming pool and sleek architectural design.",
+                "attributionAuthor": "Mido Makasardi ©️",
+                "attributionUrl": "https://www.pexels.com/photo/a-swimming-pool-by-a-building-19344317/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "FeatureBento",
+          "content": {
+            "eyebrow": "WHAT WE OFFER",
+            "headline": "Exquisite design crafted for hospitality",
+            "body": "A focused set of proof points, workflows, and conversion paths.",
+            "features": [
+              {
+                "title": "Bespoke Suites",
+                "body": "Tailored spatial experiences for guests seeking exclusivity.",
+                "size": "md"
+              },
+              {
+                "title": "Signature Lounges",
+                "body": "Elegant social areas fostering connection and calm.",
+                "size": "md"
+              },
+              {
+                "title": "Iconic Facades",
+                "body": "Striking architectural identities that captivate.",
+                "size": "md"
+              },
+              {
+                "title": "Terrace Retreats",
+                "body": "Open-air sanctuaries blending nature and design.",
+                "size": "sm"
+              },
+              {
+                "title": "Art Integration",
+                "body": "Curated artworks enhancing architectural narratives.",
+                "size": "sm"
+              },
+              {
+                "title": "Sustainable Craft",
+                "body": "Eco-conscious materials and practices at core.",
+                "size": "sm"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/36573009/pexels-photo-36573009.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Sleek espresso machine in a luxurious kitchen setting in Meishan, Sichuan, China.",
+                "attributionAuthor": "Gatsby Yang",
+                "attributionUrl": "https://www.pexels.com/photo/modern-kitchen-counter-with-stylish-espresso-machine-36573009/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/36573009/pexels-photo-36573009.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Sleek espresso machine in a luxurious kitchen setting in Meishan, Sichuan, China.",
+                "attributionAuthor": "Gatsby Yang",
+                "attributionUrl": "https://www.pexels.com/photo/modern-kitchen-counter-with-stylish-espresso-machine-36573009/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/36573009/pexels-photo-36573009.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Sleek espresso machine in a luxurious kitchen setting in Meishan, Sichuan, China.",
+                "attributionAuthor": "Gatsby Yang",
+                "attributionUrl": "https://www.pexels.com/photo/modern-kitchen-counter-with-stylish-espresso-machine-36573009/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/32443599/pexels-photo-32443599.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A stunning view of a modern atrium with a geometric ceiling in Hamburg, Germany.",
+                "attributionAuthor": "Wolfgang Weiser",
+                "attributionUrl": "https://www.pexels.com/photo/modern-atrium-with-geometric-design-in-hamburg-32443599/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "TimelineScroll",
+          "content": {
+            "eyebrow": "OUR JOURNEY",
+            "headline": "Milestones in luxury hospitality design",
+            "events": [
+              {
+                "year": "2015",
+                "title": "Studio Founded",
+                "body": "LuxeArch Studio launched with a vision to innovate."
+              },
+              {
+                "year": "2017",
+                "title": "First Landmark Project",
+                "body": "Completed award-winning boutique hotel design."
+              },
+              {
+                "year": "2019",
+                "title": "International Expansion",
+                "body": "Opened new offices in Europe and Asia."
+              },
+              {
+                "year": "2021",
+                "title": "Sustainability Charter",
+                "body": "Committed to eco-luxury and responsible design."
+              },
+              {
+                "year": "2023",
+                "title": "Design Excellence Award",
+                "body": "Received top honors for innovative spaces."
+              }
+            ]
+          }
+        },
+        {
+          "id": "TestimonialCarousel",
+          "content": {
+            "eyebrow": "CLIENTS SAY",
+            "testimonials": [
+              {
+                "quote": "LuxeArch transformed our vision into a breathtaking reality.",
+                "author": "Elena",
+                "role": "Hotel Owner"
+              },
+              {
+                "quote": "Their attention to detail and atmosphere is unmatched.",
+                "author": "Marc",
+                "role": "Resort Director"
+              },
+              {
+                "quote": "A truly collaborative and inspiring design experience.",
+                "author": "Sophie",
+                "role": "Hospitality Consultant"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/33803734/pexels-photo-33803734.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Explore the elegance of a heritage hotel corridor in Bikaner, showcasing luxurious Rajasthani design.",
+                "attributionAuthor": "Abhishek  Navlakha",
+                "attributionUrl": "https://www.pexels.com/photo/elegant-heritage-hotel-corridor-in-bikaner-33803734/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/33803734/pexels-photo-33803734.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Explore the elegance of a heritage hotel corridor in Bikaner, showcasing luxurious Rajasthani design.",
+                "attributionAuthor": "Abhishek  Navlakha",
+                "attributionUrl": "https://www.pexels.com/photo/elegant-heritage-hotel-corridor-in-bikaner-33803734/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/33803734/pexels-photo-33803734.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Explore the elegance of a heritage hotel corridor in Bikaner, showcasing luxurious Rajasthani design.",
+                "attributionAuthor": "Abhishek  Navlakha",
+                "attributionUrl": "https://www.pexels.com/photo/elegant-heritage-hotel-corridor-in-bikaner-33803734/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/33803734/pexels-photo-33803734.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Explore the elegance of a heritage hotel corridor in Bikaner, showcasing luxurious Rajasthani design.",
+                "attributionAuthor": "Abhishek  Navlakha",
+                "attributionUrl": "https://www.pexels.com/photo/elegant-heritage-hotel-corridor-in-bikaner-33803734/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ContactBlock",
+          "content": {
+            "eyebrow": "GET IN TOUCH",
+            "headline": "Let's create your next iconic space",
+            "body": "Contact us to start your bespoke architecture journey.",
+            "cta": {
+              "label": "Email the team",
+              "href": "mailto:hello@home.co"
+            },
+            "details": [
+              {
+                "label": "Email",
+                "value": "contact@luxearch.com",
+                "href": "mailto:contact@luxearch.com"
+              },
+              {
+                "label": "Phone",
+                "value": "+1 234 567 890"
+              },
+              {
+                "label": "Location",
+                "value": "New York, USA"
+              }
+            ]
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "LuxeArch Studio",
+            "tagline": "Crafting Luxurious Spaces",
+            "giant": "LUXEARCH",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Experience",
+                    "href": "/experience"
+                  },
+                  {
+                    "label": "Rooms",
+                    "href": "/rooms"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Reservations",
+                    "href": "/reservations"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "© 2024 LuxeArch Studio. All rights reserved."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "experience",
+      "title": "Experience",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "LuxeArch Studio",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Experience",
+                "href": "/experience"
+              },
+              {
+                "label": "Rooms",
+                "href": "/rooms"
+              },
+              {
+                "label": "Reservations",
+                "href": "/reservations"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Start",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "PageHeader",
+          "content": {
+            "eyebrow": "DISCOVER",
+            "headline": "LUXE EXPERIENCES",
+            "body": "Explore spaces crafted to inspire and delight."
+          }
+        },
+        {
+          "id": "ImageGallery",
+          "content": {
+            "eyebrow": "EXPERIENCE GALLERY",
+            "headline": "Immersive environments that captivate",
+            "body": "Each space tells a story of luxury and detail.",
+            "captions": [
+              {
+                "title": "Grand Lobby"
+              },
+              {
+                "title": "Sunset Lounge"
+              },
+              {
+                "title": "Private Dining"
+              },
+              {
+                "title": "Spa Sanctuary"
+              },
+              {
+                "title": "Rooftop Bar"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/33803734/pexels-photo-33803734.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Explore the elegance of a heritage hotel corridor in Bikaner, showcasing luxurious Rajasthani design.",
+                "attributionAuthor": "Abhishek  Navlakha",
+                "attributionUrl": "https://www.pexels.com/photo/elegant-heritage-hotel-corridor-in-bikaner-33803734/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/33053203/pexels-photo-33053203.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Relaxed evening gathering at Lekursi Castle, Sarandë, overlooking the sunset.",
+                "attributionAuthor": "Arlind D",
+                "attributionUrl": "https://www.pexels.com/photo/sunset-lounge-at-lekursi-castle-in-albania-33053203/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/27305248/pexels-photo-27305248.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Cozy and luxurious dining room interior featuring elegant table settings and stylish decor.",
+                "attributionAuthor": "Valeria Boltneva",
+                "attributionUrl": "https://www.pexels.com/photo/the-dining-room-at-the-restaurant-is-set-up-with-wooden-tables-and-chairs-27305248/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/18161061/pexels-photo-18161061.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Contemporary bathroom setting featuring a luxurious bathtub and stylish decor.",
+                "attributionAuthor": "Alex Quezada",
+                "attributionUrl": "https://www.pexels.com/photo/modern-bathroom-with-a-large-bathtub-18161061/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/34831737/pexels-photo-34831737.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Elegant rooftop bar in Oman with mountain view at sunset, inviting atmosphere.",
+                "attributionAuthor": "Elizaveta Vinogradova",
+                "attributionUrl": "https://www.pexels.com/photo/stunning-rooftop-bar-at-sunset-in-oman-34831737/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "TimelineScroll",
+          "content": {
+            "eyebrow": "EXPERIENCE EVOLUTION",
+            "headline": "Signature moments through time",
+            "events": [
+              {
+                "year": "2016",
+                "title": "First Luxe Experience",
+                "body": "Designed immersive guest interactions."
+              },
+              {
+                "year": "2018",
+                "title": "Expanded Amenities",
+                "body": "Introduced bespoke social and wellness spaces."
+              },
+              {
+                "year": "2020",
+                "title": "Tech Integration",
+                "body": "Seamless smart features enhance comfort."
+              },
+              {
+                "year": "2023",
+                "title": "Award Recognition",
+                "body": "Honored for innovative guest environments."
+              }
+            ]
+          }
+        },
+        {
+          "id": "FeatureList",
+          "content": {
+            "eyebrow": "HIGHLIGHTS",
+            "headline": "Experiences designed to captivate",
+            "features": [
+              {
+                "title": "Tailored Ambiance",
+                "body": "Controlled lighting and soundscapes."
+              },
+              {
+                "title": "Exclusive Lounges",
+                "body": "Private, elegant social settings."
+              },
+              {
+                "title": "Artful Details",
+                "body": "Custom installations and curated collections."
+              },
+              {
+                "title": "Wellness Retreats",
+                "body": "Spaces promoting relaxation and balance."
+              },
+              {
+                "title": "Panoramic Views",
+                "body": "Designs that maximize natural vistas."
+              }
+            ]
+          }
+        },
+        {
+          "id": "CTABanner",
+          "content": {
+            "eyebrow": "READY TO EXPERIENCE",
+            "headline": "Book your personalized tour today",
+            "body": "Give visitors a clear path instead of a dead end.",
+            "cta": {
+              "label": "Reserve Now",
+              "href": "/reservations"
+            }
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "LuxeArch Studio",
+            "tagline": "Crafting Luxurious Spaces",
+            "giant": "LUXEARCH",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Experience",
+                    "href": "/experience"
+                  },
+                  {
+                    "label": "Rooms",
+                    "href": "/rooms"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Reservations",
+                    "href": "/reservations"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "© 2024 LuxeArch Studio. All rights reserved."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "rooms",
+      "title": "Rooms",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "LuxeArch Studio",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Experience",
+                "href": "/experience"
+              },
+              {
+                "label": "Rooms",
+                "href": "/rooms"
+              },
+              {
+                "label": "Reservations",
+                "href": "/reservations"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Start",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "PageHeader",
+          "content": {
+            "eyebrow": "DISCOVER",
+            "headline": "LUXURY ROOMS",
+            "body": "Tailored spaces blending comfort and style."
+          }
+        },
+        {
+          "id": "ImageGallery",
+          "content": {
+            "eyebrow": "ROOM COLLECTION",
+            "headline": "Elegant interiors and stunning views",
+            "body": "A visual layer that makes the offer tangible.",
+            "captions": [
+              {
+                "title": "The Signature Suite"
+              },
+              {
+                "title": "The Loft Room"
+              },
+              {
+                "title": "The Garden View"
+              },
+              {
+                "title": "The Penthouse"
+              },
+              {
+                "title": "The Classic Room"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/36916378/pexels-photo-36916378.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Modern hotel room with luxurious bedding and stylish decor, featuring framed cityscape art.",
+                "attributionAuthor": "Misbaa eri",
+                "attributionUrl": "https://www.pexels.com/photo/elegant-hotel-room-interior-with-modern-decor-36916378/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/16451357/pexels-photo-16451357.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Bright modern loft with brick walls, sunlight, and contemporary furniture.",
+                "attributionAuthor": "Nadin Sh",
+                "attributionUrl": "https://www.pexels.com/photo/modern-apartment-interior-photographed-from-the-mezzanine-16451357/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/32021575/pexels-photo-32021575.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Modern hotel room with bed and cityscape view through window.",
+                "attributionAuthor": "Misbaa eri",
+                "attributionUrl": "https://www.pexels.com/photo/cozy-hotel-room-interior-with-city-view-32021575/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/7745936/pexels-photo-7745936.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Modern attic bedroom with TV, balcony, and contemporary design elements.",
+                "attributionAuthor": "Max Vakhtbovych",
+                "attributionUrl": "https://www.pexels.com/photo/contemporary-bedroom-in-the-attic-with-a-balcony-7745936/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/17836120/pexels-photo-17836120.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Elegant vintage hotel room in Istanbul featuring ornate decor and luxurious furnishings.",
+                "attributionAuthor": "Nida Kurt",
+                "attributionUrl": "https://www.pexels.com/photo/luxury-room-of-gran-hotel-in-istanbul-17836120/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "FeatureList",
+          "content": {
+            "eyebrow": "ROOM FEATURES",
+            "headline": "Designed for unparalleled comfort",
+            "features": [
+              {
+                "title": "Custom Furnishings",
+                "body": "Handcrafted pieces sourced globally."
+              },
+              {
+                "title": "Smart Controls",
+                "body": "Seamless room automation for lighting and climate."
+              },
+              {
+                "title": "Spa-Inspired Bathrooms",
+                "body": "Luxury fixtures and soothing atmospheres."
+              },
+              {
+                "title": "Panoramic Windows",
+                "body": "Maximizing natural light and views."
+              },
+              {
+                "title": "Soundproofing",
+                "body": "Quiet sanctuaries for restful stays."
+              }
+            ]
+          }
+        },
+        {
+          "id": "TestimonialCarousel",
+          "content": {
+            "eyebrow": "GUEST REVIEWS",
+            "testimonials": [
+              {
+                "quote": "The rooms are a masterpiece of design and comfort.",
+                "author": "Anna",
+                "role": "Guest"
+              },
+              {
+                "quote": "Every detail reflects true luxury and care.",
+                "author": "James",
+                "role": "Guest"
+              },
+              {
+                "quote": "An unforgettable stay in a beautifully crafted space.",
+                "author": "Maria",
+                "role": "Guest"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/33803734/pexels-photo-33803734.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Explore the elegance of a heritage hotel corridor in Bikaner, showcasing luxurious Rajasthani design.",
+                "attributionAuthor": "Abhishek  Navlakha",
+                "attributionUrl": "https://www.pexels.com/photo/elegant-heritage-hotel-corridor-in-bikaner-33803734/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/33803734/pexels-photo-33803734.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Explore the elegance of a heritage hotel corridor in Bikaner, showcasing luxurious Rajasthani design.",
+                "attributionAuthor": "Abhishek  Navlakha",
+                "attributionUrl": "https://www.pexels.com/photo/elegant-heritage-hotel-corridor-in-bikaner-33803734/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/33803734/pexels-photo-33803734.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Explore the elegance of a heritage hotel corridor in Bikaner, showcasing luxurious Rajasthani design.",
+                "attributionAuthor": "Abhishek  Navlakha",
+                "attributionUrl": "https://www.pexels.com/photo/elegant-heritage-hotel-corridor-in-bikaner-33803734/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/33803734/pexels-photo-33803734.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Explore the elegance of a heritage hotel corridor in Bikaner, showcasing luxurious Rajasthani design.",
+                "attributionAuthor": "Abhishek  Navlakha",
+                "attributionUrl": "https://www.pexels.com/photo/elegant-heritage-hotel-corridor-in-bikaner-33803734/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "CTABanner",
+          "content": {
+            "eyebrow": "READY TO STAY",
+            "headline": "Reserve your perfect room today",
+            "body": "Give visitors a clear path instead of a dead end.",
+            "cta": {
+              "label": "Book Now",
+              "href": "/reservations"
+            }
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "LuxeArch Studio",
+            "tagline": "Crafting Luxurious Spaces",
+            "giant": "LUXEARCH",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Experience",
+                    "href": "/experience"
+                  },
+                  {
+                    "label": "Rooms",
+                    "href": "/rooms"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Reservations",
+                    "href": "/reservations"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "© 2024 LuxeArch Studio. All rights reserved."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "reservations",
+      "title": "Reservations",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "LuxeArch Studio",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Experience",
+                "href": "/experience"
+              },
+              {
+                "label": "Rooms",
+                "href": "/rooms"
+              },
+              {
+                "label": "Reservations",
+                "href": "/reservations"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Start",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "PageHeader",
+          "content": {
+            "eyebrow": "PLAN",
+            "headline": "MAKE RESERVATIONS",
+            "body": "Secure your place in luxurious spaces."
+          }
+        },
+        {
+          "id": "ContactForm",
+          "content": {
+            "eyebrow": "BOOK YOUR STAY",
+            "headline": "Reservation Request",
+            "body": "Please provide your details and preferences below.",
+            "recipientEmail": "reservations@luxearch.com",
+            "submitLabel": "Submit Reservation",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Full Name",
+                "type": "text",
+                "required": true,
+                "placeholder": "Your full name"
+              },
+              {
+                "name": "email",
+                "label": "Email Address",
+                "type": "email",
+                "required": true,
+                "placeholder": "you@example.com"
+              },
+              {
+                "name": "phone",
+                "label": "Phone Number",
+                "type": "tel",
+                "required": false,
+                "placeholder": "+1 234 567 890"
+              },
+              {
+                "name": "roomType",
+                "label": "Room Type",
+                "type": "select",
+                "required": true,
+                "options": [
+                  "Signature Suite",
+                  "Loft Room",
+                  "Garden View",
+                  "Penthouse",
+                  "Classic Room"
+                ]
+              },
+              {
+                "name": "message",
+                "label": "Additional Requests",
+                "type": "textarea",
+                "required": false,
+                "placeholder": "Let us know your preferences"
+              }
+            ],
+            "subjectTemplate": "New Reservation Request from {{name}}"
+          }
+        },
+        {
+          "id": "FAQAccordion",
+          "content": {
+            "eyebrow": "QUESTIONS",
+            "headline": "Frequently Asked Questions",
+            "faqs": [
+              {
+                "q": "What is the cancellation policy?",
+                "a": "Reservations can be canceled up to 48 hours before arrival without penalty."
+              },
+              {
+                "q": "Are pets allowed in rooms?",
+                "a": "Certain rooms are pet-friendly; please specify during booking."
+              },
+              {
+                "q": "Is parking available on-site?",
+                "a": "Yes, secure parking is provided for guests."
+              },
+              {
+                "q": "Can I request late check-out?",
+                "a": "Late check-out is subject to availability and prior approval."
+              }
+            ]
+          }
+        },
+        {
+          "id": "ContactBlock",
+          "content": {
+            "eyebrow": "NEED HELP?",
+            "headline": "Contact Reservations Team",
+            "body": "We’re here to assist with your booking needs.",
+            "cta": {
+              "label": "Email the team",
+              "href": "mailto:hello@home.co"
+            },
+            "details": [
+              {
+                "label": "Email",
+                "value": "reservations@luxearch.com",
+                "href": "mailto:reservations@luxearch.com"
+              },
+              {
+                "label": "Phone",
+                "value": "+1 234 567 891"
+              }
+            ]
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "LuxeArch Studio",
+            "tagline": "Crafting Luxurious Spaces",
+            "giant": "LUXEARCH",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Experience",
+                    "href": "/experience"
+                  },
+                  {
+                    "label": "Rooms",
+                    "href": "/rooms"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Reservations",
+                    "href": "/reservations"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "© 2024 LuxeArch Studio. All rights reserved."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "LuxeArch Studio",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Experience",
+                "href": "/experience"
+              },
+              {
+                "label": "Rooms",
+                "href": "/rooms"
+              },
+              {
+                "label": "Reservations",
+                "href": "/reservations"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Start",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "PageHeader",
+          "content": {
+            "eyebrow": "CONNECT",
+            "headline": "CONTACT US",
+            "body": "We’d love to hear from you."
+          }
+        },
+        {
+          "id": "ContactBlock",
+          "content": {
+            "eyebrow": "REACH OUT",
+            "headline": "Contact LuxeArch Studio",
+            "body": "Send us your inquiries or project ideas.",
+            "cta": {
+              "label": "Email the team",
+              "href": "mailto:hello@home.co"
+            },
+            "details": [
+              {
+                "label": "Email",
+                "value": "contact@luxearch.com",
+                "href": "mailto:contact@luxearch.com"
+              },
+              {
+                "label": "Phone",
+                "value": "+1 234 567 890"
+              },
+              {
+                "label": "Address",
+                "value": "123 Luxury Ave, New York, USA"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ContactForm",
+          "content": {
+            "eyebrow": "SEND MESSAGE",
+            "headline": "Get in touch",
+            "body": "The form opens your mail client with the right context.",
+            "recipientEmail": "contact@luxearch.com",
+            "submitLabel": "Send Message",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Full Name",
+                "type": "text",
+                "required": true,
+                "placeholder": "Your full name"
+              },
+              {
+                "name": "email",
+                "label": "Email Address",
+                "type": "email",
+                "required": true,
+                "placeholder": "you@example.com"
+              },
+              {
+                "name": "message",
+                "label": "Message",
+                "type": "textarea",
+                "required": true,
+                "placeholder": "Write your message here"
+              }
+            ],
+            "subjectTemplate": "Contact Form Submission from {{name}}"
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "LuxeArch Studio",
+            "tagline": "Crafting Luxurious Spaces",
+            "giant": "LUXEARCH",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Experience",
+                    "href": "/experience"
+                  },
+                  {
+                    "label": "Rooms",
+                    "href": "/rooms"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Reservations",
+                    "href": "/reservations"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "© 2024 LuxeArch Studio. All rights reserved."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "process",
+      "title": "Process",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "LuxeArch Studio",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Experience",
+                "href": "/experience"
+              },
+              {
+                "label": "Rooms",
+                "href": "/rooms"
+              },
+              {
+                "label": "Reservations",
+                "href": "/reservations"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Start",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "PageHeader",
+          "content": {
+            "eyebrow": "OUR METHOD",
+            "headline": "THE DESIGN PROCESS",
+            "body": "From concept to creation, tailored for excellence."
+          }
+        },
+        {
+          "id": "ContactForm",
+          "content": {
+            "eyebrow": "Start",
+            "headline": "Tell us what you need",
+            "body": "The form opens your mail client with the right context.",
+            "recipientEmail": "hello@home.co",
+            "submitLabel": "Send request"
+          }
+        },
+        {
+          "id": "ProcessSteps",
+          "content": {
+            "eyebrow": "STEP BY STEP",
+            "headline": "How we craft iconic spaces",
+            "steps": [
+              {
+                "number": "1",
+                "title": "Discovery",
+                "body": "Understanding your vision and goals through deep consultation.",
+                "duration": "1-2 weeks"
+              },
+              {
+                "number": "2",
+                "title": "Concept Design",
+                "body": "Creating preliminary sketches and mood boards for alignment.",
+                "duration": "3-4 weeks"
+              },
+              {
+                "number": "3",
+                "title": "Development",
+                "body": "Refining design details and technical plans for execution.",
+                "duration": "4-6 weeks"
+              },
+              {
+                "number": "4",
+                "title": "Implementation",
+                "body": "Collaborating with craftsmen and overseeing construction.",
+                "duration": "8-12 weeks"
+              },
+              {
+                "number": "5",
+                "title": "Delivery",
+                "body": "Final walkthrough and adjustments ensuring perfection.",
+                "duration": "1 week"
+              }
+            ]
+          }
+        },
+        {
+          "id": "CTABanner",
+          "content": {
+            "eyebrow": "READY TO BEGIN",
+            "headline": "Turn interest into a useful action",
+            "body": "Give visitors a clear path instead of a dead end.",
+            "cta": {
+              "label": "Talk to us",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "Home",
+            "tagline": "Home is built as a complete website system.",
+            "giant": "Home",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Experience",
+                    "href": "/experience"
+                  },
+                  {
+                    "label": "Rooms",
+                    "href": "/rooms"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Reservations",
+                    "href": "/reservations"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "2026 Home. All rights reserved."
+          }
+        }
+      ]
+    }
+  ]
+}

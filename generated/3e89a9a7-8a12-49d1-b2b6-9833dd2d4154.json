@@ -1,0 +1,440 @@
+{
+  "theme": {
+    "preset": "fintech-minimal",
+    "accent": "#1a73e8",
+    "bg": "#ffffff",
+    "ink": "#202124",
+    "bgAccent": "#f1f3f4",
+    "fontDisplay": "Inter",
+    "fontBody": "Roboto"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "MinimalDevTool",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get Started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineHero",
+          "content": {
+            "eyebrow": "New",
+            "headline": "Minimal Dev Tool",
+            "accent": "for engineers",
+            "body": "Streamline workflows with no bloat, just powerful essentials.",
+            "cta": {
+              "label": "Start Free Trial",
+              "href": "/contact"
+            },
+            "secondaryCta": {
+              "label": "Learn More",
+              "href": "/about"
+            }
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/29279566/pexels-photo-29279566.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Speckled coffee mug on a laptop with visible code, creating a coding workspace vibe.",
+              "attributionAuthor": "Apollonia",
+              "attributionUrl": "https://www.pexels.com/photo/cozy-coding-workspace-with-coffee-mug-29279566/"
+            }
+          }
+        },
+        {
+          "id": "BaselineFeatures",
+          "content": {
+            "eyebrow": "Core Features",
+            "headline": "Essential tools built for speed",
+            "accent": "Built to compound.",
+            "features": [
+              {
+                "eyebrow": "01 — Code Sync",
+                "title": "Real-time collaboration",
+                "body": "Keep your team in sync with instant code sharing and updates."
+              },
+              {
+                "eyebrow": "02 — Lightweight CLI",
+                "title": "Fast and simple interface",
+                "body": "Operate with minimal commands designed for efficiency."
+              },
+              {
+                "eyebrow": "03 — Secure Access",
+                "title": "Enterprise-grade security",
+                "body": "Protect your code with robust authentication and encryption."
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/34804011/pexels-photo-34804011.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Close-up of a laptop screen displaying programming code with a cute plush toy reflecting.",
+              "attributionAuthor": "Daniil Komov",
+              "attributionUrl": "https://www.pexels.com/photo/reflection-in-a-laptop-screen-showing-code-34804011/"
+            }
+          }
+        },
+        {
+          "id": "BaselineTestimonials",
+          "content": {
+            "eyebrow": "Users",
+            "headline": "Trusted by engineering teams",
+            "testimonials": [
+              {
+                "quote": "Cuts down our deploy time by half.",
+                "author": "Alex",
+                "role": "DevOps Engineer"
+              },
+              {
+                "quote": "The stripped-down UI means no distractions.",
+                "author": "Morgan",
+                "role": "Frontend Developer"
+              },
+              {
+                "quote": "Reliable and secure for our entire team.",
+                "author": "Jamie",
+                "role": "CTO"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineCTA",
+          "content": {
+            "eyebrow": "Ready to start?",
+            "headline": "Try MinimalDevTool today",
+            "accent": "no credit card needed",
+            "body": "Sign up now and simplify your development pipeline.",
+            "cta": {
+              "label": "Create Account",
+              "href": "/contact"
+            },
+            "secondaryCta": {
+              "label": "Contact Sales",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "MinimalDevTool",
+            "brand": "MinimalDevTool",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "© 2024 MinimalDevTool",
+            "tagline": "Built for engineers who value simplicity.",
+            "meta": [
+              {
+                "label": "Privacy"
+              },
+              {
+                "label": "Terms"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "title": "About",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "MinimalDevTool",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineAboutNarrative",
+          "content": {
+            "eyebrow": "About MinimalDevTool",
+            "headline": "Focused on what matters",
+            "body": "Founded by engineers, we understand the need for tools that just work without distractions. Our team is committed to delivering lightweight, secure developer solutions that integrate seamlessly.",
+            "pillarEyebrow": "Core pillars",
+            "pillarHeadline": "Guiding principles for every release",
+            "pillars": [
+              {
+                "title": "Simplicity",
+                "body": "Remove unnecessary complexity to speed workflows."
+              },
+              {
+                "title": "Security",
+                "body": "Keep your code safe with top-tier protections."
+              },
+              {
+                "title": "Reliability",
+                "body": "Deliver consistent performance under all conditions."
+              }
+            ],
+            "statsEyebrow": "By the numbers",
+            "stats": [
+              {
+                "value": "2019",
+                "label": "Founded"
+              },
+              {
+                "value": "30k+",
+                "label": "Users"
+              },
+              {
+                "value": "99.9%",
+                "label": "Uptime"
+              }
+            ],
+            "accent": "clean code"
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/30004358/pexels-photo-30004358.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Diverse real estate professionals posing confidently in a modern office environment.",
+              "attributionAuthor": "Daniel & Hannah Snipes",
+              "attributionUrl": "https://www.pexels.com/photo/professional-team-in-greenville-office-setting-30004358/"
+            }
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "MinimalDevTool",
+            "brand": "MinimalDevTool",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "© 2024 MinimalDevTool",
+            "tagline": "MinimalDevTool. Built for clarity.",
+            "meta": [
+              {
+                "label": "Privacy"
+              },
+              {
+                "label": "Terms"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "MinimalDevTool",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineContact",
+          "content": {
+            "eyebrow": "Contact",
+            "headline": "Get in touch",
+            "formTitle": "Send a message",
+            "formBody": "Our team responds promptly to all inquiries.",
+            "recipientEmail": "support@minimaldevtool.com",
+            "subjectTemplate": "New inquiry from {name}",
+            "details": [
+              {
+                "label": "Email",
+                "value": "support@minimaldevtool.com",
+                "href": "mailto:support@minimaldevtool.com"
+              },
+              {
+                "label": "Phone",
+                "value": "+1-800-123-4567",
+                "href": "tel:+18001234567"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "MinimalDevTool",
+            "brand": "MinimalDevTool",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "© 2024 MinimalDevTool",
+            "tagline": "MinimalDevTool. Built for clarity.",
+            "meta": [
+              {
+                "label": "Privacy"
+              },
+              {
+                "label": "Terms"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "intent": {
+    "energy": "minimal",
+    "density": "very-minimal",
+    "cinematicIntensity": "restrained",
+    "motionIntensity": "still",
+    "copyTone": "blunt technical",
+    "themeHint": "fintech-minimal"
+  }
+}

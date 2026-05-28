@@ -1,0 +1,509 @@
+{
+  "theme": {
+    "preset": "fintech-minimal",
+    "bgAccent": "gray-100",
+    "fontDisplay": "Inter",
+    "fontBody": "Inter"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "ClearCode — Minimal Dev Tool",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "ClearCode",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get Started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineHero",
+          "content": {
+            "eyebrow": "New — minimal devtool for engineering teams",
+            "headline": "Minimal Tooling for Engineers",
+            "accent": "Zero Noise",
+            "body": "Focus on code quality and efficiency without distractions.",
+            "cta": {
+              "label": "Start Free Trial",
+              "href": "/contact"
+            },
+            "secondaryCta": {
+              "label": "Learn More",
+              "href": "/about"
+            }
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/6177590/pexels-photo-6177590.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Workspace with opened notebook near pencil and glass with water near wireless keyboard",
+              "attributionAuthor": "Cup of  Couple",
+              "attributionUrl": "https://www.pexels.com/photo/modern-workplace-with-notepad-and-keyboard-6177590/"
+            }
+          }
+        },
+        {
+          "id": "BaselineFeatures",
+          "content": {
+            "eyebrow": "Core Features",
+            "headline": "Essential Functions, Simplified",
+            "accent": "Built to compound.",
+            "features": [
+              {
+                "title": "Code Integration",
+                "body": "Seamlessly connect with your existing repositories."
+              },
+              {
+                "title": "Real-time Analysis",
+                "body": "Instant feedback on code quality and performance."
+              },
+              {
+                "title": "Team Collaboration",
+                "body": "Share insights and track progress effortlessly."
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/34212896/pexels-photo-34212896.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "A vibrant workspace showing computer monitors with code, keyboard, and tech accessories.",
+              "attributionAuthor": "Jakub Zerdzicki",
+              "attributionUrl": "https://www.pexels.com/photo/modern-workspace-with-coding-screens-and-keyboard-34212896/"
+            },
+            "secondary": {
+              "url": "https://images.pexels.com/photos/6804068/pexels-photo-6804068.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Team of developers working together on computers in a modern tech office.",
+              "attributionAuthor": "cottonbro studio",
+              "attributionUrl": "https://www.pexels.com/photo/men-sitting-at-the-desks-in-an-office-and-using-computers-6804068/"
+            },
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/256502/pexels-photo-256502.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Close-up of colorful CSS code lines on a computer screen for web development.",
+                "attributionAuthor": "Pixabay",
+                "attributionUrl": "https://www.pexels.com/photo/close-up-of-text-on-black-background-256502/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/574073/pexels-photo-574073.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Laptop with code editor open, notebook and pen on wooden desk, perfect for tech and work themes.",
+                "attributionAuthor": "Lukas Blazek",
+                "attributionUrl": "https://www.pexels.com/photo/turned-on-laptop-computer-574073/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/115655/pexels-photo-115655.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A clean and stylish workspace featuring dual monitors, a lamp, and office supplies.",
+                "attributionAuthor": "Lee Campbell",
+                "attributionUrl": "https://www.pexels.com/photo/imac-aluminum-on-table-115655/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineAboutNarrative",
+          "content": {
+            "eyebrow": "About ClearCode",
+            "headline": "Built for Engineers Who Value Simplicity",
+            "body": "ClearCode was created to eliminate tool bloat and let engineers focus on what matters: code quality.",
+            "pillarEyebrow": "Our Approach",
+            "pillarHeadline": "Minimal, Effective, Reliable",
+            "pillars": [
+              {
+                "title": "Simplicity",
+                "body": "A clean interface with only essential features."
+              },
+              {
+                "title": "Performance",
+                "body": "Fast and lightweight to keep your workflow smooth."
+              },
+              {
+                "title": "Security",
+                "body": "Robust protections without complicating usage."
+              }
+            ],
+            "statsEyebrow": "By the Numbers",
+            "stats": [
+              {
+                "value": "2019",
+                "label": "Founded"
+              },
+              {
+                "value": "10k+",
+                "label": "Developers"
+              },
+              {
+                "value": "99.9%",
+                "label": "Uptime"
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/30004358/pexels-photo-30004358.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Diverse real estate professionals posing confidently in a modern office environment.",
+              "attributionAuthor": "Daniel & Hannah Snipes",
+              "attributionUrl": "https://www.pexels.com/photo/professional-team-in-greenville-office-setting-30004358/"
+            }
+          }
+        },
+        {
+          "id": "BaselineCTA",
+          "content": {
+            "eyebrow": "Get Started",
+            "headline": "Simplify Your Development Workflow",
+            "accent": "No Frills",
+            "body": "Sign up today and streamline your engineering process.",
+            "cta": {
+              "label": "Start Your Free Trial",
+              "href": "/contact"
+            },
+            "secondaryCta": {
+              "label": "Talk to sales",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "ClearCode",
+            "brand": "ClearCode",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "Minimal tools for maximum clarity.",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "title": "About ClearCode",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "ClearCode",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineAboutNarrative",
+          "content": {
+            "eyebrow": "Who We Are",
+            "headline": "Engineered for Simplicity and Efficiency",
+            "body": "ClearCode was founded to provide a stripped-down, effective dev tool that integrates seamlessly with engineering workflows.",
+            "pillarEyebrow": "Core Values",
+            "pillarHeadline": "Focus, Clarity, Trust",
+            "pillars": [
+              {
+                "title": "Minimalism",
+                "body": "Only the features that matter."
+              },
+              {
+                "title": "Reliability",
+                "body": "Tools that work when you need them."
+              },
+              {
+                "title": "Transparency",
+                "body": "Clear communication and open policies."
+              }
+            ],
+            "statsEyebrow": "Company Stats",
+            "stats": [
+              {
+                "value": "2019",
+                "label": "Founded"
+              },
+              {
+                "value": "50+",
+                "label": "Team Members"
+              },
+              {
+                "value": "15k+",
+                "label": "Users"
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/30004358/pexels-photo-30004358.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Diverse real estate professionals posing confidently in a modern office environment.",
+              "attributionAuthor": "Daniel & Hannah Snipes",
+              "attributionUrl": "https://www.pexels.com/photo/professional-team-in-greenville-office-setting-30004358/"
+            }
+          }
+        },
+        {
+          "id": "TwoColumnText",
+          "content": {
+            "eyebrow": "Context",
+            "headline": "Approach",
+            "paragraphs": [
+              {
+                "heading": "Minimal Interface",
+                "body": "Our UI strips away distractions with a clean, straightforward design."
+              },
+              {
+                "heading": "Developer First",
+                "body": "Built by engineers, for engineers, with practical workflows in mind."
+              },
+              {
+                "heading": "Continuous Improvement",
+                "body": "We iterate based on real user feedback and needs."
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "ClearCode",
+            "brand": "ClearCode",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "ClearCode. Built for clarity.",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact ClearCode",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "ClearCode",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineContact",
+          "content": {
+            "eyebrow": "Contact",
+            "headline": "We're Here to Help",
+            "formTitle": "Reach Out",
+            "formBody": "Fill out the form and we will respond promptly.",
+            "recipientEmail": "support@clearcode.com",
+            "subjectTemplate": "New inquiry from {name}",
+            "details": [
+              {
+                "label": "Email",
+                "value": "support@clearcode.com",
+                "href": "mailto:support@clearcode.com"
+              },
+              {
+                "label": "Phone",
+                "value": "+1-800-555-1234",
+                "href": "tel:+18005551234"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "ClearCode",
+            "brand": "ClearCode",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "ClearCode. Built for clarity.",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "intent": {
+    "energy": "minimal",
+    "density": "very-minimal",
+    "cinematicIntensity": "restrained",
+    "motionIntensity": "still",
+    "copyTone": "blunt technical",
+    "themeHint": "fintech-minimal"
+  }
+}

@@ -1,0 +1,537 @@
+{
+  "architecture": "fiecom-reference",
+  "prompt": "AI startup for developers",
+  "createdAt": "2026-05-25T00:52:10.281Z",
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Empowering Developers with AI",
+      "site": {
+        "id": "ygftfahn8",
+        "createdAt": "2026-05-25T00:52:09.023Z",
+        "prompt": "AI startup for developers",
+        "category": "startup",
+        "template": "soft-studio",
+        "intent": {
+          "category": "startup",
+          "categoryConfidence": 0.98,
+          "style": "modern-minimal",
+          "tone": "confident",
+          "motion": "considered",
+          "subject": "AI startup for developers"
+        },
+        "variation": {
+          "density": "spacious",
+          "sectionOrder": "narrative",
+          "typeSystem": "humanist-mix",
+          "accent": "flux-violet",
+          "heroShape": "asymmetric",
+          "nav": "minimal",
+          "atmosphere": "warm-glow",
+          "cursor": "default"
+        },
+        "brand": {
+          "name": "DevAI Labs",
+          "voice": "Confident, clear, and modern with a minimalistic approach",
+          "accent": "flux-violet"
+        },
+        "nav": [
+          {
+            "label": "Empowering Developers with AI",
+            "href": "/"
+          },
+          {
+            "label": "About DevAI Labs",
+            "href": "/about"
+          },
+          {
+            "label": "Product",
+            "href": "/product"
+          },
+          {
+            "label": "Get in Touch",
+            "href": "/contact"
+          }
+        ],
+        "page": {
+          "slug": "home",
+          "title": "Empowering Developers with AI",
+          "kind": "home"
+        },
+        "sections": [
+          {
+            "id": "hero",
+            "kind": "hero",
+            "eyebrow": "DEVAI LABS",
+            "title": "Build Smarter, Faster with DevAI Labs",
+            "subtitle": "AI-driven tools and APIs designed to accelerate your development process.",
+            "cta": {
+              "label": "Get Started Today",
+              "href": "#work"
+            },
+            "visualMoodId": "warm-aurora",
+            "media": {
+              "url": "https://images.pexels.com/photos/34804017/pexels-photo-34804017.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Detailed view of a computer screen displaying code with a menu of AI actions, illustrating modern software development.",
+              "attributionAuthor": "Daniil Komov",
+              "attributionUrl": "https://www.pexels.com/photo/close-up-of-computer-screen-with-code-and-menu-options-34804017/"
+            }
+          },
+          {
+            "id": "marquee",
+            "kind": "marquee",
+            "words": [
+              "AI",
+              "Developers",
+              "Code",
+              "Innovation",
+              "Productivity"
+            ]
+          },
+          {
+            "id": "story",
+            "kind": "story",
+            "eyebrow": "01 / Story",
+            "title": "Why DevAI Labs?",
+            "paragraphs": [
+              "At DevAI Labs, we believe in empowering developers with intelligent tools that simplify complex coding challenges.",
+              "Our AI-powered solutions integrate seamlessly into your workflow, boosting productivity and innovation.",
+              "Join a community of forward-thinking developers who trust DevAI Labs for cutting-edge AI development tools."
+            ]
+          },
+          {
+            "id": "work",
+            "kind": "work",
+            "eyebrow": "02 / Selected work",
+            "title": "A short index of what matters.",
+            "items": [
+              {
+                "title": "Signal",
+                "meta": "AI startup for developers",
+                "visualMoodId": "graphite-rise",
+                "media": {
+                  "url": "https://images.pexels.com/photos/16027824/pexels-photo-16027824.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                  "alt": "Close-up of a computer screen displaying ChatGPT interface in a dark setting.",
+                  "attributionAuthor": "Matheus Bertelli",
+                  "attributionUrl": "https://www.pexels.com/photo/chat-gpt-welcome-screen-on-computer-16027824/"
+                }
+              },
+              {
+                "title": "System",
+                "meta": "AI startup for developers",
+                "visualMoodId": "flux-prism",
+                "media": {
+                  "url": "https://images.pexels.com/photos/16094057/pexels-photo-16094057.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                  "alt": "A man interacts with a laptop displaying the ChatGPT system indoors, focusing on technology.",
+                  "attributionAuthor": "Matheus Bertelli",
+                  "attributionUrl": "https://www.pexels.com/photo/man-using-chatgpt-ai-system-16094057/"
+                }
+              },
+              {
+                "title": "Detail",
+                "meta": "AI startup for developers",
+                "visualMoodId": "cold-vapor",
+                "media": {
+                  "url": "https://images.pexels.com/photos/34804017/pexels-photo-34804017.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                  "alt": "Detailed view of a computer screen displaying code with a menu of AI actions, illustrating modern software development.",
+                  "attributionAuthor": "Daniil Komov",
+                  "attributionUrl": "https://www.pexels.com/photo/close-up-of-computer-screen-with-code-and-menu-options-34804017/"
+                }
+              },
+              {
+                "title": "Outcome",
+                "meta": "AI startup for developers",
+                "visualMoodId": "amber-glow",
+                "media": {
+                  "url": "https://images.pexels.com/photos/12899158/pexels-photo-12899158.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                  "alt": "Focused programmer coding on a laptop in an office environment.",
+                  "attributionAuthor": "Mizuno K",
+                  "attributionUrl": "https://www.pexels.com/photo/vertical-shot-of-a-man-in-a-beige-t-shirt-looking-at-laptop-screen-with-multicoloured-code-12899158/"
+                }
+              }
+            ]
+          },
+          {
+            "id": "features",
+            "kind": "feature",
+            "eyebrow": "03 / Approach",
+            "title": "Key Features",
+            "features": [
+              {
+                "title": "AI Code Generation",
+                "body": "Generate clean, efficient code snippets tailored to your project needs instantly.",
+                "iconId": "prism"
+              },
+              {
+                "title": "Smart Debugging",
+                "body": "Identify and resolve bugs faster using intelligent error detection powered by AI.",
+                "iconId": "ring"
+              },
+              {
+                "title": "API Integrations",
+                "body": "Easily integrate with popular development platforms and tools for a streamlined experience.",
+                "iconId": "fold"
+              }
+            ]
+          },
+          {
+            "id": "manifesto",
+            "kind": "manifesto",
+            "eyebrow": "Manifesto",
+            "body": "We build AI tools that empower developers to create more, innovate faster, and push the boundaries of technology."
+          },
+          {
+            "id": "contact",
+            "kind": "contact",
+            "eyebrow": "Contact",
+            "title": "Start with a focused conversation.",
+            "email": "hello@devailabs.co"
+          }
+        ],
+        "blocks": [
+          "hero.split",
+          "marquee.big",
+          "story.editorial",
+          "work.mosaic",
+          "feature.bento",
+          "manifesto.center",
+          "contact.quiet"
+        ],
+        "footerBlock": "footer.minimal",
+        "typePalette": "fragment-manrope",
+        "status": "draft",
+        "edits": []
+      }
+    },
+    {
+      "slug": "about",
+      "title": "About DevAI Labs",
+      "site": {
+        "id": "fwol2pidb",
+        "createdAt": "2026-05-25T00:52:09.366Z",
+        "prompt": "AI startup for developers",
+        "category": "startup",
+        "template": "soft-studio",
+        "intent": {
+          "category": "startup",
+          "categoryConfidence": 0.98,
+          "style": "modern-minimal",
+          "tone": "confident",
+          "motion": "calm",
+          "subject": "AI startup for developers"
+        },
+        "variation": {
+          "density": "spacious",
+          "sectionOrder": "narrative",
+          "typeSystem": "geometric-sans",
+          "accent": "flux-violet",
+          "heroShape": "split",
+          "nav": "top-quiet",
+          "atmosphere": "clean",
+          "cursor": "default"
+        },
+        "brand": {
+          "name": "DevAI Labs",
+          "voice": "Confident, clear, and modern with a minimalistic approach",
+          "accent": "flux-violet"
+        },
+        "nav": [
+          {
+            "label": "Empowering Developers with AI",
+            "href": "/"
+          },
+          {
+            "label": "About DevAI Labs",
+            "href": "/about"
+          },
+          {
+            "label": "Product",
+            "href": "/product"
+          },
+          {
+            "label": "Get in Touch",
+            "href": "/contact"
+          }
+        ],
+        "page": {
+          "slug": "about",
+          "title": "About DevAI Labs",
+          "kind": "internal"
+        },
+        "sections": [
+          {
+            "id": "story",
+            "kind": "story",
+            "eyebrow": "About DevAI Labs",
+            "title": "Our Story",
+            "paragraphs": [
+              "Founded by a team of passionate developers and AI experts, DevAI Labs is dedicated to transforming the coding landscape.",
+              "We combine deep technical expertise with cutting-edge AI research to create tools that empower developers worldwide.",
+              "Transparency, innovation, and community are at the core of everything we build."
+            ]
+          },
+          {
+            "id": "contact",
+            "kind": "contact",
+            "eyebrow": "Contact",
+            "title": "Start with a focused conversation.",
+            "email": "hello@devailabs.co"
+          }
+        ],
+        "blocks": [
+          "story.editorial",
+          "contact.quiet"
+        ],
+        "footerBlock": "footer.minimal",
+        "typePalette": "souve-inter",
+        "status": "draft",
+        "edits": []
+      }
+    },
+    {
+      "slug": "product",
+      "title": "Product",
+      "site": {
+        "id": "subv0gimu",
+        "createdAt": "2026-05-25T00:52:09.809Z",
+        "prompt": "AI startup for developers",
+        "category": "startup",
+        "template": "soft-studio",
+        "intent": {
+          "category": "startup",
+          "categoryConfidence": 0.98,
+          "style": "modern-minimal",
+          "tone": "confident",
+          "motion": "calm",
+          "subject": "AI startup for developers"
+        },
+        "variation": {
+          "density": "spacious",
+          "sectionOrder": "narrative",
+          "typeSystem": "geometric-sans",
+          "accent": "jade",
+          "heroShape": "split",
+          "nav": "top-quiet",
+          "atmosphere": "warm-glow",
+          "cursor": "default"
+        },
+        "brand": {
+          "name": "DevAI Labs",
+          "voice": "Confident, clear, and modern with a minimalistic approach",
+          "accent": "jade"
+        },
+        "nav": [
+          {
+            "label": "Empowering Developers with AI",
+            "href": "/"
+          },
+          {
+            "label": "About DevAI Labs",
+            "href": "/about"
+          },
+          {
+            "label": "Product",
+            "href": "/product"
+          },
+          {
+            "label": "Get in Touch",
+            "href": "/contact"
+          }
+        ],
+        "page": {
+          "slug": "product",
+          "title": "Product",
+          "kind": "internal"
+        },
+        "sections": [
+          {
+            "id": "story",
+            "kind": "story",
+            "eyebrow": "Product",
+            "title": "Built around the core workflow.",
+            "paragraphs": [
+              "DevAI Labs turns the promise into concrete moments visitors can understand quickly."
+            ]
+          },
+          {
+            "id": "work",
+            "kind": "work",
+            "eyebrow": "Selected",
+            "title": "Product moments.",
+            "items": [
+              {
+                "title": "Signal",
+                "meta": "AI startup for developers",
+                "visualMoodId": "graphite-rise",
+                "media": {
+                  "url": "https://images.pexels.com/photos/16027824/pexels-photo-16027824.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                  "alt": "Close-up of a computer screen displaying ChatGPT interface in a dark setting.",
+                  "attributionAuthor": "Matheus Bertelli",
+                  "attributionUrl": "https://www.pexels.com/photo/chat-gpt-welcome-screen-on-computer-16027824/"
+                }
+              },
+              {
+                "title": "System",
+                "meta": "AI startup for developers",
+                "visualMoodId": "flux-prism",
+                "media": {
+                  "url": "https://images.pexels.com/photos/16094057/pexels-photo-16094057.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                  "alt": "A man interacts with a laptop displaying the ChatGPT system indoors, focusing on technology.",
+                  "attributionAuthor": "Matheus Bertelli",
+                  "attributionUrl": "https://www.pexels.com/photo/man-using-chatgpt-ai-system-16094057/"
+                }
+              },
+              {
+                "title": "Detail",
+                "meta": "AI startup for developers",
+                "visualMoodId": "cold-vapor",
+                "media": {
+                  "url": "https://images.pexels.com/photos/34804017/pexels-photo-34804017.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                  "alt": "Detailed view of a computer screen displaying code with a menu of AI actions, illustrating modern software development.",
+                  "attributionAuthor": "Daniil Komov",
+                  "attributionUrl": "https://www.pexels.com/photo/close-up-of-computer-screen-with-code-and-menu-options-34804017/"
+                }
+              },
+              {
+                "title": "Outcome",
+                "meta": "AI startup for developers",
+                "visualMoodId": "amber-glow",
+                "media": {
+                  "url": "https://images.pexels.com/photos/12899158/pexels-photo-12899158.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                  "alt": "Focused programmer coding on a laptop in an office environment.",
+                  "attributionAuthor": "Mizuno K",
+                  "attributionUrl": "https://www.pexels.com/photo/vertical-shot-of-a-man-in-a-beige-t-shirt-looking-at-laptop-screen-with-multicoloured-code-12899158/"
+                }
+              }
+            ]
+          },
+          {
+            "id": "features",
+            "kind": "feature",
+            "eyebrow": "Details",
+            "title": "What the product makes easier.",
+            "features": [
+              {
+                "title": "Clear positioning",
+                "body": "A site structure tuned to AI startup for developers.",
+                "iconId": "prism"
+              },
+              {
+                "title": "Premium presentation",
+                "body": "Typography, motion, and media work together without crowding the page.",
+                "iconId": "ring"
+              },
+              {
+                "title": "Useful conversion",
+                "body": "Every page gives visitors a clear next step.",
+                "iconId": "fold"
+              }
+            ]
+          },
+          {
+            "id": "contact",
+            "kind": "contact",
+            "eyebrow": "Contact",
+            "title": "Start with a focused conversation.",
+            "email": "hello@devailabs.co"
+          }
+        ],
+        "blocks": [
+          "story.editorial",
+          "work.mosaic",
+          "feature.big-row",
+          "contact.quiet"
+        ],
+        "footerBlock": "footer.minimal",
+        "typePalette": "souve-inter",
+        "status": "draft",
+        "edits": []
+      }
+    },
+    {
+      "slug": "contact",
+      "title": "Get in Touch",
+      "site": {
+        "id": "mby3kviz5",
+        "createdAt": "2026-05-25T00:52:10.281Z",
+        "prompt": "AI startup for developers",
+        "category": "startup",
+        "template": "soft-studio",
+        "intent": {
+          "category": "startup",
+          "categoryConfidence": 0.98,
+          "style": "modern-minimal",
+          "tone": "confident",
+          "motion": "calm",
+          "subject": "AI startup for developers"
+        },
+        "variation": {
+          "density": "spacious",
+          "sectionOrder": "narrative",
+          "typeSystem": "geometric-sans",
+          "accent": "flux-violet",
+          "heroShape": "split",
+          "nav": "top-quiet",
+          "atmosphere": "warm-glow",
+          "cursor": "default"
+        },
+        "brand": {
+          "name": "DevAI Labs",
+          "voice": "Confident, clear, and modern with a minimalistic approach",
+          "accent": "flux-violet"
+        },
+        "nav": [
+          {
+            "label": "Empowering Developers with AI",
+            "href": "/"
+          },
+          {
+            "label": "About DevAI Labs",
+            "href": "/about"
+          },
+          {
+            "label": "Product",
+            "href": "/product"
+          },
+          {
+            "label": "Get in Touch",
+            "href": "/contact"
+          }
+        ],
+        "page": {
+          "slug": "contact",
+          "title": "Get in Touch",
+          "kind": "internal"
+        },
+        "sections": [
+          {
+            "id": "story",
+            "kind": "story",
+            "eyebrow": "Get in Touch",
+            "title": "Reach Out",
+            "paragraphs": [
+              "Have questions or want to learn more about our AI tools?",
+              "Our team is ready to assist you with any inquiries or support needs.",
+              "Connect with us today and accelerate your development journey."
+            ]
+          },
+          {
+            "id": "contact",
+            "kind": "contact",
+            "eyebrow": "Contact",
+            "title": "Contact Us",
+            "email": "hello@devaillabs.com"
+          }
+        ],
+        "blocks": [
+          "story.editorial",
+          "contact.quiet"
+        ],
+        "footerBlock": "footer.minimal",
+        "typePalette": "souve-inter",
+        "status": "draft",
+        "edits": []
+      }
+    }
+  ]
+}

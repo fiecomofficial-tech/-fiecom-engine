@@ -1,0 +1,990 @@
+{
+  "theme": {
+    "preset": "warm-sand",
+    "bg": "#FFF6F5",
+    "ink": "#3B2F2F",
+    "bgAccent": "#FCE8E8",
+    "fontDisplay": "Georgia, serif",
+    "fontBody": "Arial, sans-serif"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Sugar Bee Home",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Sugar Bee",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Menu",
+                "href": "/menu"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineHero",
+          "content": {
+            "eyebrow": "Fresh Daily",
+            "headline": "Brooklyn’s Sweetest Cupcakes",
+            "accent": "delightfully baked",
+            "body": "Experience handcrafted cupcakes made with love in the heart of Brooklyn, where every bite tells a story.",
+            "cta": {
+              "label": "Explore Our Menu",
+              "href": "/menu"
+            },
+            "secondaryCta": {
+              "label": "Visit Us",
+              "href": "/contact"
+            }
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/30199170/pexels-photo-30199170.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "A box of gourmet cupcakes, ideal for birthdays or celebrations.",
+              "attributionAuthor": "James Collington",
+              "attributionUrl": "https://www.pexels.com/photo/delicious-assorted-cupcakes-with-candles-30199170/"
+            }
+          }
+        },
+        {
+          "id": "MarqueeBand",
+          "content": {
+            "items": [
+              "Sugar Bee",
+              "Strategy",
+              "Motion",
+              "Proof",
+              "Conversion"
+            ],
+            "tone": "normal",
+            "eyebrow": "Seasonal Favorites",
+            "headline": "Taste the magic of every season"
+          }
+        },
+        {
+          "id": "BaselineLogoBar",
+          "content": {
+            "eyebrow": "Loved by Brooklyn",
+            "clients": [
+              {
+                "name": "Brooklyn Eats"
+              },
+              {
+                "name": "Cupcake Lovers"
+              },
+              {
+                "name": "Neighborhood Moms"
+              },
+              {
+                "name": "Sweet Treat Fans"
+              }
+            ]
+          }
+        },
+        {
+          "id": "MessageReveal",
+          "content": {
+            "firstLine": "Sugar Bee is not another template",
+            "accent": "different",
+            "secondLine": "It is a structured product story",
+            "body": "Our bakers blend the finest ingredients and time-honored recipes to bring you treats that warm your soul.",
+            "eyebrow": "Baking With Heart",
+            "headline": "Crafting joy one cupcake at a time"
+          }
+        },
+        {
+          "id": "BaselineFeatures",
+          "content": {
+            "eyebrow": "Our Flavors",
+            "headline": "Cupcake varieties to sweeten your day",
+            "accent": "crafted fresh daily",
+            "features": [
+              {
+                "title": "Classic Vanilla",
+                "body": "Light, fluffy vanilla cupcakes with creamy buttercream frosting."
+              },
+              {
+                "title": "Chocolate Bliss",
+                "body": "Rich chocolate cupcakes topped with velvety ganache."
+              },
+              {
+                "title": "Seasonal Specials",
+                "body": "Unique flavors inspired by Brooklyn’s seasons and festivities."
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/35457879/pexels-photo-35457879.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Captivating misty forest scene in Kosovo's Rugova Valley during winter, offering a serene and cinematic atmosphere.",
+                "attributionAuthor": "Andi Dautaj",
+                "attributionUrl": "https://www.pexels.com/photo/misty-winter-forest-in-kosovo-s-rugova-valley-35457879/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/9665180/pexels-photo-9665180.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Dynamic view of dust particles in motion, illuminated against a black background, creating an ethereal effect.",
+                "attributionAuthor": "cottonbro studio",
+                "attributionUrl": "https://www.pexels.com/photo/white-dust-particles-on-black-background-9665180/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/333850/pexels-photo-333850.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A mysterious silhouette standing against a backdrop of dramatic red smoke.",
+                "attributionAuthor": "Elti Meshau",
+                "attributionUrl": "https://www.pexels.com/photo/silhouette-of-man-standing-against-black-and-red-background-333850/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "SpyltFlavor",
+          "content": {
+            "headline": "Choose your favorite",
+            "cards": [
+              {
+                "title": "Original"
+              },
+              {
+                "title": "Bright"
+              },
+              {
+                "title": "Deep"
+              },
+              {
+                "title": "Smooth"
+              },
+              {
+                "title": "Bold"
+              },
+              {
+                "title": "Classic"
+              }
+            ],
+            "cta": {
+              "label": "Get it now",
+              "href": "/contact"
+            }
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/12506515/pexels-photo-12506515.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A cozy vintage living room featuring retro decor, a classic television, and warm sunlight.",
+                "attributionAuthor": "Yusuf P",
+                "attributionUrl": "https://www.pexels.com/photo/vintage-tv-in-room-12506515/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35574315/pexels-photo-35574315.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Two people walking through a foggy park path in Tychy, Poland during the early morning.",
+                "attributionAuthor": "Alexander Zvir",
+                "attributionUrl": "https://www.pexels.com/photo/serene-morning-walk-in-foggy-park-35574315/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35574315/pexels-photo-35574315.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Two people walking through a foggy park path in Tychy, Poland during the early morning.",
+                "attributionAuthor": "Alexander Zvir",
+                "attributionUrl": "https://www.pexels.com/photo/serene-morning-walk-in-foggy-park-35574315/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/5982829/pexels-photo-5982829.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Scenery of mystic forest with dark trees in fog under cloudy sky in daytime",
+                "attributionAuthor": "Jamie Saw",
+                "attributionUrl": "https://www.pexels.com/photo/dark-forest-in-cloudy-day-5982829/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/5982829/pexels-photo-5982829.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Scenery of mystic forest with dark trees in fog under cloudy sky in daytime",
+                "attributionAuthor": "Jamie Saw",
+                "attributionUrl": "https://www.pexels.com/photo/dark-forest-in-cloudy-day-5982829/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/5982829/pexels-photo-5982829.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Scenery of mystic forest with dark trees in fog under cloudy sky in daytime",
+                "attributionAuthor": "Jamie Saw",
+                "attributionUrl": "https://www.pexels.com/photo/dark-forest-in-cloudy-day-5982829/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ImageGallery",
+          "content": {
+            "eyebrow": "Gallery",
+            "headline": "Seen from every angle",
+            "body": "A visual layer that makes the offer tangible.",
+            "captions": [
+              {
+                "title": "Signal",
+                "year": "2026"
+              },
+              {
+                "title": "Space",
+                "year": "2025"
+              },
+              {
+                "title": "Detail",
+                "year": "2026"
+              },
+              {
+                "title": "Flow",
+                "year": "2025"
+              },
+              {
+                "title": "Texture",
+                "year": "2026"
+              },
+              {
+                "title": "Proof",
+                "year": "2025"
+              },
+              {
+                "title": "People",
+                "year": "2026"
+              },
+              {
+                "title": "System",
+                "year": "2025"
+              },
+              {
+                "title": "Outcome",
+                "year": "2026"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/16220883/pexels-photo-16220883.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Delicious cupcakes with floral decor on a stand, perfect for events.",
+                "attributionAuthor": "Alejandra Montenegro",
+                "attributionUrl": "https://www.pexels.com/photo/cupcakes-at-birthday-party-16220883/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/31672060/pexels-photo-31672060.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Warm and inviting bakery interior in London showcasing fresh bread and pastries in a display window.",
+                "attributionAuthor": "Gül Işık",
+                "attributionUrl": "https://www.pexels.com/photo/cozy-london-bakery-interior-with-bread-display-31672060/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/29635808/pexels-photo-29635808.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A baker removes freshly toasted bread slices from the oven, showcasing baking in progress.",
+                "attributionAuthor": "JunHao Yuan",
+                "attributionUrl": "https://www.pexels.com/photo/baker-taking-freshly-toasted-bread-from-oven-29635808/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/2261999/pexels-photo-2261999.png?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Charming cupcakes with fondant icing featuring playful cartoon faces, perfect for parties.",
+                "attributionAuthor": "Kristina Paukshtite",
+                "attributionUrl": "https://www.pexels.com/photo/two-cupcakes-2261999/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/5486147/pexels-photo-5486147.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A young couple shopping in a contemporary furniture store, making payment with a credit card.",
+                "attributionAuthor": "AI25.Studio  Studio",
+                "attributionUrl": "https://www.pexels.com/photo/man-and-woman-in-furniture-shop-paying-via-credit-card-5486147/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35285710/pexels-photo-35285710.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A cozy vintage interior featuring a warm glowing industrial fan and a potted plant.",
+                "attributionAuthor": "Connor Scott McManus",
+                "attributionUrl": "https://www.pexels.com/photo/vintage-interior-with-industrial-fan-and-warm-lighting-35285710/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/32930797/pexels-photo-32930797.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Silhouette of a person in dramatic fog and light setting, creating a mystical atmosphere.",
+                "attributionAuthor": "cnrdmroglu",
+                "attributionUrl": "https://www.pexels.com/photo/mysterious-silhouette-in-foggy-light-32930797/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/27583986/pexels-photo-27583986.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Silhouetted figure with blue light and smoke on a nighttime street scene, creating an air of mystery.",
+                "attributionAuthor": "Manish Jangid",
+                "attributionUrl": "https://www.pexels.com/photo/a-man-in-a-suit-standing-in-front-of-a-fire-27583986/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35457880/pexels-photo-35457880.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Serene winter scene in a misty forest in Kosovo, capturing cold and tranquil atmosphere.",
+                "attributionAuthor": "Andi Dautaj",
+                "attributionUrl": "https://www.pexels.com/photo/misty-forest-pathway-in-kosovo-s-winter-woods-35457880/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineTestimonials",
+          "content": {
+            "eyebrow": "Sweet Words",
+            "headline": "What our customers say",
+            "testimonials": [
+              {
+                "quote": "Sugar Bee’s cupcakes are my favorite treat!",
+                "author": "Emily",
+                "role": "Local Customer"
+              },
+              {
+                "quote": "Every bite feels like home baked happiness.",
+                "author": "James",
+                "role": "Food Blogger"
+              },
+              {
+                "quote": "The best cupcakes in Brooklyn, hands down!",
+                "author": "Lena",
+                "role": "Neighborhood Regular"
+              }
+            ]
+          }
+        },
+        {
+          "id": "SpyltMessage",
+          "content": {
+            "firstLine": "Stir up the fearless past",
+            "accent": "Fuel up",
+            "secondLine": "the future with every move",
+            "body": "Sugar Bee turns nostalgia and product benefit into one bold message."
+          }
+        },
+        {
+          "id": "SpyltBottomBanner",
+          "content": {
+            "headline": "Right around",
+            "accent": "The corner",
+            "body": "Sugar Bee gives visitors a clear way to find the offer.",
+            "cta": {
+              "label": "Find out",
+              "href": "/contact"
+            }
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/23384428/pexels-photo-23384428.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Dramatic silhouette of armed figures in a smoky, dimly lit environment, depicting a military scene.",
+              "attributionAuthor": "Wolrider YURTSEVEN",
+              "attributionUrl": "https://www.pexels.com/photo/a-professional-camera-filming-a-person-with-a-weapon-23384428/"
+            }
+          }
+        },
+        {
+          "id": "BaselineAboutNarrative",
+          "content": {
+            "eyebrow": "About Sugar Bee",
+            "headline": "Our passion is in every bite",
+            "body": "Since opening in Brooklyn, Sugar Bee has been dedicated to creating cupcakes that bring joy and community together.",
+            "pillarEyebrow": "Our Values",
+            "pillarHeadline": "Sweetness, quality, and community are at our core",
+            "pillars": [
+              {
+                "title": "Fresh Ingredients",
+                "body": "We use only the finest locally sourced ingredients."
+              },
+              {
+                "title": "Handcrafted",
+                "body": "Every cupcake is baked with care and attention."
+              },
+              {
+                "title": "Community Driven",
+                "body": "We believe in supporting and growing with Brooklyn."
+              }
+            ],
+            "statsEyebrow": "By the Numbers",
+            "stats": [
+              {
+                "value": "5k+",
+                "label": "Cupcakes sold"
+              },
+              {
+                "value": "10",
+                "label": "Flavors year-round"
+              },
+              {
+                "value": "8",
+                "label": "Years baking"
+              }
+            ],
+            "accent": "baked with love"
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/30878454/pexels-photo-30878454.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Cinematic scene with neon lights and actors on set, creating a mysterious atmosphere.",
+              "attributionAuthor": "Javo  Films",
+              "attributionUrl": "https://www.pexels.com/photo/moody-indoor-film-set-with-neon-lighting-30878454/"
+            }
+          }
+        },
+        {
+          "id": "BaselineCTA",
+          "content": {
+            "eyebrow": "Order Now",
+            "headline": "Taste the sweetness today",
+            "accent": "join our community",
+            "body": "Visit Sugar Bee or order online to enjoy our delightful cupcakes fresh and fast.",
+            "cta": {
+              "label": "Order Online",
+              "href": "/menu"
+            },
+            "secondaryCta": {
+              "label": "Contact Us",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Sugar Bee",
+            "brand": "Sugar Bee",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Menu",
+                    "href": "/menu"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "Sweet moments baked daily in Brooklyn",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "title": "About Sugar Bee",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Sugar Bee",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Menu",
+                "href": "/menu"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineAboutNarrative",
+          "content": {
+            "eyebrow": "About Sugar Bee",
+            "headline": "Our mission: Sweetness and community",
+            "body": "Founded in Brooklyn, Sugar Bee combines tradition and creativity to craft cupcakes that bring people together.",
+            "pillarEyebrow": "Core Values",
+            "pillarHeadline": "Commitment to quality, freshness, and local support",
+            "pillars": [
+              {
+                "title": "Quality Ingredients",
+                "body": "We choose only the best for every batch."
+              },
+              {
+                "title": "Craftsmanship",
+                "body": "Baking with care in small batches."
+              },
+              {
+                "title": "Community Focus",
+                "body": "Supporting local causes and events."
+              }
+            ],
+            "statsEyebrow": "Milestones",
+            "stats": [
+              {
+                "value": "8",
+                "label": "Years Baking"
+              },
+              {
+                "value": "100k+",
+                "label": "Cupcakes Shared"
+              },
+              {
+                "value": "50+",
+                "label": "Community Events"
+              }
+            ],
+            "accent": "heartfelt baking"
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/30878454/pexels-photo-30878454.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Cinematic scene with neon lights and actors on set, creating a mysterious atmosphere.",
+              "attributionAuthor": "Javo  Films",
+              "attributionUrl": "https://www.pexels.com/photo/moody-indoor-film-set-with-neon-lighting-30878454/"
+            }
+          }
+        },
+        {
+          "id": "TwoColumnText",
+          "content": {
+            "eyebrow": "Our Philosophy",
+            "headline": "Baking with passion and purpose",
+            "paragraphs": [
+              {
+                "heading": "Locally Sourced",
+                "body": "We partner with local farms and suppliers to ensure freshness and sustainability."
+              },
+              {
+                "heading": "Innovative Flavors",
+                "body": "Our seasonal specials reflect Brooklyn’s vibrant culture and tastes."
+              },
+              {
+                "heading": "Customer Care",
+                "body": "Every cupcake is made to delight and bring joy."
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Sugar Bee",
+            "brand": "Sugar Bee",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Menu",
+                    "href": "/menu"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "Sweet moments baked daily in Brooklyn",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "menu",
+      "title": "Sugar Bee Menu",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Sugar Bee",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Menu",
+                "href": "/menu"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselinePageHeader",
+          "content": {
+            "eyebrow": "Menu",
+            "headline": "Cupcake Selection and Specials",
+            "body": "Explore our delicious cupcake varieties and seasonal treats made fresh daily."
+          }
+        },
+        {
+          "id": "FeatureList",
+          "content": {
+            "eyebrow": "Specials",
+            "headline": "Seasonal and Limited Edition",
+            "features": [
+              {
+                "title": "Pumpkin Spice",
+                "body": "Warm spices and sweet frosting, perfect for fall."
+              },
+              {
+                "title": "Strawberry Fields",
+                "body": "Fresh strawberry flavors capturing summer."
+              },
+              {
+                "title": "Mint Chocolate Chip",
+                "body": "Cool mint with chocolate chips for a refreshing twist."
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineContact",
+          "content": {
+            "eyebrow": "Order & Visit",
+            "headline": "Get in touch or stop by",
+            "formTitle": "Place your order",
+            "formBody": "We’d love to hear from you! Use the form or visit our bakery.",
+            "recipientEmail": "hello@sugarbee.bk",
+            "subjectTemplate": "New inquiry from {name}",
+            "details": [
+              {
+                "label": "Email",
+                "value": "hello@sugarbee.bk"
+              },
+              {
+                "label": "Phone",
+                "value": "(555) 123-4567"
+              },
+              {
+                "label": "Office",
+                "value": "123 Sweet St, Brooklyn, NY"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Sugar Bee",
+            "brand": "Sugar Bee",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Menu",
+                    "href": "/menu"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "Sweet moments baked daily in Brooklyn",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact Sugar Bee",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Sugar Bee",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Menu",
+                "href": "/menu"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineContact",
+          "content": {
+            "eyebrow": "Contact",
+            "headline": "Let’s connect",
+            "formTitle": "Send us a message",
+            "formBody": "We’d love to hear from you!",
+            "recipientEmail": "hello@sugarbee.bk",
+            "subjectTemplate": "New inquiry from {name}",
+            "details": [
+              {
+                "label": "Email",
+                "value": "hello@sugarbee.bk",
+                "href": "mailto:hello@sugarbee.bk"
+              },
+              {
+                "label": "Phone",
+                "value": "(555) 123-4567",
+                "href": "tel:5551234567"
+              },
+              {
+                "label": "Office",
+                "value": "123 Sweet St, Brooklyn, NY"
+              }
+            ]
+          }
+        },
+        {
+          "id": "TwoColumnText",
+          "content": {
+            "eyebrow": "Visit Us",
+            "headline": "Find your way to Sugar Bee",
+            "paragraphs": [
+              {
+                "heading": "Location",
+                "body": "Conveniently located in the heart of Brooklyn."
+              },
+              {
+                "heading": "Hours",
+                "body": "Open Tues-Sun, 9am to 7pm."
+              },
+              {
+                "heading": "Parking",
+                "body": "Street parking available nearby."
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Sugar Bee",
+            "brand": "Sugar Bee",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Menu",
+                    "href": "/menu"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "Sweet moments baked daily in Brooklyn",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "intent": {
+    "energy": "immersive",
+    "density": "spacious",
+    "cinematicIntensity": "high",
+    "motionIntensity": "rich",
+    "copyTone": "warm inviting",
+    "themeHint": "warm-sand"
+  }
+}

@@ -1,0 +1,656 @@
+{
+  "theme": {
+    "preset": "fintech-minimal",
+    "bg": "#F9FAFB",
+    "ink": "#111827",
+    "bgAccent": "#E5E7EB",
+    "fontDisplay": "Inter",
+    "fontBody": "Roboto"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Streamline Dev",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Services",
+                "href": "/services"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineHero",
+          "content": {
+            "eyebrow": "New",
+            "headline": "Simplify Engineering Workflows",
+            "accent": "Seamlessly",
+            "body": "Streamline Dev offers a minimal, powerful devtool built for engineering teams to accelerate productivity.",
+            "cta": {
+              "label": "Get Started",
+              "href": "/contact"
+            },
+            "secondaryCta": {
+              "label": "Learn More",
+              "href": "/services"
+            }
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/29279566/pexels-photo-29279566.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Speckled coffee mug on a laptop with visible code, creating a coding workspace vibe.",
+              "attributionAuthor": "Apollonia",
+              "attributionUrl": "https://www.pexels.com/photo/cozy-coding-workspace-with-coffee-mug-29279566/"
+            }
+          }
+        },
+        {
+          "id": "BaselineFeatures",
+          "content": {
+            "eyebrow": "Core Features",
+            "headline": "Tools Engineered for Teams",
+            "accent": "Efficiency first",
+            "features": [
+              {
+                "eyebrow": "01 — Integration",
+                "title": "Connect Your Stack",
+                "body": "Easily integrate with popular CI/CD, code hosting, and monitoring platforms."
+              },
+              {
+                "eyebrow": "02 — Automation",
+                "title": "Smart Automation",
+                "body": "Automate repetitive tasks with customizable workflows to save time."
+              },
+              {
+                "eyebrow": "03 — Insights",
+                "title": "Real-time Analytics",
+                "body": "Gain visibility into your engineering metrics and performance trends."
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/34804011/pexels-photo-34804011.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Close-up of a laptop screen displaying programming code with a cute plush toy reflecting.",
+              "attributionAuthor": "Daniil Komov",
+              "attributionUrl": "https://www.pexels.com/photo/reflection-in-a-laptop-screen-showing-code-34804011/"
+            }
+          }
+        },
+        {
+          "id": "BaselineTestimonials",
+          "content": {
+            "eyebrow": "Customers",
+            "headline": "Trusted by Engineering Teams",
+            "testimonials": [
+              {
+                "quote": "Streamline Dev reduced our deployment times significantly.",
+                "author": "Alex",
+                "role": "DevOps Engineer"
+              },
+              {
+                "quote": "The automation features freed up our developers to focus on code.",
+                "author": "Sam",
+                "role": "Engineering Manager"
+              },
+              {
+                "quote": "Insightful analytics helped us improve system reliability.",
+                "author": "Jordan",
+                "role": "Tech Lead"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineCTA",
+          "content": {
+            "eyebrow": "Get Started",
+            "headline": "Empower Your Engineering Team",
+            "accent": "Start today",
+            "body": "Join teams improving their workflow with Streamline Dev’s focused tools.",
+            "cta": {
+              "label": "Contact Sales",
+              "href": "/contact"
+            },
+            "secondaryCta": {
+              "label": "Talk to sales",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Streamline Dev",
+            "brand": "Streamline Dev",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Services",
+                    "href": "/services"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "Minimal tools for maximum developer productivity",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "title": "About",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Streamline Dev",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Services",
+                "href": "/services"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselinePageHeader",
+          "content": {
+            "eyebrow": "About",
+            "headline": "Our Mission and Values",
+            "body": "We build minimal, reliable tools to help engineering teams work smarter and faster."
+          }
+        },
+        {
+          "id": "BaselineAboutNarrative",
+          "content": {
+            "body": "Founded by engineers, Streamline Dev is dedicated to crafting intuitive tools that reduce complexity and improve productivity for development teams.",
+            "pillarEyebrow": "Core pillars",
+            "pillarHeadline": "What drives us every day",
+            "pillars": [
+              {
+                "title": "Simplicity",
+                "body": "Designing clean, easy-to-use products."
+              },
+              {
+                "title": "Reliability",
+                "body": "Ensuring tools perform flawlessly at scale."
+              },
+              {
+                "title": "Customer Focus",
+                "body": "Listening and adapting to user needs."
+              }
+            ],
+            "statsEyebrow": "By the numbers",
+            "stats": [
+              {
+                "value": "2020",
+                "label": "Founded"
+              },
+              {
+                "value": "1000+",
+                "label": "Teams Served"
+              },
+              {
+                "value": "99.9%",
+                "label": "Uptime Guarantee"
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/30004358/pexels-photo-30004358.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Diverse real estate professionals posing confidently in a modern office environment.",
+              "attributionAuthor": "Daniel & Hannah Snipes",
+              "attributionUrl": "https://www.pexels.com/photo/professional-team-in-greenville-office-setting-30004358/"
+            }
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Streamline Dev",
+            "brand": "Streamline Dev",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Services",
+                    "href": "/services"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "Minimal tools for maximum developer productivity",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Streamline Dev",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Services",
+                "href": "/services"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselinePageHeader",
+          "content": {
+            "eyebrow": "Contact",
+            "headline": "Get in Touch",
+            "body": "Reach out for support, sales inquiries, or feedback."
+          }
+        },
+        {
+          "id": "BaselineContact",
+          "content": {
+            "formTitle": "Contact Us",
+            "formBody": "We respond promptly to all inquiries.",
+            "recipientEmail": "support@streamlinedev.com",
+            "subjectTemplate": "New inquiry from {name}",
+            "details": [
+              {
+                "label": "Email",
+                "value": "support@streamlinedev.com",
+                "href": "mailto:support@streamlinedev.com"
+              },
+              {
+                "label": "Phone",
+                "value": "+1 555 123 4567",
+                "href": "tel:+15551234567"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Streamline Dev",
+            "brand": "Streamline Dev",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Services",
+                    "href": "/services"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "Minimal tools for maximum developer productivity",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "services",
+      "title": "Services",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Streamline Dev",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Services",
+                "href": "/services"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselinePageHeader",
+          "content": {
+            "eyebrow": "Services",
+            "headline": "Comprehensive Devtool Services",
+            "body": "Explore our integrations and capabilities designed for engineering teams."
+          }
+        },
+        {
+          "id": "FeatureList",
+          "content": {
+            "eyebrow": "Features",
+            "headline": "What We Offer",
+            "features": [
+              {
+                "title": "CI/CD Integration",
+                "body": "Smooth connections with leading continuous integration and deployment tools."
+              },
+              {
+                "title": "Monitoring & Alerts",
+                "body": "Real-time system monitoring with customizable notifications."
+              },
+              {
+                "title": "Custom Workflows",
+                "body": "Build workflows tailored to your team’s processes."
+              },
+              {
+                "title": "API Access",
+                "body": "Full API support for seamless automation and extension."
+              },
+              {
+                "title": "Dedicated Support",
+                "body": "Responsive technical assistance when you need it."
+              }
+            ],
+            "body": "Flexible services to fit diverse engineering needs."
+          }
+        },
+        {
+          "id": "FAQAccordion",
+          "content": {
+            "eyebrow": "FAQs",
+            "headline": "Common Questions",
+            "faqs": [
+              {
+                "title": "What platforms does Streamline Dev support?",
+                "body": "We support major CI/CD, code hosts, and monitoring systems."
+              },
+              {
+                "title": "Is there a trial available?",
+                "body": "Yes, we offer a 14-day free trial with full features."
+              },
+              {
+                "title": "Can I customize workflows?",
+                "body": "Absolutely, our tool is built for flexibility to match your needs."
+              },
+              {
+                "title": "How secure is the platform?",
+                "body": "Security is a top priority with encryption and compliance standards."
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Streamline Dev",
+            "brand": "Streamline Dev",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Services",
+                    "href": "/services"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "Minimal tools for maximum developer productivity",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "intent": {
+    "energy": "minimal",
+    "density": "very-minimal",
+    "cinematicIntensity": "restrained",
+    "motionIntensity": "still",
+    "copyTone": "clear technical",
+    "themeHint": "fintech-minimal"
+  }
+}

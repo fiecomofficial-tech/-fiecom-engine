@@ -1,0 +1,480 @@
+{
+  "architecture": "fiecom-reference",
+  "prompt": "high-end restaurant in tokyo",
+  "createdAt": "2026-05-25T00:52:36.806Z",
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Welcome to Tokyo Luxe Dining",
+      "site": {
+        "id": "aer9zq200",
+        "createdAt": "2026-05-25T00:52:35.397Z",
+        "prompt": "high-end restaurant in tokyo",
+        "category": "restaurant",
+        "template": "soft-studio",
+        "intent": {
+          "category": "restaurant",
+          "categoryConfidence": 0.98,
+          "style": "modern-minimal",
+          "tone": "confident",
+          "motion": "considered",
+          "subject": "high-end restaurant in tokyo"
+        },
+        "variation": {
+          "density": "spacious",
+          "sectionOrder": "narrative",
+          "typeSystem": "humanist-mix",
+          "accent": "jade",
+          "heroShape": "centered",
+          "nav": "minimal",
+          "atmosphere": "warm-glow",
+          "cursor": "default"
+        },
+        "brand": {
+          "name": "Tokyo Luxe Dining",
+          "voice": "confident, modern-minimal",
+          "accent": "jade"
+        },
+        "nav": [
+          {
+            "label": "Welcome to Tokyo Luxe Dining",
+            "href": "/"
+          },
+          {
+            "label": "About Tokyo Luxe Dining",
+            "href": "/about"
+          },
+          {
+            "label": "Services",
+            "href": "/services"
+          },
+          {
+            "label": "Contact Us",
+            "href": "/contact"
+          }
+        ],
+        "page": {
+          "slug": "home",
+          "title": "Welcome to Tokyo Luxe Dining",
+          "kind": "home"
+        },
+        "sections": [
+          {
+            "id": "hero",
+            "kind": "hero",
+            "eyebrow": "TOKYO LUXE DINING",
+            "title": "Experience Tokyo's Finest Cuisine",
+            "subtitle": "Where tradition meets modern elegance in every bite.",
+            "cta": {
+              "label": "Reserve Your Table",
+              "href": "#work"
+            },
+            "visualMoodId": "warm-aurora",
+            "media": {
+              "url": "https://images.pexels.com/photos/33033776/pexels-photo-33033776.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "A stylish dining setup in a Tokyo restaurant featuring a gourmet salad dish and chic tableware.",
+              "attributionAuthor": "Szymon Shields",
+              "attributionUrl": "https://www.pexels.com/photo/elegant-fine-dining-setup-in-tokyo-restaurant-33033776/"
+            }
+          },
+          {
+            "id": "marquee",
+            "kind": "marquee",
+            "words": [
+              "Tokyo",
+              "Cuisine",
+              "Elegance",
+              "Fresh",
+              "Seasonal",
+              "Artistry"
+            ]
+          },
+          {
+            "id": "story",
+            "kind": "story",
+            "eyebrow": "01 / Story",
+            "title": "Our Philosophy",
+            "paragraphs": [
+              "At Tokyo Luxe Dining, we blend the rich culinary heritage of Tokyo with contemporary techniques to create a dining experience unlike any other.",
+              "Our chefs source the freshest local ingredients, crafting seasonal menus that delight the senses and reflect the spirit of Tokyo's vibrant food scene."
+            ]
+          },
+          {
+            "id": "work",
+            "kind": "work",
+            "eyebrow": "02 / Selected work",
+            "title": "A short index of what matters.",
+            "items": [
+              {
+                "title": "Signal",
+                "meta": "high-end restaurant in tokyo",
+                "visualMoodId": "graphite-rise",
+                "media": {
+                  "url": "https://images.pexels.com/photos/33033776/pexels-photo-33033776.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                  "alt": "A stylish dining setup in a Tokyo restaurant featuring a gourmet salad dish and chic tableware.",
+                  "attributionAuthor": "Szymon Shields",
+                  "attributionUrl": "https://www.pexels.com/photo/elegant-fine-dining-setup-in-tokyo-restaurant-33033776/"
+                }
+              },
+              {
+                "title": "System",
+                "meta": "high-end restaurant in tokyo",
+                "visualMoodId": "flux-prism",
+                "media": {
+                  "url": "https://images.pexels.com/photos/33033800/pexels-photo-33033800.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                  "alt": "Exquisite gourmet dish with wine, capturing modern fine dining in Tokyo.",
+                  "attributionAuthor": "Szymon Shields",
+                  "attributionUrl": "https://www.pexels.com/photo/gourmet-dining-experience-in-tokyo-restaurant-33033800/"
+                }
+              },
+              {
+                "title": "Detail",
+                "meta": "high-end restaurant in tokyo",
+                "visualMoodId": "cold-vapor",
+                "media": {
+                  "url": "https://images.pexels.com/photos/33033776/pexels-photo-33033776.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                  "alt": "A stylish dining setup in a Tokyo restaurant featuring a gourmet salad dish and chic tableware.",
+                  "attributionAuthor": "Szymon Shields",
+                  "attributionUrl": "https://www.pexels.com/photo/elegant-fine-dining-setup-in-tokyo-restaurant-33033776/"
+                }
+              },
+              {
+                "title": "Outcome",
+                "meta": "high-end restaurant in tokyo",
+                "visualMoodId": "amber-glow",
+                "media": {
+                  "url": "https://images.pexels.com/photos/33033800/pexels-photo-33033800.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                  "alt": "Exquisite gourmet dish with wine, capturing modern fine dining in Tokyo.",
+                  "attributionAuthor": "Szymon Shields",
+                  "attributionUrl": "https://www.pexels.com/photo/gourmet-dining-experience-in-tokyo-restaurant-33033800/"
+                }
+              }
+            ]
+          },
+          {
+            "id": "features",
+            "kind": "feature",
+            "eyebrow": "03 / Approach",
+            "title": "Why Choose Us",
+            "features": [
+              {
+                "title": "Exceptional Quality",
+                "body": "We use only premium, locally sourced ingredients to ensure every dish is a masterpiece.",
+                "iconId": "prism"
+              },
+              {
+                "title": "Elegant Ambiance",
+                "body": "Our minimalist design creates a tranquil atmosphere perfect for any occasion.",
+                "iconId": "ring"
+              },
+              {
+                "title": "Expert Chefs",
+                "body": "Led by Tokyo’s top culinary artists, our kitchen delivers innovative and authentic flavors.",
+                "iconId": "fold"
+              }
+            ]
+          },
+          {
+            "id": "manifesto",
+            "kind": "manifesto",
+            "eyebrow": "Manifesto",
+            "body": "At Tokyo Luxe Dining, we believe that fine dining is an art form — crafted with passion, precision, and a commitment to excellence."
+          },
+          {
+            "id": "contact",
+            "kind": "contact",
+            "eyebrow": "Contact",
+            "title": "Start with a focused conversation.",
+            "email": "hello@tokyoluxedining.co"
+          }
+        ],
+        "blocks": [
+          "hero.split",
+          "marquee.big",
+          "story.editorial",
+          "work.mosaic",
+          "feature.bento",
+          "manifesto.center",
+          "contact.quiet"
+        ],
+        "footerBlock": "footer.minimal",
+        "typePalette": "fragment-manrope",
+        "status": "draft",
+        "edits": []
+      }
+    },
+    {
+      "slug": "about",
+      "title": "About Tokyo Luxe Dining",
+      "site": {
+        "id": "75cjy32px",
+        "createdAt": "2026-05-25T00:52:35.778Z",
+        "prompt": "high-end restaurant in tokyo",
+        "category": "restaurant",
+        "template": "soft-studio",
+        "intent": {
+          "category": "restaurant",
+          "categoryConfidence": 0.98,
+          "style": "modern-minimal",
+          "tone": "confident",
+          "motion": "calm",
+          "subject": "high-end restaurant in tokyo"
+        },
+        "variation": {
+          "density": "spacious",
+          "sectionOrder": "narrative",
+          "typeSystem": "geometric-sans",
+          "accent": "flux-violet",
+          "heroShape": "split",
+          "nav": "top-quiet",
+          "atmosphere": "warm-glow",
+          "cursor": "default"
+        },
+        "brand": {
+          "name": "Tokyo Luxe Dining",
+          "voice": "confident, modern-minimal",
+          "accent": "flux-violet"
+        },
+        "nav": [
+          {
+            "label": "Welcome to Tokyo Luxe Dining",
+            "href": "/"
+          },
+          {
+            "label": "About Tokyo Luxe Dining",
+            "href": "/about"
+          },
+          {
+            "label": "Services",
+            "href": "/services"
+          },
+          {
+            "label": "Contact Us",
+            "href": "/contact"
+          }
+        ],
+        "page": {
+          "slug": "about",
+          "title": "About Tokyo Luxe Dining",
+          "kind": "internal"
+        },
+        "sections": [
+          {
+            "id": "story",
+            "kind": "story",
+            "eyebrow": "About Tokyo Luxe Dining",
+            "title": "Who We Are",
+            "paragraphs": [
+              "Founded by renowned chefs immersed in Tokyo’s vibrant food culture, Tokyo Luxe Dining is dedicated to elevating traditional Japanese cuisine with a modern twist.",
+              "Our team combines decades of experience with creativity to deliver an unparalleled dining experience that honors Tokyo’s culinary heritage."
+            ]
+          },
+          {
+            "id": "contact",
+            "kind": "contact",
+            "eyebrow": "Contact",
+            "title": "Start with a focused conversation.",
+            "email": "hello@tokyoluxedining.co"
+          }
+        ],
+        "blocks": [
+          "story.editorial",
+          "contact.quiet"
+        ],
+        "footerBlock": "footer.minimal",
+        "typePalette": "souve-inter",
+        "status": "draft",
+        "edits": []
+      }
+    },
+    {
+      "slug": "services",
+      "title": "Services",
+      "site": {
+        "id": "9x837p30i",
+        "createdAt": "2026-05-25T00:52:36.382Z",
+        "prompt": "high-end restaurant in tokyo",
+        "category": "restaurant",
+        "template": "soft-studio",
+        "intent": {
+          "category": "restaurant",
+          "categoryConfidence": 0.98,
+          "style": "modern-minimal",
+          "tone": "confident",
+          "motion": "calm",
+          "subject": "high-end restaurant in tokyo"
+        },
+        "variation": {
+          "density": "spacious",
+          "sectionOrder": "narrative",
+          "typeSystem": "geometric-sans",
+          "accent": "jade",
+          "heroShape": "split",
+          "nav": "top-quiet",
+          "atmosphere": "clean",
+          "cursor": "default"
+        },
+        "brand": {
+          "name": "Tokyo Luxe Dining",
+          "voice": "confident, modern-minimal",
+          "accent": "jade"
+        },
+        "nav": [
+          {
+            "label": "Welcome to Tokyo Luxe Dining",
+            "href": "/"
+          },
+          {
+            "label": "About Tokyo Luxe Dining",
+            "href": "/about"
+          },
+          {
+            "label": "Services",
+            "href": "/services"
+          },
+          {
+            "label": "Contact Us",
+            "href": "/contact"
+          }
+        ],
+        "page": {
+          "slug": "services",
+          "title": "Services",
+          "kind": "internal"
+        },
+        "sections": [
+          {
+            "id": "story",
+            "kind": "story",
+            "eyebrow": "Services",
+            "title": "Designed around the guest experience.",
+            "paragraphs": [
+              "Tokyo Luxe Dining turns the promise into concrete moments visitors can understand quickly."
+            ]
+          },
+          {
+            "id": "features",
+            "kind": "feature",
+            "eyebrow": "Details",
+            "title": "What visitors can expect.",
+            "features": [
+              {
+                "title": "Clear positioning",
+                "body": "A site structure tuned to high-end restaurant in tokyo.",
+                "iconId": "prism"
+              },
+              {
+                "title": "Premium presentation",
+                "body": "Typography, motion, and media work together without crowding the page.",
+                "iconId": "ring"
+              },
+              {
+                "title": "Useful conversion",
+                "body": "Every page gives visitors a clear next step.",
+                "iconId": "fold"
+              }
+            ]
+          },
+          {
+            "id": "contact",
+            "kind": "contact",
+            "eyebrow": "Contact",
+            "title": "Start with a focused conversation.",
+            "email": "hello@tokyoluxedining.co"
+          }
+        ],
+        "blocks": [
+          "story.editorial",
+          "feature.big-row",
+          "contact.quiet"
+        ],
+        "footerBlock": "footer.minimal",
+        "typePalette": "souve-inter",
+        "status": "draft",
+        "edits": []
+      }
+    },
+    {
+      "slug": "contact",
+      "title": "Contact Us",
+      "site": {
+        "id": "sj4v533ha",
+        "createdAt": "2026-05-25T00:52:36.806Z",
+        "prompt": "high-end restaurant in tokyo",
+        "category": "restaurant",
+        "template": "soft-studio",
+        "intent": {
+          "category": "restaurant",
+          "categoryConfidence": 0.98,
+          "style": "modern-minimal",
+          "tone": "confident",
+          "motion": "calm",
+          "subject": "high-end restaurant in tokyo"
+        },
+        "variation": {
+          "density": "spacious",
+          "sectionOrder": "narrative",
+          "typeSystem": "humanist-mix",
+          "accent": "flux-violet",
+          "heroShape": "split",
+          "nav": "top-quiet",
+          "atmosphere": "warm-glow",
+          "cursor": "default"
+        },
+        "brand": {
+          "name": "Tokyo Luxe Dining",
+          "voice": "confident, modern-minimal",
+          "accent": "flux-violet"
+        },
+        "nav": [
+          {
+            "label": "Welcome to Tokyo Luxe Dining",
+            "href": "/"
+          },
+          {
+            "label": "About Tokyo Luxe Dining",
+            "href": "/about"
+          },
+          {
+            "label": "Services",
+            "href": "/services"
+          },
+          {
+            "label": "Contact Us",
+            "href": "/contact"
+          }
+        ],
+        "page": {
+          "slug": "contact",
+          "title": "Contact Us",
+          "kind": "internal"
+        },
+        "sections": [
+          {
+            "id": "story",
+            "kind": "story",
+            "eyebrow": "Contact Us",
+            "paragraphs": [
+              "Tokyo Luxe Dining brings a focused point of view to high-end restaurant in tokyo."
+            ]
+          },
+          {
+            "id": "contact",
+            "kind": "contact",
+            "eyebrow": "Contact",
+            "title": "Reach Out to Tokyo Luxe Dining",
+            "email": "info@tokyoluxedining.jp"
+          }
+        ],
+        "blocks": [
+          "story.editorial",
+          "contact.quiet"
+        ],
+        "footerBlock": "footer.minimal",
+        "typePalette": "fragment-manrope",
+        "status": "draft",
+        "edits": []
+      }
+    }
+  ]
+}

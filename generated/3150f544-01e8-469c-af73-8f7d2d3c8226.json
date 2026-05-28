@@ -1,0 +1,188 @@
+{
+  "theme": {
+    "mode": "dark",
+    "accent": "#6ee7b7",
+    "bg": "#19202b",
+    "ink": "#e6f6f8",
+    "bgAccent": "#0f151e",
+    "fontDisplay": "Inter",
+    "fontBody": "Geist"
+  },
+  "sections": [
+    {
+      "id": "HeroCinematic",
+      "content": {
+        "eyebrow": "Modern Fintech",
+        "headline": "Finance, Reimagined.",
+        "subhead": "Intuitive tools for ambitious builders",
+        "body": "Empowering startups with fast, smart financial infrastructure. Experience velocity without compromise.",
+        "cta": {
+          "label": "Get Started"
+        }
+      },
+      "images": {
+        "primary": {
+          "url": "https://images.unsplash.com/photo-1718157582031-69dd1a28db29?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxtaW5pbWFsJTIwZmludGVjaCUyMGludGVyZmFjZXxlbnwxfDB8fHwxNzc5MzE3ODEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "alt": "a cell phone sitting on top of a table",
+          "attributionAuthor": "Coinstash Australia",
+          "attributionUrl": "https://unsplash.com/photos/a-cell-phone-sitting-on-top-of-a-table-PuqWIO9vy-Q"
+        }
+      }
+    },
+    {
+      "id": "StickyChapters",
+      "content": {
+        "eyebrow": "How It Works",
+        "chapters": [
+          {
+            "index": "1",
+            "title": "Set up your company account in minutes",
+            "body": "Simple onboarding and instant verification—no paperwork nightmares."
+          },
+          {
+            "index": "2",
+            "title": "Seamless payments for every workflow",
+            "body": "Send, receive, and automate payments with unmatched transparency."
+          },
+          {
+            "index": "3",
+            "title": "Real-time insights—always at your fingertips",
+            "body": "Track your financial health with live analytics and actionable trends."
+          }
+        ]
+      },
+      "images": {
+        "primary": {
+          "url": "https://images.unsplash.com/photo-1765728617352-895327fcf036?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBzdGFydHVwJTIwb2ZmaWNlfGVufDF8MXx8fDE3NzkzMTc4MTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "alt": "Modern hallway with seating areas and artwork",
+          "attributionAuthor": "Allen Boguslavsky",
+          "attributionUrl": "https://unsplash.com/photos/modern-hallway-with-seating-areas-and-artwork-NepS08L_5Hs"
+        }
+      }
+    },
+    {
+      "id": "HorizontalShowcase",
+      "content": {
+        "eyebrow": "Features",
+        "headline": "Tools for the new era of finance",
+        "body": "Everything you need to accelerate your business—built for speed and clarity.",
+        "cards": [
+          {
+            "title": "Automated Invoicing",
+            "caption": "No more manual follow-ups or lost invoices."
+          },
+          {
+            "title": "Global Payouts",
+            "caption": "Send funds anywhere, instantly."
+          },
+          {
+            "title": "Real-Time Analytics",
+            "caption": "See what matters, when it matters."
+          },
+          {
+            "title": "Developer APIs",
+            "caption": "Integrate finance into any workflow."
+          },
+          {
+            "title": "Secure Vaults",
+            "caption": "Multi-layered security for your assets."
+          },
+          {
+            "title": "Collaborative Access",
+            "caption": "Empower your whole team, safely."
+          }
+        ]
+      },
+      "images": {
+        "gallery": [
+          {
+            "url": "https://images.unsplash.com/photo-1748439281934-2803c6a3ee36?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxmaW50ZWNoJTIwZGFzaGJvYXJkfGVufDF8MXx8fDE3NzkzMTc4MTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "alt": "Stock market charts are displayed on digital devices.",
+            "attributionAuthor": "Jakub Żerdzicki",
+            "attributionUrl": "https://unsplash.com/photos/stock-market-charts-are-displayed-on-digital-devices-rUimC7J5j1k"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1571867424488-4565932edb41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxkaWdpdGFsJTIwcGF5bWVudHxlbnwxfDF8fHwxNzc5MzE3ODEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "alt": "two person's hands holding turned-on phones",
+            "attributionAuthor": "David Dvořáček",
+            "attributionUrl": "https://unsplash.com/photos/two-persons-hands-holding-turned-on-phones-QiPe0UpC0_U"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1748439281934-2803c6a3ee36?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxmaW5hbmNpYWwlMjBhbmFseXRpY3N8ZW58MXwxfHx8MTc3OTMxNzgxMXww&ixlib=rb-4.1.0&q=80&w=1080",
+            "alt": "Stock market charts are displayed on digital devices.",
+            "attributionAuthor": "Jakub Żerdzicki",
+            "attributionUrl": "https://unsplash.com/photos/stock-market-charts-are-displayed-on-digital-devices-rUimC7J5j1k"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1612261831360-0171fce17ba9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxzZWN1cmUlMjBvbmxpbmUlMjB2YXVsdHxlbnwxfDF8fHwxNzc5MzE3ODEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "alt": "black and white ship wheel",
+            "attributionAuthor": "Damon Lam",
+            "attributionUrl": "https://unsplash.com/photos/black-and-white-ship-wheel-eNwHUyDpRRY"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1720980741441-b00ae54be18a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxhcGklMjBjb2RlJTIwb24lMjBzY3JlZW58ZW58MXwxfHx8MTc3OTMxNzgxMHww&ixlib=rb-4.1.0&q=80&w=1080",
+            "alt": "A computer screen with a bunch of text on it",
+            "attributionAuthor": "Daniel Joshua",
+            "attributionUrl": "https://unsplash.com/photos/a-computer-screen-with-a-bunch-of-text-on-it-yrnDHA8ARUc"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1662469567531-9ae8356d3788?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxzdGFydHVwJTIwdGVhbSUyMGNvbGxhYm9yYXRpb258ZW58MXwxfHx8MTc3OTMxNzgxNXww&ixlib=rb-4.1.0&q=80&w=1080",
+            "alt": "a group of people sitting at tables in a building",
+            "attributionAuthor": "Alex jiang",
+            "attributionUrl": "https://unsplash.com/photos/a-group-of-people-sitting-at-tables-in-a-building-vBT5SzDHLHc"
+          }
+        ]
+      }
+    },
+    {
+      "id": "MarqueeBand",
+      "content": {
+        "items": [
+          "Seamless onboarding",
+          "API-first design",
+          "Bank-level security",
+          "Global reach",
+          "Lightning fast payments",
+          "Transparent pricing"
+        ],
+        "tone": "invert"
+      }
+    },
+    {
+      "id": "MessageReveal",
+      "content": {
+        "firstLine": "Banking, as it should be.",
+        "accent": "Fintech",
+        "secondLine": "Made for ambitious teams.",
+        "body": "Break free from legacy systems—move your business faster than ever."
+      },
+      "images": {
+        "primary": {
+          "url": "https://images.unsplash.com/photo-1726056652641-de93ec003289?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxpbm5vdmF0aXZlJTIwZmluYW5jaWFsJTIwdGVjaG5vbG9neXxlbnwxfDB8fHwxNzc5MzE3ODE0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "alt": "A person holding a cell phone in front of a laptop",
+          "attributionAuthor": "SumUp",
+          "attributionUrl": "https://unsplash.com/photos/a-person-holding-a-cell-phone-in-front-of-a-laptop-HNUWwuE50Bo"
+        }
+      }
+    },
+    {
+      "id": "ClosingCTA",
+      "content": {
+        "eyebrow": "Ready to take off?",
+        "headline": "Transform your workflow with us.",
+        "subhead": "Join the fintech platform trusted by next-generation startups.",
+        "cta": {
+          "label": "Request a Demo"
+        }
+      },
+      "images": {
+        "primary": {
+          "url": "https://images.unsplash.com/photo-1630673470267-417e4d361129?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxzdGFydHVwJTIwZm91bmRlcnMlMjBtZWV0aW5nfGVufDF8MHx8fDE3NzkzMTc4MTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "alt": "group of people sitting on chair in front of brown wooden table",
+          "attributionAuthor": "airfocus",
+          "attributionUrl": "https://unsplash.com/photos/group-of-people-sitting-on-chair-in-front-of-brown-wooden-table-JVdNmAFDiI4"
+        }
+      }
+    }
+  ]
+}

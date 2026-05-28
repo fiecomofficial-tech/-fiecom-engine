@@ -1,0 +1,1363 @@
+{
+  "theme": {
+    "preset": "fintech-minimal"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "ClarityPay",
+            "links": [
+              {
+                "label": "Work",
+                "href": "/work"
+              },
+              {
+                "label": "Features"
+              },
+              {
+                "label": "Process"
+              },
+              {
+                "label": "Pricing",
+                "href": "/pricing"
+              },
+              {
+                "label": "FAQ"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get Started"
+            }
+          }
+        },
+        {
+          "id": "HeroCinematic",
+          "content": {
+            "eyebrow": "Smart Payments",
+            "headline": "Modern Finance, Clear Results",
+            "subhead": "Driven by AI",
+            "body": "ClarityPay transforms business payments with intelligent automation and real-time insights. Experience seamless transactions at scale.",
+            "cta": {
+              "label": "Start Your Free Trial"
+            }
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.unsplash.com/photo-1761850167081-473019536383?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxmdXR1cmlzdGljJTIwZmludGVjaCUyMGludGVyZmFjZXxlbnwxfDB8fHwxNzc5Mzk0NDE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+              "alt": "Trader analyzing stock market data on smartphone and phone",
+              "attributionAuthor": "Jakub Żerdzicki",
+              "attributionUrl": "https://unsplash.com/photos/trader-analyzing-stock-market-data-on-smartphone-and-phone-494uYRfqWDc"
+            }
+          }
+        },
+        {
+          "id": "MarqueeBand",
+          "content": {
+            "items": [
+              "Instant payments",
+              "Real-time analytics",
+              "Enterprise-grade security",
+              "Seamless onboarding",
+              "Open banking integration",
+              "Zero hidden fees"
+            ],
+            "tone": "normal"
+          }
+        },
+        {
+          "id": "FeatureBento",
+          "content": {
+            "eyebrow": "What We Offer",
+            "headline": "All-in-one Payment Platform",
+            "body": "ClarityPay empowers your business to move, manage, and monitor money with confidence.",
+            "features": [
+              {
+                "title": "Automated Payments",
+                "body": "Save time and eliminate errors with recurring and scheduled payouts.",
+                "size": "md"
+              },
+              {
+                "title": "Real-Time Insights",
+                "body": "Track every transaction and cash flow instantly.",
+                "size": "md"
+              },
+              {
+                "title": "Multi-Currency Support",
+                "body": "Operate globally with easy currency management.",
+                "size": "sm"
+              },
+              {
+                "title": "Fraud Detection",
+                "body": "Advanced AI to keep your transactions protected.",
+                "size": "sm"
+              },
+              {
+                "title": "Open API Access",
+                "body": "Integrate payments into your own platforms with ease.",
+                "size": "md"
+              },
+              {
+                "title": "Instant Payouts",
+                "body": "Funds reach recipients in seconds, not days.",
+                "size": "lg"
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.unsplash.com/photo-1771923082503-0a3381c46cef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxmaW50ZWNoJTIwc3RhcnR1cCUyMGRhc2hib2FyZCUyMGxhcHRvcHxlbnwxfDJ8fHwxNzc5Mzk0NDE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+              "alt": "A modern laptop displaying a dark-themed dashboard",
+              "attributionAuthor": "Neil Fernandez",
+              "attributionUrl": "https://unsplash.com/photos/a-modern-laptop-displaying-a-dark-themed-dashboard-6-0ajRI1cgs"
+            }
+          }
+        },
+        {
+          "id": "StatsCounter",
+          "content": {
+            "eyebrow": "By The Numbers",
+            "headline": "Proven Impact for Clients",
+            "stats": [
+              {
+                "value": 8,
+                "suffix": " yrs",
+                "label": "in business"
+              },
+              {
+                "value": 97,
+                "suffix": "%",
+                "label": "customer retention"
+              },
+              {
+                "value": 6000,
+                "prefix": "$",
+                "suffix": "M+",
+                "label": "processed annually"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ProcessSteps",
+          "content": {
+            "eyebrow": "How It Works",
+            "headline": "Get Up and Running in Minutes",
+            "body": "From setup to seamless payments, ClarityPay fits your business workflow.",
+            "steps": [
+              {
+                "number": "01",
+                "title": "Create Your Account",
+                "body": "Sign up in minutes—no technical background needed."
+              },
+              {
+                "number": "02",
+                "title": "Connect Your Bank",
+                "body": "Securely link your business accounts with bank-grade encryption."
+              },
+              {
+                "number": "03",
+                "title": "Configure Workflows",
+                "body": "Customize payment rules, approvals, and notifications."
+              },
+              {
+                "number": "04",
+                "title": "Go Live",
+                "body": "Start sending and receiving payments instantly."
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.unsplash.com/photo-1714974528635-4aee534b523a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMHRlYW0lMjB1c2luZyUyMG1vZGVybiUyMGZpbnRlY2glMjBhcHB8ZW58MXwwfHx8MTc3OTM5NDQxNXww&ixlib=rb-4.1.0&q=80&w=1080",
+              "alt": "two men sitting at a table looking at their phones",
+              "attributionAuthor": "Vitaly Gariev",
+              "attributionUrl": "https://unsplash.com/photos/two-men-sitting-at-a-table-looking-at-their-phones-WCSxbq8plXI"
+            }
+          }
+        },
+        {
+          "id": "ImageGallery",
+          "content": {
+            "eyebrow": "Platform in Action",
+            "headline": "See ClarityPay at Work",
+            "body": "A look into real client interfaces and results.",
+            "captions": [
+              {
+                "title": "Automated Invoice Processing",
+                "year": "2023"
+              },
+              {
+                "title": "Real-Time Dashboard View",
+                "year": "2024"
+              },
+              {
+                "title": "Multi-Currency Transfers"
+              },
+              {
+                "title": "Instant Payment Confirmations"
+              },
+              {
+                "title": "Seamless API Integration"
+              },
+              {
+                "title": "Fraud Alert System"
+              },
+              {
+                "title": "Mobile Analytics"
+              },
+              {
+                "title": "Open Banking Panel"
+              },
+              {
+                "title": "Onboarding Success"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.unsplash.com/photo-1584472666879-7d92db132958?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxmaW50ZWNoJTIwZGFzaGJvYXJkJTIwc2NyZWVufGVufDF8MXx8fDE3NzkzOTQ0MTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "white red and blue calendar",
+                "attributionAuthor": "Christine Sandu",
+                "attributionUrl": "https://unsplash.com/photos/white-red-and-blue-calendar-yo5wIVapll0"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1673837552444-7a90431588fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMHBheW1lbnQlMjB3b3JrZmxvd3xlbnwxfDF8fHwxNzc5Mzk0NDE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "a person holding a credit card next to a calculator",
+                "attributionAuthor": "Thriday",
+                "attributionUrl": "https://unsplash.com/photos/a-person-holding-a-credit-card-next-to-a-calculator-75hT3SBCe-o"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1651340927948-26826aaef4b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxjdXJyZW5jeSUyMGV4Y2hhbmdlJTIwaW50ZXJmYWNlfGVufDF8MXx8fDE3NzkzOTQ0MTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "text",
+                "attributionAuthor": "Anne Nygård",
+                "attributionUrl": "https://unsplash.com/photos/text-g9EoUnFuqyM"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1720048091816-cb6d3c0333be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBwYXltZW50JTIwY29uZmlybWF0aW9ufGVufDF8MXx8fDE3NzkzOTQ0MTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "A person holding a cell phone in their hand",
+                "attributionAuthor": "Helcim Payments",
+                "attributionUrl": "https://unsplash.com/photos/a-person-holding-a-cell-phone-in-their-hand-oIDYbaMP1I4"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1777785113215-ed916eb90a91?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxhcGklMjBpbnRlZ3JhdGlvbiUyMGZpbnRlY2h8ZW58MXwxfHx8MTc3OTM5NDQxNXww&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "Postman advertisement asking about ai agent readiness for apis.",
+                "attributionAuthor": "Igor Shalyminov",
+                "attributionUrl": "https://unsplash.com/photos/postman-advertisement-asking-about-ai-agent-readiness-for-apis-sMihOz43pN4"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1643962577583-a4c880a109ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxmcmF1ZCUyMGRldGVjdGlvbiUyMGZpbnRlY2h8ZW58MXwxfHx8MTc3OTM5NDQxNXww&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "a cell phone sitting on top of a table",
+                "attributionAuthor": "lonely blue",
+                "attributionUrl": "https://unsplash.com/photos/a-cell-phone-sitting-on-top-of-a-table-IV_Mta1Awzs"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1644143153605-e22072554a17?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxhbmFseXRpY3MlMjBkYXNoYm9hcmQlMjBtb2JpbGV8ZW58MXwxfHx8MTc3OTM5NDQxNXww&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "a cell phone sitting on top of a wooden table",
+                "attributionAuthor": "Behnam Norouzi",
+                "attributionUrl": "https://unsplash.com/photos/a-cell-phone-sitting-on-top-of-a-wooden-table-DkPbEUheFrY"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1599202875854-23b7cd490ff4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxiYW5raW5nJTIwYXBwJTIwcGFuZWx8ZW58MXwxfHx8MTc3OTM5NDQxNXww&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "person holding white iphone 5 c",
+                "attributionAuthor": "CardMapr.nl",
+                "attributionUrl": "https://unsplash.com/photos/person-holding-white-iphone-5-c-TOaE3Td9F8M"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1649359569078-c445b3c6a116?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBmaW50ZWNoJTIwb25ib2FyZGluZ3xlbnwxfDF8fHwxNzc5Mzk0NDE2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "a hand holding a credit card in front of a computer",
+                "attributionAuthor": "Diego Gennaro",
+                "attributionUrl": "https://unsplash.com/photos/a-hand-holding-a-credit-card-in-front-of-a-computer-SuEDt1yZ5U4"
+              }
+            ]
+          }
+        },
+        {
+          "id": "CTABanner",
+          "content": {
+            "eyebrow": "Ready to Streamline?",
+            "headline": "Automate your business payments today.",
+            "body": "Experience the future of finance with ClarityPay. Start your 14-day free trial now.",
+            "cta": {
+              "label": "Get Started"
+            }
+          }
+        },
+        {
+          "id": "TestimonialCarousel",
+          "content": {
+            "eyebrow": "Trusted By Industry Leaders",
+            "testimonials": [
+              {
+                "quote": "ClarityPay let us scale our operations across borders without payment headaches.",
+                "author": "Jenna Li",
+                "role": "CFO",
+                "org": "FreshCart"
+              },
+              {
+                "quote": "The real-time analytics gave us financial clarity and peace of mind.",
+                "author": "Miguel Ortega",
+                "role": "Operations Lead",
+                "org": "NovaTech"
+              },
+              {
+                "quote": "Onboarding took less than an hour, and our team loved the intuitive dashboard.",
+                "author": "Riya Sharma",
+                "role": "Head of Finance",
+                "org": "UrbanHive"
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.unsplash.com/photo-1576250671125-39add161f593?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxoYXBweSUyMGZpbnRlY2glMjBjbGllbnRzJTIwbWVldGluZ3xlbnwxfDF8fHwxNzc5Mzk0NDE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+              "alt": "man wearing gray V-neck t-shirt with black headphones on neck sitting and laughing",
+              "attributionAuthor": "Cody Board",
+              "attributionUrl": "https://unsplash.com/photos/man-wearing-gray-v-neck-t-shirt-with-black-headphones-on-neck-sitting-and-laughing-akSDkHjHAlY"
+            }
+          }
+        },
+        {
+          "id": "PricingTiers",
+          "content": {
+            "eyebrow": "Simple, Transparent Pricing",
+            "headline": "Plans for Every Business",
+            "body": "No hidden fees. Pay only for what you need.",
+            "tiers": [
+              {
+                "name": "Starter",
+                "price": "$0",
+                "period": "/mo",
+                "description": "Perfect for startups and solo founders.",
+                "features": [
+                  "Up to $50k/month volume",
+                  "Single currency",
+                  "Email support",
+                  "API access"
+                ],
+                "cta": {
+                  "label": "Start Free"
+                }
+              },
+              {
+                "name": "Growth",
+                "price": "$49",
+                "period": "/mo",
+                "description": "Best for growing teams and SMEs.",
+                "features": [
+                  "Up to $500k/month volume",
+                  "Multi-currency",
+                  "Priority support",
+                  "Automated workflows"
+                ],
+                "featured": true,
+                "cta": {
+                  "label": "Upgrade Now"
+                }
+              },
+              {
+                "name": "Enterprise",
+                "price": "Custom",
+                "description": "Tailored solutions for high-volume businesses.",
+                "features": [
+                  "Unlimited volume",
+                  "Dedicated manager",
+                  "Custom integrations",
+                  "Advanced security suite"
+                ],
+                "cta": {
+                  "label": "Contact Sales"
+                }
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.unsplash.com/photo-1648134859187-71dadc9f815a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxmaW50ZWNoJTIwcHJpY2luZyUyMHBsYW5zJTIwaW50ZXJmYWNlfGVufDF8MHx8fDE3NzkzOTQ0MTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+              "alt": "a computer screen with a phone and a tablet",
+              "attributionAuthor": "Team Nocoloco",
+              "attributionUrl": "https://unsplash.com/photos/a-computer-screen-with-a-phone-and-a-tablet-z41dNJVqSxo"
+            }
+          }
+        },
+        {
+          "id": "FAQAccordion",
+          "content": {
+            "eyebrow": "Questions?",
+            "headline": "Frequently Asked Questions",
+            "body": "Everything you need to know before getting started with ClarityPay.",
+            "faqs": [
+              {
+                "q": "Is there a setup fee or long-term contract?",
+                "a": "No, ClarityPay has zero setup fees and no long-term contracts. Cancel anytime."
+              },
+              {
+                "q": "Which currencies does ClarityPay support?",
+                "a": "We support USD, EUR, GBP, and over 20 additional currencies for seamless international payments."
+              },
+              {
+                "q": "How quickly are funds transferred?",
+                "a": "Most payouts are instant or arrive within 1 business day, depending on the recipient bank."
+              },
+              {
+                "q": "Is my data secure with ClarityPay?",
+                "a": "Absolutely. We use advanced encryption and comply with top security standards including SOC 2 and PCI DSS."
+              },
+              {
+                "q": "Can I integrate ClarityPay with my own software?",
+                "a": "Yes, our open API makes it easy to connect your systems for custom payment workflows."
+              }
+            ]
+          }
+        },
+        {
+          "id": "ContactBlock",
+          "content": {
+            "eyebrow": "Let's Connect",
+            "headline": "Talk to a Payment Specialist",
+            "body": "Have questions or need a demo? Our team is here to help you grow.",
+            "cta": {
+              "label": "Email Us",
+              "href": "mailto:contact@claritypay.com"
+            },
+            "details": [
+              {
+                "label": "Email",
+                "value": "contact@claritypay.com",
+                "href": "mailto:contact@claritypay.com"
+              },
+              {
+                "label": "Phone",
+                "value": "+1 555 238 1912"
+              },
+              {
+                "label": "Support",
+                "value": "support@claritypay.com",
+                "href": "mailto:support@claritypay.com"
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.unsplash.com/photo-1603714228681-b399854b8f80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxmaW50ZWNoJTIwY3VzdG9tZXIlMjBzdXBwb3J0JTIwdGVhbXxlbnwxfDB8fHwxNzc5Mzk0NDE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+              "alt": "man in white button up shirt smiling",
+              "attributionAuthor": "LumenSoft Technologies",
+              "attributionUrl": "https://unsplash.com/photos/man-in-white-button-up-shirt-smiling-WaGMKmJ2F0Y"
+            }
+          }
+        },
+        {
+          "id": "ClosingCTA",
+          "content": {
+            "eyebrow": "Get Started",
+            "headline": "Take Control of Your Business Payments",
+            "subhead": "Try ClarityPay’s all-in-one platform free for 14 days. No credit card required.",
+            "cta": {
+              "label": "Start Your Free Trial"
+            }
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "ClarityPay",
+            "tagline": "Modern Finance, Clear Results.",
+            "giant": "CLARITYPAY",
+            "columns": [
+              {
+                "title": "Company",
+                "links": [
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Careers"
+                  },
+                  {
+                    "label": "Journal"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Product",
+                "links": [
+                  {
+                    "label": "Features"
+                  },
+                  {
+                    "label": "Pricing",
+                    "href": "/pricing"
+                  },
+                  {
+                    "label": "API Docs"
+                  },
+                  {
+                    "label": "Security"
+                  }
+                ]
+              },
+              {
+                "title": "Resources",
+                "links": [
+                  {
+                    "label": "FAQ"
+                  },
+                  {
+                    "label": "Support"
+                  },
+                  {
+                    "label": "Blog"
+                  },
+                  {
+                    "label": "Studio"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact Us"
+            },
+            "legal": "© 2024 ClarityPay. All rights reserved."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "work",
+      "title": "Work",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "ClarityPay",
+            "links": [
+              {
+                "label": "Work",
+                "href": "/work"
+              },
+              {
+                "label": "Features"
+              },
+              {
+                "label": "Process"
+              },
+              {
+                "label": "Pricing",
+                "href": "/pricing"
+              },
+              {
+                "label": "FAQ"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get Started"
+            }
+          }
+        },
+        {
+          "id": "PageHeader",
+          "content": {
+            "crumbs": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Work"
+              }
+            ],
+            "eyebrow": "Client Success",
+            "headline": "Our Impactful Projects",
+            "body": "See how ClarityPay empowers organizations to move money smarter."
+          }
+        },
+        {
+          "id": "HorizontalShowcase",
+          "content": {
+            "eyebrow": "Featured Case Studies",
+            "headline": "Real Businesses. Real Results.",
+            "body": "ClarityPay's solutions have helped clients scale globally.",
+            "cards": [
+              {
+                "title": "FreshCart",
+                "caption": "Automated supplier payments across 3 continents."
+              },
+              {
+                "title": "NovaTech",
+                "caption": "Integrated real-time analytics for 50+ team members."
+              },
+              {
+                "title": "UrbanHive",
+                "caption": "Reduced payment processing time by 80%."
+              },
+              {
+                "title": "BlueOrbit",
+                "caption": "Seamless multi-currency workflows for SaaS clients."
+              },
+              {
+                "title": "CoreLabs",
+                "caption": "Fraud detection saved $500k in one year."
+              },
+              {
+                "title": "Atlas Retail",
+                "caption": "Simple onboarding—live in under 24 hours."
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.unsplash.com/photo-1638687095222-c7897398d16b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxmaW50ZWNoJTIwYnVzaW5lc3MlMjBtZWV0aW5nfGVufDF8MXx8fDE3NzkzOTQ0MTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+              "alt": "a group of people sitting around a christmas tree",
+              "attributionAuthor": "Nguyen Dang Hoang Nhu",
+              "attributionUrl": "https://unsplash.com/photos/a-group-of-people-sitting-around-a-christmas-tree-eM0pyrTqqpI"
+            }
+          }
+        },
+        {
+          "id": "TwoColumnText",
+          "content": {
+            "eyebrow": "Why ClarityPay?",
+            "headline": "Delivering Value Across Industries",
+            "paragraphs": [
+              {
+                "heading": "Retail & E-commerce",
+                "body": "Automated payouts and streamlined returns drive efficiency for online stores worldwide."
+              },
+              {
+                "heading": "Technology",
+                "body": "APIs and real-time dashboards empower SaaS companies with financial visibility."
+              },
+              {
+                "heading": "Consulting & Agencies",
+                "body": "Flexible workflows, instant payments, and invoicing keep projects moving smoothly."
+              }
+            ]
+          }
+        },
+        {
+          "id": "StatsCounter",
+          "content": {
+            "eyebrow": "Client Outcomes",
+            "headline": "Numbers That Matter",
+            "stats": [
+              {
+                "value": 400,
+                "label": "businesses onboarded"
+              },
+              {
+                "value": 30,
+                "suffix": "%",
+                "label": "reduced payment costs"
+              },
+              {
+                "value": 2,
+                "suffix": "hrs",
+                "label": "to go live"
+              }
+            ]
+          }
+        },
+        {
+          "id": "TestimonialCarousel",
+          "content": {
+            "eyebrow": "Client Voices",
+            "testimonials": [
+              {
+                "quote": "We expanded internationally with zero payment hiccups—amazing support.",
+                "author": "Samir Khan",
+                "role": "COO",
+                "org": "BlueOrbit"
+              },
+              {
+                "quote": "The APIs fit perfectly into our stack. We saved countless dev hours.",
+                "author": "Ashley Park",
+                "role": "Product Manager",
+                "org": "CoreLabs"
+              },
+              {
+                "quote": "Processing payroll is now instant and stress-free.",
+                "author": "Lukas Meyer",
+                "role": "Founder",
+                "org": "Atlas Retail"
+              }
+            ]
+          }
+        },
+        {
+          "id": "CTABanner",
+          "content": {
+            "eyebrow": "Inspired?",
+            "headline": "Let’s build your success story.",
+            "body": "ClarityPay’s fintech platform adapts to your business model—start exploring today.",
+            "cta": {
+              "label": "Talk to Sales"
+            }
+          }
+        },
+        {
+          "id": "ClosingCTA",
+          "content": {
+            "eyebrow": "Next Steps",
+            "headline": "Transform Your Payments With ClarityPay",
+            "subhead": "Speak with our team or try our platform free for 14 days.",
+            "cta": {
+              "label": "Start Now"
+            }
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "ClarityPay",
+            "columns": [
+              {
+                "title": "Company",
+                "links": [
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Careers"
+                  },
+                  {
+                    "label": "Journal"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Product",
+                "links": [
+                  {
+                    "label": "Features"
+                  },
+                  {
+                    "label": "Pricing",
+                    "href": "/pricing"
+                  },
+                  {
+                    "label": "API Docs"
+                  },
+                  {
+                    "label": "Security"
+                  }
+                ]
+              },
+              {
+                "title": "Resources",
+                "links": [
+                  {
+                    "label": "FAQ"
+                  },
+                  {
+                    "label": "Support"
+                  },
+                  {
+                    "label": "Blog"
+                  },
+                  {
+                    "label": "Studio"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact Us"
+            },
+            "legal": "© 2024 ClarityPay. All rights reserved."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "pricing",
+      "title": "Pricing",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "ClarityPay",
+            "links": [
+              {
+                "label": "Work",
+                "href": "/work"
+              },
+              {
+                "label": "Features"
+              },
+              {
+                "label": "Process"
+              },
+              {
+                "label": "Pricing",
+                "href": "/pricing"
+              },
+              {
+                "label": "FAQ"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get Started"
+            }
+          }
+        },
+        {
+          "id": "PageHeader",
+          "content": {
+            "crumbs": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Pricing"
+              }
+            ],
+            "eyebrow": "Transparent Pricing",
+            "headline": "Plans for Every Stage",
+            "body": "Choose the right package for your business—simple, scalable, and fair."
+          }
+        },
+        {
+          "id": "PricingTiers",
+          "content": {
+            "eyebrow": "Flexible Options",
+            "headline": "Find Your Perfect Fit",
+            "body": "Upgrade, downgrade, or cancel any time with no penalties.",
+            "tiers": [
+              {
+                "name": "Starter",
+                "price": "$0",
+                "period": "/mo",
+                "description": "For startups and new businesses.",
+                "features": [
+                  "$50k/month volume",
+                  "Single currency",
+                  "API & email support"
+                ],
+                "cta": {
+                  "label": "Start Free"
+                }
+              },
+              {
+                "name": "Growth",
+                "price": "$49",
+                "period": "/mo",
+                "description": "For growing teams and volume.",
+                "features": [
+                  "$500k/month volume",
+                  "Multi-currency",
+                  "Automated workflows",
+                  "Priority support"
+                ],
+                "featured": true,
+                "cta": {
+                  "label": "Upgrade Now"
+                }
+              },
+              {
+                "name": "Enterprise",
+                "price": "Custom",
+                "description": "For high-volume or complex needs.",
+                "features": [
+                  "Unlimited volume",
+                  "Dedicated support",
+                  "Custom integrations"
+                ],
+                "cta": {
+                  "label": "Contact Sales"
+                }
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.unsplash.com/photo-1510182760-5565485cf674?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxmaW50ZWNoJTIwcHJpY2luZyUyMHNjcmVlbnxlbnwxfDB8fHwxNzc5Mzk0NDE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+              "alt": "digital device reading at Hello Welcome",
+              "attributionAuthor": "Algernai Hayes",
+              "attributionUrl": "https://unsplash.com/photos/digital-device-reading-at-hello-welcome-7A6QfNXaRzk"
+            }
+          }
+        },
+        {
+          "id": "FeatureList",
+          "content": {
+            "eyebrow": "All Plans Include",
+            "headline": "Features At Every Tier",
+            "features": [
+              {
+                "title": "Real-time transaction monitoring",
+                "body": "Stay updated instantly on every payment."
+              },
+              {
+                "title": "Secure data encryption",
+                "body": "All data protected with industry-leading security."
+              },
+              {
+                "title": "Open API & webhooks",
+                "body": "Integrate with your own tools easily."
+              },
+              {
+                "title": "Fee transparency",
+                "body": "Know exactly what you’ll pay—no surprises."
+              },
+              {
+                "title": "24/7 customer support",
+                "body": "Our team is always here for you."
+              }
+            ]
+          }
+        },
+        {
+          "id": "FAQAccordion",
+          "content": {
+            "eyebrow": "Need Answers?",
+            "headline": "Pricing FAQs",
+            "body": "Still have questions? Reach out to our team anytime.",
+            "faqs": [
+              {
+                "q": "Can I change plans later?",
+                "a": "Absolutely. Upgrade, downgrade, or cancel whenever needed from your dashboard."
+              },
+              {
+                "q": "What are the transaction fees?",
+                "a": "Starter and Growth plans have a 1% per transaction fee; Enterprise pricing is custom."
+              },
+              {
+                "q": "Do you offer discounts for nonprofits or annual billing?",
+                "a": "Yes, contact us for special pricing and annual plans."
+              },
+              {
+                "q": "What payment methods do you accept?",
+                "a": "We accept all major credit cards and ACH payments for U.S. clients."
+              }
+            ]
+          }
+        },
+        {
+          "id": "CTABanner",
+          "content": {
+            "eyebrow": "Ready to Choose?",
+            "headline": "Start with a free trial today.",
+            "body": "No credit card required. Access all features instantly.",
+            "cta": {
+              "label": "Start Free"
+            }
+          }
+        },
+        {
+          "id": "ClosingCTA",
+          "content": {
+            "eyebrow": "Join Us",
+            "headline": "Modern Payments Made Effortless",
+            "subhead": "Transform the way you move money—risk free.",
+            "cta": {
+              "label": "Try For Free"
+            }
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "ClarityPay",
+            "columns": [
+              {
+                "title": "Company",
+                "links": [
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Careers"
+                  },
+                  {
+                    "label": "Journal"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Product",
+                "links": [
+                  {
+                    "label": "Features"
+                  },
+                  {
+                    "label": "Pricing",
+                    "href": "/pricing"
+                  },
+                  {
+                    "label": "API Docs"
+                  },
+                  {
+                    "label": "Security"
+                  }
+                ]
+              },
+              {
+                "title": "Resources",
+                "links": [
+                  {
+                    "label": "FAQ"
+                  },
+                  {
+                    "label": "Support"
+                  },
+                  {
+                    "label": "Blog"
+                  },
+                  {
+                    "label": "Studio"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact Us"
+            },
+            "legal": "© 2024 ClarityPay. All rights reserved."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "ClarityPay",
+            "links": [
+              {
+                "label": "Work",
+                "href": "/work"
+              },
+              {
+                "label": "Features"
+              },
+              {
+                "label": "Process"
+              },
+              {
+                "label": "Pricing",
+                "href": "/pricing"
+              },
+              {
+                "label": "FAQ"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get Started"
+            }
+          }
+        },
+        {
+          "id": "PageHeader",
+          "content": {
+            "crumbs": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Contact"
+              }
+            ],
+            "eyebrow": "Talk To Sales",
+            "headline": "Let’s Connect",
+            "body": "Request a demo, ask questions, or explore partnership opportunities with ClarityPay."
+          }
+        },
+        {
+          "id": "ContactForm",
+          "content": {
+            "eyebrow": "Contact Us",
+            "headline": "How Can We Help?",
+            "body": "We typically respond within 1 business day.",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Full Name",
+                "type": "text",
+                "required": true,
+                "placeholder": "Enter your name"
+              },
+              {
+                "name": "email",
+                "label": "Email Address",
+                "type": "email",
+                "required": true,
+                "placeholder": "your@email.com"
+              },
+              {
+                "name": "company",
+                "label": "Company",
+                "type": "text",
+                "required": false,
+                "placeholder": "Organization name"
+              },
+              {
+                "name": "budget",
+                "label": "Estimated Budget",
+                "type": "select",
+                "options": [
+                  "Under $1,000",
+                  "$1,000–$10,000",
+                  "$10,000+"
+                ],
+                "required": false
+              },
+              {
+                "name": "message",
+                "label": "Message",
+                "type": "textarea",
+                "required": true,
+                "placeholder": "Your question or request"
+              }
+            ],
+            "submitLabel": "Send Message",
+            "recipientEmail": "contact@claritypay.com"
+          }
+        },
+        {
+          "id": "ImageGallery",
+          "content": {
+            "eyebrow": "Our Team",
+            "headline": "Meet the People Behind ClarityPay",
+            "captions": [
+              {
+                "title": "Customer Success Team"
+              },
+              {
+                "title": "Technical Support"
+              },
+              {
+                "title": "Product Designers"
+              },
+              {
+                "title": "Sales & Partnerships"
+              },
+              {
+                "title": "Onboarding Advisors"
+              },
+              {
+                "title": "Security Analysts"
+              },
+              {
+                "title": "Data Science Crew"
+              },
+              {
+                "title": "Developer Advocates"
+              },
+              {
+                "title": "Leadership"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.unsplash.com/photo-1638687095222-c7897398d16b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxmaW50ZWNoJTIwc3VwcG9ydCUyMHRlYW18ZW58MXwxfHx8MTc3OTM5NDQxNXww&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "a group of people sitting around a christmas tree",
+                "attributionAuthor": "Nguyen Dang Hoang Nhu",
+                "attributionUrl": "https://unsplash.com/photos/a-group-of-people-sitting-around-a-christmas-tree-eM0pyrTqqpI"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1681569685378-3c18bf84b504?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMHBlb3BsZSUyMHdvcmtpbmclMjBsYXB0b3B8ZW58MXwxfHx8MTc3OTM5NDQxNXww&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "a couple of men sitting at a table with laptops",
+                "attributionAuthor": "phyo min",
+                "attributionUrl": "https://unsplash.com/photos/a-couple-of-men-sitting-at-a-table-with-laptops-A9qQ8vE1Bmw"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1755692879678-110f9f11980c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxzdGFydHVwJTIwcHJvZHVjdCUyMGRlc2lnbiUyMG1lZXRpbmd8ZW58MXwxfHx8MTc3OTM5NDQxNXww&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "People gathered around a table with instructional diagrams.",
+                "attributionAuthor": "Frederick Shaw",
+                "attributionUrl": "https://unsplash.com/photos/people-gathered-around-a-table-with-instructional-diagrams-LD5hVuRjheM"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1638687095222-c7897398d16b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxmaW50ZWNoJTIwc2FsZXMlMjB0ZWFtfGVufDF8MXx8fDE3NzkzOTQ0MTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "a group of people sitting around a christmas tree",
+                "attributionAuthor": "Nguyen Dang Hoang Nhu",
+                "attributionUrl": "https://unsplash.com/photos/a-group-of-people-sitting-around-a-christmas-tree-eM0pyrTqqpI"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMG9uYm9hcmRpbmclMjBhZHZpc29yc3xlbnwxfDF8fHwxNzc5Mzk0NDE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "person in black long sleeve shirt holding persons hand",
+                "attributionAuthor": "krakenimages",
+                "attributionUrl": "https://unsplash.com/photos/person-in-black-long-sleeve-shirt-holding-persons-hand-Y5bvRlcCx8k"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1589859509530-1bef96699d28?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxjeWJlcnNlY3VyaXR5JTIwYW5hbHlzdCUyMG9mZmljZXxlbnwxfDF8fHwxNzc5Mzk0NDE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "silver imac on white table",
+                "attributionAuthor": "Morgan Richardson",
+                "attributionUrl": "https://unsplash.com/photos/silver-imac-on-white-table-ONJM0-j6XM4"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1663507898277-e4f94adc9333?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxkYXRhJTIwc2NpZW5jZSUyMHRlYW18ZW58MXwxfHx8MTc3OTM5NDQxNXww&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "a man talking to a group of people",
+                "attributionAuthor": "Alexis AMZ DA CRUZ",
+                "attributionUrl": "https://unsplash.com/photos/a-man-talking-to-a-group-of-people-zIPj4oVYWnY"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1663507898277-e4f94adc9333?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxhcGklMjBkZXZlbG9wZXIlMjB0ZWFtfGVufDF8MXx8fDE3NzkzOTQ0MTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "a man talking to a group of people",
+                "attributionAuthor": "Alexis AMZ DA CRUZ",
+                "attributionUrl": "https://unsplash.com/photos/a-man-talking-to-a-group-of-people-zIPj4oVYWnY"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1672826979255-2e4e5ef2c8f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxzdGFydHVwJTIwbGVhZGVyc2hpcCUyMGdyb3VwfGVufDF8MXx8fDE3NzkzOTQ0MTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "a group of men standing around a kitchen",
+                "attributionAuthor": "Thriday",
+                "attributionUrl": "https://unsplash.com/photos/a-group-of-men-standing-around-a-kitchen-hlYSnQzVFEg"
+              }
+            ]
+          }
+        },
+        {
+          "id": "FAQAccordion",
+          "content": {
+            "eyebrow": "Contact Help",
+            "headline": "Common Questions",
+            "body": "Answers to help you get in touch or solve issues faster.",
+            "faqs": [
+              {
+                "q": "How fast can I get a response?",
+                "a": "Most inquiries receive a reply within one business day. Priority support is available for Growth and Enterprise clients."
+              },
+              {
+                "q": "Where is ClarityPay based?",
+                "a": "We’re headquartered in New York and operate globally."
+              },
+              {
+                "q": "How can I schedule a demo?",
+                "a": "Fill out the form or email contact@claritypay.com and our team will set up a call!"
+              }
+            ]
+          }
+        },
+        {
+          "id": "CTABanner",
+          "content": {
+            "eyebrow": "Connect Today",
+            "headline": "Start your journey with ClarityPay.",
+            "body": "Let’s discuss how we can help your business thrive.",
+            "cta": {
+              "label": "Book a Call"
+            }
+          }
+        },
+        {
+          "id": "ClosingCTA",
+          "content": {
+            "eyebrow": "Get In Touch",
+            "headline": "Let’s Build the Future of Finance Together",
+            "subhead": "We’re ready to help you grow. Reach out anytime.",
+            "cta": {
+              "label": "Contact Us"
+            }
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "ClarityPay",
+            "columns": [
+              {
+                "title": "Company",
+                "links": [
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Careers"
+                  },
+                  {
+                    "label": "Journal"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Product",
+                "links": [
+                  {
+                    "label": "Features"
+                  },
+                  {
+                    "label": "Pricing",
+                    "href": "/pricing"
+                  },
+                  {
+                    "label": "API Docs"
+                  },
+                  {
+                    "label": "Security"
+                  }
+                ]
+              },
+              {
+                "title": "Resources",
+                "links": [
+                  {
+                    "label": "FAQ"
+                  },
+                  {
+                    "label": "Support"
+                  },
+                  {
+                    "label": "Blog"
+                  },
+                  {
+                    "label": "Studio"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact Us"
+            },
+            "legal": "© 2024 ClarityPay. All rights reserved."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,880 @@
+{
+  "theme": {
+    "preset": "brutalist-concrete",
+    "bg": "#1b1b1b",
+    "ink": "#e0e0e0",
+    "bgAccent": "#2f2f2f",
+    "fontDisplay": "Oswald",
+    "fontBody": "Source Sans Pro"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Avant-Garde Atelier Antwerp",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Collections",
+                "href": "/collections"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineHero",
+          "content": {
+            "eyebrow": "Unveil the Future",
+            "headline": "Bold fashion crafted",
+            "accent": "avant-garde",
+            "body": "Where Antwerp’s edge meets visionary design, sculpting wearables that challenge convention.",
+            "cta": {
+              "label": "Explore Collections",
+              "href": "/collections"
+            },
+            "secondaryCta": {
+              "label": "Discover Our Story",
+              "href": "/about"
+            }
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/35457884/pexels-photo-35457884.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Mysterious misty forest scene in winter, captured in Rugova, Kosovo.",
+              "attributionAuthor": "Andi Dautaj",
+              "attributionUrl": "https://www.pexels.com/photo/misty-forest-landscape-in-winter-kosovo-35457884/"
+            }
+          }
+        },
+        {
+          "id": "MarqueeBand",
+          "content": {
+            "items": [
+              "Avant-Garde Atelier Antwerp",
+              "Strategy",
+              "Motion",
+              "Proof",
+              "Conversion"
+            ],
+            "tone": "normal",
+            "eyebrow": "Craftsmanship in Motion"
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/21855757/pexels-photo-21855757.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "A focused seamstress working with fabric, using scissors in a black and white setting.",
+              "attributionAuthor": "Isabella Mendes",
+              "attributionUrl": "https://www.pexels.com/photo/seamstress-at-work-21855757/"
+            }
+          }
+        },
+        {
+          "id": "BaselineLogoBar",
+          "content": {
+            "eyebrow": "Trusted by visionaries",
+            "clients": [
+              {
+                "name": "Art Basel"
+              },
+              {
+                "name": "Vogue"
+              },
+              {
+                "name": "Harper's Bazaar"
+              },
+              {
+                "name": "Dazed"
+              },
+              {
+                "name": "AnOther"
+              }
+            ]
+          }
+        },
+        {
+          "id": "MessageReveal",
+          "content": {
+            "firstLine": "Avant-Garde Atelier Antwerp is not another template",
+            "accent": "different",
+            "secondLine": "It is a structured product story",
+            "body": "Each stitch narrates a story of rebellion and grace, forging garments beyond trends.",
+            "eyebrow": "Vision Embodied",
+            "headline": "Avant-garde artistry woven with Antwerp spirit"
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/34730467/pexels-photo-34730467.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "A tranquil autumn forest with mist and sunlight filtering through the bare trees at sunrise.",
+              "attributionAuthor": "Septimiu Lupea",
+              "attributionUrl": "https://www.pexels.com/photo/misty-autumn-sunrise-in-serene-forest-34730467/"
+            }
+          }
+        },
+        {
+          "id": "BaselineFeatures",
+          "content": {
+            "eyebrow": "Bespoke collections",
+            "headline": "Designs that defy convention",
+            "accent": "atelier exclusives",
+            "features": [
+              {
+                "eyebrow": "01 — Sculpting Form",
+                "title": "Handcrafted silhouettes",
+                "body": "Bold shapes and unexpected volumes meld precision with chaos."
+              },
+              {
+                "eyebrow": "02 — Material Alchemy",
+                "title": "Innovative fabrics",
+                "body": "Textures that provoke and inspire, sourced from avant-garde artisans."
+              },
+              {
+                "eyebrow": "03 — Tailored Stories",
+                "title": "Personalized creations",
+                "body": "Exclusive, made-to-measure pieces embodying your unique narrative."
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/34730467/pexels-photo-34730467.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "A tranquil autumn forest with mist and sunlight filtering through the bare trees at sunrise.",
+              "attributionAuthor": "Septimiu Lupea",
+              "attributionUrl": "https://www.pexels.com/photo/misty-autumn-sunrise-in-serene-forest-34730467/"
+            },
+            "secondary": {
+              "url": "https://images.pexels.com/photos/7147649/pexels-photo-7147649.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Unrecognizable female dressmaker with dark hair creating new fashion collection using sewing machine in light workshop",
+              "attributionAuthor": "Michael Burrows",
+              "attributionUrl": "https://www.pexels.com/photo/anonymous-seamstress-sewing-on-machine-in-atelier-7147649/"
+            },
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/34730467/pexels-photo-34730467.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A tranquil autumn forest with mist and sunlight filtering through the bare trees at sunrise.",
+                "attributionAuthor": "Septimiu Lupea",
+                "attributionUrl": "https://www.pexels.com/photo/misty-autumn-sunrise-in-serene-forest-34730467/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/7147480/pexels-photo-7147480.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "From above of crop anonymous female designer drawing draft of stylish garment at table with papers in modern light workshop",
+                "attributionAuthor": "Michael Burrows",
+                "attributionUrl": "https://www.pexels.com/photo/unrecognizable-woman-drawing-sketch-of-cloth-7147480/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/27164018/pexels-photo-27164018.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A vintage-style newspaper alongside a textured pink rose creates a nostalgic still life.",
+                "attributionAuthor": "Melike  B",
+                "attributionUrl": "https://www.pexels.com/photo/a-newspaper-with-a-rose-on-it-27164018/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ImageGallery",
+          "content": {
+            "eyebrow": "Recent collections",
+            "headline": "Sculptural elegance in motion",
+            "body": "A visual layer that makes the offer tangible.",
+            "captions": [
+              {
+                "title": "Signal",
+                "year": "2026"
+              },
+              {
+                "title": "Space",
+                "year": "2025"
+              },
+              {
+                "title": "Detail",
+                "year": "2026"
+              },
+              {
+                "title": "Flow",
+                "year": "2025"
+              },
+              {
+                "title": "Texture",
+                "year": "2026"
+              },
+              {
+                "title": "Proof",
+                "year": "2025"
+              },
+              {
+                "title": "People",
+                "year": "2026"
+              },
+              {
+                "title": "System",
+                "year": "2025"
+              },
+              {
+                "title": "Outcome",
+                "year": "2026"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/34221129/pexels-photo-34221129.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Artistic portrait of a woman in bold makeup wearing red avant-garde fashion indoors.",
+                "attributionAuthor": "Astrid Sosa",
+                "attributionUrl": "https://www.pexels.com/photo/elegant-woman-in-red-avant-garde-fashion-34221129/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/31800054/pexels-photo-31800054.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Woman in a flowing blue dress sits pensively against a rustic wall, embodying fashion and beauty.",
+                "attributionAuthor": "Diana Reyes",
+                "attributionUrl": "https://www.pexels.com/photo/elegant-woman-in-blue-dress-against-rustic-wall-31800054/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/4862895/pexels-photo-4862895.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Detailed view of rippled beige fabric, showcasing texture and fabric design.",
+                "attributionAuthor": "www.kaboompics.com",
+                "attributionUrl": "https://www.pexels.com/photo/close-up-shot-of-rippled-cloth-4862895/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/31800054/pexels-photo-31800054.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Woman in a flowing blue dress sits pensively against a rustic wall, embodying fashion and beauty.",
+                "attributionAuthor": "Diana Reyes",
+                "attributionUrl": "https://www.pexels.com/photo/elegant-woman-in-blue-dress-against-rustic-wall-31800054/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/31800054/pexels-photo-31800054.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Woman in a flowing blue dress sits pensively against a rustic wall, embodying fashion and beauty.",
+                "attributionAuthor": "Diana Reyes",
+                "attributionUrl": "https://www.pexels.com/photo/elegant-woman-in-blue-dress-against-rustic-wall-31800054/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineTestimonials",
+          "content": {
+            "eyebrow": "Whispers",
+            "headline": "Voices of those transformed",
+            "testimonials": [
+              {
+                "quote": "Wearing their designs feels like stepping into a dream unbound.",
+                "author": "Elin",
+                "role": "Model"
+              },
+              {
+                "quote": "An atelier where fashion becomes poetry in fabric and form.",
+                "author": "Jules",
+                "role": "Stylist"
+              },
+              {
+                "quote": "Each piece is an experience carved in cloth.",
+                "author": "Mina",
+                "role": "Collector"
+              }
+            ]
+          }
+        },
+        {
+          "id": "TruusHorizontalWords",
+          "content": {
+            "headline": "Bold creations on global stages",
+            "body": "Real use cases and moments visitors can scan quickly.",
+            "eyebrow": "From atelier to world",
+            "cards": [
+              {
+                "title": "Overview",
+                "caption": "Overview for Avant-Garde Atelier Antwerp"
+              },
+              {
+                "title": "Workflow",
+                "caption": "Workflow for Avant-Garde Atelier Antwerp"
+              },
+              {
+                "title": "Proof",
+                "caption": "Proof for Avant-Garde Atelier Antwerp"
+              },
+              {
+                "title": "Detail",
+                "caption": "Detail for Avant-Garde Atelier Antwerp"
+              },
+              {
+                "title": "Result",
+                "caption": "Result for Avant-Garde Atelier Antwerp"
+              },
+              {
+                "title": "Next step",
+                "caption": "Next step for Avant-Garde Atelier Antwerp"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/27164018/pexels-photo-27164018.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A vintage-style newspaper alongside a textured pink rose creates a nostalgic still life.",
+                "attributionAuthor": "Melike  B",
+                "attributionUrl": "https://www.pexels.com/photo/a-newspaper-with-a-rose-on-it-27164018/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/27164018/pexels-photo-27164018.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A vintage-style newspaper alongside a textured pink rose creates a nostalgic still life.",
+                "attributionAuthor": "Melike  B",
+                "attributionUrl": "https://www.pexels.com/photo/a-newspaper-with-a-rose-on-it-27164018/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/27164018/pexels-photo-27164018.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A vintage-style newspaper alongside a textured pink rose creates a nostalgic still life.",
+                "attributionAuthor": "Melike  B",
+                "attributionUrl": "https://www.pexels.com/photo/a-newspaper-with-a-rose-on-it-27164018/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/27164018/pexels-photo-27164018.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A vintage-style newspaper alongside a textured pink rose creates a nostalgic still life.",
+                "attributionAuthor": "Melike  B",
+                "attributionUrl": "https://www.pexels.com/photo/a-newspaper-with-a-rose-on-it-27164018/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/27164018/pexels-photo-27164018.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A vintage-style newspaper alongside a textured pink rose creates a nostalgic still life.",
+                "attributionAuthor": "Melike  B",
+                "attributionUrl": "https://www.pexels.com/photo/a-newspaper-with-a-rose-on-it-27164018/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineCTA",
+          "content": {
+            "eyebrow": "Engage the Avant-Garde",
+            "headline": "Begin your bespoke journey",
+            "accent": "unleash artistry",
+            "body": "Connect with us to craft the garments that redefine your identity.",
+            "cta": {
+              "label": "Contact Us",
+              "href": "/contact"
+            },
+            "secondaryCta": {
+              "label": "View Collections",
+              "href": "/collections"
+            }
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Avant-Garde Atelier Antwerp",
+            "brand": "Avant-Garde Atelier Antwerp",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Collections",
+                    "href": "/collections"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "Where fashion transcends form",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "title": "About",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Avant-Garde Atelier Antwerp",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Collections",
+                "href": "/collections"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineAboutNarrative",
+          "content": {
+            "eyebrow": "About us",
+            "headline": "Built for what Avant-Garde Atelier Antwerp actually does.",
+            "body": "Avant-Garde Atelier Antwerp was founded by a small team of designers and engineers who had spent years building software at category-defining companies. We were tired of tools that fought us. So we started building one that doesn't.",
+            "pillarEyebrow": "Core pillars",
+            "pillarHeadline": "The principles we build by.",
+            "pillars": [
+              {
+                "title": "Clarity over cleverness",
+                "body": "The best tools disappear. Every pixel is in service of helping you think — not impressing you."
+              },
+              {
+                "title": "Craft is a discipline",
+                "body": "We sweat the details others ignore. The microcopy. The cursor states. Quality compounds."
+              },
+              {
+                "title": "Speed is respect",
+                "body": "Your attention is the most valuable thing you bring to work. We honor it."
+              }
+            ],
+            "statsEyebrow": "By the numbers",
+            "stats": [
+              {
+                "value": "2022",
+                "label": "Founded"
+              },
+              {
+                "value": "34",
+                "label": "Team"
+              },
+              {
+                "value": "12k+",
+                "label": "Active users"
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/30878454/pexels-photo-30878454.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Cinematic scene with neon lights and actors on set, creating a mysterious atmosphere.",
+              "attributionAuthor": "Javo  Films",
+              "attributionUrl": "https://www.pexels.com/photo/moody-indoor-film-set-with-neon-lighting-30878454/"
+            }
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Avant-Garde Atelier Antwerp",
+            "brand": "Avant-Garde Atelier Antwerp",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Collections",
+                    "href": "/collections"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "© 2026 Avant-Garde Atelier Antwerp. All rights reserved.",
+            "tagline": "Avant-Garde Atelier Antwerp. Built for clarity.",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "collections",
+      "title": "Collections",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Avant-Garde Atelier Antwerp",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Collections",
+                "href": "/collections"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselinePageHeader",
+          "content": {
+            "eyebrow": "Collections",
+            "headline": "Collections",
+            "body": "Everything you need to understand collections and take the next step."
+          }
+        },
+        {
+          "id": "FeatureList",
+          "content": {
+            "eyebrow": "Details",
+            "headline": "Collections details",
+            "features": [
+              {
+                "title": "Core offer",
+                "body": "Core offer information for Avant-Garde Atelier Antwerp."
+              },
+              {
+                "title": "Delivery",
+                "body": "Delivery information for Avant-Garde Atelier Antwerp."
+              },
+              {
+                "title": "Support",
+                "body": "Support information for Avant-Garde Atelier Antwerp."
+              },
+              {
+                "title": "Measurement",
+                "body": "Measurement information for Avant-Garde Atelier Antwerp."
+              },
+              {
+                "title": "Next step",
+                "body": "Next step information for Avant-Garde Atelier Antwerp."
+              }
+            ]
+          }
+        },
+        {
+          "id": "FAQAccordion",
+          "content": {
+            "eyebrow": "FAQ",
+            "headline": "Questions before you start",
+            "faqs": [
+              {
+                "q": "How quickly can we launch?",
+                "a": "The site is structured so the first version can launch quickly, then expand with focused edits and new pages."
+              },
+              {
+                "q": "What do you need from us?",
+                "a": "The site is structured so the first version can launch quickly, then expand with focused edits and new pages."
+              },
+              {
+                "q": "Can this scale into more pages?",
+                "a": "The site is structured so the first version can launch quickly, then expand with focused edits and new pages."
+              },
+              {
+                "q": "How does support work?",
+                "a": "The site is structured so the first version can launch quickly, then expand with focused edits and new pages."
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Avant-Garde Atelier Antwerp",
+            "brand": "Avant-Garde Atelier Antwerp",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Collections",
+                    "href": "/collections"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "© 2026 Avant-Garde Atelier Antwerp. All rights reserved.",
+            "tagline": "Avant-Garde Atelier Antwerp. Built for clarity.",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Avant-Garde Atelier Antwerp",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Collections",
+                "href": "/collections"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineContact",
+          "content": {
+            "eyebrow": "Contact",
+            "headline": "Let's build something together.",
+            "formTitle": "Get in touch",
+            "formBody": "Send us a message and we will get back within one business day.",
+            "recipientEmail": "hello@avantgardeatelierantwerp.co",
+            "subjectTemplate": "New inquiry from {name}",
+            "details": [
+              {
+                "label": "Email",
+                "value": "hello@avantgardeatelierantwerp.co",
+                "href": "mailto:hello@avantgardeatelierantwerp.co"
+              },
+              {
+                "label": "Response",
+                "value": "Within one business day"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Avant-Garde Atelier Antwerp",
+            "brand": "Avant-Garde Atelier Antwerp",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Collections",
+                    "href": "/collections"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "© 2026 Avant-Garde Atelier Antwerp. All rights reserved.",
+            "tagline": "Avant-Garde Atelier Antwerp. Built for clarity.",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "intent": {
+    "energy": "artistic",
+    "density": "spacious",
+    "cinematicIntensity": "high",
+    "motionIntensity": "rich",
+    "copyTone": "poetic avant-garde",
+    "themeHint": "brutalist-concrete"
+  }
+}

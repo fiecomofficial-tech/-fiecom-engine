@@ -1,0 +1,697 @@
+{
+  "theme": {
+    "preset": "editorial-noir",
+    "bg": "#0d0d0d",
+    "ink": "#e0e0e0",
+    "bgAccent": "#1a1a1a",
+    "fontDisplay": "Didot",
+    "fontBody": "Georgia"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "Lux Noir",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Work",
+                "href": "/work"
+              },
+              {
+                "label": "Studio",
+                "href": "/studio"
+              },
+              {
+                "label": "Process",
+                "href": "#process"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Start",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "HeroEditorial",
+          "content": {
+            "eyebrow": "NEW SEASON",
+            "headline": "ELEGANT\nDRAMA",
+            "body": "A cinematic journey through our latest luxury collection."
+          }
+        },
+        {
+          "id": "MessageReveal",
+          "content": {
+            "firstLine": "Crafting Timeless Elegance",
+            "accent": "LUXURY",
+            "secondLine": "Where Vision Meets Craft",
+            "body": "Discover the art behind every stitch."
+          }
+        },
+        {
+          "id": "HorizontalShowcase",
+          "content": {
+            "eyebrow": "FEATURED COLLECTIONS",
+            "headline": "Iconic Styles Reimagined",
+            "body": "Experience the essence of bold sophistication.",
+            "cards": [
+              {
+                "title": "The Noir Edit",
+                "caption": "Dark, sleek, iconic."
+              },
+              {
+                "title": "Silk & Shadows",
+                "caption": "Fluidity meets mystery."
+              },
+              {
+                "title": "Urban Elegance",
+                "caption": "Modern silhouettes refined."
+              },
+              {
+                "title": "Midnight Glamour",
+                "caption": "Evening wear redefined."
+              }
+            ]
+          }
+        },
+        {
+          "id": "StickyChapters",
+          "content": {
+            "eyebrow": "OUR JOURNEY",
+            "chapters": [
+              {
+                "title": "Inspired by the night’s allure",
+                "body": "Every piece tells a story of shadow and light."
+              },
+              {
+                "title": "Crafting with passion and precision",
+                "body": "Handmade details that define excellence."
+              },
+              {
+                "title": "A vision for modern luxury",
+                "body": "Setting trends with timeless values."
+              }
+            ]
+          }
+        },
+        {
+          "id": "ImageGallery",
+          "content": {
+            "eyebrow": "THE COLLECTION IN FOCUS",
+            "headline": "Bold pieces that speak volumes.",
+            "body": "A visual layer that makes the offer tangible.",
+            "captions": [
+              {
+                "title": "Sleek leather jacket",
+                "year": "2023"
+              },
+              {
+                "title": "Embroidered gown",
+                "year": "2024"
+              },
+              {
+                "title": "Tailored blazer",
+                "year": "2023"
+              },
+              {
+                "title": "Silk scarf",
+                "year": "2024"
+              },
+              {
+                "title": "Evening clutch",
+                "year": "2023"
+              },
+              {
+                "title": "Statement heels",
+                "year": "2024"
+              },
+              {
+                "title": "Draped cape",
+                "year": "2023"
+              },
+              {
+                "title": "Wide-leg trousers",
+                "year": "2024"
+              }
+            ]
+          }
+        },
+        {
+          "id": "TimelineScroll",
+          "content": {
+            "eyebrow": "EVOLUTION",
+            "headline": "A Legacy of Bold Design",
+            "events": [
+              {
+                "year": "2015",
+                "title": "Brand Founding",
+                "body": "Born from a vision of modern elegance."
+              },
+              {
+                "year": "2017",
+                "title": "First Collection Launch",
+                "body": "Debut that defined our aesthetic."
+              },
+              {
+                "year": "2020",
+                "title": "Global Expansion",
+                "body": "Reaching luxury markets worldwide."
+              },
+              {
+                "year": "2023",
+                "title": "Award-Winning Designs",
+                "body": "Recognized for innovative craftsmanship."
+              }
+            ]
+          }
+        },
+        {
+          "id": "TestimonialCarousel",
+          "content": {
+            "eyebrow": "WHAT THEY SAY",
+            "testimonials": [
+              {
+                "quote": "Lux Noir redefines luxury fashion with unmatched elegance.",
+                "author": "Amelia R.",
+                "role": "Fashion Editor",
+                "org": "Vogue"
+              },
+              {
+                "quote": "Their craftsmanship is simply exquisite and visionary.",
+                "author": "J. Wang",
+                "role": "Designer",
+                "org": "Harper's Bazaar"
+              },
+              {
+                "quote": "An inspiring blend of art and wearability.",
+                "author": "Liam K.",
+                "role": "Creative Director",
+                "org": "Elle Magazine"
+              }
+            ]
+          }
+        },
+        {
+          "id": "CTABanner",
+          "content": {
+            "eyebrow": "JOIN THE EXPERIENCE",
+            "headline": "Step into a world of refined style.",
+            "body": "Give visitors a clear path instead of a dead end.",
+            "cta": {
+              "label": "Explore Our Collections",
+              "href": "/work"
+            }
+          }
+        },
+        {
+          "id": "ContactBlock",
+          "content": {
+            "eyebrow": "GET IN TOUCH",
+            "headline": "Connect with Lux Noir",
+            "body": "We’re here to answer your inquiries and collaborations.",
+            "cta": {
+              "label": "Email the team",
+              "href": "mailto:hello@fiecom.co"
+            },
+            "details": [
+              {
+                "label": "Phone",
+                "value": "+1 212 555 0198"
+              },
+              {
+                "label": "Email",
+                "value": "contact@luxnoir.com"
+              },
+              {
+                "label": "Location",
+                "value": "New York, NY"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "work",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "Lux Noir",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Work",
+                "href": "/work"
+              },
+              {
+                "label": "Studio",
+                "href": "/studio"
+              },
+              {
+                "label": "Process",
+                "href": "#process"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Start",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "PageHeader",
+          "content": {
+            "eyebrow": "PORTFOLIO",
+            "headline": "Our Signature Creations",
+            "body": "Everything visitors need to understand work and take the next step.",
+            "crumbs": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Work"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ImageGallery",
+          "content": {
+            "eyebrow": "GALLERY",
+            "headline": "Showcasing Craft and Style",
+            "body": "A visual layer that makes the offer tangible.",
+            "captions": [
+              {
+                "title": "Avant-garde coat"
+              },
+              {
+                "title": "Hand-stitched tailoring"
+              },
+              {
+                "title": "Minimalist silk dress"
+              },
+              {
+                "title": "Leather accessories"
+              },
+              {
+                "title": "Evening wear detail"
+              }
+            ]
+          }
+        },
+        {
+          "id": "HorizontalShowcase",
+          "content": {
+            "eyebrow": "HIGHLIGHTS",
+            "headline": "Selected Projects",
+            "body": "Crafting excellence in every stitch.",
+            "cards": [
+              {
+                "title": "The Noir Capsule"
+              },
+              {
+                "title": "Bespoke Tailoring"
+              },
+              {
+                "title": "Seasonal Editorial"
+              },
+              {
+                "title": "Luxury Accessories"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ProcessSteps",
+          "content": {
+            "eyebrow": "PROCESS",
+            "headline": "From Concept to Creation",
+            "steps": [
+              {
+                "number": "1",
+                "title": "Inspiration",
+                "body": "Gathering ideas from art and culture.",
+                "duration": "1 week"
+              },
+              {
+                "number": "2",
+                "title": "Design",
+                "body": "Sketching and prototyping our vision.",
+                "duration": "2 weeks"
+              },
+              {
+                "number": "3",
+                "title": "Crafting",
+                "body": "Handmaking details with precision.",
+                "duration": "3 weeks"
+              },
+              {
+                "number": "4",
+                "title": "Presentation",
+                "body": "Showcasing the final collection.",
+                "duration": "1 week"
+              }
+            ],
+            "body": "Our meticulous approach to luxury design."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "studio",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "Lux Noir",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Work",
+                "href": "/work"
+              },
+              {
+                "label": "Studio",
+                "href": "/studio"
+              },
+              {
+                "label": "Process",
+                "href": "#process"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Start",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "PageHeader",
+          "content": {
+            "eyebrow": "INSIDE THE STUDIO",
+            "headline": "Our Philosophy & People",
+            "body": "Everything visitors need to understand studio and take the next step.",
+            "crumbs": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Studio"
+              }
+            ]
+          }
+        },
+        {
+          "id": "TwoColumnText",
+          "content": {
+            "eyebrow": "Context",
+            "headline": "Rooted in Craftsmanship",
+            "paragraphs": [
+              {
+                "heading": "The Essence",
+                "body": "At Lux Noir, we blend tradition with innovation to create timeless fashion."
+              },
+              {
+                "heading": "Our Vision",
+                "body": "To redefine luxury for the modern era through artistry and precision."
+              },
+              {
+                "heading": "Our Team",
+                "body": "A collective of passionate designers, artisans, and visionaries."
+              }
+            ]
+          }
+        },
+        {
+          "id": "TimelineScroll",
+          "content": {
+            "eyebrow": "STUDIO MILESTONES",
+            "headline": "Our Story in Time",
+            "events": [
+              {
+                "year": "2015",
+                "title": "Founded with a Vision",
+                "body": "Setting new standards in luxury fashion."
+              },
+              {
+                "year": "2018",
+                "title": "Studio Expansion",
+                "body": "Growing our creative and artisan team."
+              },
+              {
+                "year": "2022",
+                "title": "Sustainability Commitment",
+                "body": "Integrating eco-conscious practices."
+              }
+            ]
+          }
+        },
+        {
+          "id": "JobsList",
+          "content": {
+            "eyebrow": "CAREERS",
+            "headline": "Join Our Creative Team",
+            "groups": [
+              {
+                "team": "Design",
+                "jobs": [
+                  {
+                    "role": "Senior Fashion Designer",
+                    "location": "New York, NY",
+                    "type": "Full-time",
+                    "description": "Lead design projects and mentor junior designers.",
+                    "href": "/jobs/senior-fashion-designer"
+                  }
+                ]
+              },
+              {
+                "team": "Production",
+                "jobs": [
+                  {
+                    "role": "Artisan Tailor",
+                    "location": "New York, NY",
+                    "type": "Full-time",
+                    "description": "Craft bespoke pieces with precision.",
+                    "href": "/jobs/artisan-tailor"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "Lux Noir",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Work",
+                "href": "/work"
+              },
+              {
+                "label": "Studio",
+                "href": "/studio"
+              },
+              {
+                "label": "Process",
+                "href": "#process"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Start",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "PageHeader",
+          "content": {
+            "eyebrow": "CONTACT US",
+            "headline": "Let's Connect",
+            "body": "Everything visitors need to understand contact and take the next step.",
+            "crumbs": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Contact"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ContactForm",
+          "content": {
+            "eyebrow": "REACH OUT",
+            "headline": "Send Us a Message",
+            "body": "We welcome inquiries and collaborations.",
+            "recipientEmail": "contact@luxnoir.com",
+            "submitLabel": "Send",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Name",
+                "type": "text",
+                "required": true,
+                "placeholder": "Your full name"
+              },
+              {
+                "name": "email",
+                "label": "Email",
+                "type": "email",
+                "required": true,
+                "placeholder": "you@example.com"
+              },
+              {
+                "name": "message",
+                "label": "Message",
+                "type": "textarea",
+                "required": true,
+                "placeholder": "Your message here"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ContactBlock",
+          "content": {
+            "eyebrow": "OFFICE",
+            "headline": "Visit or Contact Us",
+            "body": "Our team is ready to assist you.",
+            "cta": {
+              "label": "Email the team",
+              "href": "mailto:hello@fiecom.co"
+            },
+            "details": [
+              {
+                "label": "Phone",
+                "value": "+1 212 555 0198"
+              },
+              {
+                "label": "Email",
+                "value": "contact@luxnoir.com"
+              },
+              {
+                "label": "Address",
+                "value": "123 Noir Ave, New York, NY"
+              }
+            ]
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "Lux Noir",
+            "tagline": "Always in Style",
+            "giant": "LUX NOIR",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Work",
+                    "href": "/work"
+                  },
+                  {
+                    "label": "Studio",
+                    "href": "/studio"
+                  },
+                  {
+                    "label": "Process",
+                    "href": "#process"
+                  }
+                ]
+              },
+              {
+                "title": "Company",
+                "links": [
+                  {
+                    "label": "About",
+                    "href": "#about"
+                  },
+                  {
+                    "label": "Process",
+                    "href": "#process"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Resources",
+                "links": [
+                  {
+                    "label": "FAQ",
+                    "href": "#faq"
+                  },
+                  {
+                    "label": "Journal",
+                    "href": "/resources"
+                  },
+                  {
+                    "label": "Start",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "2026 Fiecom. All rights reserved."
+          }
+        }
+      ]
+    }
+  ]
+}

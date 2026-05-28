@@ -1,0 +1,674 @@
+{
+  "theme": {
+    "preset": "warm-sand",
+    "bg": "#fbf6f0",
+    "ink": "#4b3a36",
+    "bgAccent": "#f7e9e6",
+    "fontDisplay": "Playfair Display",
+    "fontBody": "Lora"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Sweet Crumbs Bakery",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Menu",
+                "href": "/menu"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Order Now",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineHero",
+          "content": {
+            "eyebrow": "Freshly Baked",
+            "headline": "Handcrafted Brooklyn Cupcakes",
+            "accent": "warm sweetness",
+            "body": "Experience delightful artisan cupcakes made with love and the finest ingredients.",
+            "cta": {
+              "label": "Explore Menu",
+              "href": "/menu"
+            },
+            "secondaryCta": {
+              "label": "Visit Us",
+              "href": "/contact"
+            }
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/35457884/pexels-photo-35457884.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Mysterious misty forest scene in winter, captured in Rugova, Kosovo.",
+              "attributionAuthor": "Andi Dautaj",
+              "attributionUrl": "https://www.pexels.com/photo/misty-forest-landscape-in-winter-kosovo-35457884/"
+            }
+          }
+        },
+        {
+          "id": "MarqueeBand",
+          "content": {
+            "items": [
+              "Sweet Crumbs Bakery",
+              "Strategy",
+              "Motion",
+              "Proof",
+              "Conversion"
+            ],
+            "tone": "normal",
+            "eyebrow": "Baked Daily",
+            "headline": "Sensory delight in every bite"
+          }
+        },
+        {
+          "id": "BaselineLogoBar",
+          "content": {
+            "eyebrow": "Proudly Served At",
+            "clients": [
+              {
+                "name": "Brooklyn Market"
+              },
+              {
+                "name": "Greenwood Cafe"
+              },
+              {
+                "name": "Parkside Diner"
+              },
+              {
+                "name": "The Daily Grind"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFeatures",
+          "content": {
+            "eyebrow": "Our Flavors",
+            "headline": "Unique Cupcakes to Savor",
+            "accent": "Built to compound.",
+            "features": [
+              {
+                "title": "Classic Vanilla Bean",
+                "body": "Smooth, rich vanilla with creamy frosting and a delicate crumb."
+              },
+              {
+                "title": "Salted Caramel Dream",
+                "body": "Sweet caramel topped with a hint of sea salt for perfect balance."
+              },
+              {
+                "title": "Chocolate Raspberry Swirl",
+                "body": "Decadent chocolate paired with fresh raspberry notes."
+              }
+            ]
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/34730467/pexels-photo-34730467.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "A tranquil autumn forest with mist and sunlight filtering through the bare trees at sunrise.",
+              "attributionAuthor": "Septimiu Lupea",
+              "attributionUrl": "https://www.pexels.com/photo/misty-autumn-sunrise-in-serene-forest-34730467/"
+            }
+          }
+        },
+        {
+          "id": "BaselineTestimonials",
+          "content": {
+            "eyebrow": "Loved By Many",
+            "headline": "What Our Customers Say",
+            "testimonials": [
+              {
+                "quote": "Every bite feels like a warm hug!",
+                "author": "Anna"
+              },
+              {
+                "quote": "The best cupcakes I've ever tasted in Brooklyn.",
+                "author": "Matt"
+              },
+              {
+                "quote": "Artisan quality with a cozy neighborhood vibe.",
+                "author": "Sophie"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineCTA",
+          "content": {
+            "eyebrow": "Order Today",
+            "headline": "Taste the Art of Baking",
+            "accent": "artisan cupcakes",
+            "body": "Bring home or gift the joy of Sweet Crumbs’ handcrafted delights.",
+            "cta": {
+              "label": "Place Your Order",
+              "href": "/contact"
+            },
+            "secondaryCta": {
+              "label": "Learn More About Us",
+              "href": "/about"
+            }
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Sweet Crumbs Bakery",
+            "brand": "Sweet Crumbs Bakery",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Menu",
+                    "href": "/menu"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "Handcrafted cupcakes with Brooklyn heart",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "title": "About",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Sweet Crumbs Bakery",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Menu",
+                "href": "/menu"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineAboutNarrative",
+          "content": {
+            "eyebrow": "About Sweet Crumbs",
+            "headline": "Baking with love and tradition",
+            "body": "Founded in Brooklyn, Sweet Crumbs Bakery blends artisan techniques with locally sourced ingredients to craft each cupcake with care.",
+            "pillarEyebrow": "Our Values",
+            "pillarHeadline": "Commitment to quality and community",
+            "pillars": [
+              {
+                "title": "Artisan Craftsmanship",
+                "body": "Every cupcake is handmade with attention to detail."
+              },
+              {
+                "title": "Local Ingredients",
+                "body": "We support farmers and suppliers in our neighborhood."
+              },
+              {
+                "title": "Sustainability",
+                "body": "Eco-friendly packaging and responsible sourcing."
+              }
+            ],
+            "statsEyebrow": "By the Numbers",
+            "stats": [
+              {
+                "value": "2015",
+                "label": "Founded"
+              },
+              {
+                "value": "10k+",
+                "label": "Cupcakes Baked"
+              },
+              {
+                "value": "5",
+                "label": "Community Events Yearly"
+              }
+            ],
+            "accent": "handcrafted delights"
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/17845/pexels-photo.jpg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "A close-up shot of a hand reviewing various logo designs on paper, ideal for business concepts.",
+              "attributionAuthor": "Roman Pohorecki",
+              "attributionUrl": "https://www.pexels.com/photo/hand-on-top-of-paper-17845/"
+            }
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Sweet Crumbs Bakery",
+            "brand": "Sweet Crumbs Bakery",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Menu",
+                    "href": "/menu"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "Handcrafted cupcakes with Brooklyn heart",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "menu",
+      "title": "Menu",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Sweet Crumbs Bakery",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Menu",
+                "href": "/menu"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselinePageHeader",
+          "content": {
+            "eyebrow": "Menu",
+            "headline": "Cupcakes & Seasonal Specials",
+            "body": "Explore our handcrafted flavors, perfect for every occasion.",
+            "accent": "sweet variety"
+          }
+        },
+        {
+          "id": "FeatureList",
+          "content": {
+            "eyebrow": "Our Cupcakes",
+            "headline": "Delightful Flavors",
+            "features": [
+              {
+                "title": "Classic Vanilla Bean",
+                "body": "Smooth vanilla cupcake with creamy frosting."
+              },
+              {
+                "title": "Salted Caramel Dream",
+                "body": "Caramel topped with a sea salt sprinkle."
+              },
+              {
+                "title": "Chocolate Raspberry Swirl",
+                "body": "Rich chocolate with fresh raspberry notes."
+              },
+              {
+                "title": "Seasonal Pumpkin Spice",
+                "body": "Warm spices with a hint of autumn sweetness."
+              },
+              {
+                "title": "Matcha Green Tea",
+                "body": "Earthy and fresh with a light frosting."
+              }
+            ]
+          }
+        },
+        {
+          "id": "FeatureList",
+          "content": {
+            "eyebrow": "Bulk Orders",
+            "headline": "Perfect for Events & Gifts",
+            "features": [
+              {
+                "title": "Custom Flavors",
+                "body": "Tailored cupcakes to suit your event theme."
+              },
+              {
+                "title": "Gift Boxes",
+                "body": "Beautiful packaging for any occasion."
+              },
+              {
+                "title": "Wholesale Options",
+                "body": "Partner with us for your business needs."
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Sweet Crumbs Bakery",
+            "brand": "Sweet Crumbs Bakery",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Menu",
+                    "href": "/menu"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "Handcrafted cupcakes with Brooklyn heart",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Sweet Crumbs Bakery",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Menu",
+                "href": "/menu"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineContact",
+          "content": {
+            "eyebrow": "Contact",
+            "headline": "Let's connect",
+            "formTitle": "Send Us a Message",
+            "formBody": "We'd love to hear from you.",
+            "recipientEmail": "hello@sweetcrumbsbakery.com",
+            "subjectTemplate": "New inquiry from {name}",
+            "details": [
+              {
+                "label": "Email",
+                "value": "hello@sweetcrumbsbakery.com",
+                "href": "mailto:hello@sweetcrumbsbakery.com"
+              },
+              {
+                "label": "Phone",
+                "value": "(718) 555-0123",
+                "href": "tel:+17185550123"
+              },
+              {
+                "label": "Address",
+                "value": "123 Artisan Lane, Brooklyn, NY"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Sweet Crumbs Bakery",
+            "brand": "Sweet Crumbs Bakery",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Menu",
+                    "href": "/menu"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "Handcrafted cupcakes with Brooklyn heart",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "intent": {
+    "energy": "editorial",
+    "density": "spacious",
+    "cinematicIntensity": "moderate",
+    "motionIntensity": "subtle",
+    "copyTone": "warm and inviting",
+    "themeHint": "warm-sand"
+  }
+}

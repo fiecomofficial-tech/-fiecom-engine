@@ -1,0 +1,511 @@
+{
+  "theme": {
+    "preset": "editorial-cream",
+    "bg": "#fff9f0",
+    "ink": "#3a302e",
+    "bgAccent": "#f0e6d2",
+    "fontDisplay": "Georgia",
+    "fontBody": "Arial"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "AeroLux",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Features",
+                "href": "#features"
+              },
+              {
+                "label": "Work",
+                "href": "#work"
+              },
+              {
+                "label": "Process",
+                "href": "#process"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Start",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "HeroCinematic",
+          "content": {
+            "eyebrow": "Experience the Sky",
+            "headline": "Private\nJet\nLuxury",
+            "subhead": "Exclusive Access",
+            "body": "Fly privately with unmatched comfort and style. Your journey begins at AeroLux.",
+            "cta": {
+              "label": "Explore Fleet",
+              "href": "#features"
+            }
+          }
+        },
+        {
+          "id": "MessageReveal",
+          "content": {
+            "firstLine": "Travel Beyond Expectations",
+            "accent": "Luxury",
+            "secondLine": "Seamless private jet service",
+            "body": "Personalized flights tailored to your schedule and preferences."
+          }
+        },
+        {
+          "id": "FeatureBento",
+          "content": {
+            "eyebrow": "Our Advantages",
+            "headline": "Why Choose AeroLux",
+            "body": "Premium service that redefines private aviation.",
+            "features": [
+              {
+                "title": "Global Reach",
+                "body": "Access to thousands of airports worldwide."
+              },
+              {
+                "title": "Luxury Interiors",
+                "body": "Cabins designed for utmost comfort and style."
+              },
+              {
+                "title": "Flexible Scheduling",
+                "body": "Flights on your timetable, not ours."
+              },
+              {
+                "title": "Professional Crew",
+                "body": "Experienced pilots and attentive staff."
+              },
+              {
+                "title": "Privacy & Security",
+                "body": "Discreet and secure travel at all times."
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.unsplash.com/photo-1760532466984-39c3eb7f1254?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxwcmVtaXVtJTIwYnJhbmQlMjBkZXRhaWwlMjBwcm9kdWN0fGVufDF8Mnx8fDE3Nzk0MDcwMDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "Close-up of a golden minimalist watch on a wrist.",
+                "attributionAuthor": "Luan Fonseca",
+                "attributionUrl": "https://unsplash.com/photos/close-up-of-a-golden-minimalist-watch-on-a-wrist-KQSmqtj65Rk"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1778451510207-24f1e204f465?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxwcmVtaXVtJTIwYnJhbmQlMjBkZXRhaWwlMjBkZXRhaWx8ZW58MXwyfHx8MTc3OTQwNzAwN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "Skincare products displayed on a wooden dresser.",
+                "attributionAuthor": "Ela De Pure",
+                "attributionUrl": "https://unsplash.com/photos/skincare-products-displayed-on-a-wooden-dresser-gmvzs_krgno"
+              }
+            ]
+          }
+        },
+        {
+          "id": "HorizontalShowcase",
+          "content": {
+            "eyebrow": "Fleet Highlights",
+            "headline": "Our Signature Jets",
+            "body": "Experience the best private aircraft with AeroLux.",
+            "cards": [
+              {
+                "title": "Gulfstream G650",
+                "caption": "Ultra-long range comfort"
+              },
+              {
+                "title": "Bombardier Global 7500",
+                "caption": "Spacious and efficient"
+              },
+              {
+                "title": "Dassault Falcon 8X",
+                "caption": "Advanced technology"
+              },
+              {
+                "title": "Embraer Legacy 650",
+                "caption": "Elegant interiors"
+              },
+              {
+                "title": "Cessna Citation Longitude",
+                "caption": "Versatile and reliable"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.unsplash.com/photo-1768080315792-a8c70f08888a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxwcmVtaXVtJTIwYnJhbmQlMjBkZXRhaWwlMjBpbnRlcmlvcnxlbnwxfDF8fHwxNzc5NDA3MDA4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "Pussy willows in vase cast shadows on wall with artwork.",
+                "attributionAuthor": "Kirsten Miles",
+                "attributionUrl": "https://unsplash.com/photos/pussy-willows-in-vase-cast-shadows-on-wall-with-artwork-eU_yuFg7jpE"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1770364276122-f1e2add1c6c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxwcmVtaXVtJTIwYnJhbmQlMjBkZXRhaWwlMjB0ZWFtfGVufDF8MXx8fDE3Nzk0MDcwMDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "Close-up of a mercedes-benz emblem on a black car",
+                "attributionAuthor": "Rylan Kealey",
+                "attributionUrl": "https://unsplash.com/photos/close-up-of-a-mercedes-benz-emblem-on-a-black-car-a9AE0a69cOI"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1768225681745-dff410f60448?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxwcmVtaXVtJTIwYnJhbmQlMjBkZXRhaWwlMjBwcm9kdWN0fGVufDF8MXx8fDE3Nzk0MDcwMDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "Person walking past a rolex store in a european city.",
+                "attributionAuthor": "Ayoub Chebbi",
+                "attributionUrl": "https://unsplash.com/photos/person-walking-past-a-rolex-store-in-a-european-city-LL0XX05aJI4"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1777331736594-ee984de6c2f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxwcmVtaXVtJTIwYnJhbmQlMjBkZXRhaWwlMjBkZXRhaWx8ZW58MXwxfHx8MTc3OTQwNzAwOHww&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "Pink high heel perfume bottle with dried flowers",
+                "attributionAuthor": "Chiara Monti",
+                "attributionUrl": "https://unsplash.com/photos/pink-high-heel-perfume-bottle-with-dried-flowers-eYEvmR0kt5k"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1759563876910-5f54c1735761?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxwcmVtaXVtJTIwYnJhbmQlMjBkZXRhaWwlMjB3b3JrZmxvd3xlbnwxfDF8fHwxNzc5NDA3MDA3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "White dior gift box with black wax seal",
+                "attributionAuthor": "Laura Chouette",
+                "attributionUrl": "https://unsplash.com/photos/white-dior-gift-box-with-black-wax-seal-kb2IVlLc-Sk"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1762592033298-d866290f1508?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxwcmVtaXVtJTIwYnJhbmQlMjBkZXRhaWwlMjB0ZXh0dXJlfGVufDF8MXx8fDE3Nzk0MDcwMDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "Historic building with rolex sign and ornate clock.",
+                "attributionAuthor": "martin lea",
+                "attributionUrl": "https://unsplash.com/photos/historic-building-with-rolex-sign-and-ornate-clock-9PAKWQb8bP8"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ProcessSteps",
+          "content": {
+            "eyebrow": "How It Works",
+            "headline": "Simple Booking in 4 Steps",
+            "steps": [
+              {
+                "number": "1",
+                "title": "Inquiry",
+                "body": "Contact us with your travel details."
+              },
+              {
+                "number": "2",
+                "title": "Personalized Plan",
+                "body": "We tailor your flight to your needs."
+              },
+              {
+                "number": "3",
+                "title": "Confirmation",
+                "body": "Finalize details and payment securely."
+              },
+              {
+                "number": "4",
+                "title": "Takeoff",
+                "body": "Enjoy your private flight experience."
+              }
+            ],
+            "body": "From inquiry to takeoff, streamlined for you."
+          }
+        },
+        {
+          "id": "TestimonialCarousel",
+          "content": {
+            "eyebrow": "Client Praise",
+            "testimonials": [
+              {
+                "quote": "AeroLux redefined luxury air travel for me.",
+                "author": "Michael S.",
+                "role": "CEO",
+                "org": "Global Ventures"
+              },
+              {
+                "quote": "The service was impeccable and seamless.",
+                "author": "Emma L.",
+                "role": "Entrepreneur"
+              },
+              {
+                "quote": "Flying private made business trips effortless.",
+                "author": "Raj P.",
+                "role": "Investor"
+              },
+              {
+                "quote": "Comfort and privacy beyond expectations.",
+                "author": "Sophia K.",
+                "role": "Artist"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.unsplash.com/photo-1768080315792-a8c70f08888a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxwcmVtaXVtJTIwYnJhbmQlMjBkZXRhaWwlMjBpbnRlcmlvcnxlbnwxfDF8fHwxNzc5NDA3MDA4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "Pussy willows in vase cast shadows on wall with artwork.",
+                "attributionAuthor": "Kirsten Miles",
+                "attributionUrl": "https://unsplash.com/photos/pussy-willows-in-vase-cast-shadows-on-wall-with-artwork-eU_yuFg7jpE"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1770364276122-f1e2add1c6c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxwcmVtaXVtJTIwYnJhbmQlMjBkZXRhaWwlMjB0ZWFtfGVufDF8MXx8fDE3Nzk0MDcwMDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "Close-up of a mercedes-benz emblem on a black car",
+                "attributionAuthor": "Rylan Kealey",
+                "attributionUrl": "https://unsplash.com/photos/close-up-of-a-mercedes-benz-emblem-on-a-black-car-a9AE0a69cOI"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1768225681745-dff410f60448?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxwcmVtaXVtJTIwYnJhbmQlMjBkZXRhaWwlMjBwcm9kdWN0fGVufDF8MXx8fDE3Nzk0MDcwMDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "Person walking past a rolex store in a european city.",
+                "attributionAuthor": "Ayoub Chebbi",
+                "attributionUrl": "https://unsplash.com/photos/person-walking-past-a-rolex-store-in-a-european-city-LL0XX05aJI4"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1777331736594-ee984de6c2f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDk2Mzd8MHwxfHNlYXJjaHwxfHxwcmVtaXVtJTIwYnJhbmQlMjBkZXRhaWwlMjBkZXRhaWx8ZW58MXwxfHx8MTc3OTQwNzAwOHww&ixlib=rb-4.1.0&q=80&w=1080",
+                "alt": "Pink high heel perfume bottle with dried flowers",
+                "attributionAuthor": "Chiara Monti",
+                "attributionUrl": "https://unsplash.com/photos/pink-high-heel-perfume-bottle-with-dried-flowers-eYEvmR0kt5k"
+              }
+            ]
+          }
+        },
+        {
+          "id": "FAQAccordion",
+          "content": {
+            "eyebrow": "Need Help?",
+            "headline": "Frequently Asked Questions",
+            "faqs": [
+              {
+                "q": "How far in advance should I book?",
+                "a": "We recommend booking at least 48 hours prior."
+              },
+              {
+                "q": "Can I change my itinerary?",
+                "a": "Yes, flexible changes are accommodated."
+              },
+              {
+                "q": "What safety measures are in place?",
+                "a": "All aircraft meet strict safety standards."
+              },
+              {
+                "q": "Are pets allowed onboard?",
+                "a": "Pets are welcome with prior arrangement."
+              }
+            ]
+          }
+        },
+        {
+          "id": "ContactBlock",
+          "content": {
+            "eyebrow": "Get in Touch",
+            "headline": "Ready to fly private?",
+            "body": "Contact AeroLux for personalized service and availability.",
+            "cta": {
+              "label": "Email the team",
+              "href": "mailto:hello@fiecom.co"
+            },
+            "details": [
+              {
+                "label": "Phone",
+                "value": "+1-800-555-9876"
+              },
+              {
+                "label": "Email",
+                "value": "contact@aerolux.com",
+                "href": "mailto:contact@aerolux.com"
+              },
+              {
+                "label": "Address",
+                "value": "123 Aviation Way, Suite 100, New York, NY"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact AeroLux",
+      "sections": [
+        {
+          "id": "StickyNavbar",
+          "content": {
+            "brand": "AeroLux",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Features",
+                "href": "#features"
+              },
+              {
+                "label": "Work",
+                "href": "#work"
+              },
+              {
+                "label": "Process",
+                "href": "#process"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Start",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "PageHeader",
+          "content": {
+            "eyebrow": "Contact Us",
+            "headline": "Reach AeroLux",
+            "body": "We're here to assist you with your private flight needs.",
+            "crumbs": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "Contact"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ContactForm",
+          "content": {
+            "eyebrow": "Send a Message",
+            "headline": "Get in Touch",
+            "body": "Fill out the form and we will respond promptly.",
+            "recipientEmail": "contact@aerolux.com",
+            "submitLabel": "Send Message",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Name",
+                "type": "text",
+                "required": true,
+                "placeholder": "Your full name"
+              },
+              {
+                "name": "email",
+                "label": "Email",
+                "type": "email",
+                "required": true,
+                "placeholder": "you@example.com"
+              },
+              {
+                "name": "message",
+                "label": "Message",
+                "type": "textarea",
+                "required": true,
+                "placeholder": "How can we help?"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ContactBlock",
+          "content": {
+            "eyebrow": "Contact Info",
+            "headline": "Or reach us directly",
+            "body": "We are ready to assist your private travel plans.",
+            "cta": {
+              "label": "Email the team",
+              "href": "mailto:hello@fiecom.co"
+            },
+            "details": [
+              {
+                "label": "Phone",
+                "value": "+1-800-555-9876"
+              },
+              {
+                "label": "Email",
+                "value": "contact@aerolux.com",
+                "href": "mailto:contact@aerolux.com"
+              },
+              {
+                "label": "Address",
+                "value": "123 Aviation Way, Suite 100, New York, NY"
+              }
+            ]
+          }
+        },
+        {
+          "id": "FooterRich",
+          "content": {
+            "brand": "AeroLux",
+            "tagline": "Elevate Your Journey",
+            "giant": "AEROLUX",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Features",
+                    "href": "#features"
+                  },
+                  {
+                    "label": "Work",
+                    "href": "#work"
+                  },
+                  {
+                    "label": "Process",
+                    "href": "#process"
+                  }
+                ]
+              },
+              {
+                "title": "Company",
+                "links": [
+                  {
+                    "label": "About",
+                    "href": "#about"
+                  },
+                  {
+                    "label": "Process",
+                    "href": "#process"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Resources",
+                "links": [
+                  {
+                    "label": "FAQ",
+                    "href": "#faq"
+                  },
+                  {
+                    "label": "Journal",
+                    "href": "/resources"
+                  },
+                  {
+                    "label": "Start",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "© 2024 AeroLux. All rights reserved."
+          }
+        }
+      ]
+    }
+  ]
+}
