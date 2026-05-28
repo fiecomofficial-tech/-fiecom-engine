@@ -1,0 +1,744 @@
+{
+  "theme": {
+    "preset": "midnight-luxury",
+    "bgAccent": "charcoal",
+    "fontDisplay": "Didot",
+    "fontBody": "Garamond"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Mira Sera - Home",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Mira Sera",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Collection",
+                "href": "/collection"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineHero",
+          "content": {
+            "eyebrow": "Avant-Garde Vision",
+            "headline": "Mira Sera's Paris Atelier",
+            "accent": "signature style",
+            "body": "Where innovation meets artistry in fashion's frontier.",
+            "cta": {
+              "label": "Explore Collections",
+              "href": "/collection"
+            },
+            "secondaryCta": {
+              "label": "Our Story",
+              "href": "/about"
+            }
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/28262886/pexels-photo-28262886.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Artistic fashion portrait featuring unique headwear and formal attire with eyeglasses.",
+              "attributionAuthor": "Sydney Sang",
+              "attributionUrl": "https://www.pexels.com/photo/a-man-with-a-paper-hat-on-his-head-28262886/"
+            }
+          }
+        },
+        {
+          "id": "MessageReveal",
+          "content": {
+            "firstLine": "Mira Sera is not another template",
+            "accent": "different",
+            "secondLine": "It is a structured product story",
+            "body": "Each piece articulates a narrative of bold innovation and refined craftsmanship.",
+            "eyebrow": "Visionary Craft",
+            "headline": "Handcrafted avant-garde couture"
+          }
+        },
+        {
+          "id": "BaselineFeatures",
+          "content": {
+            "eyebrow": "Signature Collections",
+            "headline": "Innovative design pillars",
+            "accent": "Paris atelier",
+            "features": [
+              {
+                "eyebrow": "01 — Ethereal Forms",
+                "title": "Fluid silhouettes blending structure and freedom",
+                "body": "Exploring the boundaries of shape and movement."
+              },
+              {
+                "eyebrow": "02 — Material Alchemy",
+                "title": "Transforming textiles into sculptural art",
+                "body": "Inventive fabric treatments that challenge convention."
+              },
+              {
+                "eyebrow": "03 — Conceptual Detailing",
+                "title": "Intricate handwork with symbolic significance",
+                "body": "Every stitch tells a story of bold expression."
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/35457879/pexels-photo-35457879.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Captivating misty forest scene in Kosovo's Rugova Valley during winter, offering a serene and cinematic atmosphere.",
+                "attributionAuthor": "Andi Dautaj",
+                "attributionUrl": "https://www.pexels.com/photo/misty-winter-forest-in-kosovo-s-rugova-valley-35457879/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/9665180/pexels-photo-9665180.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Dynamic view of dust particles in motion, illuminated against a black background, creating an ethereal effect.",
+                "attributionAuthor": "cottonbro studio",
+                "attributionUrl": "https://www.pexels.com/photo/white-dust-particles-on-black-background-9665180/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/333850/pexels-photo-333850.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A mysterious silhouette standing against a backdrop of dramatic red smoke.",
+                "attributionAuthor": "Elti Meshau",
+                "attributionUrl": "https://www.pexels.com/photo/silhouette-of-man-standing-against-black-and-red-background-333850/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "StickyNarrative",
+          "content": {
+            "eyebrow": "Chapters",
+            "headline": "How Mira Sera works.",
+            "chapters": [
+              {
+                "meta": "Chapter 01",
+                "title": "Begin with the room.",
+                "body": "Every project starts with the space, the brief, and the constraint that matters most. We listen first."
+              },
+              {
+                "meta": "Chapter 02",
+                "title": "Translate, then refine.",
+                "body": "We translate the brief into a small set of moves, then refine each one until it earns its place."
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/30878453/pexels-photo-30878453.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "An intimate indoor setting with warm, moody lighting and a couple seated amidst filming equipment.",
+                "attributionAuthor": "Javo  Films",
+                "attributionUrl": "https://www.pexels.com/photo/artistic-indoor-scene-with-warm-lighting-30878453/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/34007217/pexels-photo-34007217.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Film crew collaborating on set with cinematic lighting in Baghdad, Iraq, showcasing teamwork and creativity.",
+                "attributionAuthor": "khezez  | خزاز",
+                "attributionUrl": "https://www.pexels.com/photo/cinematic-production-team-in-baghdad-on-set-34007217/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/23384428/pexels-photo-23384428.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Dramatic silhouette of armed figures in a smoky, dimly lit environment, depicting a military scene.",
+                "attributionAuthor": "Wolrider YURTSEVEN",
+                "attributionUrl": "https://www.pexels.com/photo/a-professional-camera-filming-a-person-with-a-weapon-23384428/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineTestimonials",
+          "content": {
+            "eyebrow": "Accolades",
+            "headline": "Voices from the fashion vanguard",
+            "testimonials": [
+              {
+                "quote": "Mira Sera redefines fashion with poetic audacity.",
+                "author": "Elise",
+                "role": "Fashion Critic"
+              },
+              {
+                "quote": "An atelier that breathes innovation into every thread.",
+                "author": "Julien",
+                "role": "Stylist"
+              },
+              {
+                "quote": "Their collections are wearable art at its finest.",
+                "author": "Sophie",
+                "role": "Editor"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineCTA",
+          "content": {
+            "eyebrow": "Get started",
+            "headline": "Build something",
+            "accent": "remarkable.",
+            "body": "Start your free trial. No credit card required. Cancel anytime.",
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            },
+            "secondaryCta": {
+              "label": "Talk to sales",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Mira Sera",
+            "brand": "Mira Sera",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Collection",
+                    "href": "/collection"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "© 2026 Mira Sera. All rights reserved.",
+            "tagline": "Mira Sera. Built for clarity.",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "title": "About Mira Sera",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Mira Sera",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Collection",
+                "href": "/collection"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineAboutNarrative",
+          "content": {
+            "eyebrow": "About Mira Sera",
+            "headline": "Crafting visionary fashion",
+            "body": "Founded in Paris, Mira Sera evolves from a rich atelier legacy embracing bold forms and conceptual depth.",
+            "pillarEyebrow": "Core pillars",
+            "pillarHeadline": "Our values shape every creation",
+            "pillars": [
+              {
+                "title": "Artistic Innovation",
+                "body": "Pushing fashion’s boundaries through experimental design."
+              },
+              {
+                "title": "Meticulous Craftsmanship",
+                "body": "Precision and care in every detail."
+              },
+              {
+                "title": "Sustainable Vision",
+                "body": "Mindful creation with respect for environment and culture."
+              }
+            ],
+            "statsEyebrow": "Our atelier milestones",
+            "stats": [
+              {
+                "value": "2010",
+                "label": "Founded"
+              },
+              {
+                "value": "50+",
+                "label": "Collections crafted"
+              },
+              {
+                "value": "Paris",
+                "label": "Global influence"
+              }
+            ],
+            "accent": "refined creativity"
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/30878454/pexels-photo-30878454.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Cinematic scene with neon lights and actors on set, creating a mysterious atmosphere.",
+              "attributionAuthor": "Javo  Films",
+              "attributionUrl": "https://www.pexels.com/photo/moody-indoor-film-set-with-neon-lighting-30878454/"
+            }
+          }
+        },
+        {
+          "id": "TwoColumnText",
+          "content": {
+            "eyebrow": "Philosophy",
+            "headline": "A manifesto of form and soul",
+            "paragraphs": [
+              {
+                "heading": "Vision",
+                "body": "To redefine fashion as an immersive, artistic dialogue with tradition and modernity."
+              },
+              {
+                "heading": "Approach",
+                "body": "Combining avant-garde experimentation with timeless atelier techniques."
+              },
+              {
+                "heading": "Impact",
+                "body": "Empowering individuals to wear a statement of identity beyond trends."
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Mira Sera",
+            "brand": "Mira Sera",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Collection",
+                    "href": "/collection"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "© 2026 Mira Sera. All rights reserved.",
+            "tagline": "Avant-garde fashion atelier in Paris",
+            "meta": [
+              {
+                "label": "Privacy Policy"
+              },
+              {
+                "label": "Terms of Use"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "collection",
+      "title": "Collection - Mira Sera",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Mira Sera",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Collection",
+                "href": "/collection"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselinePageHeader",
+          "content": {
+            "eyebrow": "Collection",
+            "headline": "Artisan fashion collections",
+            "body": "Discover Mira Sera’s curated selections blending vision and mastery.",
+            "accent": "crafted excellence"
+          }
+        },
+        {
+          "id": "TwoColumnText",
+          "content": {
+            "eyebrow": "Context",
+            "headline": "Current & Past Collections",
+            "paragraphs": [
+              {
+                "heading": "Noir Reverie",
+                "body": "A dark exploration of fluidity and form with sculptural textiles."
+              },
+              {
+                "heading": "Luminous Dusk",
+                "body": "Illuminating the avant-garde with iridescent layers and bold shapes."
+              },
+              {
+                "heading": "Subtle Dissonance",
+                "body": "Contrasting textures converge into harmonious abstraction."
+              }
+            ]
+          }
+        },
+        {
+          "id": "LinkList",
+          "content": {
+            "eyebrow": "Resources",
+            "headline": "Explore Collections",
+            "groups": [
+              {
+                "title": "Editions",
+                "links": [
+                  {
+                    "label": "Noir Reverie",
+                    "href": "/collection#noir-reverie"
+                  },
+                  {
+                    "label": "Luminous Dusk",
+                    "href": "/collection#luminous-dusk"
+                  },
+                  {
+                    "label": "Subtle Dissonance",
+                    "href": "/collection#subtle-dissonance"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineContact",
+          "content": {
+            "eyebrow": "Inquiries",
+            "headline": "Schedule a private viewing",
+            "formTitle": "Contact Mira Sera",
+            "formBody": "Arrange an appointment or request information.",
+            "recipientEmail": "contact@mirasera.com",
+            "subjectTemplate": "New inquiry from {name}",
+            "details": [
+              {
+                "label": "Email",
+                "value": "contact@mirasera.com",
+                "href": "mailto:contact@mirasera.com"
+              },
+              {
+                "label": "Phone",
+                "value": "+33 1 23 45 67 89",
+                "href": "tel:+33123456789"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Mira Sera",
+            "brand": "Mira Sera",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Collection",
+                    "href": "/collection"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "© 2026 Mira Sera. All rights reserved.",
+            "tagline": "Avant-garde fashion atelier in Paris",
+            "meta": [
+              {
+                "label": "Privacy Policy"
+              },
+              {
+                "label": "Terms of Use"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact Mira Sera",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Mira Sera",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Collection",
+                "href": "/collection"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineContact",
+          "content": {
+            "eyebrow": "Contact",
+            "headline": "Get in touch with Mira Sera",
+            "formTitle": "Send a message",
+            "formBody": "We welcome your inquiries and creative dialogue.",
+            "recipientEmail": "contact@mirasera.com",
+            "subjectTemplate": "New inquiry from {name}",
+            "details": [
+              {
+                "label": "Email",
+                "value": "contact@mirasera.com",
+                "href": "mailto:contact@mirasera.com"
+              },
+              {
+                "label": "Phone",
+                "value": "+33 1 23 45 67 89",
+                "href": "tel:+33123456789"
+              },
+              {
+                "label": "Office",
+                "value": "Paris, France"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Mira Sera",
+            "brand": "Mira Sera",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Collection",
+                    "href": "/collection"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "© 2026 Mira Sera. All rights reserved.",
+            "tagline": "Avant-garde fashion atelier in Paris",
+            "meta": [
+              {
+                "label": "Privacy Policy"
+              },
+              {
+                "label": "Terms of Use"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "intent": {
+    "energy": "immersive",
+    "density": "spacious",
+    "cinematicIntensity": "extreme",
+    "motionIntensity": "rich",
+    "copyTone": "artistic refined",
+    "themeHint": "midnight-luxury"
+  }
+}

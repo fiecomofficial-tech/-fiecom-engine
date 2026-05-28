@@ -1,0 +1,748 @@
+{
+  "theme": {
+    "preset": "midnight-luxury",
+    "bg": "#0a0a23",
+    "ink": "#e1d8b9",
+    "bgAccent": "#1a1a3d",
+    "fontDisplay": "Georgia, serif",
+    "fontBody": "Helvetica, sans-serif"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Frostline Alpine Resort",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Frostline",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Amenities",
+                "href": "/amenities"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Book Now",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "HeroCinematic",
+          "content": {
+            "eyebrow": "luxury alpine resort",
+            "headline": "Frostline",
+            "subhead": "Built to move",
+            "body": "Frostline turns the brief into a complete, navigable digital experience.",
+            "cta": {
+              "label": "Start now",
+              "href": "/contact"
+            }
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/37208722/pexels-photo-37208722.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Detailed shot of a luxury sports car wheel with visible logo, showcasing sleek design and elegance.",
+              "attributionAuthor": "cnrdmroglu",
+              "attributionUrl": "https://www.pexels.com/photo/close-up-of-luxury-sports-car-wheel-and-logo-37208722/"
+            }
+          }
+        },
+        {
+          "id": "ZentryAbout",
+          "content": {
+            "eyebrow": "Welcome",
+            "headline": "Discover Frostline",
+            "body": "Frostline brings the story, proof, and product promise into one immersive moment."
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/37208722/pexels-photo-37208722.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "Detailed shot of a luxury sports car wheel with visible logo, showcasing sleek design and elegance.",
+              "attributionAuthor": "cnrdmroglu",
+              "attributionUrl": "https://www.pexels.com/photo/close-up-of-luxury-sports-car-wheel-and-logo-37208722/"
+            }
+          }
+        },
+        {
+          "id": "BaselineFeatures",
+          "content": {
+            "eyebrow": "Exclusive Amenities",
+            "headline": "Elevate Your Stay",
+            "accent": "Indulge in excellence",
+            "features": [
+              {
+                "eyebrow": "01 — Wellness",
+                "title": "Spa & Wellness Retreat",
+                "body": "Rejuvenate with alpine-inspired treatments and serene spa sanctuaries."
+              },
+              {
+                "eyebrow": "02 — Culinary",
+                "title": "Gourmet Dining",
+                "body": "Savor locally sourced flavors paired with world-class wines."
+              },
+              {
+                "eyebrow": "03 — Adventure",
+                "title": "Personalized Excursions",
+                "body": "Explore Aspen’s pristine wilderness with expert guides."
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/8970656/pexels-photo-8970656.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "A smartphone and notebook on a desk for business planning and branding strategy.",
+                "attributionAuthor": "Leeloo The First",
+                "attributionUrl": "https://www.pexels.com/photo/business-branding-information-on-smartphone-8970656/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/37208722/pexels-photo-37208722.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Detailed shot of a luxury sports car wheel with visible logo, showcasing sleek design and elegance.",
+                "attributionAuthor": "cnrdmroglu",
+                "attributionUrl": "https://www.pexels.com/photo/close-up-of-luxury-sports-car-wheel-and-logo-37208722/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/35654932/pexels-photo-35654932.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Stylish leather boots in moody lighting, showcasing classic craftsmanship on a rustic wooden floor.",
+                "attributionAuthor": "Daniel & Hannah Snipes",
+                "attributionUrl": "https://www.pexels.com/photo/classic-leather-boots-on-wooden-floor-35654932/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "AsymmetricGrid",
+          "content": {
+            "eyebrow": "A closer look",
+            "headline": "The work, up close.",
+            "body": "A small selection of frames that show how Frostline thinks and where its attention lands.",
+            "tiles": [
+              {
+                "title": "Field"
+              },
+              {
+                "title": "Set"
+              },
+              {
+                "title": "Method",
+                "caption": "Each project starts the same way: a long conversation, then a tight brief."
+              },
+              {
+                "title": "Detail"
+              }
+            ]
+          },
+          "images": {
+            "gallery": [
+              {
+                "url": "https://images.pexels.com/photos/14019974/pexels-photo-14019974.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Close-up of a luxurious tan leather car seat with branding in focus.",
+                "attributionAuthor": "Cole Kitchen",
+                "attributionUrl": "https://www.pexels.com/photo/ferrari-logo-on-leather-car-seat-14019974/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/19746805/pexels-photo-19746805.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Detailed close-up of the Mercedes-Benz logo on a luxury car, emphasizing metallic finish.",
+                "attributionAuthor": "Zaid Ahmed",
+                "attributionUrl": "https://www.pexels.com/photo/mercedes-benz-logo-in-close-up-view-19746805/"
+              },
+              {
+                "url": "https://images.pexels.com/photos/30405425/pexels-photo-30405425.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "alt": "Elegant flat lay featuring Opium perfume bottles on fashion magazines. Perfect for luxury and style themes.",
+                "attributionAuthor": "Veronica Bratunov",
+                "attributionUrl": "https://www.pexels.com/photo/stylish-flat-lay-of-fashion-magazines-and-perfume-bottles-30405425/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineTestimonials",
+          "content": {
+            "eyebrow": "Guests",
+            "headline": "What Our Visitors Say",
+            "testimonials": [
+              {
+                "quote": "An unparalleled blend of comfort and natural beauty.",
+                "author": "Emma",
+                "role": "Traveler"
+              },
+              {
+                "quote": "Every moment was crafted to perfection.",
+                "author": "Liam",
+                "role": "Guest"
+              },
+              {
+                "quote": "The serene setting redefined my idea of luxury.",
+                "author": "Sophia",
+                "role": "Visitor"
+              }
+            ]
+          }
+        },
+        {
+          "id": "EditorialQuote",
+          "content": {
+            "eyebrow": "In their words",
+            "quote": "Working with Frostline felt like sketching with someone who already knew the answer."
+          }
+        },
+        {
+          "id": "BaselineCTA",
+          "content": {
+            "eyebrow": "Plan Your Visit",
+            "headline": "Start Your Frostline Experience",
+            "accent": "Reserve Today",
+            "body": "Connect with us to craft your perfect Aspen getaway.",
+            "cta": {
+              "label": "Contact Us",
+              "href": "/contact"
+            },
+            "secondaryCta": {
+              "label": "Explore Amenities",
+              "href": "/amenities"
+            }
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Frostline",
+            "brand": "Frostline",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Amenities",
+                    "href": "/amenities"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "© 2026 Frostline. All rights reserved.",
+            "tagline": "Frostline. Built for clarity.",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "title": "About Frostline",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Frostline",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Amenities",
+                "href": "/amenities"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Book Now",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineAboutNarrative",
+          "content": {
+            "eyebrow": "About Frostline",
+            "headline": "A Legacy of Quiet Luxury",
+            "body": "Founded to offer a tranquil alpine sanctuary, Frostline blends impeccable service with natural beauty.",
+            "pillarEyebrow": "Core Values",
+            "pillarHeadline": "Our promise to every guest",
+            "pillars": [
+              {
+                "title": "Exquisite Craftsmanship",
+                "body": "Every detail reflects refined quality and timeless elegance."
+              },
+              {
+                "title": "Personalized Care",
+                "body": "Attentive service shaped around your desires."
+              },
+              {
+                "title": "Sustainable Harmony",
+                "body": "Preserving Aspen’s pristine environment for generations."
+              }
+            ],
+            "statsEyebrow": "Our Impact",
+            "stats": [
+              {
+                "value": "15",
+                "label": "Years of Excellence"
+              },
+              {
+                "value": "120",
+                "label": "Luxury Suites"
+              },
+              {
+                "value": "5-Star",
+                "label": "Guest Rating"
+              }
+            ],
+            "accent": "Rooted in Excellence"
+          },
+          "images": {
+            "primary": {
+              "url": "https://images.pexels.com/photos/17845/pexels-photo.jpg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+              "alt": "A close-up shot of a hand reviewing various logo designs on paper, ideal for business concepts.",
+              "attributionAuthor": "Roman Pohorecki",
+              "attributionUrl": "https://www.pexels.com/photo/hand-on-top-of-paper-17845/"
+            }
+          }
+        },
+        {
+          "id": "TwoColumnText",
+          "content": {
+            "eyebrow": "Our Commitment",
+            "headline": "Crafting Unforgettable Experiences",
+            "paragraphs": [
+              {
+                "heading": "Personalized Approach",
+                "body": "We tailor every aspect of your stay to reflect your unique preferences."
+              },
+              {
+                "heading": "Sustainability",
+                "body": "Our initiatives ensure the beauty of Aspen endures for future generations."
+              },
+              {
+                "heading": "Excellence",
+                "body": "Every team member is dedicated to delivering impeccable service."
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Frostline",
+            "brand": "Frostline",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Amenities",
+                    "href": "/amenities"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "Elevating alpine luxury in Aspen.",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact Frostline",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Frostline",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Amenities",
+                "href": "/amenities"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Book Now",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselineContact",
+          "content": {
+            "eyebrow": "Contact",
+            "headline": "Let's Plan Your Stay",
+            "formTitle": "Get in touch",
+            "formBody": "Our team is ready to assist you.",
+            "recipientEmail": "reservations@frostline.com",
+            "subjectTemplate": "New inquiry from {name}",
+            "details": [
+              {
+                "label": "Email",
+                "value": "reservations@frostline.com",
+                "href": "mailto:reservations@frostline.com"
+              },
+              {
+                "label": "Phone",
+                "value": "+1 970 555 0198",
+                "href": "tel:+19705550198"
+              },
+              {
+                "label": "Office",
+                "value": "Aspen, Colorado"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Frostline",
+            "brand": "Frostline",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Amenities",
+                    "href": "/amenities"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "Elevating alpine luxury in Aspen.",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "amenities",
+      "title": "Frostline Amenities",
+      "sections": [
+        {
+          "id": "BaselineNavbar",
+          "content": {
+            "brand": "Frostline",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "About",
+                "href": "/about"
+              },
+              {
+                "label": "Amenities",
+                "href": "/amenities"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact"
+              }
+            ],
+            "cta": {
+              "label": "Book Now",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "BaselinePageHeader",
+          "content": {
+            "eyebrow": "Amenities",
+            "headline": "Exclusive Features & Services",
+            "body": "Experience unmatched comfort and bespoke offerings at Frostline.",
+            "accent": "Tailored for You"
+          }
+        },
+        {
+          "id": "FeatureList",
+          "content": {
+            "eyebrow": "Our Offerings",
+            "headline": "Discover Frostline’s Luxuries",
+            "features": [
+              {
+                "title": "Spa & Wellness",
+                "body": "Alpine-inspired treatments and tranquil spaces for rejuvenation."
+              },
+              {
+                "title": "Gourmet Dining",
+                "body": "Seasonal menus crafted by renowned chefs with local ingredients."
+              },
+              {
+                "title": "Private Excursions",
+                "body": "Custom adventures across Aspen’s breathtaking landscapes."
+              },
+              {
+                "title": "Heated Pools & Lounges",
+                "body": "Relax in comfort amid stunning mountain views."
+              },
+              {
+                "title": "Personal Concierge",
+                "body": "Dedicated to crafting your ideal stay."
+              }
+            ]
+          }
+        },
+        {
+          "id": "FAQAccordion",
+          "content": {
+            "eyebrow": "FAQs",
+            "headline": "Your Questions Answered",
+            "faqs": [
+              {
+                "title": "What is the check-in time?",
+                "body": "Check-in begins at 3 PM, with flexible options upon request."
+              },
+              {
+                "title": "Are pets allowed?",
+                "body": "We welcome service animals but do not permit pets."
+              },
+              {
+                "title": "Is transportation provided?",
+                "body": "Complimentary shuttle service is available within Aspen."
+              },
+              {
+                "title": "Do you offer ski packages?",
+                "body": "Yes, tailored ski and adventure packages are available."
+              }
+            ]
+          }
+        },
+        {
+          "id": "BaselineFooter",
+          "content": {
+            "headline": "Frostline",
+            "brand": "Frostline",
+            "columns": [
+              {
+                "title": "Site",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Amenities",
+                    "href": "/amenities"
+                  }
+                ]
+              },
+              {
+                "title": "More",
+                "links": [
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Get in touch",
+                "links": [
+                  {
+                    "label": "Start a project",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Send a message",
+                    "href": "/contact"
+                  }
+                ]
+              }
+            ],
+            "cta": {
+              "label": "Contact",
+              "href": "/contact"
+            },
+            "legal": "[object Object],[object Object]",
+            "tagline": "Elevating alpine luxury in Aspen.",
+            "meta": [
+              {
+                "label": "Privacy",
+                "href": "/"
+              },
+              {
+                "label": "Terms",
+                "href": "/"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "intent": {
+    "energy": "quiet-luxury",
+    "density": "spacious",
+    "cinematicIntensity": "high",
+    "motionIntensity": "moderate",
+    "copyTone": "elegant refined",
+    "themeHint": "midnight-luxury"
+  }
+}

@@ -76,8 +76,9 @@ const HOME_BODY_ALLOWED: ReadonlySet<ComponentId> = new Set<ComponentId>([
   // Functional blocks (Baseline-compatible)
   'PricingTiers', 'FAQAccordion', 'FeatureList', 'LogoCloud', 'TwoColumnText',
   'ContactBlock', 'MetricRow',
-  // Cinematic enhancements (the safe 4)
+  // Cinematic enhancements (the safe 4 + new editorial sections)
   'MessageReveal', 'MarqueeBand', 'ImageGallery', 'HorizontalShowcase',
+  'EditorialQuote', 'AsymmetricGrid', 'StickyNarrative',
   // Imported cinematic template body sections
   'ZentryAbout', 'ZentryFeatures', 'ZentryStory', 'ZentryContact',
   'FlowEvent', 'FlowWhoWeAre', 'FlowOnDemand', 'FlowTutors',
@@ -91,8 +92,9 @@ const HOME_BODY_ALLOWED: ReadonlySet<ComponentId> = new Set<ComponentId>([
 /** Cinematic home-only enhancements. Capped by cinematicIntensity.
  *  Includes the safe 4 + alternate heroes + imported template families. */
 const HOME_CINEMATIC: ReadonlySet<ComponentId> = new Set<ComponentId>([
-  // Safe 4 (designed as inserts)
+  // Safe 4 + new editorial sections (designed as inserts)
   'MessageReveal', 'MarqueeBand', 'ImageGallery', 'HorizontalShowcase',
+  'EditorialQuote', 'AsymmetricGrid', 'StickyNarrative',
   // Alternate cinematic heroes (count as 1 cinematic when chosen)
   'HeroEditorial', 'HeroCinematic',
   'ZentryHero', 'FlowHero', 'SpyltHero', 'TruusVimeoHero',
@@ -112,11 +114,11 @@ const HOME_CINEMATIC: ReadonlySet<ComponentId> = new Set<ComponentId>([
 type FamilyKey = 'editorial' | 'showcase' | 'playful' | 'experience' | 'luxury' | 'social'
 
 const CINEMATIC_FAMILIES: Record<FamilyKey, ComponentId[]> = {
-  editorial:  ['MessageReveal', 'TruusHorizontalWords', 'ZentryStory', 'HeroEditorial'],
-  showcase:   ['ImageGallery', 'HorizontalShowcase', 'TruusShowreel', 'ZentryFeatures'],
+  editorial:  ['MessageReveal', 'TruusHorizontalWords', 'ZentryStory', 'HeroEditorial', 'EditorialQuote', 'StickyNarrative'],
+  showcase:   ['ImageGallery', 'HorizontalShowcase', 'TruusShowreel', 'ZentryFeatures', 'AsymmetricGrid', 'StickyNarrative'],
   playful:    ['SpyltHero', 'SpyltFlavor', 'SpyltMessage', 'SpyltBottomBanner'],
   experience: ['FlowEvent', 'FlowWhoWeAre', 'FlowOnDemand', 'FlowTutors'],
-  luxury:     ['HeroCinematic', 'ZentryHero', 'ZentryAbout', 'TruusVimeoHero'],
+  luxury:     ['HeroCinematic', 'ZentryHero', 'ZentryAbout', 'TruusVimeoHero', 'StickyNarrative', 'EditorialQuote'],
   social:     ['SpyltTestimonials', 'TruusDoubleMarquee', 'FlowTutors'],
 }
 
@@ -202,24 +204,24 @@ type HomeShape = readonly ComponentId[]
 const SHAPES_BY_FAMILY: Record<FamilyKey, HomeShape[]> = {
   // Editorial: typography-led, asymmetric, sparse imagery
   editorial: [
-    ['HeroEditorial', 'MessageReveal', 'BaselineFeatures', 'TruusHorizontalWords', 'ImageGallery', 'BaselineTestimonials', 'ZentryStory', 'BaselineCTA'],
-    ['BaselineHero', 'MessageReveal', 'BaselineFeatures', 'HorizontalShowcase', 'BaselineTestimonials', 'BaselineCTA'],
-    ['HeroEditorial', 'TruusHorizontalWords', 'BaselineFeatures', 'ZentryStory', 'ImageGallery', 'BaselineTestimonials', 'HorizontalShowcase', 'MessageReveal', 'BaselineCTA'],
-    ['HeroEditorial', 'ZentryStory', 'BaselineFeatures', 'TruusHorizontalWords', 'ImageGallery', 'BaselineTestimonials', 'BaselineCTA'],
+    ['HeroEditorial', 'MessageReveal', 'BaselineFeatures', 'AsymmetricGrid', 'BaselineTestimonials', 'EditorialQuote', 'BaselineCTA'],
+    ['BaselineHero', 'MessageReveal', 'BaselineFeatures', 'StickyNarrative', 'BaselineTestimonials', 'BaselineCTA'],
+    ['HeroEditorial', 'TruusHorizontalWords', 'BaselineFeatures', 'StickyNarrative', 'EditorialQuote', 'BaselineTestimonials', 'AsymmetricGrid', 'BaselineCTA'],
+    ['HeroEditorial', 'ZentryStory', 'BaselineFeatures', 'AsymmetricGrid', 'BaselineTestimonials', 'EditorialQuote', 'BaselineCTA'],
   ],
   // Showcase: image-led, dense visual storytelling
   showcase: [
-    ['HeroCinematic', 'ImageGallery', 'BaselineFeatures', 'HorizontalShowcase', 'BaselineTestimonials', 'TruusShowreel', 'BaselineCTA'],
-    ['HeroEditorial', 'HorizontalShowcase', 'BaselineFeatures', 'ImageGallery', 'BaselineTestimonials', 'ZentryFeatures', 'BaselineCTA'],
-    ['TruusVimeoHero', 'TruusShowreel', 'BaselineFeatures', 'ImageGallery', 'BaselineTestimonials', 'HorizontalShowcase', 'BaselineCTA'],
-    ['HeroCinematic', 'HorizontalShowcase', 'BaselineFeatures', 'TruusShowreel', 'ImageGallery', 'BaselineTestimonials', 'BaselineCTA'],
+    ['HeroCinematic', 'AsymmetricGrid', 'BaselineFeatures', 'HorizontalShowcase', 'BaselineTestimonials', 'TruusShowreel', 'BaselineCTA'],
+    ['HeroEditorial', 'HorizontalShowcase', 'BaselineFeatures', 'StickyNarrative', 'BaselineTestimonials', 'AsymmetricGrid', 'BaselineCTA'],
+    ['TruusVimeoHero', 'TruusShowreel', 'BaselineFeatures', 'ImageGallery', 'EditorialQuote', 'BaselineTestimonials', 'HorizontalShowcase', 'BaselineCTA'],
+    ['HeroCinematic', 'HorizontalShowcase', 'BaselineFeatures', 'AsymmetricGrid', 'BaselineTestimonials', 'StickyNarrative', 'BaselineCTA'],
   ],
   // Luxury: cinematic hospitality, immersive but spacious
   luxury: [
-    ['HeroCinematic', 'MessageReveal', 'BaselineFeatures', 'ZentryAbout', 'ImageGallery', 'BaselineTestimonials', 'HorizontalShowcase', 'BaselineCTA'],
-    ['TruusVimeoHero', 'BaselineFeatures', 'ImageGallery', 'ZentryAbout', 'TruusShowreel', 'BaselineTestimonials', 'BaselineCTA'],
-    ['ZentryHero', 'MessageReveal', 'BaselineFeatures', 'ImageGallery', 'ZentryAbout', 'HorizontalShowcase', 'BaselineTestimonials', 'TruusShowreel', 'BaselineCTA'],
-    ['HeroCinematic', 'ZentryAbout', 'BaselineFeatures', 'TruusShowreel', 'ImageGallery', 'BaselineTestimonials', 'MessageReveal', 'BaselineCTA'],
+    ['HeroCinematic', 'MessageReveal', 'BaselineFeatures', 'StickyNarrative', 'ImageGallery', 'BaselineTestimonials', 'EditorialQuote', 'BaselineCTA'],
+    ['TruusVimeoHero', 'BaselineFeatures', 'AsymmetricGrid', 'ZentryAbout', 'TruusShowreel', 'BaselineTestimonials', 'BaselineCTA'],
+    ['ZentryHero', 'EditorialQuote', 'BaselineFeatures', 'ImageGallery', 'StickyNarrative', 'BaselineTestimonials', 'TruusShowreel', 'BaselineCTA'],
+    ['HeroCinematic', 'ZentryAbout', 'BaselineFeatures', 'AsymmetricGrid', 'BaselineTestimonials', 'EditorialQuote', 'BaselineCTA'],
   ],
   // Playful: food/drink/retail product — energetic, warm
   playful: [
@@ -1047,6 +1049,18 @@ function defaultContent(
       // labels read as filler. When the AI emits real captions they
       // surface; otherwise the cards render image-only.
       return { eyebrow: 'Selected work', headline: 'A studio in motion', body: 'A horizontal cross-section of what the studio has made recently.', cards: [{ title: 'Recent' }, { title: 'Current' }, { title: 'Concept' }, { title: 'Process' }, { title: 'Detail' }, { title: 'Field' }] }
+    case 'EditorialQuote':
+      // No attribution fallback — fake quotes attributed to invented
+      // people read as filler. If AI doesn't emit a real attribution,
+      // the component renders the quote alone.
+      return { eyebrow: 'In their words', quote: `Working with ${brand} felt like sketching with someone who already knew the answer.` }
+    case 'AsymmetricGrid':
+      return { eyebrow: 'A closer look', headline: 'The work, up close.', body: `A small selection of frames that show how ${brand} thinks and where its attention lands.`, tiles: [{ title: 'Field' }, { title: 'Set' }, { title: 'Method', caption: 'Each project starts the same way: a long conversation, then a tight brief.' }, { title: 'Detail' }] }
+    case 'StickyNarrative':
+      return { eyebrow: 'Chapters', headline: `How ${brand} works.`, chapters: [
+        { meta: 'Chapter 01', title: 'Begin with the room.', body: 'Every project starts with the space, the brief, and the constraint that matters most. We listen first.' },
+        { meta: 'Chapter 02', title: 'Translate, then refine.', body: 'We translate the brief into a small set of moves, then refine each one until it earns its place.' },
+      ] }
     case 'StickyChapters':
       return { eyebrow: 'Story', chapters: ['The problem is specific', 'The solution is structured', 'The next step is clear'].map((title) => ({ title, body: `${brand} explains this moment with a focused narrative beat.` })) }
     case 'ImageGallery':

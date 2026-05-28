@@ -44,6 +44,9 @@ const BASE44_COMPONENT_IDS: ComponentId[] = [
   'MarqueeBand',
   'ImageGallery',
   'HorizontalShowcase',
+  'EditorialQuote',
+  'AsymmetricGrid',
+  'StickyNarrative',
   // Alternate cinematic heroes (replace BaselineHero for visual brands)
   'HeroCinematic',
   'HeroEditorial',
