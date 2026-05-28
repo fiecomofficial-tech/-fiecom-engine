@@ -16,7 +16,7 @@
       },
       "status": "published",
       "previewUrl": null,
-      "publishedUrl": "https://test-site.fiecom.com",
+      "publishedUrl": "https://fiecom-engine.vercel.app/test-site",
       "createdAt": "2026-05-28T00:18:25.706Z",
       "updatedAt": "2026-05-28T00:19:19.234Z"
     }
@@ -25,7 +25,7 @@
     {
       "id": "db0de5e2-9780-47fc-b5cb-b1317fff13c3",
       "projectId": "d38c73a4-0510-4d3b-baba-b0ea03ae413b",
-      "hostname": "test-site.fiecom.com",
+      "hostname": "fiecom-engine.vercel.app/test-site",
       "type": "subdomain",
       "status": "active",
       "verificationToken": "fiecom-02f144ad755eb5922045d91e553fbc26",
