@@ -1,4 +1,6 @@
 export const ROOT_DOMAIN = 'fiecom.com'
+export const PUBLISHING_DOMAIN = `sites.${ROOT_DOMAIN}`
+export const VERCEL_APP_HOST = 'fiecom-engine.vercel.app'
 
 const RESERVED_SUBDOMAINS = new Set([
   'api',
@@ -7,6 +9,7 @@ const RESERVED_SUBDOMAINS = new Set([
   'fiecom',
   'mail',
   'preview',
+  'sites',
   'www',
 ])
 
@@ -52,11 +55,17 @@ export function isLocalhost(hostname: string): boolean {
 }
 
 export function isAppHost(hostname: string): boolean {
-  return isLocalhost(hostname) || hostname === ROOT_DOMAIN || hostname === `www.${ROOT_DOMAIN}`
+  return (
+    isLocalhost(hostname) ||
+    hostname === ROOT_DOMAIN ||
+    hostname === `www.${ROOT_DOMAIN}` ||
+    hostname === PUBLISHING_DOMAIN ||
+    hostname === VERCEL_APP_HOST
+  )
 }
 
 export function subdomainForSlug(slug: string): string {
-  return `${normalizeSlug(slug)}.${ROOT_DOMAIN}`
+  return `${normalizeSlug(slug)}.${PUBLISHING_DOMAIN}`
 }
 
 export function publicUrlForHostname(hostname: string): string {

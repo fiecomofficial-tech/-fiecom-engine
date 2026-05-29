@@ -1,4 +1,5 @@
 import { NextResponse } from 'next/server'
+import { publishingErrorResponse } from '@/lib/publishing/api-error'
 import { connectCustomDomain } from '@/lib/publishing/service'
 
 export const dynamic = 'force-dynamic'
@@ -22,9 +23,6 @@ export async function POST(request: Request) {
 
     return NextResponse.json({ status }, { status: 201 })
   } catch (err) {
-    return NextResponse.json(
-      { error: err instanceof Error ? err.message : 'Domain connection failed' },
-      { status: 400 },
-    )
+    return publishingErrorResponse(err, 'Domain connection failed', 400)
   }
 }
