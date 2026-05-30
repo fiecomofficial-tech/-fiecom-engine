@@ -3,13 +3,15 @@ import { generatePreviewConfig } from '@/lib/openai'
 import { orchestrateAssets } from '@/lib/orchestrate-assets'
 import { savePreview } from '@/lib/preview-store'
 import { createProject, DEV_USER_ID } from '@/lib/publishing/service'
+import { safeHeaderValue } from '@/lib/safe-headers'
 
 const ALLOWED_ORIGIN = 'https://fio-cinematic-core.base44.app'
 
 function corsHeaders(origin: string) {
+  const safeOrigin = safeHeaderValue(origin) || ALLOWED_ORIGIN
   return {
-    'Access-Control-Allow-Origin': origin,
-    Vary: 'Origin',
+    'Access-Control-Allow-Origin': safeOrigin,
+    Vary: safeHeaderValue('Origin'),
     'Access-Control-Allow-Credentials': 'true',
     'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
     'Access-Control-Allow-Headers':

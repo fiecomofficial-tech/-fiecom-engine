@@ -13,6 +13,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import crypto from 'node:crypto'
+import { safeHeaderValue } from './safe-headers'
 
 export interface ImageCandidate {
   providerId: string
@@ -103,7 +104,7 @@ async function searchPexelsPhotos(
 
   try {
     const res = await fetch(url.toString(), {
-      headers: { Authorization: key },
+      headers: { Authorization: safeHeaderValue(key) },
       signal,
     })
     if (!res.ok) {
@@ -165,7 +166,7 @@ async function searchPexelsVideos(
 
   try {
     const res = await fetch(url.toString(), {
-      headers: { Authorization: key },
+      headers: { Authorization: safeHeaderValue(key) },
       signal,
     })
     if (!res.ok) {

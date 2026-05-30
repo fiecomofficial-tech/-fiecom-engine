@@ -4,15 +4,17 @@ import { generateEdit } from '@/lib/openai-edit'
 import { applyOps, applyResolvedImages, type EditOp, type PendingImage } from '@/lib/patches'
 import { fetchStockCandidates } from '@/lib/stock-images'
 import { SECTION_META } from '@/lib/registry'
+import { safeHeaderValue } from '@/lib/safe-headers'
 import type { ResolvedConfig } from '@/lib/orchestrate-assets'
 import type { SectionImage } from '@/components/sections/types'
 
 const ALLOWED_ORIGIN = 'https://fio-cinematic-core.base44.app'
 
 function corsHeaders(origin: string) {
+  const safeOrigin = safeHeaderValue(origin) || ALLOWED_ORIGIN
   return {
-    'Access-Control-Allow-Origin': origin,
-    Vary: 'Origin',
+    'Access-Control-Allow-Origin': safeOrigin,
+    Vary: safeHeaderValue('Origin'),
     'Access-Control-Allow-Credentials': 'true',
     'Access-Control-Allow-Methods': 'POST, OPTIONS',
     'Access-Control-Allow-Headers': 'Content-Type, Authorization, X-Requested-With',
