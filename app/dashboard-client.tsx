@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import {
   AlertCircle,
+  AlertTriangle,
   CheckCircle2,
   Copy,
   ExternalLink,
@@ -11,7 +12,7 @@ import {
   Loader2,
   Rocket,
 } from 'lucide-react'
-import type { Domain, ProjectWithDomains } from '@/lib/publishing/types'
+import type { Domain, DomainStatusDetails, ProjectWithDomains } from '@/lib/publishing/types'
 
 type LoadState = 'loading' | 'ready' | 'error'
 
@@ -32,7 +33,7 @@ function statusClass(status: Domain['status'] | ProjectWithDomains['status']): s
 
 function customDomainExample(slug: string): string {
   const compact = slug.replace(/-/g, '')
-  return `${compact || 'studio'}.works`
+  return `www.${compact || 'studio'}.works`
 }
 
 function visibleUrl(project: ProjectWithDomains): string | null {
@@ -66,6 +67,7 @@ export default function DashboardClient({
   const [message, setMessage] = useState<string | null>(initialError)
   const [pendingId, setPendingId] = useState<string | null>(null)
   const [domainInputs, setDomainInputs] = useState<Record<string, string>>({})
+  const [domainDetails, setDomainDetails] = useState<Record<string, DomainStatusDetails>>({})
 
   async function refreshProjects() {
     const nextProjects = await fetchProjects()
@@ -101,6 +103,51 @@ export default function DashboardClient({
     () => projects.filter((project) => project.status === 'published').length,
     [projects],
   )
+  const customDomains = useMemo(
+    () => projects.flatMap((project) => project.domains.filter((domain) => domain.type === 'custom')),
+    [projects],
+  )
+  const customDomainKey = useMemo(
+    () => customDomains.map((domain) => domain.id).join('|'),
+    [customDomains],
+  )
+
+  useEffect(() => {
+    let mounted = true
+    const missing = customDomains.filter((domain) => !domainDetails[domain.id])
+    if (missing.length === 0) return
+
+    async function loadDomainDetails() {
+      const results = await Promise.all(
+        missing.map(async (domain) => {
+          try {
+            const response = await fetch(`/api/domains/${domain.id}/status`, {
+              cache: 'no-store',
+            })
+            if (!response.ok) return null
+            const data = (await response.json()) as { status?: DomainStatusDetails }
+            return data.status ?? null
+          } catch {
+            return null
+          }
+        }),
+      )
+      if (!mounted) return
+      setDomainDetails((current) => {
+        const next = { ...current }
+        for (const status of results) {
+          if (status) next[status.domain.id] = status
+        }
+        return next
+      })
+    }
+
+    void loadDomainDetails()
+
+    return () => {
+      mounted = false
+    }
+  }, [customDomainKey, customDomains, domainDetails])
 
   async function publish(projectId: string) {
     setPendingId(projectId)
@@ -132,6 +179,14 @@ export default function DashboardClient({
         body: JSON.stringify({ projectId, hostname }),
       })
       if (!response.ok) throw new Error('Domain connection failed')
+      const data = (await response.json()) as { status?: DomainStatusDetails }
+      const status = data.status
+      if (status) {
+        setDomainDetails((current) => ({
+          ...current,
+          [status.domain.id]: status,
+        }))
+      }
       setDomainInputs((current) => ({ ...current, [projectId]: '' }))
       await refreshProjects()
       setMessage('Domain added')
@@ -145,6 +200,29 @@ export default function DashboardClient({
   async function copyUrl(url: string) {
     await navigator.clipboard.writeText(url)
     setMessage('Copied')
+  }
+
+  async function refreshDomainStatus(domainId: string) {
+    setPendingId(domainId)
+    setMessage(null)
+    try {
+      const response = await fetch(`/api/domains/${domainId}/status`, {
+        cache: 'no-store',
+      })
+      if (!response.ok) throw new Error('Status check failed')
+      const data = (await response.json()) as { status?: DomainStatusDetails }
+      const status = data.status
+      if (!status) throw new Error('Domain status response was invalid')
+      setDomainDetails((current) => ({
+        ...current,
+        [domainId]: status,
+      }))
+      setMessage('Domain status updated')
+    } catch (err) {
+      setMessage(err instanceof Error ? err.message : 'Status check failed')
+    } finally {
+      setPendingId(null)
+    }
   }
 
   return (
@@ -276,7 +354,13 @@ export default function DashboardClient({
                       <div className="grid gap-2">
                         {subdomain && <DomainRow domain={subdomain} />}
                         {customDomains.map((domain) => (
-                          <DomainRow key={domain.id} domain={domain} />
+                          <DomainRow
+                            key={domain.id}
+                            domain={domain}
+                            details={domainDetails[domain.id]}
+                            busy={pendingId === domain.id}
+                            onCheck={() => void refreshDomainStatus(domain.id)}
+                          />
                         ))}
                         {!subdomain && customDomains.length === 0 && (
                           <p className="text-sm text-ink-3">No domains attached.</p>
@@ -326,15 +410,80 @@ export default function DashboardClient({
   )
 }
 
-function DomainRow({ domain }: { domain: Domain }) {
+function DomainRow({
+  domain,
+  details,
+  busy = false,
+  onCheck,
+}: {
+  domain: Domain
+  details?: DomainStatusDetails
+  busy?: boolean
+  onCheck?: () => void
+}) {
   return (
-    <div className="flex flex-wrap items-center justify-between gap-2 rounded-md border border-line bg-mist-2 px-3 py-2">
-      <span className="break-all font-mono text-sm text-ink-2">{domain.hostname}</span>
-      <span
-        className={`rounded-md border px-2 py-1 text-xs font-medium ${statusClass(domain.status)}`}
-      >
-        {domain.status}
-      </span>
+    <div className="rounded-md border border-line bg-mist-2 px-3 py-2">
+      <div className="flex flex-wrap items-center justify-between gap-2">
+        <div className="min-w-0">
+          <span className="break-all font-mono text-sm text-ink-2">{domain.hostname}</span>
+          {domain.type === 'custom' && (
+            <p className="mt-1 text-xs text-ink-3">Custom domain</p>
+          )}
+        </div>
+        <div className="flex items-center gap-2">
+          <span
+            className={`rounded-md border px-2 py-1 text-xs font-medium ${statusClass(domain.status)}`}
+          >
+            {domain.status}
+          </span>
+          {domain.type === 'custom' && onCheck && (
+            <button
+              className="inline-flex min-h-8 items-center justify-center rounded-md border border-line bg-mist px-2 text-xs font-semibold text-ink hover:bg-mist-3 disabled:cursor-not-allowed disabled:opacity-60"
+              type="button"
+              disabled={busy}
+              onClick={onCheck}
+            >
+              {busy ? <Loader2 className="animate-spin" size={14} aria-hidden="true" /> : 'Check'}
+            </button>
+          )}
+        </div>
+      </div>
+
+      {domain.type === 'custom' && (
+        <div className="mt-3 border-t border-line pt-3">
+          {details?.message && (
+            <div className="mb-3 flex items-start gap-2 rounded-md border border-amber-200 bg-amber-soft px-3 py-2 text-sm text-ink-2">
+              <AlertTriangle className="mt-0.5 shrink-0 text-amber" size={16} aria-hidden="true" />
+              <span>{details.message}</span>
+            </div>
+          )}
+
+          {details ? (
+            <div className="grid gap-2">
+              <div className="flex flex-wrap items-center gap-2 text-xs text-ink-3">
+                <span>Target</span>
+                <code className="rounded-md border border-line bg-mist px-2 py-1 font-mono text-ink-2">
+                  {details.target}
+                </code>
+              </div>
+              <div className="grid gap-2">
+                {details.requiredDnsRecords.map((record) => (
+                  <div
+                    key={`${record.type}-${record.host}-${record.purpose}`}
+                    className="grid gap-2 rounded-md border border-line bg-mist px-3 py-2 text-xs sm:grid-cols-[72px_1fr_1fr]"
+                  >
+                    <span className="font-semibold text-ink">{record.type}</span>
+                    <code className="break-all font-mono text-ink-2">{record.host}</code>
+                    <code className="break-all font-mono text-ink-2">{record.value}</code>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ) : (
+            <p className="text-sm text-ink-3">Loading DNS instructions.</p>
+          )}
+        </div>
+      )}
     </div>
   )
 }

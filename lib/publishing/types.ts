@@ -31,6 +31,18 @@ export interface ProjectWithDomains extends Project {
 }
 
 export interface DomainStatusDetails {
+  status: DomainStatus
+  hostname: string
+  target: string
+  verificationToken: string
+  requiredDnsRecords: {
+    type: 'CNAME' | 'TXT' | 'A'
+    host: string
+    value: string
+    purpose: 'routing' | 'verification'
+  }[]
+  apexUnsupported?: boolean
+  message?: string
   domain: Domain
   project: Project
   dns: {
