@@ -4,8 +4,12 @@ import type { EditOp } from './patches'
 import { SECTION_META, type ComponentId } from './registry'
 import { THEME_KEYS } from './themes'
 import { safeParseJSON, dumpFailure } from './json-safe'
+import { safeHeaderValue } from './safe-headers'
 
-const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY })
+const OPENAI_API_KEY = process.env.OPENAI_API_KEY
+  ? safeHeaderValue(process.env.OPENAI_API_KEY)
+  : undefined
+const client = new OpenAI({ apiKey: OPENAI_API_KEY })
 const MODEL = process.env.OPENAI_EDIT_MODEL ?? 'gpt-4.1-nano'
 const MAX_TOKENS = Number(process.env.OPENAI_EDIT_MAX_TOKENS ?? 2500)
 const BASE44_COMPONENT_IDS: ComponentId[] = [
@@ -153,7 +157,7 @@ export async function generateEdit(args: {
   instruction: string
   config: ResolvedConfig
 }): Promise<EditResult> {
-  if (!process.env.OPENAI_API_KEY) {
+  if (!OPENAI_API_KEY) {
     throw new Error('OPENAI_API_KEY is not configured')
   }
   const userMessage = [

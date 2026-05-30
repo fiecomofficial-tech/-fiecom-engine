@@ -6,8 +6,12 @@ import { safeParseJSON, dumpFailure } from './json-safe'
 import { validateGeneratedConfig } from './validate'
 import { generateSitePlan, fallbackSitePlan, describeSitePlan, type SitePlan } from './site-plan'
 import { strengthenGeneratedConfig } from './composition-guard'
+import { safeHeaderValue } from './safe-headers'
 
-const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY })
+const OPENAI_API_KEY = process.env.OPENAI_API_KEY
+  ? safeHeaderValue(process.env.OPENAI_API_KEY)
+  : undefined
+const client = new OpenAI({ apiKey: OPENAI_API_KEY })
 const PLANNER_MODEL = process.env.OPENAI_PLANNER_MODEL ?? process.env.OPENAI_COMPOSITION_MODEL ?? 'gpt-4.1-mini'
 const COMPOSER_MODEL = process.env.OPENAI_COMPOSITION_MODEL ?? 'gpt-4.1-mini'
 const MAX_TOKENS = Number(process.env.OPENAI_COMPOSITION_MAX_TOKENS ?? 6500)
@@ -485,7 +489,7 @@ interface GenerateOptions {
 export async function generatePreviewConfig(
   input: string | GenerateOptions,
 ): Promise<PreviewConfig> {
-  if (!process.env.OPENAI_API_KEY) throw new Error('OPENAI_API_KEY is not configured')
+  if (!OPENAI_API_KEY) throw new Error('OPENAI_API_KEY is not configured')
   const opts: GenerateOptions = typeof input === 'string' ? { prompt: input } : input
   if (!opts.prompt) throw new Error('prompt is required')
 
