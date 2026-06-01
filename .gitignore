@@ -42,3 +42,9 @@ next-env.d.ts
 
 # pexels media cache
 /.cache
+
+# local verification screenshots (visual review only)
+/.fiecom-shots
+
+# preview-store JSON cache (runtime data, not source)
+/generated

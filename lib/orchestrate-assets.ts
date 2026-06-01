@@ -2,7 +2,18 @@ import { fetchStockCandidates } from './stock-images'
 import type { ComponentId } from './registry'
 import type { SectionImage } from '@/components/sections/types'
 import { SECTION_META } from './registry'
-import type { SiteIntent } from './site-plan'
+
+/** Backwards-compat narrow type. Older saved configs (pre-V2) carry an
+ *  `intent` field with these values. V2 doesn't write this anymore, but
+ *  legacy fixtures may still be read by the renderer. */
+export type SiteIntent = {
+  energy?: string
+  density?: string
+  cinematicIntensity?: string
+  motionIntensity?: string
+  copyTone?: string
+  themeHint?: string
+}
 
 interface RawSection {
   id: ComponentId

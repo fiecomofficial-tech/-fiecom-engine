@@ -5,6 +5,7 @@ import { COMPONENT_REGISTRY, type ComponentId } from './registry'
 import type { ResolvedConfig, ResolvedSection, ResolvedPage } from './orchestrate-assets'
 import { resolveTheme, type ThemeTokens } from './themes'
 import { contrastRatio } from './contrast'
+import { applyQualityGate, summarizeIssues } from './quality-gate'
 
 interface VisualRegister {
   sectionGapPx: number
@@ -62,6 +63,33 @@ function ThemeStyle({ theme, register }: { theme: ThemeTokens; register: VisualR
           --fie-font-serif: "Instrument Serif", Georgia, serif;
           --fie-section-gap: 0px;
           --fie-max-width: 1200px;
+        }
+        /* Renderer-safe pass — hard guarantees regardless of section CSS.
+           Prevents horizontal scroll, runaway image zoom, and unbreakable
+           text from blowing past the viewport on small screens. */
+        [data-architecture="fiecom"] { overflow-x: hidden; max-width: 100vw; }
+        [data-architecture="fiecom"] section { overflow-x: clip; max-width: 100vw; }
+        [data-architecture="fiecom"] img,
+        [data-architecture="fiecom"] video {
+          max-width: 100%;
+          height: auto;
+        }
+        /* Cap any composed scale/zoom transforms applied to media — no
+           amount of section animation should blow an image past 103%. */
+        [data-architecture="fiecom"] img[style*="scale"],
+        [data-architecture="fiecom"] video[style*="scale"] {
+          transform: scale(min(1.03, var(--fie-img-scale, 1))) !important;
+        }
+        [data-architecture="fiecom"] h1,
+        [data-architecture="fiecom"] h2,
+        [data-architecture="fiecom"] h3,
+        [data-architecture="fiecom"] h4 {
+          /* Wrap on whitespace; only break a word as last resort. Never
+             break in the middle of a word (kills char-split heroes). */
+          overflow-wrap: break-word;
+        }
+        [data-architecture="fiecom"] p {
+          overflow-wrap: break-word;
         }
       `}</style>
     </>
@@ -149,14 +177,25 @@ export async function renderConfigPage({
     )
   }
 
-  const theme = resolveTheme(raw.theme as never)
-  // Backwards-compat: older fixtures saved before multi-page support
-  // stored `{ theme, sections: [...] }`. Wrap as a single-page config.
-  const pages: ResolvedPage[] = Array.isArray(raw.pages)
-    ? raw.pages
-    : Array.isArray(raw.sections)
-      ? [{ slug: 'home', sections: raw.sections }]
-      : []
+  // Belt-and-suspenders: the gate also runs at generation time, but old
+  // previews predate the gate and the editor flow can mutate sections —
+  // re-run defensively so preview/published render the same stable output.
+  const preGate: ResolvedConfig = {
+    theme: raw.theme,
+    pages: Array.isArray(raw.pages)
+      ? raw.pages
+      : Array.isArray(raw.sections)
+        ? [{ slug: 'home', sections: raw.sections } as ResolvedPage]
+        : [],
+    intent: (raw as ResolvedConfig).intent,
+  }
+  const gated = applyQualityGate(preGate)
+  if (gated.issues.length > 0) {
+    console.log(`[fiecom/quality] render-time gate: ${summarizeIssues(gated.issues)}`)
+  }
+
+  const theme = resolveTheme(gated.config.theme as never)
+  const pages: ResolvedPage[] = gated.config.pages
   if (pages.length === 0) notFound()
 
   const target =

@@ -77,8 +77,11 @@ export default function HeroCinematic({ data }: { data: SectionData }) {
         width: '100%',
         minHeight: '100vh',
         overflow: 'hidden',
-        background: 'var(--fie-bg)',
-        color: 'var(--fie-ink)',
+        background: 'var(--fie-bg-deep, #08070b)',
+        // Cinematic hero text sits over a dark-overlaid photo — always
+        // use the high-contrast photo text token, never the theme ink
+        // (which can be dark on light themes like warm-sand).
+        color: 'var(--fie-photo-text, #f4ead8)',
       }}
     >
       <div
