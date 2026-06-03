@@ -6,6 +6,8 @@ import type { ResolvedConfig, ResolvedSection, ResolvedPage } from './orchestrat
 import { resolveTheme, type ThemeTokens } from './themes'
 import { contrastRatio } from './contrast'
 import { applyQualityGate, summarizeIssues } from './quality-gate'
+import { TEMPLATE_REGISTRY } from './v2/templates'
+import type { TemplateData } from '@/components/templates/types'
 
 interface VisualRegister {
   sectionGapPx: number
@@ -90,6 +92,71 @@ function ThemeStyle({ theme, register }: { theme: ThemeTokens; register: VisualR
         }
         [data-architecture="fiecom"] p {
           overflow-wrap: break-word;
+        }
+
+        /* ────────────────────────────────────────────────────────────
+           Mobile responsiveness for V2 full-page templates.
+
+           Every V2 template owns its own grid layout via inline styles.
+           Below 760px every multi-column grid (except fixed-row gallery
+           grids) collapses to a single column. Fixed-row lookbook grids
+           (e.g. Fashion 12-col × 360px rows) collapse to auto rows. Big
+           wordmark footers shrink so they don't blow past the viewport.
+
+           The rules use attribute selectors against inline style values
+           with !important so they win against component inline styles.
+           Scope: [data-architecture="fiecom-template"] only — section
+           pages (data-architecture="fiecom") keep their own behavior.
+           ──────────────────────────────────────────────────────────── */
+        @media (max-width: 760px) {
+          /* Generic grids: stack to a single column when no rows are
+             explicitly defined. Catches hero splits, dish/room/work
+             grids, pricing tiers, metrics row, footer columns. */
+          [data-architecture="fiecom-template"] [style*="grid-template-columns"]:not([style*="grid-template-rows"]) {
+            grid-template-columns: 1fr !important;
+            gap: 28px !important;
+          }
+          /* Fashion lookbook — the 12-col × 360px-row grid collapses
+             to a stack with auto-sized rows. */
+          [data-architecture="fiecom-template"] [style*="grid-template-rows: repeat(2, 360px)"] {
+            grid-template-columns: 1fr !important;
+            grid-template-rows: auto !important;
+            grid-auto-flow: row !important;
+            gap: 16px !important;
+          }
+          [data-architecture="fiecom-template"] [style*="grid-template-rows: repeat(2, 360px)"] > * {
+            grid-column: span 1 !important;
+            grid-row: auto !important;
+            min-height: 320px !important;
+          }
+          /* Studio staggered "translateY" on every second project card
+             stops on mobile so cards align cleanly in a single column. */
+          [data-architecture="fiecom-template"] [style*="translateY(48px)"] {
+            transform: none !important;
+          }
+          /* Studio capabilities — release the desktop sticky behavior
+             so the intro stays at the top in the stacked layout. */
+          [data-architecture="fiecom-template"] [style*="position: sticky"] {
+            position: static !important;
+          }
+          /* Big serif wordmark in Fashion / Studio / Restaurant
+             footers — clamp() already handles most cases, but a few
+             explicit pixel sizes need clamping below 760px. */
+          [data-architecture="fiecom-template"] footer p[style*="font-size: 40px"],
+          [data-architecture="fiecom-template"] footer p[style*="font-size: 28px"] {
+            font-size: 28px !important;
+          }
+          /* Section padding compaction: anything paying 32px+ side
+             padding gets a tighter 22px so content has breathing room
+             without spilling. Keeps hero side margins consistent. */
+          [data-architecture="fiecom-template"] section[style*="padding"] {
+            padding-left: 22px !important;
+            padding-right: 22px !important;
+          }
+          [data-architecture="fiecom-template"] footer[style*="padding"] {
+            padding-left: 22px !important;
+            padding-right: 22px !important;
+          }
         }
       `}</style>
     </>
@@ -204,11 +271,35 @@ export async function renderConfigPage({
   if (!target) notFound()
 
   console.log(
-    `[fiecom/render] preview=${id} page=${target.slug} sections=${target.sections.map((s) => s.id).join(',')}`,
+    `[fiecom/render] preview=${id} page=${target.slug} ${target.template ? `template=${target.template}` : `sections=${target.sections.map((s) => s.id).join(',')}`}`,
   )
 
   const register = BASE44_REGISTER
 
+  // ── Template-rendered page (V2 home pages) ─────────────────────────
+  // The template owns the entire page: nav, hero, body, footer.
+  // We skip the fiecom architecture wrapper to avoid double chrome and
+  // padding-top conflicts.
+  if (target.template && target.templateData) {
+    const Template = TEMPLATE_REGISTRY[target.template]
+    if (Template) {
+      return (
+        <>
+          <ThemeStyle theme={theme} register={register} />
+          <main
+            data-architecture="fiecom-template"
+            data-template={target.template}
+            style={{ width: '100%', position: 'relative', overflowX: 'hidden' }}
+          >
+            <Template data={target.templateData as unknown as TemplateData} />
+          </main>
+        </>
+      )
+    }
+    console.warn(`[fiecom/render] unknown template "${target.template}" — falling back to section render`)
+  }
+
+  // ── Section-list page (internal pages: about, contact, pricing, …) ──
   return (
     <>
       <ThemeStyle theme={theme} register={register} />

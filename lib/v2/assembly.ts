@@ -26,6 +26,8 @@ import type {
 } from './types'
 import type { ComponentId } from '../registry'
 import { SECTION_META } from '../registry'
+import { pickTemplate, collectImageSlots } from './templates'
+import { buildTemplateData } from './template-data'
 
 interface Ctx {
   brief: Brief
@@ -44,26 +46,23 @@ export function assembleSite(
 ): V2Config {
   const email = contactEmail(brief.brand)
   const ctx: Ctx = { brief, ds, blueprint, email }
-
-  // Build home page from match plan + chrome.
-  const homeBody: V2Section[] = match.sections.map((m) => buildSection(m, ctx, 'home'))
-
-  // Ensure closing CTA exists.
-  if (!homeBody.some((s) => s.id === 'BaselineCTA')) {
-    homeBody.push(buildSection({ role: 'closing', componentId: 'BaselineCTA', intent: '', mediaWanted: false }, ctx, 'home'))
-  }
-
   const navOrder = blueprint.pages.map((p) => p.title)
+
+  // ── HOME PAGE — full template, not section list ────────────────────
+  const templateId = pickTemplate(brief)
+  const templateData = buildTemplateData(brief, ds, blueprint, templateId)
+  const templateImageSlots = collectImageSlots(templateId, templateData, ds.image.vocabulary)
   const home: V2Page = {
     slug: 'home',
     title: 'Home',
-    sections: [
-      buildNavbar(ctx, navOrder, blueprint),
-      ...homeBody,
-      buildFooter(ctx, navOrder, blueprint),
-    ],
+    template: templateId,
+    templateData: templateData as unknown as Record<string, unknown>,
+    templateImageSlots,
+    sections: [], // intentionally empty — template owns the page
   }
+  void match // unused on home page now; kept in signature for back-compat
 
+  // ── Internal pages stay as section lists ──────────────────────────
   const internalPages: V2Page[] = blueprint.pages
     .filter((p) => p.slug !== 'home')
     .map((p) => buildInternalPage(p, ctx, navOrder, blueprint))

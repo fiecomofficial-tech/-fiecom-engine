@@ -12,85 +12,100 @@ import { applyQualityGate } from '../quality-gate'
 import type { QAReport, V2Config } from './types'
 import type { ComponentId } from '../registry'
 
-/** Convert V2Config back into the shape the quality-gate accepts and
- *  back. We treat V2Config as a superset of ResolvedConfig + extras. */
+/** Page-aware visual QA.
+ *
+ *  Template-rendered pages: page-level checks only (theme contrast +
+ *  presence of brand/headline/CTA). The template owns the visual; we
+ *  trust it past those gates.
+ *
+ *  Section-list pages (internal): full quality-gate (chrome, image
+ *  fallback, repetition, etc.). */
 export function runVisualQA(config: V2Config): QAReport {
-  // Reuse the existing gate. We pass through the V2-specific fields
-  // (designSystem/brief/blueprint) by carrying them on the side.
-  const resolved: ResolvedConfig = {
-    theme: config.theme,
-    pages: config.pages.map((p) => ({
-      slug: p.slug,
-      title: p.title,
-      sections: p.sections.map((s) => ({
-        id: s.id as ComponentId,
-        content: s.content,
-        // Image queries become resolved images only after orchestrate-assets;
-        // we keep V2 config separate from that so it's harmless to pass {}.
-        images: undefined,
+  const issues: QAReport['issues'] = []
+
+  // Theme contrast check is universal.
+  const themeIssues = checkThemeContrast(config.theme)
+  for (const t of themeIssues) {
+    issues.push({ category: 'contrast', level: 'warn', message: t })
+  }
+
+  // For section-list pages only, run the existing quality gate.
+  const sectionPages = config.pages.filter((p) => !p.template && p.sections.length > 0)
+  if (sectionPages.length > 0) {
+    const resolved: ResolvedConfig = {
+      theme: config.theme,
+      pages: sectionPages.map((p) => ({
+        slug: p.slug,
+        title: p.title,
+        sections: p.sections.map((s) => ({
+          id: s.id as ComponentId,
+          content: s.content,
+          images: undefined,
+        })),
       })),
-    })),
-  }
-  const gated = applyQualityGate(resolved)
-  const issues: QAReport['issues'] = gated.issues.map((i) => ({
-    category: i.category,
-    level: (i.level === 'fail' ? 'fail' : i.level === 'fixed' ? 'fix' : 'warn') as 'fix' | 'fail' | 'warn',
-    message: i.message,
-    page: i.page,
-    section: i.section,
-  }))
-
-  const home = config.pages.find((p) => p.slug === 'home')
-  const homeSections = home ? home.sections.filter((s) => s.id !== 'BaselineNavbar' && s.id !== 'BaselineFooter') : []
-  const minBody = Math.max(4, config.blueprint.sectionCount - 2)
-  if (homeSections.length < minBody) {
-    issues.push({
-      category: 'depth' as string,
-      level: 'warn',
-      message: `home has ${homeSections.length} body sections (target ${config.blueprint.sectionCount})`,
-      page: 'home',
-    })
-  }
-  // Too many baseline sections — if ambition is editorial/cinematic but
-  // >85% of body is Baseline*, that's a regression.
-  const baselineCount = homeSections.filter((s) => s.id.startsWith('Baseline')).length
-  const baselineRatio = homeSections.length ? baselineCount / homeSections.length : 0
-  if ((config.brief.visualAmbition === 'editorial' || config.brief.visualAmbition === 'cinematic') && baselineRatio > 0.85) {
-    issues.push({
-      category: 'depth' as string,
-      level: 'warn',
-      message: `home is ${Math.round(baselineRatio * 100)}% baseline despite ambition=${config.brief.visualAmbition}`,
-      page: 'home',
-    })
-  }
-
-  // Use the gated pages — they may have had chrome/repetition repaired.
-  // CRITICAL: carry through `imageQueries` from the original V2 sections.
-  // The quality gate operates on rendered content and never produces
-  // imageQueries, but downstream `orchestrateAssets` REQUIRES them to
-  // resolve Pexels media. Match gated sections back to V2 sections by
-  // component id (positional fallback) to preserve queries.
-  const repaired: V2Config = {
-    ...config,
-    theme: gated.config.theme ?? config.theme,
-    pages: config.pages.map((p, i) => {
-      const gatedSections = gated.config.pages[i]?.sections ?? []
+    }
+    const gated = applyQualityGate(resolved)
+    for (const i of gated.issues) {
+      issues.push({
+        category: i.category,
+        level: (i.level === 'fail' ? 'fail' : i.level === 'fixed' ? 'fix' : 'warn') as 'fix' | 'fail' | 'warn',
+        message: i.message,
+        page: i.page,
+        section: i.section,
+      })
+    }
+    // Replace the section-list pages with their repaired sections.
+    const repairedSectionPages = new Map(gated.config.pages.map((p) => [p.slug, p]))
+    const pages = config.pages.map((p) => {
+      if (p.template) return p
+      const repaired = repairedSectionPages.get(p.slug)
+      if (!repaired) return p
       const v2ById = new Map(p.sections.map((s) => [s.id, s.imageQueries]))
       return {
         ...p,
-        sections: gatedSections.map((s) => ({
+        sections: repaired.sections.map((s) => ({
           id: s.id as ComponentId,
           content: s.content,
           imageQueries: v2ById.get(s.id as ComponentId),
         })),
       }
-    }),
+    })
+    const verdict: QAReport['verdict'] = issues.some((i) => i.level === 'fail') ? 'fail'
+      : issues.some((i) => i.level === 'fix') ? 'repaired'
+      : 'pass'
+    return { verdict, config: { ...config, pages }, issues }
+  }
+
+  // Template-only path — page-level template invariants.
+  for (const p of config.pages) {
+    if (!p.template || !p.templateData) continue
+    const td = p.templateData as Record<string, unknown>
+    const brand = (td.brand as string) || ''
+    const hero = td.hero as { headline?: string; cta?: { label?: string } } | undefined
+    if (!brand) issues.push({ category: 'content', level: 'fail', message: `template ${p.template} missing brand`, page: p.slug })
+    if (!hero?.headline) issues.push({ category: 'content', level: 'fail', message: `template ${p.template} missing hero.headline`, page: p.slug })
+    if (!hero?.cta?.label) issues.push({ category: 'content', level: 'warn', message: `template ${p.template} missing hero.cta.label`, page: p.slug })
   }
 
   const verdict: QAReport['verdict'] = issues.some((i) => i.level === 'fail') ? 'fail'
     : issues.some((i) => i.level === 'fix') ? 'repaired'
     : 'pass'
-  return { verdict, config: repaired, issues }
+  return { verdict, config, issues }
+}
+
+function checkThemeContrast(theme?: Record<string, string>): string[] {
+  if (!theme) return []
+  // Defer to the existing contrast helper.
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  const { contrastRatio } = require('../contrast') as typeof import('../contrast')
+  const out: string[] = []
+  if (theme.ink && theme.bg && contrastRatio(theme.ink, theme.bg) < 4.5) {
+    out.push(`ink/bg contrast ${contrastRatio(theme.ink, theme.bg).toFixed(2)} < 4.5`)
+  }
+  if (theme.onAccent && theme.accent && contrastRatio(theme.onAccent, theme.accent) < 3.0) {
+    out.push(`onAccent/accent contrast ${contrastRatio(theme.onAccent, theme.accent).toFixed(2)} < 3.0`)
+  }
+  return out
 }
 
 export function summarizeQA(report: QAReport): string {

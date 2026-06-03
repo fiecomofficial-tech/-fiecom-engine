@@ -1,22 +1,22 @@
 /**
- * Fiecom V2 pipeline orchestrator.
+ * Fiecom V2 pipeline orchestrator — template-first.
  *
- *   prompt → BRIEF → DESIGN SYSTEM → BLUEPRINT → ROLE PLAN →
- *   COMPONENT MATCH → ASSEMBLY → VISUAL QA → V2Config.
+ *   prompt → BRIEF → DESIGN SYSTEM → BLUEPRINT → PICK TEMPLATE →
+ *   ASSEMBLE (template owns the home page) → VISUAL QA → V2Config.
  *
- * The composition-guard shape library is bypassed entirely on the home
- * page. Each stage logs a one-line summary to stdout so the dev log is
- * readable during generation.
+ * Section-list assembly is preserved for internal pages (about,
+ * contact, pricing, etc.). The home page is rendered by a full-page
+ * template component; no section iteration on the homepage path.
  */
 
 import type OpenAI from 'openai'
 import { extractBrief, describeBrief } from './brief'
 import { buildDesignSystem, describeDesignSystem } from './design-system'
-import { buildBlueprint, planRoles, describeBlueprint, describeRolePlan } from './blueprint'
-import { matchComponents, describeMatch } from './match'
+import { buildBlueprint, describeBlueprint } from './blueprint'
 import { assembleSite } from './assembly'
 import { runVisualQA, summarizeQA } from './visual-qa'
-import type { V2Config, QAReport } from './types'
+import { pickTemplate } from './templates'
+import type { V2Config, QAReport, ComponentMatchPlan } from './types'
 
 export interface RunOptions {
   client?: OpenAI
@@ -41,13 +41,14 @@ export async function runV2Pipeline(prompt: string, opts: RunOptions = {}): Prom
   const blueprint = buildBlueprint(brief, designSystem)
   console.log(`[v2/blueprint] ${describeBlueprint(blueprint)}`)
 
-  const rolePlan = planRoles(brief, designSystem, blueprint)
-  console.log(`[v2/roles] ${describeRolePlan(rolePlan)}`)
+  const templateId = pickTemplate(brief)
+  console.log(`[v2/template] ${templateId}`)
 
-  const match = matchComponents(brief, designSystem, rolePlan)
-  console.log(`[v2/match] ${describeMatch(match)}`)
-
-  const config = assembleSite(brief, designSystem, blueprint, match)
+  // Role plan / component match are no longer used for the home page
+  // — the template owns the page. Pass an empty match plan through to
+  // the assembler so the back-compat signature stays intact.
+  const emptyMatch: ComponentMatchPlan = { sections: [] }
+  const config = assembleSite(brief, designSystem, blueprint, emptyMatch)
 
   const qa = runVisualQA(config)
   console.log(`[v2/qa] ${summarizeQA(qa)}`)

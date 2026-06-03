@@ -25,10 +25,20 @@ interface RawSection {
   }
 }
 
+interface TemplateImageSlot {
+  path: string
+  query: string
+  orientation: 'landscape' | 'portrait' | 'squarish'
+}
+
 interface RawPage {
   slug: string
   title?: string
   sections: RawSection[]
+  /** Template-driven pages: the home page after V2 cutover. */
+  template?: string
+  templateData?: Record<string, unknown>
+  templateImageSlots?: TemplateImageSlot[]
 }
 
 type RawConfig =
@@ -59,6 +69,11 @@ export interface ResolvedPage {
   slug: string
   title?: string
   sections: ResolvedSection[]
+  /** Template-rendered pages carry resolved data through; the renderer
+   *  dispatches on `template` and hands `templateData` straight to the
+   *  component. */
+  template?: string
+  templateData?: Record<string, unknown>
 }
 
 export interface ResolvedConfig {
@@ -113,6 +128,10 @@ export async function orchestrateAssets(config: RawConfig): Promise<ResolvedConf
         }
       }
     }
+    // Template image slots — same Pexels resolution path.
+    for (const slot of p.templateImageSlots ?? []) {
+      queries.add(cacheKeyFor(slot.query, slot.orientation, false))
+    }
   }
 
   const map = new Map<string, SectionImage>()
@@ -165,19 +184,37 @@ export async function orchestrateAssets(config: RawConfig): Promise<ResolvedConf
     }),
   )
 
-  const resolvedPages: ResolvedPage[] = pages.map((p) => ({
-    slug: p.slug,
-    title: p.title,
-    sections: p.sections.map((s) => {
-      const resolved = resolveSection(s, map)
-      const count =
-        (resolved.images?.primary ? 1 : 0) +
-        (resolved.images?.secondary ? 1 : 0) +
-        (resolved.images?.gallery?.length ?? 0)
-      console.log(`[orchestrate-assets] page=${p.slug} section=${s.id} media=${count}`)
-      return resolved
-    }),
-  }))
+  const resolvedPages: ResolvedPage[] = pages.map((p) => {
+    // Template path: clone templateData, write resolved URLs by path.
+    let resolvedTemplateData: Record<string, unknown> | undefined
+    if (p.template && p.templateData) {
+      resolvedTemplateData = JSON.parse(JSON.stringify(p.templateData)) as Record<string, unknown>
+      let filled = 0
+      for (const slot of p.templateImageSlots ?? []) {
+        const img = map.get(cacheKeyFor(slot.query, slot.orientation, false))
+        if (img) {
+          setPath(resolvedTemplateData, slot.path, img)
+          filled++
+        }
+      }
+      console.log(`[orchestrate-assets] page=${p.slug} template=${p.template} slots=${filled}/${p.templateImageSlots?.length ?? 0}`)
+    }
+    return {
+      slug: p.slug,
+      title: p.title,
+      template: p.template,
+      templateData: resolvedTemplateData,
+      sections: p.sections.map((s) => {
+        const resolved = resolveSection(s, map)
+        const count =
+          (resolved.images?.primary ? 1 : 0) +
+          (resolved.images?.secondary ? 1 : 0) +
+          (resolved.images?.gallery?.length ?? 0)
+        console.log(`[orchestrate-assets] page=${p.slug} section=${s.id} media=${count}`)
+        return resolved
+      }),
+    }
+  })
 
   return { theme: config.theme, pages: resolvedPages, intent: config.intent }
 }
@@ -214,4 +251,41 @@ function resolveSection(s: RawSection, map: Map<string, SectionImage>): Resolved
 function orientFor(id: ComponentId, slot: 'primary' | 'secondary' | 'gallery') {
   void slot
   return SECTION_META[id].orientation
+}
+
+/** Write `value` into `obj` at a dotted/bracketed `path`. Supports
+ *  `a.b.c`, `a.b[2].c`, `gallery[3]`. Used by orchestrateAssets to
+ *  splice resolved SectionImage objects into the template data. */
+function setPath(obj: Record<string, unknown>, path: string, value: unknown): void {
+  const parts: Array<string | number> = []
+  let buf = ''
+  for (let i = 0; i < path.length; i++) {
+    const ch = path[i]
+    if (ch === '.') {
+      if (buf) { parts.push(buf); buf = '' }
+    } else if (ch === '[') {
+      if (buf) { parts.push(buf); buf = '' }
+      const end = path.indexOf(']', i)
+      parts.push(parseInt(path.slice(i + 1, end), 10))
+      i = end
+    } else {
+      buf += ch
+    }
+  }
+  if (buf) parts.push(buf)
+
+  let cur: Record<string, unknown> | unknown[] = obj
+  for (let i = 0; i < parts.length - 1; i++) {
+    const p = parts[i]
+    const next = (cur as Record<string | number, unknown>)[p as never]
+    if (next === undefined || next === null) {
+      const nextPart = parts[i + 1]
+      const created: unknown = typeof nextPart === 'number' ? [] : {}
+      ;(cur as Record<string | number, unknown>)[p as never] = created
+      cur = created as Record<string, unknown> | unknown[]
+    } else {
+      cur = next as Record<string, unknown> | unknown[]
+    }
+  }
+  ;(cur as Record<string | number, unknown>)[parts[parts.length - 1] as never] = value
 }

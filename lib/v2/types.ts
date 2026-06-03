@@ -183,10 +183,29 @@ export type V2Section = {
   imageQueries?: { primary?: string; secondary?: string; gallery?: string[] }
 }
 
+/** Flat slot list for template image resolution. Each slot has a dotted
+ *  path into the templateData (e.g. "hero.image", "features[2].image",
+ *  "gallery[5]") and a Pexels search query. Orchestrate-assets fills
+ *  the URLs back into templateData by path before render. */
+export interface TemplateImageSlot {
+  path: string
+  query: string
+  orientation: 'landscape' | 'portrait' | 'squarish'
+}
+
 export type V2Page = {
   slug: string
   title?: string
+  /** Set when this page is rendered by a full-page template. The
+   *  `templateData` object holds every piece of content the template
+   *  needs. When `template` is set, `sections` is empty. */
+  template?: string
+  templateData?: Record<string, unknown>
+  /** Set when the page is rendered as a section list (internal pages). */
   sections: V2Section[]
+  /** Image slots collected by the template builder. Only present when
+   *  `template` is set. */
+  templateImageSlots?: TemplateImageSlot[]
 }
 
 export interface V2Config {
